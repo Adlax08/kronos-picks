@@ -353,8 +353,6 @@
 
   /* ═══════════ MODO ESTÁTICO (publicado) ═══════════ */
 
-  const chartInstances = {};
-
   function dayLabel(d, today) {
     if (d === today) return "Hoy";
     const t = new Date(today + "T12:00:00");
@@ -410,8 +408,7 @@
       <div class="flex flex-wrap items-center gap-2 mb-3" id="staticDayTabs"></div>
       <div class="font-mono text-xs text-text-muted mb-6" id="staticDayInfo"></div>
       <div id="staticPanels"></div>
-      <div id="staticEmpty" class="hidden"></div>
-      <section class="mt-12 reveal" id="staticStats"></section>`;
+      <div id="staticEmpty" class="hidden"></div>`;
 
     const tabs = $("staticDayTabs");
     const defaultDate = ordered.includes(today) ? today : ordered[0];
@@ -429,11 +426,6 @@
     });
 
     loadDayAndRender(defaultDate);
-
-    try {
-      const r = await fetch("data/stats.json");
-      if (r.ok) renderStatsSection(await r.json());
-    } catch (e) {}
   }
 
   function sportInfo(sports, key) {
@@ -559,84 +551,6 @@
         }
       }
     }
-  }
-
-  function renderStatsSection(s) {
-    const root = $("staticStats");
-    if (!root) return;
-    root.innerHTML = `
-      <div class="flex items-center gap-2 mb-4">
-        <span class="material-symbols-outlined text-primary text-xl">monitoring</span>
-        <h2 class="font-headline font-semibold text-xl tracking-tight">Rendimiento de los picks</h2>
-      </div>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-        ${statCard("Picks resueltos", s.total || 0, "")}
-        ${statCard("Aciertos", `${s.hits || 0}`, `tasa ${s.tasa || 0}%`)}
-        ${statCard("Unidades", fmtUnits(s.profit), profitClass(s.profit))}
-        ${statCard("ROI", (s.roi != null ? s.roi : 0) + "%", profitClass(s.roi))}
-      </div>
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <div class="bg-surface-pure border border-border-subtle rounded-lg p-4">
-          <h3 class="font-mono text-xs text-text-muted uppercase tracking-wider mb-3">Tasa de acierto por calidad</h3>
-          <canvas id="chartTier" height="200"></canvas>
-        </div>
-        <div class="bg-surface-pure border border-border-subtle rounded-lg p-4">
-          <h3 class="font-mono text-xs text-text-muted uppercase tracking-wider mb-3">Tasa por rango de probabilidad</h3>
-          <canvas id="chartProb" height="200"></canvas>
-        </div>
-        <div class="bg-surface-pure border border-border-subtle rounded-lg p-4">
-          <h3 class="font-mono text-xs text-text-muted uppercase tracking-wider mb-3">Unidades acumuladas por día</h3>
-          <canvas id="chartCum" height="200"></canvas>
-        </div>
-        <div class="bg-surface-pure border border-border-subtle rounded-lg p-4">
-          <h3 class="font-mono text-xs text-text-muted uppercase tracking-wider mb-3">Picks por día (aciertos / errores)</h3>
-          <canvas id="chartDaily" height="200"></canvas>
-        </div>
-      </div>`;
-    const EM = "#059669", CR = "#B91C1C", GR = "#6B7280", BK = "#191c1d";
-    if (!window.Chart) {
-      root.innerHTML += '<p class="font-headline text-sm text-text-muted">Gráficas no disponibles (Chart.js no cargó).</p>';
-      return;
-    }
-    const tier = s.by_tier || [];
-    new Chart($("chartTier"), { type: "bar", data: { labels: tier.map((t) => t.tier), datasets: [{ label: "Tasa %", data: tier.map((t) => t.tasa), backgroundColor: EM, borderRadius: 4 }] }, options: chartOpts() });
-    const prob = s.by_prob || [];
-    new Chart($("chartProb"), { type: "bar", data: { labels: prob.map((p) => p.bucket), datasets: [{ label: "Tasa %", data: prob.map((p) => p.tasa), backgroundColor: GR, borderRadius: 4 }] }, options: chartOpts() });
-    const daily = s.daily || [];
-    new Chart($("chartCum"), { type: "line", data: { labels: daily.map((d) => d.date.slice(5)), datasets: [{ label: "Unidades", data: daily.map((d) => d.cumulative), borderColor: BK, backgroundColor: "rgba(25,28,29,0.08)", fill: true, tension: 0.3, pointRadius: 3 }] }, options: chartOpts() });
-    new Chart($("chartDaily"), {
-      type: "bar",
-      data: {
-        labels: daily.map((d) => d.date.slice(5)),
-        datasets: [
-          { label: "Aciertos", data: daily.map((d) => d.hits), backgroundColor: EM, borderRadius: 4 },
-          { label: "Errores", data: daily.map((d) => d.n - d.hits), backgroundColor: CR, borderRadius: 4 },
-        ],
-      },
-      options: chartOpts(true),
-    });
-  }
-  function statCard(label, value, sub) {
-    return `<div class="bg-surface-pure border border-border-subtle rounded-lg p-4">
-      <span class="font-mono text-xs text-text-muted uppercase tracking-wider block mb-1">${esc(label)}</span>
-      <span class="font-mono text-2xl font-semibold text-on-surface ${sub ? profitClass(sub) : ""}">${esc(value)}</span>
-      ${sub ? `<span class="font-mono text-xs block mt-1 ${profitClass(sub)}">${esc(sub)}</span>` : ""}
-    </div>`;
-  }
-  function fmtUnits(v) { return (v > 0 ? "+" : "") + (Math.round(v * 100) / 100); }
-  function profitClass(v) { return (v || 0) >= 0 ? "text-emerald" : "text-crimson"; }
-  function chartOpts(stacked) {
-    return {
-      responsive: true,
-      plugins: {
-        legend: { labels: { font: { family: "JetBrains Mono", size: 10 }, color: "#6B7280" }, display: !!stacked },
-        tooltip: { backgroundColor: "#191c1d" },
-      },
-      scales: {
-        x: { ticks: { font: { family: "JetBrains Mono", size: 10 }, color: "#6B7280" } },
-        y: { beginAtZero: true, stacked: !!stacked, ticks: { font: { family: "JetBrains Mono", size: 10 }, color: "#6B7280" } },
-      },
-    };
   }
 
   /* ═══════════ init ═══════════ */
