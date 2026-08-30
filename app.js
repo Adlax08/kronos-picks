@@ -411,7 +411,9 @@
       <div id="staticEmpty" class="hidden"></div>`;
 
     const tabs = $("staticDayTabs");
-    const defaultDate = ordered.includes(today) ? today : ordered[0];
+    const tomorrow = shiftDate(1);
+    const defaultDate = ordered.includes(tomorrow) ? tomorrow
+      : (ordered.includes(today) ? today : ordered[0]);
     labels.forEach((l, i) => {
       const b = document.createElement("button");
       b.className = "chip" + (l.date === defaultDate ? " on" : "");
@@ -520,37 +522,36 @@
     panels.insertBefore(sportTabs, panels.firstChild);
     panels.querySelector(".static-panel").classList.remove("hidden");
 
-    // Sub-menú de ligas en fútbol (todas las ligas)
-    const fut = res.futbol;
-    if (fut && fut.all_leagues && fut.predictions && fut.predictions.length) {
-      const codes = [...new Set(fut.predictions.map((g) => g.league_code).filter(Boolean))];
-      if (codes.length > 1) {
-        const box = panels.querySelector('[data-panel="futbol"]');
-        if (box) {
-          const bar = document.createElement("div");
-          bar.className = "flex flex-wrap items-center gap-2 mb-4";
-          bar.innerHTML = `<span class="font-mono text-xs text-text-muted uppercase tracking-wider">Liga:</span>`;
-          const mk = (label, code) => {
-            const b = document.createElement("button");
-            b.className = "chip" + (code === "" ? " on" : "");
-            b.textContent = label;
-            b.addEventListener("click", () => {
-              bar.querySelectorAll(".chip").forEach((x) => x.classList.remove("on"));
-              b.classList.add("on");
-              const preds = fut.predictions.filter((g) => !code || g.league_code === code);
-              const pks = (fut.picks || []).filter((p) => !code || p.league_code === code);
-              renderGames(preds, box.querySelector('[data-games="futbol"]'));
-              renderPicks(pks, box.querySelector('[data-picks="futbol"]'), box.querySelector('[data-pickcount="futbol"]'));
-              box.querySelector('[data-gamecount="futbol"]').textContent = preds.length ? `(${preds.length})` : "(sin partidos)";
-            });
-            return b;
-          };
-          bar.appendChild(mk("Todas", ""));
-          codes.forEach((c) => bar.appendChild(mk(c, c)));
-          box.insertBefore(bar, box.firstChild);
-        }
-      }
-    }
+    // Sub-menú de ligas para cualquier deporte con "Todas las ligas"
+    Object.keys(res).forEach((k) => {
+      const r = res[k];
+      if (!r || !r.all_leagues || !r.predictions || !r.predictions.length) return;
+      const codes = [...new Set(r.predictions.map((g) => g.league_code).filter(Boolean))];
+      if (codes.length < 2) return;
+      const box = panels.querySelector(`[data-panel="${k}"]`);
+      if (!box) return;
+      const bar = document.createElement("div");
+      bar.className = "flex flex-wrap items-center gap-2 mb-4";
+      bar.innerHTML = `<span class="font-mono text-xs text-text-muted uppercase tracking-wider">Liga:</span>`;
+      const mk = (label, code) => {
+        const b = document.createElement("button");
+        b.className = "chip" + (code === "" ? " on" : "");
+        b.textContent = label;
+        b.addEventListener("click", () => {
+          bar.querySelectorAll(".chip").forEach((x) => x.classList.remove("on"));
+          b.classList.add("on");
+          const preds = r.predictions.filter((g) => !code || g.league_code === code);
+          const pks = (r.picks || []).filter((p) => !code || p.league_code === code);
+          renderGames(preds, box.querySelector(`[data-games="${k}"]`));
+          renderPicks(pks, box.querySelector(`[data-picks="${k}"]`), box.querySelector(`[data-pickcount="${k}"]`));
+          box.querySelector(`[data-gamecount="${k}"]`).textContent = preds.length ? `(${preds.length})` : "(sin partidos)";
+        });
+        return b;
+      };
+      bar.appendChild(mk("Todas", ""));
+      codes.forEach((c) => bar.appendChild(mk(c, c)));
+      box.insertBefore(bar, box.firstChild);
+    });
   }
 
   /* ═══════════ init ═══════════ */

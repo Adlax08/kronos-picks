@@ -1,7 +1,7 @@
 {
  "date": "2026-08-28",
- "generated_at": "2026-08-29T22:24:08",
- "sports_total": "21 partidos",
+ "generated_at": "2026-08-29T23:22:24",
+ "sports_total": "20 partidos",
  "sports": [
   {
    "key": "beisbol",
@@ -10,15 +10,8 @@
    "leagues": [
     {
      "code": "MLB",
-     "name": "Major League Baseball"
-    }
-   ]
-  },
-  {
-   "key": "beisbol_kbo",
-   "name": "Béisbol KBO",
-   "icon": "sports_baseball",
-   "leagues": [
+     "name": "Major League"
+    },
     {
      "code": "KBO",
      "name": "KBO League"
@@ -68,10 +61,12 @@
   "beisbol": {
    "ok": true,
    "date": "2026-08-28",
-   "league": "MLB",
-   "league_label": "Major League Baseball",
-   "n": 15,
-   "message": "15 partidos proyectados",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "sport": "beisbol",
+   "sport_name": "Béisbol",
+   "all_leagues": true,
+   "n": 20,
    "picks": [
     {
      "match": "Philadelphia Phillies @ Los Angeles Angels",
@@ -80,7 +75,9 @@
      "prob": 0.6862,
      "tier": "MUY BUENO",
      "units": "1.5",
-     "note": ""
+     "note": "",
+     "league_code": "MLB",
+     "league_label": "Major League"
     },
     {
      "match": "Los Angeles Dodgers @ Detroit Tigers",
@@ -89,7 +86,9 @@
      "prob": 0.655,
      "tier": "MUY BUENO",
      "units": "1.5",
-     "note": ""
+     "note": "",
+     "league_code": "MLB",
+     "league_label": "Major League"
     },
     {
      "match": "Boston Red Sox @ New York Yankees",
@@ -98,7 +97,9 @@
      "prob": 0.6428,
      "tier": "BUENO",
      "units": "1.0",
-     "note": ""
+     "note": "",
+     "league_code": "MLB",
+     "league_label": "Major League"
     },
     {
      "match": "Cincinnati Reds @ Chicago Cubs",
@@ -107,7 +108,9 @@
      "prob": 0.6371,
      "tier": "BUENO",
      "units": "1.0",
-     "note": ""
+     "note": "",
+     "league_code": "MLB",
+     "league_label": "Major League"
     },
     {
      "match": "Seattle Mariners @ Toronto Blue Jays",
@@ -116,7 +119,31 @@
      "prob": 0.6243,
      "tier": "BUENO",
      "units": "1.0",
-     "note": ""
+     "note": "",
+     "league_code": "MLB",
+     "league_label": "Major League"
+    },
+    {
+     "match": "SSG Landers @ Kia Tigers",
+     "market": "Moneyline",
+     "pick": "Kia Tigers",
+     "prob": 0.9471,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "",
+     "league_code": "KBO",
+     "league_label": "KBO League"
+    },
+    {
+     "match": "Kiwoom Heroes @ Doosan Bears",
+     "market": "Moneyline",
+     "pick": "Kiwoom Heroes",
+     "prob": 0.6921999999999999,
+     "tier": "MUY BUENO",
+     "units": "1.5",
+     "note": "",
+     "league_code": "KBO",
+     "league_label": "KBO League"
     }
    ],
    "predictions": [
@@ -126,7 +153,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Sutter Health Park",
      "extra": "",
      "markets": [
@@ -175,7 +202,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Angel Stadium",
      "extra": "Abridor L: Reid Detmers · Abridor V: Andrew Painter",
      "markets": [
@@ -224,7 +251,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Busch Stadium",
      "extra": "Abridor L: Quinn Mathews · Abridor V: Jared Jones",
      "markets": [
@@ -273,7 +300,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Target Field",
      "extra": "Abridor L: Dean Kremer · Abridor V: Luis Castillo",
      "markets": [
@@ -322,7 +349,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Oracle Park",
      "extra": "Abridor L: Blade Tidwell · Abridor V: -",
      "markets": [
@@ -371,7 +398,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "American Family Field",
      "extra": "Abridor L: Logan Henderson · Abridor V: Cody Bradford",
      "markets": [
@@ -420,7 +447,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Yankee Stadium",
      "extra": "Abridor L: Cam Schlittler · Abridor V: Patrick Sandoval",
      "markets": [
@@ -469,7 +496,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Citi Field",
      "extra": "Abridor L: Christian Scott · Abridor V: -",
      "markets": [
@@ -518,7 +545,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Rogers Centre",
      "extra": "Abridor L: Dylan Cease · Abridor V: -",
      "markets": [
@@ -567,7 +594,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Tropicana Field",
      "extra": "Abridor L: Shane McClanahan · Abridor V: Casey Mize",
      "markets": [
@@ -616,7 +643,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Progressive Field",
      "extra": "Abridor L: Tanner Bibee · Abridor V: -",
      "markets": [
@@ -665,7 +692,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Nationals Park",
      "extra": "Abridor L: - · Abridor V: Eury Pérez",
      "markets": [
@@ -714,7 +741,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Comerica Park",
      "extra": "Abridor L: Drew Anderson · Abridor V: Tarik Skubal",
      "markets": [
@@ -763,7 +790,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Wrigley Field",
      "extra": "Abridor L: David Peterson · Abridor V: Rhett Lowder",
      "markets": [
@@ -812,7 +839,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Truist Park",
      "extra": "",
      "markets": [
@@ -854,41 +881,7 @@
      ],
      "convergence": false,
      "momentum_ok": false
-    }
-   ],
-   "elapsed_s": 11.7,
-   "sport": "beisbol",
-   "sport_name": "Béisbol",
-   "all_leagues": false
-  },
-  "beisbol_kbo": {
-   "ok": true,
-   "date": "2026-08-28",
-   "league": "KBO",
-   "league_label": "KBO League",
-   "n": 5,
-   "message": "5 partidos proyectados",
-   "picks": [
-    {
-     "match": "SSG Landers @ Kia Tigers",
-     "market": "Moneyline",
-     "pick": "Kia Tigers",
-     "prob": 0.9471,
-     "tier": "TOP PICK",
-     "units": "2.0",
-     "note": ""
     },
-    {
-     "match": "Kiwoom Heroes @ Doosan Bears",
-     "market": "Moneyline",
-     "pick": "Kiwoom Heroes",
-     "prob": 0.6921999999999999,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ""
-    }
-   ],
-   "predictions": [
     {
      "home": "Doosan Bears",
      "away": "Kiwoom Heroes",
@@ -1135,81 +1128,19 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 2.9,
-   "sport": "beisbol_kbo",
-   "sport_name": "Béisbol KBO",
-   "all_leagues": false
+   "message": "20 partidos proyectados",
+   "elapsed_s": 13.9
   },
   "tenis": {
    "ok": true,
    "date": "2026-08-28",
    "league": "ATP",
    "league_label": "ATP Tour",
-   "n": 1,
-   "message": "1 partidos proyectados",
-   "picks": [
-    {
-     "match": "Arthur Fery vs James Duckworth",
-     "market": "ML",
-     "pick": "James Duckworth",
-     "prob": 0.6201,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": ""
-    }
-   ],
-   "predictions": [
-    {
-     "home": "Arthur Fery",
-     "away": "James Duckworth",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "ATP",
-     "league_label": "ATP Tour",
-     "context": "Winston-Salem Open, Hard, Ronda: Semifinal, BO3",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Ganador del partido",
-       "pick": "James Duckworth",
-       "prob": 0.6201,
-       "detail": "Arthur Fery 38% · James Duckworth 62%",
-       "strong": true
-      },
-      {
-       "label": "Total Juegos O/U",
-       "pick": "OVER",
-       "prob": 0.5049,
-       "detail": "OVER 24.0 · 50% · Proyectado 24.1",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Juegos",
-       "pick": "Arthur Fery",
-       "prob": 0.4441,
-       "detail": "Hándicap -0.7 · 44%",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Sets",
-       "pick": "James Duckworth",
-       "prob": 0.7962,
-       "detail": "Hándicap Sets -1.5 · 20% · (+391)",
-       "strong": false
-      },
-      {
-       "label": "Juegos 1er Set O/U",
-       "pick": "OVER",
-       "prob": 0.5256,
-       "detail": "OVER 10.0 · 53% · Proyectado 10.1",
-       "strong": false
-      }
-     ],
-     "convergence": true,
-     "momentum_ok": true
-    }
-   ],
-   "elapsed_s": 54.0,
+   "n": 0,
+   "message": "Sin partidos pendientes para esa fecha.",
+   "picks": [],
+   "predictions": [],
+   "elapsed_s": 0.0,
    "sport": "tenis",
    "sport_name": "Tenis",
    "all_leagues": false

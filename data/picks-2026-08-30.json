@@ -1,6 +1,6 @@
 {
  "date": "2026-08-30",
- "generated_at": "2026-08-29T22:26:31",
+ "generated_at": "2026-08-29T23:24:50",
  "sports_total": "50 partidos",
  "sports": [
   {
@@ -10,15 +10,8 @@
    "leagues": [
     {
      "code": "MLB",
-     "name": "Major League Baseball"
-    }
-   ]
-  },
-  {
-   "key": "beisbol_kbo",
-   "name": "Béisbol KBO",
-   "icon": "sports_baseball",
-   "leagues": [
+     "name": "Major League"
+    },
     {
      "code": "KBO",
      "name": "KBO League"
@@ -68,10 +61,12 @@
   "beisbol": {
    "ok": true,
    "date": "2026-08-30",
-   "league": "MLB",
-   "league_label": "Major League Baseball",
-   "n": 14,
-   "message": "14 partidos proyectados",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "sport": "beisbol",
+   "sport_name": "Béisbol",
+   "all_leagues": true,
+   "n": 19,
    "picks": [
     {
      "match": "Philadelphia Phillies @ Los Angeles Angels",
@@ -80,7 +75,9 @@
      "prob": 0.673,
      "tier": "MUY BUENO",
      "units": "1.5",
-     "note": ""
+     "note": "",
+     "league_code": "MLB",
+     "league_label": "Major League"
     },
     {
      "match": "Los Angeles Dodgers @ Detroit Tigers",
@@ -89,7 +86,31 @@
      "prob": 0.6189,
      "tier": "BUENO",
      "units": "1.0",
-     "note": ""
+     "note": "",
+     "league_code": "MLB",
+     "league_label": "Major League"
+    },
+    {
+     "match": "SSG Landers @ Kia Tigers",
+     "market": "Moneyline",
+     "pick": "Kia Tigers",
+     "prob": 0.7865,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "",
+     "league_code": "KBO",
+     "league_label": "KBO League"
+    },
+    {
+     "match": "Kiwoom Heroes @ Doosan Bears",
+     "market": "Moneyline",
+     "pick": "Doosan Bears",
+     "prob": 0.7302,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "",
+     "league_code": "KBO",
+     "league_label": "KBO League"
     }
    ],
    "predictions": [
@@ -99,7 +120,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Wrigley Field",
      "extra": "Abridor L: Shota Imanaga · Abridor V: Chase Burns",
      "markets": [
@@ -148,7 +169,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Sutter Health Park",
      "extra": "",
      "markets": [
@@ -197,7 +218,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Citi Field",
      "extra": "",
      "markets": [
@@ -246,7 +267,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Busch Stadium",
      "extra": "Abridor L: - · Abridor V: Braxton Ashcraft",
      "markets": [
@@ -295,7 +316,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "American Family Field",
      "extra": "Abridor L: Robert Gasser · Abridor V: Kumar Rocker",
      "markets": [
@@ -344,7 +365,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Target Field",
      "extra": "Abridor L: Zebby Matthews · Abridor V: -",
      "markets": [
@@ -393,7 +414,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Angel Stadium",
      "extra": "Abridor L: Yusei Kikuchi · Abridor V: Zack Wheeler",
      "markets": [
@@ -442,7 +463,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Comerica Park",
      "extra": "Abridor L: Framber Valdez · Abridor V: Tyler Glasnow",
      "markets": [
@@ -491,7 +512,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Progressive Field",
      "extra": "Abridor L: Parker Messick · Abridor V: -",
      "markets": [
@@ -540,7 +561,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Rogers Centre",
      "extra": "",
      "markets": [
@@ -589,7 +610,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Yankee Stadium",
      "extra": "Abridor L: - · Abridor V: Ranger Suarez",
      "markets": [
@@ -638,7 +659,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Truist Park",
      "extra": "",
      "markets": [
@@ -687,7 +708,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Nationals Park",
      "extra": "",
      "markets": [
@@ -695,7 +716,7 @@
        "label": "Moneyline",
        "pick": "Washington Nationals",
        "prob": 0.5255,
-       "detail": "Local 53% · Visitante 47% · (-105/-114)",
+       "detail": "Local 53% · Visitante 47% · (+104/-112)",
        "strong": false
       },
       {
@@ -736,7 +757,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Tropicana Field",
      "extra": "Abridor L: Drew Rasmussen · Abridor V: Robbie Ray",
      "markets": [
@@ -778,41 +799,7 @@
      ],
      "convergence": false,
      "momentum_ok": false
-    }
-   ],
-   "elapsed_s": 11.2,
-   "sport": "beisbol",
-   "sport_name": "Béisbol",
-   "all_leagues": false
-  },
-  "beisbol_kbo": {
-   "ok": true,
-   "date": "2026-08-30",
-   "league": "KBO",
-   "league_label": "KBO League",
-   "n": 5,
-   "message": "5 partidos proyectados",
-   "picks": [
-    {
-     "match": "SSG Landers @ Kia Tigers",
-     "market": "Moneyline",
-     "pick": "Kia Tigers",
-     "prob": 0.7865,
-     "tier": "TOP PICK",
-     "units": "2.0",
-     "note": ""
     },
-    {
-     "match": "Kiwoom Heroes @ Doosan Bears",
-     "market": "Moneyline",
-     "pick": "Doosan Bears",
-     "prob": 0.7302,
-     "tier": "TOP PICK",
-     "units": "2.0",
-     "note": ""
-    }
-   ],
-   "predictions": [
     {
      "home": "Doosan Bears",
      "away": "Kiwoom Heroes",
@@ -827,7 +814,7 @@
        "label": "Moneyline",
        "pick": "Doosan Bears",
        "prob": 0.7302,
-       "detail": "Local 73% · Visitante 27% · (-190/+159)",
+       "detail": "Local 73% · Visitante 27% · (-192/+161)",
        "strong": true
       },
       {
@@ -974,7 +961,7 @@
        "label": "Moneyline",
        "pick": "Hanwha Eagles",
        "prob": 0.5827,
-       "detail": "Local 58% · Visitante 42% · (-107/-109)",
+       "detail": "Local 58% · Visitante 42% · (-106/-110)",
        "strong": false
       },
       {
@@ -1023,7 +1010,7 @@
        "label": "Moneyline",
        "pick": "Kia Tigers",
        "prob": 0.7865,
-       "detail": "Local 79% · Visitante 21% · (-207/+172)",
+       "detail": "Local 79% · Visitante 21% · (-210/+174)",
        "strong": true
       },
       {
@@ -1059,10 +1046,8 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 1.8,
-   "sport": "beisbol_kbo",
-   "sport_name": "Béisbol KBO",
-   "all_leagues": false
+   "message": "19 partidos proyectados",
+   "elapsed_s": 13.200000000000001
   },
   "tenis": {
    "ok": true,
@@ -2219,7 +2204,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 63.1,
+   "elapsed_s": 65.4,
    "sport": "tenis",
    "sport_name": "Tenis",
    "all_leagues": false
@@ -3229,7 +3214,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 29.0,
+   "elapsed_s": 30.4,
    "sport": "futbol",
    "sport_name": "Fútbol",
    "all_leagues": true

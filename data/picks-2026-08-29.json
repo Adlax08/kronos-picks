@@ -1,6 +1,6 @@
 {
  "date": "2026-08-29",
- "generated_at": "2026-08-29T22:24:45",
+ "generated_at": "2026-08-29T23:23:01",
  "sports_total": "17 partidos",
  "sports": [
   {
@@ -10,15 +10,8 @@
    "leagues": [
     {
      "code": "MLB",
-     "name": "Major League Baseball"
-    }
-   ]
-  },
-  {
-   "key": "beisbol_kbo",
-   "name": "Béisbol KBO",
-   "icon": "sports_baseball",
-   "leagues": [
+     "name": "Major League"
+    },
     {
      "code": "KBO",
      "name": "KBO League"
@@ -68,10 +61,12 @@
   "beisbol": {
    "ok": true,
    "date": "2026-08-29",
-   "league": "MLB",
-   "league_label": "Major League Baseball",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "sport": "beisbol",
+   "sport_name": "Béisbol",
+   "all_leagues": true,
    "n": 17,
-   "message": "17 partidos proyectados",
    "picks": [
     {
      "match": "Philadelphia Phillies @ Los Angeles Angels",
@@ -80,7 +75,9 @@
      "prob": 0.725,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": ""
+     "note": "",
+     "league_code": "MLB",
+     "league_label": "Major League"
     },
     {
      "match": "Arizona Diamondbacks @ San Francisco Giants",
@@ -89,7 +86,9 @@
      "prob": 0.6497,
      "tier": "BUENO",
      "units": "1.0",
-     "note": ""
+     "note": "",
+     "league_code": "MLB",
+     "league_label": "Major League"
     },
     {
      "match": "Arizona Diamondbacks @ San Francisco Giants",
@@ -98,7 +97,9 @@
      "prob": 0.6416,
      "tier": "BUENO",
      "units": "1.0",
-     "note": ""
+     "note": "",
+     "league_code": "MLB",
+     "league_label": "Major League"
     },
     {
      "match": "Cincinnati Reds @ Chicago Cubs",
@@ -107,7 +108,9 @@
      "prob": 0.623,
      "tier": "BUENO",
      "units": "1.0",
-     "note": ""
+     "note": "",
+     "league_code": "MLB",
+     "league_label": "Major League"
     },
     {
      "match": "Los Angeles Dodgers @ Detroit Tigers",
@@ -116,7 +119,9 @@
      "prob": 0.6192,
      "tier": "BUENO",
      "units": "1.0",
-     "note": ""
+     "note": "",
+     "league_code": "MLB",
+     "league_label": "Major League"
     }
    ],
    "predictions": [
@@ -126,7 +131,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Angel Stadium",
      "extra": "Abridor L: Ryan Johnson · Abridor V: Cristopher Sánchez",
      "markets": [
@@ -175,7 +180,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Sutter Health Park",
      "extra": "",
      "markets": [
@@ -224,7 +229,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "American Family Field",
      "extra": "Abridor L: Shane Drohan · Abridor V: Cal Quantrill",
      "markets": [
@@ -273,7 +278,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Truist Park",
      "extra": "",
      "markets": [
@@ -322,7 +327,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Tropicana Field",
      "extra": "Abridor L: Nick Martinez · Abridor V: Walker Buehler",
      "markets": [
@@ -371,7 +376,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Citi Field",
      "extra": "Abridor L: Nolan McLean · Abridor V: -",
      "markets": [
@@ -420,7 +425,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Progressive Field",
      "extra": "Abridor L: Foster Griffin · Abridor V: -",
      "markets": [
@@ -469,7 +474,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Oracle Park",
      "extra": "Abridor L: - · Abridor V: Merrill Kelly",
      "markets": [
@@ -518,7 +523,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Nationals Park",
      "extra": "Abridor L: - · Abridor V: Sandy Alcantara",
      "markets": [
@@ -567,7 +572,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Rogers Centre",
      "extra": "",
      "markets": [
@@ -616,7 +621,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Wrigley Field",
      "extra": "Abridor L: Kevin Gausman · Abridor V: Andrew Abbott",
      "markets": [
@@ -665,7 +670,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Busch Stadium",
      "extra": "",
      "markets": [
@@ -714,7 +719,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Target Field",
      "extra": "Abridor L: Bailey Ober · Abridor V: Erick Fedde",
      "markets": [
@@ -763,7 +768,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Comerica Park",
      "extra": "Abridor L: Keider Montero · Abridor V: Blake Snell",
      "markets": [
@@ -812,7 +817,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Yankee Stadium",
      "extra": "",
      "markets": [
@@ -861,7 +866,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Yankee Stadium",
      "extra": "Abridor L: - · Abridor V: Jake Bennett",
      "markets": [
@@ -910,7 +915,7 @@
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "MLB",
-     "league_label": "Major League Baseball",
+     "league_label": "Major League",
      "context": "Oracle Park",
      "extra": "Abridor L: - · Abridor V: Merrill Kelly",
      "markets": [
@@ -954,24 +959,8 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 12.9,
-   "sport": "beisbol",
-   "sport_name": "Béisbol",
-   "all_leagues": false
-  },
-  "beisbol_kbo": {
-   "ok": true,
-   "date": "2026-08-29",
-   "league": "KBO",
-   "league_label": "KBO League",
-   "n": 0,
-   "message": "Sin partidos pendientes para esa fecha.",
-   "picks": [],
-   "predictions": [],
-   "elapsed_s": 0.0,
-   "sport": "beisbol_kbo",
-   "sport_name": "Béisbol KBO",
-   "all_leagues": false
+   "message": "17 partidos proyectados",
+   "elapsed_s": 13.2
   },
   "tenis": {
    "ok": true,
