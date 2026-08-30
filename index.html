@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Kronos Predicctions</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;600;700&family=JetBrains+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL@20..48,100..700,0..1&display=swap">
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          "surface-pure": "#FFFFFF",
+          "surface": "#f8f9fa",
+          "surface-container": "#edeeef",
+          "surface-container-high": "#e7e8e9",
+          "surface-container-highest": "#e1e3e4",
+          "on-surface": "#191c1d",
+          "primary": "#000000",
+          "on-primary": "#ffffff",
+          "text-muted": "#6B7280",
+          "border-subtle": "#E5E7EB",
+          "accent-emerald": "#059669",
+          "accent-crimson": "#B91C1C",
+          "accent-gold": "#d4a017"
+        },
+        fontFamily: {
+          "headline": ["Geist", "system-ui", "sans-serif"],
+          "mono": ["JetBrains Mono", "monospace"]
+        },
+        borderRadius: { "lg": "0.5rem", "xl": "0.75rem" }
+      }
+    }
+  }
+</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-surface text-on-surface antialiased min-h-screen flex flex-col">
+
+<!-- TopNavBar -->
+<nav class="nav-blur bg-surface-pure/80 backdrop-blur-md fixed top-0 w-full z-50 border-b border-border-subtle transition-all duration-200">
+  <div class="flex justify-between items-center h-16 px-6 max-w-[1280px] mx-auto">
+    <div class="flex items-center gap-6">
+      <a href="#" class="flex items-center gap-2 select-none" id="brandLink">
+        <span class="material-symbols-outlined text-xl text-primary">query_stats</span>
+        <span class="font-headline font-semibold text-lg tracking-tight text-primary">Kronos<span class="text-text-muted font-normal ml-1">Predicctions</span></span>
+      </a>
+      <div class="hidden md:flex gap-1">
+        <button data-nav="dashboard" class="nav-link px-3 py-1.5 rounded-lg font-headline text-sm text-primary border-b-2 border-primary">Dashboard</button>
+        <button data-nav="beisbol" class="nav-link px-3 py-1.5 rounded-lg font-headline text-sm text-text-muted hover:text-primary transition-colors">Béisbol</button>
+        <button data-nav="tenis" class="nav-link px-3 py-1.5 rounded-lg font-headline text-sm text-text-muted hover:text-primary transition-colors">Tenis</button>
+        <button data-nav="futbol" class="nav-link px-3 py-1.5 rounded-lg font-headline text-sm text-text-muted hover:text-primary transition-colors">Fútbol</button>
+      </div>
+    </div>
+    <div class="flex items-center gap-3">
+      <button id="btnRefresh" title="Forzar recálculo (ignora caché)" class="icon-btn">
+        <span class="material-symbols-outlined" id="iconRefresh">refresh</span>
+      </button>
+      <div class="flex items-center gap-2 pl-3 border-l border-border-subtle">
+        <span class="status-dot" id="healthDot"></span>
+        <span class="font-mono text-xs text-text-muted hidden sm:block" id="healthText">conectando…</span>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="flex pt-16 flex-1 max-w-[1280px] mx-auto w-full px-6">
+
+  <!-- Main -->
+  <main class="flex-1 py-8 min-h-[calc(100vh-64px)]">
+
+    <!-- Hero -->
+    <header class="mb-8 reveal">
+      <div class="flex items-center gap-3 mb-2">
+        <span class="material-symbols-outlined text-primary text-2xl">bolt</span>
+        <h1 class="font-headline font-bold text-3xl md:text-4xl tracking-tight text-on-surface">Predicciones del Día</h1>
+      </div>
+      <p class="font-headline text-base text-text-muted">Solicita a cada modelo la predicción de la fecha que quieras, por deporte y liga. On-demand, sin saturar.</p>
+    </header>
+
+    <!-- Control Bar -->
+    <section class="control-bar reveal reveal-delay-1 mb-8" id="controlBar">
+      <div class="flex flex-col lg:flex-row lg:items-end gap-4">
+
+        <!-- Deporte -->
+        <div class="flex-1">
+          <label class="font-mono text-xs text-text-muted uppercase tracking-wider mb-2 block">Deporte</label>
+          <div class="flex flex-wrap gap-2" id="sportPills">
+            <div class="pill-skeleton h-9 w-24 rounded-lg bg-surface-container-high animate-shimmer"></div>
+            <div class="pill-skeleton h-9 w-24 rounded-lg bg-surface-container-high animate-shimmer"></div>
+          </div>
+        </div>
+
+        <!-- Liga -->
+        <div class="lg:w-56">
+          <label class="font-mono text-xs text-text-muted uppercase tracking-wider mb-2 block">Liga</label>
+          <div class="relative">
+            <select id="leagueSelect" class="w-full bg-surface-pure border border-border-subtle rounded-lg px-3 py-2 pr-8 font-headline text-sm focus:border-primary focus:ring-1 focus:ring-primary transition-colors appearance-none">
+              <option>Cargando…</option>
+            </select>
+            <span class="material-symbols-outlined absolute right-2 top-1/2 -translate-y-1/2 text-text-muted pointer-events-none text-base">expand_more</span>
+          </div>
+        </div>
+
+        <!-- Fecha -->
+        <div class="lg:w-56">
+          <label class="font-mono text-xs text-text-muted uppercase tracking-wider mb-2 block">Fecha</label>
+          <div class="flex gap-2">
+            <input id="dateInput" type="date" class="flex-1 bg-surface-pure border border-border-subtle rounded-lg px-3 py-2 font-mono text-sm focus:border-primary focus:ring-1 focus:ring-primary transition-colors">
+          </div>
+        </div>
+
+        <!-- Acción -->
+        <div class="lg:w-40">
+          <button id="btnPredict" class="btn-primary w-full py-2.5 rounded-lg font-headline font-semibold text-sm">
+            <span class="material-symbols-outlined text-base align-middle">auto_awesome</span>
+            <span id="btnPredictLabel">Predecir</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- quick dates -->
+      <div class="flex items-center gap-2 mt-3">
+        <span class="font-mono text-xs text-text-muted">Rápido:</span>
+        <button class="chip" data-offset="0">Hoy</button>
+        <button class="chip" data-offset="1">Mañana</button>
+        <button class="chip" data-offset="-1">Ayer</button>
+        <span class="font-mono text-xs text-text-muted ml-auto hidden sm:block" id="dateHint">Fecha local</span>
+      </div>
+    </section>
+
+    <!-- Contenido estático (publicado en GitHub Pages) -->
+    <div id="staticRoot" class="hidden"></div>
+
+    <!-- Loading skeletons -->
+    <section id="loadingSection" class="hidden mb-8">
+      <div class="flex items-center gap-2 mb-4">
+        <span class="spinner"></span>
+        <span class="font-headline text-sm text-text-muted" id="loadingText">Consultando al modelo…</span>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="skeletonGrid">
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+      </div>
+    </section>
+
+    <!-- Error -->
+    <section id="errorSection" class="hidden mb-8">
+      <div class="bg-surface-pure border border-accent-crimson/30 rounded-lg p-5 flex items-start gap-3 animate-fade-in-up">
+        <span class="material-symbols-outlined text-accent-crimson">error</span>
+        <div>
+          <h3 class="font-headline font-semibold text-sm text-on-surface">No se pudo completar la predicción</h3>
+          <p class="font-headline text-sm text-text-muted mt-1" id="errorText"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section id="resultsSection" class="hidden">
+
+      <!-- Top Picks -->
+      <div class="mb-8">
+        <div class="flex items-center justify-between mb-4 reveal" id="picksHeader">
+          <h2 class="font-headline font-semibold text-xl tracking-tight flex items-center gap-2">
+            <span class="material-symbols-outlined text-primary">star</span> Top Picks
+            <span class="font-mono text-xs text-text-muted font-normal" id="picksCount"></span>
+          </h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="picksGrid"></div>
+      </div>
+
+      <!-- Todas las predicciones -->
+      <div>
+        <div class="flex items-center justify-between mb-4">
+          <h2 class="font-headline font-semibold text-xl tracking-tight flex items-center gap-2">
+            <span class="material-symbols-outlined text-primary">calendar_month</span> Cartelera
+            <span class="font-mono text-xs text-text-muted font-normal" id="gamesCount"></span>
+          </h2>
+          <span class="font-mono text-xs text-text-muted" id="elapsedText"></span>
+        </div>
+        <div class="bg-surface-pure rounded-lg border border-border-subtle overflow-hidden" id="gamesList"></div>
+      </div>
+
+      <!-- Empty -->
+      <div id="emptyState" class="hidden text-center py-16">
+        <span class="material-symbols-outlined text-5xl text-text-muted/40 block mb-4">sports</span>
+        <h3 class="font-headline font-semibold text-lg text-on-surface">Sin partidos pendientes</h3>
+        <p class="font-headline text-sm text-text-muted mt-1">No hay encuentros proyectados para esa fecha, liga y deporte.</p>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<!-- Footer -->
+<footer class="bg-surface-pure w-full py-6 border-t border-border-subtle mt-auto">
+  <div class="flex flex-col md:flex-row justify-between items-center px-6 max-w-[1280px] mx-auto opacity-80">
+    <span class="font-mono text-xs text-text-muted">© 2026 Kronos Predicctions · Analytics profesional</span>
+    <div class="flex gap-4 mt-2 md:mt-0">
+      <a href="#" class="font-mono text-xs text-text-muted hover:text-primary transition-colors">Responsable</a>
+      <a href="#" class="font-mono text-xs text-text-muted hover:text-primary transition-colors">Metodología</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

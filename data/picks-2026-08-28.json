@@ -1,0 +1,1232 @@
+{
+ "date": "2026-08-28",
+ "generated_at": "2026-08-29T22:24:08",
+ "sports_total": "21 partidos",
+ "sports": [
+  {
+   "key": "beisbol",
+   "name": "Béisbol",
+   "icon": "sports_baseball",
+   "leagues": [
+    {
+     "code": "MLB",
+     "name": "Major League Baseball"
+    }
+   ]
+  },
+  {
+   "key": "beisbol_kbo",
+   "name": "Béisbol KBO",
+   "icon": "sports_baseball",
+   "leagues": [
+    {
+     "code": "KBO",
+     "name": "KBO League"
+    }
+   ]
+  },
+  {
+   "key": "tenis",
+   "name": "Tenis",
+   "icon": "sports_tennis",
+   "leagues": [
+    {
+     "code": "ATP",
+     "name": "ATP Tour"
+    }
+   ]
+  },
+  {
+   "key": "futbol",
+   "name": "Fútbol",
+   "icon": "sports_soccer",
+   "leagues": [
+    {
+     "code": "ENG",
+     "name": "Premier League"
+    },
+    {
+     "code": "ESP",
+     "name": "La Liga"
+    },
+    {
+     "code": "ITA",
+     "name": "Serie A"
+    },
+    {
+     "code": "GER",
+     "name": "Bundesliga"
+    },
+    {
+     "code": "FRA",
+     "name": "Ligue 1"
+    }
+   ]
+  }
+ ],
+ "results": {
+  "beisbol": {
+   "ok": true,
+   "date": "2026-08-28",
+   "league": "MLB",
+   "league_label": "Major League Baseball",
+   "n": 15,
+   "message": "15 partidos proyectados",
+   "picks": [
+    {
+     "match": "Philadelphia Phillies @ Los Angeles Angels",
+     "market": "Moneyline",
+     "pick": "Los Angeles Angels",
+     "prob": 0.6862,
+     "tier": "MUY BUENO",
+     "units": "1.5",
+     "note": ""
+    },
+    {
+     "match": "Los Angeles Dodgers @ Detroit Tigers",
+     "market": "Moneyline",
+     "pick": "Los Angeles Dodgers",
+     "prob": 0.655,
+     "tier": "MUY BUENO",
+     "units": "1.5",
+     "note": ""
+    },
+    {
+     "match": "Boston Red Sox @ New York Yankees",
+     "market": "Moneyline",
+     "pick": "New York Yankees",
+     "prob": 0.6428,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": ""
+    },
+    {
+     "match": "Cincinnati Reds @ Chicago Cubs",
+     "market": "Moneyline",
+     "pick": "Chicago Cubs",
+     "prob": 0.6371,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": ""
+    },
+    {
+     "match": "Seattle Mariners @ Toronto Blue Jays",
+     "market": "Moneyline",
+     "pick": "Toronto Blue Jays",
+     "prob": 0.6243,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": ""
+    }
+   ],
+   "predictions": [
+    {
+     "home": "Athletics",
+     "away": "Baltimore Orioles",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League Baseball",
+     "context": "Sutter Health Park",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Athletics",
+       "prob": 0.524,
+       "detail": "Local 52% · Visitante 48% · (+101/-108)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "UNDER",
+       "prob": 0.5478000000000001,
+       "detail": "UNDER 9.5 · 55% · Proyectado 9.6",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5867,
+       "detail": "UNDER 5.0 · 59%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Baltimore Orioles",
+       "prob": 0.527,
+       "detail": "F5 47% · 53% · (+111/-111)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5321,
+       "detail": "No carrera 1ª entrada 53%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Los Angeles Angels",
+     "away": "Philadelphia Phillies",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League Baseball",
+     "context": "Angel Stadium",
+     "extra": "Abridor L: Reid Detmers · Abridor V: Andrew Painter",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Los Angeles Angels",
+       "prob": 0.6862,
+       "detail": "Local 69% · Visitante 31% · (+105/-113)",
+       "strong": true
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.6387,
+       "detail": "OVER 7.5 · 64% · Proyectado 10.4",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.646,
+       "detail": "UNDER 5.0 · 65%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Los Angeles Angels",
+       "prob": 0.5508,
+       "detail": "F5 55% · 45% · (-123/+123)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.531,
+       "detail": "No carrera 1ª entrada 53%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "St. Louis Cardinals",
+     "away": "Pittsburgh Pirates",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League Baseball",
+     "context": "Busch Stadium",
+     "extra": "Abridor L: Quinn Mathews · Abridor V: Jared Jones",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Pittsburgh Pirates",
+       "prob": 0.5684,
+       "detail": "Local 43% · Visitante 57% · (+105/-112)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.6674,
+       "detail": "OVER 7.5 · 67% · Proyectado 10.1",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.6232,
+       "detail": "UNDER 5.0 · 62%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Pittsburgh Pirates",
+       "prob": 0.6736,
+       "detail": "F5 33% · 67% · (+206/-206)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5066,
+       "detail": "No carrera 1ª entrada 51%",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Minnesota Twins",
+     "away": "Chicago White Sox",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League Baseball",
+     "context": "Target Field",
+     "extra": "Abridor L: Dean Kremer · Abridor V: Luis Castillo",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Chicago White Sox",
+       "prob": 0.5094000000000001,
+       "detail": "Local 49% · Visitante 51% · (-124/+116)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.5099,
+       "detail": "OVER 9.0 · 51% · Proyectado 12.9",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5437000000000001,
+       "detail": "UNDER 5.5 · 54%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Chicago White Sox",
+       "prob": 0.5691999999999999,
+       "detail": "F5 43% · 57% · (+132/-132)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5321,
+       "detail": "No carrera 1ª entrada 53%",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "San Francisco Giants",
+     "away": "Arizona Diamondbacks",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League Baseball",
+     "context": "Oracle Park",
+     "extra": "Abridor L: Blade Tidwell · Abridor V: -",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "San Francisco Giants",
+       "prob": 0.5537,
+       "detail": "Local 55% · Visitante 45% · (+104/-112)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.5189,
+       "detail": "OVER 8.0 · 52% · Proyectado 9.0",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.6345000000000001,
+       "detail": "UNDER 5.0 · 63%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "San Francisco Giants",
+       "prob": 0.5046,
+       "detail": "F5 50% · 50% · (-102/+102)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5216,
+       "detail": "No carrera 1ª entrada 52%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Milwaukee Brewers",
+     "away": "Texas Rangers",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League Baseball",
+     "context": "American Family Field",
+     "extra": "Abridor L: Logan Henderson · Abridor V: Cody Bradford",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Milwaukee Brewers",
+       "prob": 0.5548,
+       "detail": "Local 55% · Visitante 45% · (-210/+195)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.5978,
+       "detail": "OVER 7.5 · 60% · Proyectado 8.6",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5036,
+       "detail": "UNDER 4.5 · 50%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Texas Rangers",
+       "prob": 0.5246999999999999,
+       "detail": "F5 48% · 52% · (+110/-110)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5321,
+       "detail": "No carrera 1ª entrada 53%",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "New York Yankees",
+     "away": "Boston Red Sox",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League Baseball",
+     "context": "Yankee Stadium",
+     "extra": "Abridor L: Cam Schlittler · Abridor V: Patrick Sandoval",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "New York Yankees",
+       "prob": 0.6428,
+       "detail": "Local 64% · Visitante 36% · (-152/+142)",
+       "strong": true
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.6289,
+       "detail": "OVER 7.0 · 63% · Proyectado 8.8",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.6536,
+       "detail": "UNDER 5.0 · 65%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "New York Yankees",
+       "prob": 0.5703,
+       "detail": "F5 57% · 43% · (-133/+133)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.501,
+       "detail": "No carrera 1ª entrada 50%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "New York Mets",
+     "away": "Houston Astros",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League Baseball",
+     "context": "Citi Field",
+     "extra": "Abridor L: Christian Scott · Abridor V: -",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "New York Mets",
+       "prob": 0.5592,
+       "detail": "Local 56% · Visitante 44% · (-105/-102)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.6586,
+       "detail": "OVER 7.5 · 66% · Proyectado 9.1",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.6302,
+       "detail": "UNDER 5.0 · 63%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "New York Mets",
+       "prob": 0.5007,
+       "detail": "F5 50% · 50% · (-100/+100)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5321,
+       "detail": "No carrera 1ª entrada 53%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Toronto Blue Jays",
+     "away": "Seattle Mariners",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League Baseball",
+     "context": "Rogers Centre",
+     "extra": "Abridor L: Dylan Cease · Abridor V: -",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Toronto Blue Jays",
+       "prob": 0.6243,
+       "detail": "Local 62% · Visitante 38% · (-140/+131)",
+       "strong": true
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.6444,
+       "detail": "OVER 7.0 · 64% · Proyectado 7.6",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.6416,
+       "detail": "UNDER 5.0 · 64%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Seattle Mariners",
+       "prob": 0.5165,
+       "detail": "F5 48% · 52% · (+107/-107)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5188,
+       "detail": "No carrera 1ª entrada 52%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Tampa Bay Rays",
+     "away": "San Diego Padres",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League Baseball",
+     "context": "Tropicana Field",
+     "extra": "Abridor L: Shane McClanahan · Abridor V: Casey Mize",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Tampa Bay Rays",
+       "prob": 0.5424,
+       "detail": "Local 54% · Visitante 46% · (-123/+114)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.578,
+       "detail": "OVER 7.5 · 58% · Proyectado 8.6",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.519,
+       "detail": "UNDER 4.5 · 52%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "San Diego Padres",
+       "prob": 0.6042000000000001,
+       "detail": "F5 40% · 60% · (+153/-153)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5217,
+       "detail": "No carrera 1ª entrada 52%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Cleveland Guardians",
+     "away": "Kansas City Royals",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League Baseball",
+     "context": "Progressive Field",
+     "extra": "Abridor L: Tanner Bibee · Abridor V: -",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Kansas City Royals",
+       "prob": 0.5338,
+       "detail": "Local 47% · Visitante 53% · (-129/+120)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.7069,
+       "detail": "OVER 7.5 · 71% · Proyectado 10.6",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5896,
+       "detail": "UNDER 5.0 · 59%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Kansas City Royals",
+       "prob": 0.527,
+       "detail": "F5 47% · 53% · (+111/-111)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5321,
+       "detail": "No carrera 1ª entrada 53%",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Washington Nationals",
+     "away": "Miami Marlins",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League Baseball",
+     "context": "Nationals Park",
+     "extra": "Abridor L: - · Abridor V: Eury Pérez",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Washington Nationals",
+       "prob": 0.5079,
+       "detail": "Local 51% · Visitante 49% · (+125/-134)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.5974,
+       "detail": "OVER 8.5 · 60% · Proyectado 9.5",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5758,
+       "detail": "UNDER 5.0 · 58%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Miami Marlins",
+       "prob": 0.536,
+       "detail": "F5 46% · 54% · (+116/-116)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5066,
+       "detail": "No carrera 1ª entrada 51%",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Detroit Tigers",
+     "away": "Los Angeles Dodgers",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League Baseball",
+     "context": "Comerica Park",
+     "extra": "Abridor L: Drew Anderson · Abridor V: Tarik Skubal",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Los Angeles Dodgers",
+       "prob": 0.655,
+       "detail": "Local 34% · Visitante 66% · (+168/-180)",
+       "strong": true
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.5631,
+       "detail": "OVER 7.5 · 56% · Proyectado 8.9",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5305,
+       "detail": "UNDER 4.5 · 53%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Los Angeles Dodgers",
+       "prob": 0.5922000000000001,
+       "detail": "F5 41% · 59% · (+145/-145)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5023,
+       "detail": "No carrera 1ª entrada 50%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Chicago Cubs",
+     "away": "Cincinnati Reds",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League Baseball",
+     "context": "Wrigley Field",
+     "extra": "Abridor L: David Peterson · Abridor V: Rhett Lowder",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Chicago Cubs",
+       "prob": 0.6371,
+       "detail": "Local 64% · Visitante 36% · (-193/+179)",
+       "strong": true
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.5103,
+       "detail": "OVER 9.0 · 51% · Proyectado 11.6",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5433,
+       "detail": "UNDER 5.5 · 54%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Chicago Cubs",
+       "prob": 0.5135,
+       "detail": "F5 51% · 49% · (-106/+106)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5066,
+       "detail": "No carrera 1ª entrada 51%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Atlanta Braves",
+     "away": "Colorado Rockies",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League Baseball",
+     "context": "Truist Park",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Atlanta Braves",
+       "prob": 0.5364,
+       "detail": "Local 54% · Visitante 46% · (-216/+200)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "UNDER",
+       "prob": 0.5598000000000001,
+       "detail": "UNDER 9.0 · 56% · Proyectado 9.7",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5954999999999999,
+       "detail": "UNDER 5.0 · 60%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Colorado Rockies",
+       "prob": 0.5268999999999999,
+       "detail": "F5 47% · 53% · (+111/-111)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "NO",
+       "prob": 0.5079,
+       "detail": "No carrera 1ª entrada 49%",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    }
+   ],
+   "elapsed_s": 11.7,
+   "sport": "beisbol",
+   "sport_name": "Béisbol",
+   "all_leagues": false
+  },
+  "beisbol_kbo": {
+   "ok": true,
+   "date": "2026-08-28",
+   "league": "KBO",
+   "league_label": "KBO League",
+   "n": 5,
+   "message": "5 partidos proyectados",
+   "picks": [
+    {
+     "match": "SSG Landers @ Kia Tigers",
+     "market": "Moneyline",
+     "pick": "Kia Tigers",
+     "prob": 0.9471,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": ""
+    },
+    {
+     "match": "Kiwoom Heroes @ Doosan Bears",
+     "market": "Moneyline",
+     "pick": "Kiwoom Heroes",
+     "prob": 0.6921999999999999,
+     "tier": "MUY BUENO",
+     "units": "1.5",
+     "note": ""
+    }
+   ],
+   "predictions": [
+    {
+     "home": "Doosan Bears",
+     "away": "Kiwoom Heroes",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "KBO",
+     "league_label": "KBO League",
+     "context": "Jamsil Baseball Stadium",
+     "extra": "Abridor L: 박신지 · Abridor V: 안우진",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Kiwoom Heroes",
+       "prob": 0.6921999999999999,
+       "detail": "Local 31% · Visitante 69%",
+       "strong": true
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "UNDER",
+       "prob": 0.5368999999999999,
+       "detail": "UNDER 9.5 · 54% · Proyectado 8.6",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5785,
+       "detail": "UNDER 5.0 · 58%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Kiwoom Heroes",
+       "prob": 0.7632,
+       "detail": "F5 24% · 76% · (+322/-322)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "NO",
+       "prob": 0.5207999999999999,
+       "detail": "No carrera 1ª entrada 48%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Samsung Lions",
+     "away": "KT Wiz",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "KBO",
+     "league_label": "KBO League",
+     "context": "Samsung Lions Park",
+     "extra": "Abridor L: 김백산 · Abridor V: 오원석",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "KT Wiz",
+       "prob": 0.5974999999999999,
+       "detail": "Local 40% · Visitante 60% · (-115/-102)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "UNDER",
+       "prob": 0.6625,
+       "detail": "UNDER 12.0 · 66% · Proyectado 13.3",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5674,
+       "detail": "UNDER 6.0 · 57%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "KT Wiz",
+       "prob": 0.5215000000000001,
+       "detail": "F5 48% · 52% · (+109/-109)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "NO",
+       "prob": 0.5196000000000001,
+       "detail": "No carrera 1ª entrada 48%",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Lotte Giants",
+     "away": "LG Twins",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "KBO",
+     "league_label": "KBO League",
+     "context": "Sajik Baseball Stadium",
+     "extra": "Abridor L: 나균안 · Abridor V: 김윤식",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Lotte Giants",
+       "prob": 0.5556,
+       "detail": "Local 56% · Visitante 44% · (+132/-155)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "UNDER",
+       "prob": 0.5892,
+       "detail": "UNDER 11.0 · 59% · Proyectado 12.1",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5959,
+       "detail": "UNDER 6.0 · 60%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Lotte Giants",
+       "prob": 0.557,
+       "detail": "F5 56% · 44% · (-126/+126)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "NO",
+       "prob": 0.5196000000000001,
+       "detail": "No carrera 1ª entrada 48%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Hanwha Eagles",
+     "away": "NC Dinos",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "KBO",
+     "league_label": "KBO League",
+     "context": "Hanwha Life Ballpark",
+     "extra": "Abridor L: 박준영 · Abridor V: 이재학",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "NC Dinos",
+       "prob": 0.5640000000000001,
+       "detail": "Local 44% · Visitante 56% · (+101/-118)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "UNDER",
+       "prob": 0.5009,
+       "detail": "UNDER 10.5 · 50% · Proyectado 11.8",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.6187,
+       "detail": "UNDER 6.0 · 62%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Hanwha Eagles",
+       "prob": 0.526,
+       "detail": "F5 53% · 47% · (-111/+111)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "NO",
+       "prob": 0.5702,
+       "detail": "No carrera 1ª entrada 43%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Kia Tigers",
+     "away": "SSG Landers",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "KBO",
+     "league_label": "KBO League",
+     "context": "Gwangju-Kia Champions Field",
+     "extra": "Abridor L: 올러 · Abridor V: 이준기",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Kia Tigers",
+       "prob": 0.9471,
+       "detail": "Local 95% · Visitante 5% · (-238/+193)",
+       "strong": true
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.5783,
+       "detail": "OVER 9.0 · 58% · Proyectado 12.9",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "OVER",
+       "prob": 0.5081,
+       "detail": "OVER 5.5 · 51%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Kia Tigers",
+       "prob": 0.697,
+       "detail": "F5 70% · 30% · (-230/+230)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "NO",
+       "prob": 0.5194,
+       "detail": "No carrera 1ª entrada 48%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    }
+   ],
+   "elapsed_s": 2.9,
+   "sport": "beisbol_kbo",
+   "sport_name": "Béisbol KBO",
+   "all_leagues": false
+  },
+  "tenis": {
+   "ok": true,
+   "date": "2026-08-28",
+   "league": "ATP",
+   "league_label": "ATP Tour",
+   "n": 1,
+   "message": "1 partidos proyectados",
+   "picks": [
+    {
+     "match": "Arthur Fery vs James Duckworth",
+     "market": "ML",
+     "pick": "James Duckworth",
+     "prob": 0.6201,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": ""
+    }
+   ],
+   "predictions": [
+    {
+     "home": "Arthur Fery",
+     "away": "James Duckworth",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "Winston-Salem Open, Hard, Ronda: Semifinal, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "James Duckworth",
+       "prob": 0.6201,
+       "detail": "Arthur Fery 38% · James Duckworth 62%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5049,
+       "detail": "OVER 24.0 · 50% · Proyectado 24.1",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Arthur Fery",
+       "prob": 0.4441,
+       "detail": "Hándicap -0.7 · 44%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "James Duckworth",
+       "prob": 0.7962,
+       "detail": "Hándicap Sets -1.5 · 20% · (+391)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5256,
+       "detail": "OVER 10.0 · 53% · Proyectado 10.1",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    }
+   ],
+   "elapsed_s": 54.0,
+   "sport": "tenis",
+   "sport_name": "Tenis",
+   "all_leagues": false
+  },
+  "futbol": {
+   "ok": true,
+   "date": "2026-08-28",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 0,
+   "message": "Sin partidos pendientes para esa liga y fecha.",
+   "picks": [],
+   "predictions": [],
+   "elapsed_s": 0.0,
+   "sport": "futbol",
+   "sport_name": "Fútbol",
+   "all_leagues": true
+  }
+ }
+}
