@@ -382,6 +382,8 @@
 
   async function initStatic() {
     els.controlBar.classList.add("hidden");
+    const hero = $("heroHeader");
+    if (hero) hero.style.display = "none";
     const healthWrap = document.querySelector(".flex.items-center.gap-2.pl-3.border-l.border-border-subtle");
     if (healthWrap) healthWrap.style.display = "none";
     els.staticRoot.classList.remove("hidden");
