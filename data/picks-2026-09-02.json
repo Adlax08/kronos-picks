@@ -1,0 +1,2316 @@
+{
+ "date": "2026-09-02",
+ "generated_at": "2026-09-01T20:07:28",
+ "sports_total": "39 partidos",
+ "sports": [
+  {
+   "key": "beisbol",
+   "name": "Béisbol",
+   "icon": "sports_baseball",
+   "leagues": [
+    {
+     "code": "MLB",
+     "name": "Major League"
+    },
+    {
+     "code": "KBO",
+     "name": "KBO League"
+    }
+   ]
+  },
+  {
+   "key": "tenis",
+   "name": "Tenis",
+   "icon": "sports_tennis",
+   "leagues": [
+    {
+     "code": "ATP",
+     "name": "ATP Tour"
+    }
+   ]
+  },
+  {
+   "key": "futbol",
+   "name": "Fútbol",
+   "icon": "sports_soccer",
+   "leagues": [
+    {
+     "code": "ENG",
+     "name": "Premier League"
+    },
+    {
+     "code": "ESP",
+     "name": "La Liga"
+    },
+    {
+     "code": "ITA",
+     "name": "Serie A"
+    },
+    {
+     "code": "GER",
+     "name": "Bundesliga"
+    },
+    {
+     "code": "FRA",
+     "name": "Ligue 1"
+    }
+   ]
+  }
+ ],
+ "results": {
+  "beisbol": {
+   "ok": true,
+   "date": "2026-09-02",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "sport": "beisbol",
+   "sport_name": "Béisbol",
+   "all_leagues": true,
+   "n": 20,
+   "picks": [
+    {
+     "match": "St. Louis Cardinals @ Los Angeles Dodgers",
+     "market": "Moneyline",
+     "pick": "Los Angeles Dodgers",
+     "prob": 0.6077,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": "",
+     "league_code": "MLB",
+     "league_label": "Major League"
+    }
+   ],
+   "predictions": [
+    {
+     "home": "Los Angeles Dodgers",
+     "away": "St. Louis Cardinals",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League",
+     "context": "UNIQLO Field at Dodger Stadium",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Los Angeles Dodgers",
+       "prob": 0.6077,
+       "detail": "Local 61% · Visitante 39%",
+       "strong": true
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "UNDER",
+       "prob": 0.5216000000000001,
+       "detail": "UNDER 9.5 · 52% · Proyectado 9.7",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5671999999999999,
+       "detail": "UNDER 5.5 · 57%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Los Angeles Dodgers",
+       "prob": 0.5427,
+       "detail": "F5 54% · 46% · (-119/+119)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5321,
+       "detail": "No carrera 1ª entrada 53%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Los Angeles Angels",
+     "away": "New York Yankees",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League",
+     "context": "Angel Stadium",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Los Angeles Angels",
+       "prob": 0.5684,
+       "detail": "Local 57% · Visitante 43% · (+144/-175)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.6861,
+       "detail": "OVER 7.0 · 69% · Proyectado 9.4",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.6075999999999999,
+       "detail": "UNDER 5.0 · 61%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Los Angeles Angels",
+       "prob": 0.5126,
+       "detail": "F5 51% · 49% · (-105/+105)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5188,
+       "detail": "No carrera 1ª entrada 52%",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Houston Astros",
+     "away": "Chicago White Sox",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League",
+     "context": "Daikin Park",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Houston Astros",
+       "prob": 0.5489,
+       "detail": "Local 55% · Visitante 45% · (-131/+109)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.5796,
+       "detail": "OVER 8.5 · 58% · Proyectado 9.7",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5895,
+       "detail": "UNDER 5.0 · 59%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Houston Astros",
+       "prob": 0.5232,
+       "detail": "F5 52% · 48% · (-110/+110)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "NO",
+       "prob": 0.5106999999999999,
+       "detail": "No carrera 1ª entrada 49%",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Kansas City Royals",
+     "away": "Miami Marlins",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League",
+     "context": "Kauffman Stadium",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Kansas City Royals",
+       "prob": 0.5239,
+       "detail": "Local 52% · Visitante 48% · (-112/-108)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.571,
+       "detail": "OVER 8.5 · 57% · Proyectado 9.6",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.596,
+       "detail": "UNDER 5.0 · 60%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Kansas City Royals",
+       "prob": 0.5103,
+       "detail": "F5 51% · 49% · (-104/+104)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.526,
+       "detail": "No carrera 1ª entrada 53%",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Minnesota Twins",
+     "away": "Detroit Tigers",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League",
+     "context": "Target Field",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Minnesota Twins",
+       "prob": 0.5812,
+       "detail": "Local 58% · Visitante 42% · (-118/-102)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "UNDER",
+       "prob": 0.5468999999999999,
+       "detail": "UNDER 9.0 · 55% · Proyectado 9.6",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5860000000000001,
+       "detail": "UNDER 5.0 · 59%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Minnesota Twins",
+       "prob": 0.5103,
+       "detail": "F5 51% · 49% · (-104/+104)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5321,
+       "detail": "No carrera 1ª entrada 53%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Cleveland Guardians",
+     "away": "Toronto Blue Jays",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League",
+     "context": "Progressive Field",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Cleveland Guardians",
+       "prob": 0.5196,
+       "detail": "Local 52% · Visitante 48% · (+113/-136)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.6758,
+       "detail": "OVER 7.0 · 68% · Proyectado 9.2",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.6163000000000001,
+       "detail": "UNDER 5.0 · 62%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Cleveland Guardians",
+       "prob": 0.5126,
+       "detail": "F5 51% · 49% · (-105/+105)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5278,
+       "detail": "No carrera 1ª entrada 53%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Tampa Bay Rays",
+     "away": "New York Mets",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League",
+     "context": "Tropicana Field",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Tampa Bay Rays",
+       "prob": 0.5758,
+       "detail": "Local 58% · Visitante 42% · (-171/+141)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.5763,
+       "detail": "OVER 8.0 · 58% · Proyectado 9.5",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5920000000000001,
+       "detail": "UNDER 5.0 · 59%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Tampa Bay Rays",
+       "prob": 0.5103,
+       "detail": "F5 51% · 49% · (-104/+104)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5173,
+       "detail": "No carrera 1ª entrada 52%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Chicago Cubs",
+     "away": "Milwaukee Brewers",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League",
+     "context": "Wrigley Field",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Chicago Cubs",
+       "prob": 0.5619,
+       "detail": "Local 56% · Visitante 44% · (+135/-163)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.556,
+       "detail": "OVER 8.0 · 56% · Proyectado 10.0",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.6073,
+       "detail": "UNDER 5.0 · 61%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Chicago Cubs",
+       "prob": 0.5103,
+       "detail": "F5 51% · 49% · (-104/+104)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5188,
+       "detail": "No carrera 1ª entrada 52%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Boston Red Sox",
+     "away": "Seattle Mariners",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League",
+     "context": "Fenway Park",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Boston Red Sox",
+       "prob": 0.5715,
+       "detail": "Local 57% · Visitante 43% · (-136/+113)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.5677,
+       "detail": "OVER 8.5 · 57% · Proyectado 9.4",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5985,
+       "detail": "UNDER 5.0 · 60%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Seattle Mariners",
+       "prob": 0.527,
+       "detail": "F5 47% · 53% · (+111/-111)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "NO",
+       "prob": 0.5106999999999999,
+       "detail": "No carrera 1ª entrada 49%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Arizona Diamondbacks",
+     "away": "Philadelphia Phillies",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League",
+     "context": "Chase Field",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Arizona Diamondbacks",
+       "prob": 0.5452,
+       "detail": "Local 55% · Visitante 45%",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "UNDER",
+       "prob": 0.5517000000000001,
+       "detail": "UNDER 9.5 · 55% · Proyectado 9.5",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5896,
+       "detail": "UNDER 5.0 · 59%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Arizona Diamondbacks",
+       "prob": 0.5298,
+       "detail": "F5 53% · 47% · (-113/+113)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5144,
+       "detail": "No carrera 1ª entrada 51%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Colorado Rockies",
+     "away": "Baltimore Orioles",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League",
+     "context": "Coors Field",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Colorado Rockies",
+       "prob": 0.5294,
+       "detail": "Local 53% · Visitante 47% · (+134/-162)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "UNDER",
+       "prob": 0.7553,
+       "detail": "UNDER 11.5 · 76% · Proyectado 9.7",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5703,
+       "detail": "UNDER 5.5 · 57%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Baltimore Orioles",
+       "prob": 0.527,
+       "detail": "F5 47% · 53% · (+111/-111)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5066,
+       "detail": "No carrera 1ª entrada 51%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Texas Rangers",
+     "away": "Athletics",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League",
+     "context": "Globe Life Field",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Texas Rangers",
+       "prob": 0.5372,
+       "detail": "Local 54% · Visitante 46% · (-169/+139)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.7042,
+       "detail": "OVER 7.5 · 70% · Proyectado 9.6",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5919,
+       "detail": "UNDER 5.0 · 59%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Texas Rangers",
+       "prob": 0.5126,
+       "detail": "F5 51% · 49% · (-105/+105)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5188,
+       "detail": "No carrera 1ª entrada 52%",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Washington Nationals",
+     "away": "Atlanta Braves",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League",
+     "context": "Nationals Park",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Washington Nationals",
+       "prob": 0.5513,
+       "detail": "Local 55% · Visitante 45% · (+135/-163)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "UNDER",
+       "prob": 0.5687,
+       "detail": "UNDER 9.0 · 57% · Proyectado 9.8",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.6021000000000001,
+       "detail": "UNDER 5.0 · 60%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Washington Nationals",
+       "prob": 0.5232,
+       "detail": "F5 52% · 48% · (-110/+110)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5278,
+       "detail": "No carrera 1ª entrada 53%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Cincinnati Reds",
+     "away": "San Diego Padres",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League",
+     "context": "Great American Ball Park",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Cincinnati Reds",
+       "prob": 0.5005,
+       "detail": "Local 50% · Visitante 50% · (+119/-144)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "UNDER",
+       "prob": 0.5798,
+       "detail": "UNDER 9.5 · 58% · Proyectado 9.4",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.6103000000000001,
+       "detail": "UNDER 5.0 · 61%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Cincinnati Reds",
+       "prob": 0.5007,
+       "detail": "F5 50% · 50% · (-100/+100)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5217,
+       "detail": "No carrera 1ª entrada 52%",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Pittsburgh Pirates",
+     "away": "San Francisco Giants",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MLB",
+     "league_label": "Major League",
+     "context": "PNC Park",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Pittsburgh Pirates",
+       "prob": 0.5352,
+       "detail": "Local 54% · Visitante 46% · (-156/+129)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.5581,
+       "detail": "OVER 8.0 · 56% · Proyectado 9.6",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.6057,
+       "detail": "UNDER 5.0 · 61%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Pittsburgh Pirates",
+       "prob": 0.5007,
+       "detail": "F5 50% · 50% · (-100/+100)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5321,
+       "detail": "No carrera 1ª entrada 53%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Doosan Bears",
+     "away": "LG Twins",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "KBO",
+     "league_label": "KBO League",
+     "context": "Jamsil Baseball Stadium",
+     "extra": "Abridor L: 최승용 · Abridor V: 김윤식",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Doosan Bears",
+       "prob": 0.5653,
+       "detail": "Local 57% · Visitante 43% · (+122/-143)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.6216,
+       "detail": "OVER 9.0 · 62% · Proyectado 12.1",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.6187,
+       "detail": "UNDER 6.0 · 62%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Doosan Bears",
+       "prob": 0.5793,
+       "detail": "F5 58% · 42% · (-138/+138)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "NO",
+       "prob": 0.5232,
+       "detail": "No carrera 1ª entrada 48%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Samsung Lions",
+     "away": "Lotte Giants",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "KBO",
+     "league_label": "KBO League",
+     "context": "Samsung Lions Park",
+     "extra": "Abridor L: 최원태 · Abridor V: 박세웅",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Lotte Giants",
+       "prob": 0.5631999999999999,
+       "detail": "Local 44% · Visitante 56% · (-163/+138)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "UNDER",
+       "prob": 0.7185,
+       "detail": "UNDER 11.0 · 72% · Proyectado 9.5",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5378000000000001,
+       "detail": "UNDER 5.5 · 54%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Lotte Giants",
+       "prob": 0.6972,
+       "detail": "F5 30% · 70% · (+230/-230)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "NO",
+       "prob": 0.5217,
+       "detail": "No carrera 1ª entrada 48%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "KT Wiz",
+     "away": "Hanwha Eagles",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "KBO",
+     "league_label": "KBO League",
+     "context": "Suwon KT Wiz Park",
+     "extra": "Abridor L: 소형준 · Abridor V: 류현진",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "KT Wiz",
+       "prob": 0.516,
+       "detail": "Local 52% · Visitante 48% · (-112/-104)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "UNDER",
+       "prob": 0.5530999999999999,
+       "detail": "UNDER 9.5 · 55% · Proyectado 8.0",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5905,
+       "detail": "UNDER 5.0 · 59%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Hanwha Eagles",
+       "prob": 0.6073,
+       "detail": "F5 39% · 61% · (+155/-155)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "NO",
+       "prob": 0.5169,
+       "detail": "No carrera 1ª entrada 48%",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Kiwoom Heroes",
+     "away": "SSG Landers",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "KBO",
+     "league_label": "KBO League",
+     "context": "Gocheok Sky Dome",
+     "extra": "Abridor L: 하영민 · Abridor V: 김건우",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Kiwoom Heroes",
+       "prob": 0.5831,
+       "detail": "Local 58% · Visitante 42% · (-103/-113)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.7175,
+       "detail": "OVER 8.0 · 72% · Proyectado 10.8",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.6356999999999999,
+       "detail": "UNDER 6.0 · 64%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "SSG Landers",
+       "prob": 0.5115000000000001,
+       "detail": "F5 49% · 51% · (+105/-105)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "NO",
+       "prob": 0.5217,
+       "detail": "No carrera 1ª entrada 48%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "NC Dinos",
+     "away": "Kia Tigers",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "KBO",
+     "league_label": "KBO League",
+     "context": "NC Park",
+     "extra": "Abridor L: 토다 · Abridor V: 시라카와",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "NC Dinos",
+       "prob": 0.5136,
+       "detail": "Local 51% · Visitante 49% · (-105/-120)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "UNDER",
+       "prob": 0.6333,
+       "detail": "UNDER 11.5 · 63% · Proyectado 11.9",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.629,
+       "detail": "UNDER 6.0 · 63%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Kia Tigers",
+       "prob": 0.5388,
+       "detail": "F5 46% · 54% · (+117/-117)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "NO",
+       "prob": 0.5205,
+       "detail": "No carrera 1ª entrada 48%",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    }
+   ],
+   "message": "20 partidos proyectados",
+   "elapsed_s": 13.0
+  },
+  "tenis": {
+   "ok": true,
+   "date": "2026-09-02",
+   "league": "ATP",
+   "league_label": "ATP Tour",
+   "n": 19,
+   "message": "19 partidos proyectados",
+   "picks": [
+    {
+     "match": "Daniel Altmaier vs Zachary Svajda",
+     "market": "TOTAL JUEGOS",
+     "pick": "OVER 20.5",
+     "prob": 0.9966,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "",
+     "edge": null,
+     "ev": null,
+     "odds": null,
+     "line": 20.5
+    },
+    {
+     "match": "Carlos Alcaraz vs Jaime Faria",
+     "market": "ML",
+     "pick": "Carlos Alcaraz",
+     "prob": 0.8698,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "",
+     "edge": null,
+     "ev": null,
+     "odds": null,
+     "line": null
+    },
+    {
+     "match": "Jacob Fearnley vs Tomas Martin Etcheverry",
+     "market": "ML",
+     "pick": "Tomas Martin Etcheverry",
+     "prob": 0.8541,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "EV +53.7%",
+     "edge": null,
+     "ev": 0.53738,
+     "odds": null,
+     "line": null
+    },
+    {
+     "match": "Bu Yunchaokete vs Rafael Jodar",
+     "market": "ML",
+     "pick": "Rafael Jodar",
+     "prob": 0.8502000000000001,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "",
+     "edge": null,
+     "ev": null,
+     "odds": null,
+     "line": null
+    },
+    {
+     "match": "Adrian Mannarino vs Alexander Bublik",
+     "market": "ML",
+     "pick": "Alexander Bublik",
+     "prob": 0.8288,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "EV +6.6%",
+     "edge": null,
+     "ev": 0.0658368,
+     "odds": null,
+     "line": null
+    },
+    {
+     "match": "Alex Michelsen vs Brandon Nakashima",
+     "market": "HANDICAP JUEGOS",
+     "pick": "Alex Michelsen +3.5",
+     "prob": 0.7824,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "EV +40.8%",
+     "edge": 0.2653,
+     "ev": 0.40832,
+     "odds": null,
+     "line": 3.5
+    },
+    {
+     "match": "Jiri Lehecka vs Toby Samuel",
+     "market": "ML",
+     "pick": "Jiri Lehecka",
+     "prob": 0.7804,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "EV +4.0%",
+     "edge": null,
+     "ev": 0.040273199999999953,
+     "odds": null,
+     "line": null
+    },
+    {
+     "match": "Jacob Fearnley vs Tomas Martin Etcheverry",
+     "market": "HANDICAP JUEGOS",
+     "pick": "Tomas Martin Etcheverry -0.5",
+     "prob": 0.7684,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "EV +40.8%",
+     "edge": 0.26839999999999997,
+     "ev": 0.4084771999999999,
+     "odds": null,
+     "line": -0.5
+    },
+    {
+     "match": "Ben Shelton vs Hubert Hurkacz",
+     "market": "ML",
+     "pick": "Ben Shelton",
+     "prob": 0.744,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "EV +7.4%",
+     "edge": null,
+     "ev": 0.07433599999999996,
+     "odds": null,
+     "line": null
+    },
+    {
+     "match": "Fabian Marozsan vs Michael Zheng",
+     "market": "ML",
+     "pick": "Fabian Marozsan",
+     "prob": 0.7397,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "EV +70.1%",
+     "edge": null,
+     "ev": 0.7013099999999999,
+     "odds": null,
+     "line": null
+    },
+    {
+     "match": "Kamil Majchrzak vs Valentin Vacherot",
+     "market": "TOTAL JUEGOS",
+     "pick": "UNDER 41.5",
+     "prob": 0.6890000000000001,
+     "tier": "MUY BUENO",
+     "units": "1.5",
+     "note": "EV +26.3%",
+     "edge": 0.18900000000000006,
+     "ev": 0.2629370000000001,
+     "odds": null,
+     "line": 41.5
+    },
+    {
+     "match": "Botic Van De Zandschulp vs Jan Choinski",
+     "market": "TOTAL JUEGOS",
+     "pick": "UNDER 38.5",
+     "prob": 0.6679999999999999,
+     "tier": "MUY BUENO",
+     "units": "1.5",
+     "note": "EV +22.4%",
+     "edge": 0.16799999999999993,
+     "ev": 0.22444399999999987,
+     "odds": null,
+     "line": 38.5
+    },
+    {
+     "match": "Mariano Navone vs Matteo Berrettini",
+     "market": "HANDICAP JUEGOS",
+     "pick": "Mariano Navone +3.5",
+     "prob": 0.6676,
+     "tier": "MUY BUENO",
+     "units": "1.5",
+     "note": "EV +27.4%",
+     "edge": 0.18469999999999998,
+     "ev": 0.2744483999999999,
+     "odds": null,
+     "line": 3.5
+    },
+    {
+     "match": "Lloyd Harris vs Stefanos Tsitsipas",
+     "market": "SET1 JUEGOS",
+     "pick": "OVER 9.5",
+     "prob": 0.6553,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": "EV +5.8%",
+     "edge": 0.06689999999999996,
+     "ev": 0.05830949999999996,
+     "odds": null,
+     "line": 9.5
+    },
+    {
+     "match": "Ignacio Buse vs Marcos Giron",
+     "market": "ML",
+     "pick": "Ignacio Buse",
+     "prob": 0.6532,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": "EV +5.5%",
+     "edge": null,
+     "ev": 0.05491800000000002,
+     "odds": null,
+     "line": null
+    },
+    {
+     "match": "Denis Shapovalov vs Luca Van Assche",
+     "market": "HANDICAP JUEGOS",
+     "pick": "Luca Van Assche +2.5",
+     "prob": 0.6448,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": "EV +18.2%",
+     "edge": 0.14480000000000004,
+     "ev": 0.18191840000000004,
+     "odds": null,
+     "line": 2.5
+    },
+    {
+     "match": "Kamil Majchrzak vs Valentin Vacherot",
+     "market": "ML",
+     "pick": "Valentin Vacherot",
+     "prob": 0.6375,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": "EV +10.1%",
+     "edge": null,
+     "ev": 0.10096249999999996,
+     "odds": null,
+     "line": null
+    },
+    {
+     "match": "Jacob Fearnley vs Tomas Martin Etcheverry",
+     "market": "TOTAL JUEGOS",
+     "pick": "UNDER 38.5",
+     "prob": 0.6337999999999999,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": "EV +16.2%",
+     "edge": 0.13379999999999992,
+     "ev": 0.16175539999999988,
+     "odds": null,
+     "line": 38.5
+    },
+    {
+     "match": "Ben Shelton vs Hubert Hurkacz",
+     "market": "HANDICAP JUEGOS",
+     "pick": "Hubert Hurkacz +3.5",
+     "prob": 0.6328,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": "EV +16.0%",
+     "edge": 0.13280000000000003,
+     "ev": 0.15992240000000002,
+     "odds": null,
+     "line": 3.5
+    },
+    {
+     "match": "Daniel Altmaier vs Zachary Svajda",
+     "market": "HANDICAP JUEGOS",
+     "pick": "Daniel Altmaier +1.5",
+     "prob": 0.6217,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": "EV +18.7%",
+     "edge": 0.13880000000000003,
+     "ev": 0.18682530000000008,
+     "odds": null,
+     "line": 1.5
+    },
+    {
+     "match": "Frances Tiafoe vs Rei Sakamoto",
+     "market": "TOTAL JUEGOS",
+     "pick": "UNDER 38.5",
+     "prob": 0.6174999999999999,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": "EV +13.2%",
+     "edge": 0.11749999999999994,
+     "ev": 0.13187749999999987,
+     "odds": null,
+     "line": 38.5
+    },
+    {
+     "match": "Dino Prizmic vs Tommy Paul",
+     "market": "SET1 JUEGOS",
+     "pick": "OVER 9.5",
+     "prob": 0.6101,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": "EV +5.4%",
+     "edge": 0.0675,
+     "ev": 0.05364269999999999,
+     "odds": null,
+     "line": 9.5
+    }
+   ],
+   "predictions": [
+    {
+     "home": "Arthur Rinderknech",
+     "away": "Jaume Munar",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "US Open, Hard, Ronda: Round 2, BO5",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Arthur Rinderknech",
+       "prob": 0.6334,
+       "detail": "Arthur Rinderknech 63% · Jaume Munar 37%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5246999999999999,
+       "detail": "UNDER 38.5 · 52% · Proyectado 37.5",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Jaume Munar",
+       "prob": 0.5464,
+       "detail": "Jaume Munar +1.5 (mercado) · 55%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Jaume Munar",
+       "prob": 0.5869,
+       "detail": "Hándicap Sets -1.5 · 41% · (+142)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.6214,
+       "detail": "OVER 9.5 · 62% · Proyectado 9.9",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Alex Michelsen",
+     "away": "Brandon Nakashima",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "US Open, Hard, Ronda: Round 2, BO5",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Alex Michelsen",
+       "prob": 0.6214,
+       "detail": "Alex Michelsen 62% · Brandon Nakashima 38%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5865,
+       "detail": "UNDER 40.5 · 59% · Proyectado 38.2",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Alex Michelsen",
+       "prob": 0.7824,
+       "detail": "Alex Michelsen +3.5 (mercado) · 78%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Brandon Nakashima",
+       "prob": 0.6242,
+       "detail": "Hándicap Sets -1.5 · 38% · (+166)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.6295,
+       "detail": "OVER 9.5 · 63% · Proyectado 10.1",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Botic Van De Zandschulp",
+     "away": "Jan Choinski",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "US Open, Hard, Ronda: Round 1, BO5",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Botic Van De Zandschulp",
+       "prob": 0.7235,
+       "detail": "Botic Van De Zandschulp 72% · Jan Choinski 28%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.6679999999999999,
+       "detail": "UNDER 38.5 · 67% · Proyectado 34.2",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Jan Choinski",
+       "prob": 0.5594,
+       "detail": "Jan Choinski +5.5 (mercado) · 56%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Botic Van De Zandschulp",
+       "prob": 0.7383,
+       "detail": "Hándicap Sets -1.5 · 74% · (-282)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5683,
+       "detail": "OVER 9.5 · 57% · Proyectado 9.8",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Bu Yunchaokete",
+     "away": "Rafael Jodar",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "US Open, Hard, Ronda: Round 1, BO5",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Rafael Jodar",
+       "prob": 0.8502000000000001,
+       "detail": "Bu Yunchaokete 15% · Rafael Jodar 85%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5805,
+       "detail": "OVER 36.5 · 58% · Proyectado 38.1",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Rafael Jodar",
+       "prob": 0.6924,
+       "detail": "Rafael Jodar -1.5 (ref.) · 69%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Rafael Jodar",
+       "prob": 0.8714999999999999,
+       "detail": "Hándicap Sets -1.5 · 13% · (+678)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5881,
+       "detail": "OVER 9.5 · 59% · Proyectado 9.8",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Fabian Marozsan",
+     "away": "Michael Zheng",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "US Open, Hard, Ronda: Round 1, BO5",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Fabian Marozsan",
+       "prob": 0.7397,
+       "detail": "Fabian Marozsan 74% · Michael Zheng 26%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5831,
+       "detail": "UNDER 37.5 · 58% · Proyectado 35.5",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Fabian Marozsan",
+       "prob": 0.7958,
+       "detail": "Fabian Marozsan +1.5 (mercado) · 80%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Fabian Marozsan",
+       "prob": 0.6818,
+       "detail": "Hándicap Sets -1.5 · 68% · (-214)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5566,
+       "detail": "OVER 9.5 · 56% · Proyectado 9.9",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Daniel Altmaier",
+     "away": "Zachary Svajda",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "US Open, Hard, Ronda: Round 1, BO5",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Daniel Altmaier",
+       "prob": 0.5435,
+       "detail": "Daniel Altmaier 54% · Zachary Svajda 46%",
+       "strong": false
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.9966,
+       "detail": "OVER 20.5 · 100% · Proyectado 38.0",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Daniel Altmaier",
+       "prob": 0.6217,
+       "detail": "Daniel Altmaier +1.5 (mercado) · 62%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Zachary Svajda",
+       "prob": 0.6815,
+       "detail": "Hándicap Sets -1.5 · 32% · (+214)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5659,
+       "detail": "OVER 9.5 · 57% · Proyectado 10.0",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Jacob Fearnley",
+     "away": "Tomas Martin Etcheverry",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "US Open, Hard, Ronda: Round 2, BO5",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Tomas Martin Etcheverry",
+       "prob": 0.8541,
+       "detail": "Jacob Fearnley 15% · Tomas Martin Etcheverry 85%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.6337999999999999,
+       "detail": "UNDER 38.5 · 63% · Proyectado 35.6",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Tomas Martin Etcheverry",
+       "prob": 0.7684,
+       "detail": "Tomas Martin Etcheverry -0.5 (mercado) · 77%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Tomas Martin Etcheverry",
+       "prob": 0.8847,
+       "detail": "Hándicap Sets -1.5 · 12% · (+767)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.548,
+       "detail": "OVER 9.5 · 55% · Proyectado 9.9",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Ignacio Buse",
+     "away": "Marcos Giron",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "US Open, Hard, Ronda: Round 1, BO5",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Ignacio Buse",
+       "prob": 0.6532,
+       "detail": "Ignacio Buse 65% · Marcos Giron 35%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5319,
+       "detail": "UNDER 38.5 · 53% · Proyectado 37.5",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Ignacio Buse",
+       "prob": 0.5122,
+       "detail": "Ignacio Buse -0.5 (mercado) · 51%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Ignacio Buse",
+       "prob": 0.5726,
+       "detail": "Hándicap Sets -1.5 · 57% · (-134)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.6093,
+       "detail": "OVER 9.5 · 61% · Proyectado 9.9",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Alex Molcan",
+     "away": "Benjamin Bonzi",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "US Open, Hard, Ronda: Round 1, BO5",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Alex Molcan",
+       "prob": 0.655,
+       "detail": "Alex Molcan 66% · Benjamin Bonzi 34%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.504,
+       "detail": "OVER 36.5 · 50% · Proyectado 36.4",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Alex Molcan",
+       "prob": 0.6763,
+       "detail": "Alex Molcan +1.5 (ref.) · 68%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Benjamin Bonzi",
+       "prob": 0.5866,
+       "detail": "Hándicap Sets -1.5 · 41% · (+142)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5838,
+       "detail": "OVER 9.5 · 58% · Proyectado 10.1",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": true
+    },
+    {
+     "home": "Ben Shelton",
+     "away": "Hubert Hurkacz",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "US Open, Hard, Ronda: Round 2, BO5",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Ben Shelton",
+       "prob": 0.744,
+       "detail": "Ben Shelton 74% · Hubert Hurkacz 26%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5463,
+       "detail": "UNDER 39.5 · 55% · Proyectado 38.4",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Hubert Hurkacz",
+       "prob": 0.6328,
+       "detail": "Hubert Hurkacz +3.5 (mercado) · 63%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Ben Shelton",
+       "prob": 0.5445,
+       "detail": "Hándicap Sets -1.5 · 54% · (-120)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.5786,
+       "detail": "UNDER 9.5 · 58% · Proyectado 10.1",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Mariano Navone",
+     "away": "Matteo Berrettini",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "US Open, Hard, Ronda: Round 2, BO5",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Matteo Berrettini",
+       "prob": 0.5636,
+       "detail": "Mariano Navone 44% · Matteo Berrettini 56%",
+       "strong": false
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5696,
+       "detail": "UNDER 38.5 · 57% · Proyectado 37.0",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Mariano Navone",
+       "prob": 0.6676,
+       "detail": "Mariano Navone +3.5 (mercado) · 67%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Matteo Berrettini",
+       "prob": 0.7683,
+       "detail": "Hándicap Sets -1.5 · 23% · (+332)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5748,
+       "detail": "OVER 9.5 · 57% · Proyectado 9.8",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Dino Prizmic",
+     "away": "Tommy Paul",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "US Open, Hard, Ronda: Round 2, BO5",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Tommy Paul",
+       "prob": 0.8168,
+       "detail": "Dino Prizmic 18% · Tommy Paul 82%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5438,
+       "detail": "OVER 35.5 · 54% · Proyectado 36.7",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Dino Prizmic",
+       "prob": 0.6353,
+       "detail": "Dino Prizmic +5.5 (mercado) · 64%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Tommy Paul",
+       "prob": 0.8177,
+       "detail": "Hándicap Sets -1.5 · 18% · (+449)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.6101,
+       "detail": "OVER 9.5 · 61% · Proyectado 9.8",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Denis Shapovalov",
+     "away": "Luca Van Assche",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "US Open, Hard, Ronda: Round 2, BO5",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Luca Van Assche",
+       "prob": 0.5598000000000001,
+       "detail": "Denis Shapovalov 44% · Luca Van Assche 56%",
+       "strong": false
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5307999999999999,
+       "detail": "UNDER 37.5 · 53% · Proyectado 36.7",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Luca Van Assche",
+       "prob": 0.6448,
+       "detail": "Luca Van Assche +2.5 (mercado) · 64%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Luca Van Assche",
+       "prob": 0.5901000000000001,
+       "detail": "Hándicap Sets -1.5 · 41% · (+144)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5678,
+       "detail": "OVER 9.5 · 57% · Proyectado 9.8",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Jiri Lehecka",
+     "away": "Toby Samuel",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "US Open, Hard, Ronda: Round 2, BO5",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Jiri Lehecka",
+       "prob": 0.7804,
+       "detail": "Jiri Lehecka 78% · Toby Samuel 22%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5958,
+       "detail": "UNDER 38.5 · 60% · Proyectado 36.4",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Jiri Lehecka",
+       "prob": 0.5524,
+       "detail": "Jiri Lehecka -4.5 (mercado) · 55%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Jiri Lehecka",
+       "prob": 0.7564,
+       "detail": "Hándicap Sets -1.5 · 76% · (-310)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.59,
+       "detail": "OVER 9.5 · 59% · Proyectado 9.9",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Kamil Majchrzak",
+     "away": "Valentin Vacherot",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "US Open, Hard, Ronda: Round 2, BO5",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Valentin Vacherot",
+       "prob": 0.6375,
+       "detail": "Kamil Majchrzak 36% · Valentin Vacherot 64%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.6890000000000001,
+       "detail": "UNDER 41.5 · 69% · Proyectado 36.6",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Valentin Vacherot",
+       "prob": 0.5601,
+       "detail": "Valentin Vacherot -1.5 (mercado) · 56%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Valentin Vacherot",
+       "prob": 0.8019000000000001,
+       "detail": "Hándicap Sets -1.5 · 20% · (+405)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.6084,
+       "detail": "OVER 9.5 · 61% · Proyectado 10.0",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Adrian Mannarino",
+     "away": "Alexander Bublik",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "US Open, Hard, Ronda: Round 2, BO5",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Alexander Bublik",
+       "prob": 0.8288,
+       "detail": "Adrian Mannarino 17% · Alexander Bublik 83%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5525,
+       "detail": "UNDER 38.5 · 55% · Proyectado 37.0",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Adrian Mannarino",
+       "prob": 0.5726,
+       "detail": "Adrian Mannarino +4.5 (mercado) · 57%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Alexander Bublik",
+       "prob": 0.8738,
+       "detail": "Hándicap Sets -1.5 · 13% · (+693)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5742,
+       "detail": "OVER 9.5 · 57% · Proyectado 9.9",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Lloyd Harris",
+     "away": "Stefanos Tsitsipas",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "US Open, Hard, Ronda: Round 2, BO5",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Stefanos Tsitsipas",
+       "prob": 0.7397,
+       "detail": "Lloyd Harris 26% · Stefanos Tsitsipas 74%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5729,
+       "detail": "UNDER 39.5 · 57% · Proyectado 37.2",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Lloyd Harris",
+       "prob": 0.5723,
+       "detail": "Lloyd Harris +3.5 (mercado) · 57%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Stefanos Tsitsipas",
+       "prob": 0.7645,
+       "detail": "Hándicap Sets -1.5 · 24% · (+325)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.6553,
+       "detail": "OVER 9.5 · 66% · Proyectado 10.1",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Frances Tiafoe",
+     "away": "Rei Sakamoto",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "US Open, Hard, Ronda: Round 2, BO5",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Frances Tiafoe",
+       "prob": 0.7905,
+       "detail": "Frances Tiafoe 79% · Rei Sakamoto 21%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.6174999999999999,
+       "detail": "UNDER 38.5 · 62% · Proyectado 35.5",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Frances Tiafoe",
+       "prob": 0.588,
+       "detail": "Frances Tiafoe -3.5 (mercado) · 59%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Frances Tiafoe",
+       "prob": 0.7166,
+       "detail": "Hándicap Sets -1.5 · 72% · (-253)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5969,
+       "detail": "OVER 9.5 · 60% · Proyectado 9.8",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Carlos Alcaraz",
+     "away": "Jaime Faria",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "US Open, Hard, Ronda: Round 2, BO5",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Carlos Alcaraz",
+       "prob": 0.8698,
+       "detail": "Carlos Alcaraz 87% · Jaime Faria 13%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.615,
+       "detail": "UNDER 36.5 · 62% · Proyectado 33.0",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Carlos Alcaraz",
+       "prob": 0.753,
+       "detail": "Carlos Alcaraz -2.5 (ref.) · 75%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Carlos Alcaraz",
+       "prob": 0.8028,
+       "detail": "Hándicap Sets -1.5 · 80% · (-407)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.6645,
+       "detail": "UNDER 10.5 · 66% · Proyectado 9.9",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    }
+   ],
+   "elapsed_s": 57.4,
+   "sport": "tenis",
+   "sport_name": "Tenis",
+   "all_leagues": false
+  },
+  "futbol": {
+   "ok": true,
+   "date": "2026-09-02",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 0,
+   "message": "Sin partidos pendientes para esa liga y fecha.",
+   "picks": [],
+   "predictions": [],
+   "elapsed_s": 0.0,
+   "sport": "futbol",
+   "sport_name": "Fútbol",
+   "all_leagues": true
+  }
+ }
+}

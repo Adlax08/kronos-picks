@@ -33,6 +33,7 @@
 }
 .status-dot.ok { background: #059669; box-shadow: 0 0 0 3px rgba(5,150,105,0.15); animation: pulse-dot 2s infinite; }
 .status-dot.err { background: #B91C1C; }
+.status-dot.wait { background: #D97706; box-shadow: 0 0 0 3px rgba(217,119,6,0.15); animation: pulse-dot 2s infinite; }
 
 @keyframes pulse-dot {
   0%, 100% { box-shadow: 0 0 0 3px rgba(5,150,105,0.15); }
@@ -145,6 +146,15 @@
 .pick-card.tier-muy::before {
   content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
   background: #059669;
+}
+.pick-card.tier-bueno { border-color: rgba(37,99,235,0.3); }
+.pick-card.tier-bueno::before {
+  content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: #2563eb;
+}
+.pick-card.tier-destacado::before {
+  content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: #9CA3AF;
 }
 
 .tier-badge {

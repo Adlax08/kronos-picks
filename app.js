@@ -88,6 +88,15 @@
 
   /* ── builders compartidos ───────────────────────────── */
 
+  const TIER_PRIORITY = { "TOP PICK": 0, "MUY BUENO": 1, "BUENO": 2, "DESTACADO": 3 };
+  function tierName(t) { return String(t || "").toUpperCase().trim(); }
+  function tierPriority(t) { return TIER_PRIORITY[tierName(t)] ?? 99; }
+  function sortPicks(picks) {
+    return [...(picks || [])].sort((a, b) => {
+      const d = tierPriority(a.tier) - tierPriority(b.tier);
+      return d !== 0 ? d : (b.prob || 0) - (a.prob || 0);
+    });
+  }
   function tierClass(tier) {
     const t = (tier || "").toUpperCase();
     if (t.includes("TOP")) return "tier-top";
@@ -185,8 +194,7 @@
       if (countEl) countEl.textContent = "";
       return 0;
     }
-    picks.sort((a, b) => (b.prob || 0) - (a.prob || 0));
-    const shown = picks.slice(0, 12);
+    const shown = sortPicks(picks);
     if (countEl) countEl.textContent = `(${shown.length})`;
     shown.forEach((p) => {
       const card = document.createElement("div");
@@ -197,6 +205,37 @@
     animateIn(container);
     countUpAll(container);
     return shown.length;
+  }
+  function attachTierFilter(picks, grid, countEl) {
+    /* Chips para filtrar por clasificación (TOP / MUY BUENO / BUENO / DESTACADO). */
+    const scope = grid.parentElement;
+    if (!scope) return;
+    const prev = scope.querySelector(".tier-filter-bar");
+    if (prev) prev.remove();
+    const tiers = [...new Set((picks || []).map((p) => tierName(p.tier)).filter(Boolean))]
+      .sort((a, b) => tierPriority(a) - tierPriority(b));
+    if (tiers.length < 2) return;
+    const bar = document.createElement("div");
+    bar.className = "tier-filter-bar flex flex-wrap items-center gap-2 mb-4";
+    bar.innerHTML = `<span class="font-mono text-xs text-text-muted uppercase tracking-wider">Clasificación:</span>`;
+    const chips = [];
+    const make = (label, tier) => {
+      const n = tier ? picks.filter((p) => tierName(p.tier) === tier).length : picks.length;
+      const b = document.createElement("button");
+      b.className = "chip" + (tier ? "" : " on");
+      b.textContent = `${label} (${n})`;
+      b.addEventListener("click", () => {
+        chips.forEach((x) => x.classList.remove("on"));
+        b.classList.add("on");
+        const sub = tier ? picks.filter((p) => tierName(p.tier) === tier) : picks;
+        renderPicks(sub, grid, countEl);
+      });
+      return b;
+    };
+    chips.push(make("Todas", null));
+    tiers.forEach((t) => chips.push(make(t, t)));
+    chips.forEach((b) => bar.appendChild(b));
+    scope.insertBefore(bar, grid);
   }
   function setBtnLoading(on) {
     state.loading = on;
@@ -251,6 +290,7 @@
       els.loadingSection.classList.add("hidden");
       els.resultsSection.classList.remove("hidden");
       renderPicks(data.picks || [], els.picksGrid, els.picksCount);
+      attachTierFilter(data.picks || [], els.picksGrid, els.picksCount);
       const n = renderGames(data.predictions || [], els.gamesList);
       if (n === 0) els.emptyState.classList.remove("hidden"); else els.emptyState.classList.add("hidden");
       els.gamesCount.textContent = n ? `(${n})` : "";
@@ -286,6 +326,7 @@
         const pks = (data.picks || []).filter((p) => !code || p.league_code === code);
         renderGames(preds, els.gamesList);
         renderPicks(pks, els.picksGrid, els.picksCount);
+        attachTierFilter(pks, els.picksGrid, els.picksCount);
         els.gamesCount.textContent = preds.length ? `(${preds.length})` : "";
         if (preds.length === 0) els.emptyState.classList.remove("hidden"); else els.emptyState.classList.add("hidden");
       });
@@ -303,16 +344,29 @@
     try {
       const data = await api("/api/health");
       const workers = data.workers || [];
-      const ready = workers.filter((w) => w.ready);
-      const all = ready.length === workers.length && workers.length > 0;
-      els.healthDot.className = "status-dot " + (all ? "ok" : "err");
-      if (all) {
-        els.healthText.textContent = `${ready.length}/${workers.length} modelos listos`;
+      const running = workers.filter((w) => w.running);
+      const ready = running.filter((w) => w.ready);
+      const dormant = workers.filter((w) => !w.running);
+      const failing = running.filter((w) => w.error);
+      const loading = running.filter((w) => !w.ready && !w.error);
+
+      if (failing.length) {
+        els.healthDot.className = "status-dot err";
+        els.healthText.textContent = `error en: ${failing.map((b) => b.sport).join(", ")}`;
+        scheduleHealth(5000);
+      } else if (loading.length) {
+        els.healthDot.className = "status-dot wait";
+        els.healthText.textContent = `activando: ${loading.map((b) => b.sport).join(", ")} · cargando modelos…`;
+        scheduleHealth(5000);
+      } else if (running.length === 0) {
+        els.healthDot.className = "status-dot wait";
+        els.healthText.textContent = "modelos en reposo · se activan al predecir";
         scheduleHealth(30000);
       } else {
-        const bad = workers.filter((w) => !w.ready);
-        els.healthText.textContent = `${ready.length}/${workers.length} listos · cargando: ${bad.map((b) => b.sport).join(", ")}`;
-        scheduleHealth(5000);
+        els.healthDot.className = "status-dot ok";
+        const dormTxt = dormant.length ? ` · ${dormant.length} en reposo` : "";
+        els.healthText.textContent = `${ready.length}/${running.length} modelos listos${dormTxt}`;
+        scheduleHealth(30000);
       }
     } catch (err) {
       els.healthDot.className = "status-dot err";
@@ -480,7 +534,7 @@
           <div class="mb-6">
             <div class="flex items-center justify-between mb-4">
               <h3 class="font-headline font-semibold text-lg tracking-tight flex items-center gap-2">
-                <span class="material-symbols-outlined text-primary">star</span> Top Picks
+                <span class="material-symbols-outlined text-primary">star</span> Picks
                 <span class="font-mono text-xs text-text-muted font-normal" data-pickcount="${k}"></span>
               </h3>
             </div>
@@ -500,7 +554,10 @@
 
     keys.forEach((k) => {
       const r = res[k] || {};
-      renderPicks(r.picks || [], panels.querySelector(`[data-picks="${k}"]`), panels.querySelector(`[data-pickcount="${k}"]`));
+      const picksEl = panels.querySelector(`[data-picks="${k}"]`);
+      const picksCountEl = panels.querySelector(`[data-pickcount="${k}"]`);
+      renderPicks(r.picks || [], picksEl, picksCountEl);
+      attachTierFilter(r.picks || [], picksEl, picksCountEl);
       const n = renderGames(r.predictions || [], panels.querySelector(`[data-games="${k}"]`));
       panels.querySelector(`[data-gamecount="${k}"]`).textContent = n ? `(${n})` : "(sin partidos)";
     });
@@ -545,7 +602,10 @@
           const preds = r.predictions.filter((g) => !code || g.league_code === code);
           const pks = (r.picks || []).filter((p) => !code || p.league_code === code);
           renderGames(preds, box.querySelector(`[data-games="${k}"]`));
-          renderPicks(pks, box.querySelector(`[data-picks="${k}"]`), box.querySelector(`[data-pickcount="${k}"]`));
+          const picksEl = box.querySelector(`[data-picks="${k}"]`);
+          const picksCountEl = box.querySelector(`[data-pickcount="${k}"]`);
+          renderPicks(pks, picksEl, picksCountEl);
+          attachTierFilter(pks, picksEl, picksCountEl);
           box.querySelector(`[data-gamecount="${k}"]`).textContent = preds.length ? `(${preds.length})` : "(sin partidos)";
         });
         return b;
