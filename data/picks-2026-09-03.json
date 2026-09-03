@@ -1,0 +1,116 @@
+{
+ "date": "2026-09-03",
+ "generated_at": "2026-09-03T11:20:36",
+ "sports_total": "0 partidos",
+ "sports": [
+  {
+   "key": "beisbol",
+   "name": "Béisbol",
+   "icon": "sports_baseball",
+   "leagues": [
+    {
+     "code": "MLB",
+     "name": "Major League"
+    },
+    {
+     "code": "KBO",
+     "name": "KBO League"
+    }
+   ]
+  },
+  {
+   "key": "tenis",
+   "name": "Tenis",
+   "icon": "sports_tennis",
+   "leagues": [
+    {
+     "code": "ATP",
+     "name": "ATP Tour"
+    }
+   ]
+  },
+  {
+   "key": "futbol",
+   "name": "Fútbol",
+   "icon": "sports_soccer",
+   "leagues": [
+    {
+     "code": "ENG",
+     "name": "Premier League"
+    },
+    {
+     "code": "ESP",
+     "name": "La Liga"
+    },
+    {
+     "code": "ITA",
+     "name": "Serie A"
+    },
+    {
+     "code": "GER",
+     "name": "Bundesliga"
+    },
+    {
+     "code": "FRA",
+     "name": "Ligue 1"
+    },
+    {
+     "code": "NED",
+     "name": "Eredivisie"
+    },
+    {
+     "code": "POR",
+     "name": "Primeira Liga"
+    },
+    {
+     "code": "KSA",
+     "name": "Saudi Pro League"
+    },
+    {
+     "code": "FAC",
+     "name": "FA Cup"
+    },
+    {
+     "code": "CDR",
+     "name": "Copa del Rey"
+    },
+    {
+     "code": "CI",
+     "name": "Coppa Italia"
+    },
+    {
+     "code": "CDF",
+     "name": "Coupe de France"
+    },
+    {
+     "code": "DFB",
+     "name": "DFB Pokal"
+    },
+    {
+     "code": "WCH",
+     "name": "Champions Femenina"
+    }
+   ]
+  }
+ ],
+ "results": {
+  "beisbol": {
+   "ok": false,
+   "error": "[WinError 10054] An existing connection was forcibly closed by the remote host",
+   "picks": [],
+   "predictions": []
+  },
+  "tenis": {
+   "ok": false,
+   "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>",
+   "picks": [],
+   "predictions": []
+  },
+  "futbol": {
+   "ok": false,
+   "error": "<urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>",
+   "picks": [],
+   "predictions": []
+  }
+ }
+}
