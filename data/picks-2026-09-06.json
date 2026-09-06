@@ -1,7 +1,7 @@
 {
  "date": "2026-09-06",
- "generated_at": "2026-09-06T09:50:40",
- "sports_total": "43 partidos",
+ "generated_at": "2026-09-06T10:54:58",
+ "sports_total": "40 partidos",
  "sports": [
   {
    "key": "beisbol",
@@ -166,7 +166,7 @@
        "label": "Moneyline",
        "pick": "Los Angeles Dodgers",
        "prob": 0.555,
-       "detail": "Local 56% · Visitante 44% · (-205/+168)",
+       "detail": "Local 56% · Visitante 44% · (-199/+163)",
        "strong": false
       },
       {
@@ -362,7 +362,7 @@
        "label": "Moneyline",
        "pick": "Colorado Rockies",
        "prob": 0.5237,
-       "detail": "Local 52% · Visitante 48% · (+113/-136)",
+       "detail": "Local 52% · Visitante 48% · (+112/-135)",
        "strong": false
       },
       {
@@ -411,7 +411,7 @@
        "label": "Moneyline",
        "pick": "Tampa Bay Rays",
        "prob": 0.5483,
-       "detail": "Local 45% · Visitante 55% · (-110/-110)",
+       "detail": "Local 45% · Visitante 55% · (-108/-111)",
        "strong": false
       },
       {
@@ -460,7 +460,7 @@
        "label": "Moneyline",
        "pick": "Kansas City Royals",
        "prob": 0.5191,
-       "detail": "Local 52% · Visitante 48% · (+102/-123)",
+       "detail": "Local 52% · Visitante 48% · (+104/-125)",
        "strong": false
       },
       {
@@ -509,7 +509,7 @@
        "label": "Moneyline",
        "pick": "Chicago Cubs",
        "prob": 0.5208999999999999,
-       "detail": "Local 48% · Visitante 52% · (+124/-150)",
+       "detail": "Local 48% · Visitante 52% · (+123/-149)",
        "strong": false
       },
       {
@@ -754,7 +754,7 @@
        "label": "Moneyline",
        "pick": "Philadelphia Phillies",
        "prob": 0.5337,
-       "detail": "Local 53% · Visitante 47% · (-110/-110)",
+       "detail": "Local 53% · Visitante 47% · (-111/-108)",
        "strong": false
       },
       {
@@ -803,7 +803,7 @@
        "label": "Moneyline",
        "pick": "Milwaukee Brewers",
        "prob": 0.5111,
-       "detail": "Local 49% · Visitante 51% · (+122/-147)",
+       "detail": "Local 49% · Visitante 51% · (+123/-149)",
        "strong": false
       },
       {
@@ -852,7 +852,7 @@
        "label": "Moneyline",
        "pick": "Houston Astros",
        "prob": 0.5616,
-       "detail": "Local 56% · Visitante 44% · (-112/-108)",
+       "detail": "Local 56% · Visitante 44% · (-114/-105)",
        "strong": false
       },
       {
@@ -1141,7 +1141,7 @@
     }
    ],
    "message": "21 partidos proyectados",
-   "elapsed_s": 24.4
+   "elapsed_s": 25.2
   },
   "tenis": {
    "ok": true,
@@ -1158,9 +1158,9 @@
      "prob": 0.8489,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +133.4%",
+     "note": "EV +154.7%",
      "edge": null,
-     "ev": 1.3344749999999999,
+     "ev": 1.5467,
      "odds": null,
      "line": null
     },
@@ -1428,7 +1428,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 19.1,
+   "elapsed_s": 20.4,
    "sport": "tenis",
    "sport_name": "Tenis",
    "all_leagues": false
@@ -1438,8 +1438,8 @@
    "date": "2026-09-06",
    "league": "ALL",
    "league_label": "Todas las ligas",
-   "n": 15,
-   "message": "15 partidos proyectados",
+   "n": 12,
+   "message": "12 partidos proyectados",
    "picks": [
     {
      "match": "Arsenal vs Chelsea",
@@ -1497,28 +1497,6 @@
      "league_label": "Ligue 1"
     },
     {
-     "match": "Santa Clara vs Rio Ave",
-     "market": "Doble Oportunidad",
-     "pick": "DO: 1X",
-     "prob": 0.858869240324086,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=85%",
-     "league_code": "POR",
-     "league_label": "Primeira Liga"
-    },
-    {
-     "match": "ADO Den Haag vs Fortuna Sittard",
-     "market": "O/U 1.5",
-     "pick": "O/U 1.5: OVER",
-     "prob": 0.83136689254183,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=80%",
-     "league_code": "NED",
-     "league_label": "Eredivisie"
-    },
-    {
      "match": "Málaga vs Levante",
      "market": "O/U 1.5",
      "pick": "O/U 1.5: OVER",
@@ -1548,17 +1526,6 @@
      "tier": "MUY BUENO",
      "units": "1.5",
      "note": ">=80%",
-     "league_code": "ESP",
-     "league_label": "La Liga"
-    },
-    {
-     "match": "Valencia vs Barcelona",
-     "market": "1X2",
-     "pick": "1X2: AWAY (2)",
-     "prob": 0.6179475611251837,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": ">=60%",
      "league_code": "ESP",
      "league_label": "La Liga"
     },
@@ -1659,61 +1626,19 @@
        "prob": null,
        "detail": "Goles esperados 2.96",
        "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Valencia",
-     "away": "Barcelona",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "ESP",
-     "league_label": "La Liga",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Barcelona",
-       "prob": 0.6179475611251837,
-       "detail": "Local 18% · Empate 20% · Visitante 62%",
-       "strong": true
       },
       {
-       "label": "Doble Oportunidad",
-       "pick": "X2",
-       "prob": 0.8167302734157617,
-       "detail": "1X 38% · X2 82% · 12 80%",
+       "label": "Hándicap Asiático",
+       "pick": "HOME -0.5",
+       "prob": 0.001,
+       "detail": "Línea -0.5 · HOME 0%",
        "strong": false
       },
       {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.5465774425185403,
-       "detail": "OVER 2.5 goles · 55%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.7519373299877449,
-       "detail": "OVER 1.5 goles · 75%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.5032499231956934,
-       "detail": "BTTS Sí 50%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 2.58",
+       "label": "Equipo O/U 1.5",
+       "pick": "LOCAL OVER",
+       "prob": 0.6777176563929558,
+       "detail": "LOCAL OVER 1.5 goles 68%",
        "strong": false
       }
      ],
@@ -1771,6 +1696,20 @@
        "prob": null,
        "detail": "Goles esperados 2.98",
        "strong": false
+      },
+      {
+       "label": "Hándicap Asiático",
+       "pick": "HOME -0.5",
+       "prob": 0.001,
+       "detail": "Línea -0.5 · HOME 0%",
+       "strong": false
+      },
+      {
+       "label": "Equipo O/U 1.5",
+       "pick": "LOCAL OVER",
+       "prob": 0.634257524722287,
+       "detail": "LOCAL OVER 1.5 goles 63%",
+       "strong": false
       }
      ],
      "convergence": null,
@@ -1826,6 +1765,20 @@
        "pick": "-",
        "prob": null,
        "detail": "Goles esperados 3.23",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Asiático",
+       "pick": "HOME -0.5",
+       "prob": 0.001,
+       "detail": "Línea -0.5 · HOME 0%",
+       "strong": false
+      },
+      {
+       "label": "Equipo O/U 1.5",
+       "pick": "LOCAL OVER",
+       "prob": 0.5620839459729962,
+       "detail": "LOCAL OVER 1.5 goles 56%",
        "strong": false
       }
      ],
@@ -1883,6 +1836,13 @@
        "prob": null,
        "detail": "Goles esperados 2.78",
        "strong": false
+      },
+      {
+       "label": "Hándicap Asiático",
+       "pick": "HOME -0.5",
+       "prob": 0.001,
+       "detail": "Línea -0.5 · HOME 0%",
+       "strong": false
       }
      ],
      "convergence": null,
@@ -1938,6 +1898,20 @@
        "pick": "-",
        "prob": null,
        "detail": "Goles esperados 2.99",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Asiático",
+       "pick": "HOME -0.5",
+       "prob": 0.001,
+       "detail": "Línea -0.5 · HOME 0%",
+       "strong": false
+      },
+      {
+       "label": "Equipo O/U 1.5",
+       "pick": "VISITANTE OVER",
+       "prob": 0.5608621336611401,
+       "detail": "VISITANTE OVER 1.5 goles 56%",
        "strong": false
       }
      ],
@@ -1995,6 +1969,20 @@
        "prob": null,
        "detail": "Goles esperados 2.61",
        "strong": false
+      },
+      {
+       "label": "Hándicap Asiático",
+       "pick": "HOME -0.5",
+       "prob": 0.001,
+       "detail": "Línea -0.5 · HOME 0%",
+       "strong": false
+      },
+      {
+       "label": "Equipo O/U 1.5",
+       "pick": "LOCAL OVER",
+       "prob": 0.5253340325145669,
+       "detail": "LOCAL OVER 1.5 goles 53%",
+       "strong": false
       }
      ],
      "convergence": null,
@@ -2050,6 +2038,20 @@
        "pick": "-",
        "prob": null,
        "detail": "Goles esperados 4.00",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Asiático",
+       "pick": "HOME -0.5",
+       "prob": 0.001,
+       "detail": "Línea -0.5 · HOME 0%",
+       "strong": false
+      },
+      {
+       "label": "Equipo O/U 1.5",
+       "pick": "LOCAL OVER",
+       "prob": 0.8707104835553744,
+       "detail": "LOCAL OVER 1.5 goles 87%",
        "strong": false
       }
      ],
@@ -2107,6 +2109,20 @@
        "prob": null,
        "detail": "Goles esperados 3.29",
        "strong": false
+      },
+      {
+       "label": "Hándicap Asiático",
+       "pick": "HOME -0.5",
+       "prob": 0.001,
+       "detail": "Línea -0.5 · HOME 0%",
+       "strong": false
+      },
+      {
+       "label": "Equipo O/U 1.5",
+       "pick": "VISITANTE OVER",
+       "prob": 0.7314926157403723,
+       "detail": "VISITANTE OVER 1.5 goles 73%",
+       "strong": false
       }
      ],
      "convergence": null,
@@ -2163,117 +2179,12 @@
        "prob": null,
        "detail": "Goles esperados 2.91",
        "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "ADO Den Haag",
-     "away": "Fortuna Sittard",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "NED",
-     "league_label": "Eredivisie",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Fortuna Sittard",
-       "prob": 0.4720723453957569,
-       "detail": "Local 29% · Empate 24% · Visitante 47%",
-       "strong": false
       },
       {
-       "label": "Doble Oportunidad",
-       "pick": "12",
-       "prob": 0.7648441920960218,
-       "detail": "1X 53% · X2 71% · 12 76%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.6112669445733554,
-       "detail": "OVER 2.5 goles · 61%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.83136689254183,
-       "detail": "OVER 1.5 goles · 83%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.5918870705128298,
-       "detail": "BTTS Sí 59%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.13",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Santa Clara",
-     "away": "Rio Ave",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "POR",
-     "league_label": "Primeira Liga",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Santa Clara",
-       "prob": 0.6122720204985735,
-       "detail": "Local 61% · Empate 25% · Visitante 14%",
-       "strong": true
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "1X",
-       "prob": 0.858869240324086,
-       "detail": "1X 86% · X2 39% · 12 75%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.538540522743181,
-       "detail": "OVER 2.5 goles · 54%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.7774786542530053,
-       "detail": "OVER 1.5 goles · 78%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.5208815421891935,
-       "detail": "BTTS Sí 52%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 2.77",
+       "label": "Hándicap Asiático",
+       "pick": "HOME -0.5",
+       "prob": 0.001,
+       "detail": "Línea -0.5 · HOME 0%",
        "strong": false
       }
      ],
@@ -2331,6 +2242,20 @@
        "prob": null,
        "detail": "Goles esperados 2.84",
        "strong": false
+      },
+      {
+       "label": "Hándicap Asiático",
+       "pick": "HOME -0.5",
+       "prob": 0.001,
+       "detail": "Línea -0.5 · HOME 0%",
+       "strong": false
+      },
+      {
+       "label": "Equipo O/U 1.5",
+       "pick": "LOCAL OVER",
+       "prob": 0.69258593683724,
+       "detail": "LOCAL OVER 1.5 goles 69%",
+       "strong": false
       }
      ],
      "convergence": null,
@@ -2386,6 +2311,20 @@
        "pick": "-",
        "prob": null,
        "detail": "Goles esperados 2.89",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Asiático",
+       "pick": "HOME -0.5",
+       "prob": 0.001,
+       "detail": "Línea -0.5 · HOME 0%",
+       "strong": false
+      },
+      {
+       "label": "Equipo O/U 1.5",
+       "pick": "LOCAL OVER",
+       "prob": 0.5616990828122409,
+       "detail": "LOCAL OVER 1.5 goles 56%",
        "strong": false
       }
      ],
@@ -2443,13 +2382,27 @@
        "prob": null,
        "detail": "Goles esperados 3.35",
        "strong": false
+      },
+      {
+       "label": "Hándicap Asiático",
+       "pick": "HOME -0.5",
+       "prob": 0.001,
+       "detail": "Línea -0.5 · HOME 0%",
+       "strong": false
+      },
+      {
+       "label": "Equipo O/U 1.5",
+       "pick": "LOCAL OVER",
+       "prob": 0.7530100261177278,
+       "detail": "LOCAL OVER 1.5 goles 75%",
+       "strong": false
       }
      ],
      "convergence": null,
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 62.1,
+   "elapsed_s": 61.2,
    "sport": "futbol",
    "sport_name": "Fútbol",
    "all_leagues": true
@@ -2657,7 +2610,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 10.3,
+   "elapsed_s": 11.6,
    "sport": "amfut",
    "sport_name": "NFL/NCAAF",
    "all_leagues": true
