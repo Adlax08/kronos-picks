@@ -1,7 +1,7 @@
 {
  "date": "2026-09-06",
- "generated_at": "2026-09-05T22:31:43",
- "sports_total": "50 partidos",
+ "generated_at": "2026-09-06T09:03:43",
+ "sports_total": "45 partidos",
  "sports": [
   {
    "key": "beisbol",
@@ -15,6 +15,10 @@
     {
      "code": "KBO",
      "name": "KBO League"
+    },
+    {
+     "code": "NPB",
+     "name": "Nippon Baseball"
     }
    ]
   },
@@ -133,29 +137,18 @@
    "sport": "beisbol",
    "sport_name": "Béisbol",
    "all_leagues": true,
-   "n": 20,
+   "n": 21,
    "picks": [
     {
-     "match": "Doosan Bears @ SSG Landers",
+     "match": "Lotte Marines @ Orix Buffaloes",
      "market": "Moneyline",
-     "pick": "Doosan Bears",
-     "prob": 0.6229,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": "",
-     "league_code": "KBO",
-     "league_label": "KBO League"
-    },
-    {
-     "match": "Hanwha Eagles @ Lotte Giants",
-     "market": "Moneyline",
-     "pick": "Hanwha Eagles",
-     "prob": 0.6004,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": "",
-     "league_code": "KBO",
-     "league_label": "KBO League"
+     "pick": "ML: HOME (Orix Buffaloes)",
+     "prob": 0.5726,
+     "tier": "DESTACADO",
+     "units": "0.5",
+     "note": ">=57%",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball"
     }
    ],
    "predictions": [
@@ -173,14 +166,14 @@
        "label": "Moneyline",
        "pick": "Los Angeles Dodgers",
        "prob": 0.555,
-       "detail": "Local 56% · Visitante 44% · (-226/+184)",
+       "detail": "Local 56% · Visitante 44% · (-205/+168)",
        "strong": false
       },
       {
        "label": "Totales O/U",
        "pick": "OVER",
        "prob": 0.573,
-       "detail": "OVER 8.5 · 57% · Proyectado 10.0",
+       "detail": "OVER 8.0 · 57% · Proyectado 10.0",
        "strong": false
       },
       {
@@ -222,7 +215,7 @@
        "label": "Moneyline",
        "pick": "Chicago White Sox",
        "prob": 0.5125,
-       "detail": "Local 51% · Visitante 49% · (-143/+119)",
+       "detail": "Local 51% · Visitante 49% · (-150/+124)",
        "strong": false
       },
       {
@@ -271,7 +264,7 @@
        "label": "Moneyline",
        "pick": "San Diego Padres",
        "prob": 0.5836,
-       "detail": "Local 58% · Visitante 42% · (-108/-111)",
+       "detail": "Local 58% · Visitante 42% · (-105/-114)",
        "strong": false
       },
       {
@@ -320,14 +313,14 @@
        "label": "Moneyline",
        "pick": "Athletics",
        "prob": 0.5003,
-       "detail": "Local 50% · Visitante 50% · (-196/+161)",
+       "detail": "Local 50% · Visitante 50% · (-205/+167)",
        "strong": false
       },
       {
        "label": "Totales O/U",
        "pick": "OVER",
        "prob": 0.6683,
-       "detail": "OVER 7.5 · 67% · Proyectado 9.4",
+       "detail": "OVER 7.0 · 67% · Proyectado 9.4",
        "strong": false
       },
       {
@@ -369,7 +362,7 @@
        "label": "Moneyline",
        "pick": "Colorado Rockies",
        "prob": 0.5237,
-       "detail": "Local 52% · Visitante 48% · (+109/-131)",
+       "detail": "Local 52% · Visitante 48% · (+113/-136)",
        "strong": false
       },
       {
@@ -418,7 +411,7 @@
        "label": "Moneyline",
        "pick": "Tampa Bay Rays",
        "prob": 0.5483,
-       "detail": "Local 45% · Visitante 55% · (-112/-108)",
+       "detail": "Local 45% · Visitante 55% · (-110/-110)",
        "strong": false
       },
       {
@@ -467,7 +460,7 @@
        "label": "Moneyline",
        "pick": "Kansas City Royals",
        "prob": 0.5191,
-       "detail": "Local 52% · Visitante 48% · (+100/-120)",
+       "detail": "Local 52% · Visitante 48% · (+101/-123)",
        "strong": false
       },
       {
@@ -516,7 +509,7 @@
        "label": "Moneyline",
        "pick": "Chicago Cubs",
        "prob": 0.5208999999999999,
-       "detail": "Local 48% · Visitante 52% · (+123/-149)",
+       "detail": "Local 48% · Visitante 52% · (+124/-150)",
        "strong": false
       },
       {
@@ -565,14 +558,14 @@
        "label": "Moneyline",
        "pick": "New York Mets",
        "prob": 0.5365,
-       "detail": "Local 54% · Visitante 46% · (-155/+128)",
+       "detail": "Local 54% · Visitante 46% · (-162/+134)",
        "strong": false
       },
       {
        "label": "Totales O/U",
        "pick": "OVER",
        "prob": 0.5956,
-       "detail": "OVER 8.5 · 60% · Proyectado 9.4",
+       "detail": "OVER 8.0 · 60% · Proyectado 9.4",
        "strong": false
       },
       {
@@ -614,14 +607,14 @@
        "label": "Moneyline",
        "pick": "Cleveland Guardians",
        "prob": 0.5103,
-       "detail": "Local 51% · Visitante 49% · (-167/+137)",
+       "detail": "Local 51% · Visitante 49% · (-171/+141)",
        "strong": false
       },
       {
        "label": "Totales O/U",
        "pick": "OVER",
        "prob": 0.7188,
-       "detail": "OVER 7.5 · 72% · Proyectado 9.4",
+       "detail": "OVER 7.0 · 72% · Proyectado 9.4",
        "strong": false
       },
       {
@@ -663,14 +656,14 @@
        "label": "Moneyline",
        "pick": "Pittsburgh Pirates",
        "prob": 0.5894,
-       "detail": "Local 59% · Visitante 41% · (-198/+163)",
+       "detail": "Local 59% · Visitante 41% · (-199/+163)",
        "strong": false
       },
       {
        "label": "Totales O/U",
        "pick": "OVER",
        "prob": 0.7056,
-       "detail": "OVER 7.5 · 71% · Proyectado 9.5",
+       "detail": "OVER 7.0 · 71% · Proyectado 9.5",
        "strong": false
       },
       {
@@ -712,14 +705,14 @@
        "label": "Moneyline",
        "pick": "Baltimore Orioles",
        "prob": 0.5316,
-       "detail": "Local 53% · Visitante 47% · (+113/-136)",
+       "detail": "Local 53% · Visitante 47% · (+112/-135)",
        "strong": false
       },
       {
        "label": "Totales O/U",
        "pick": "OVER",
        "prob": 0.7444,
-       "detail": "OVER 7.5 · 74% · Proyectado 9.6",
+       "detail": "OVER 7.0 · 74% · Proyectado 9.6",
        "strong": false
       },
       {
@@ -761,7 +754,7 @@
        "label": "Moneyline",
        "pick": "Philadelphia Phillies",
        "prob": 0.5337,
-       "detail": "Local 53% · Visitante 47% · (-110/-109)",
+       "detail": "Local 53% · Visitante 47% · (-110/-110)",
        "strong": false
       },
       {
@@ -810,14 +803,14 @@
        "label": "Moneyline",
        "pick": "Milwaukee Brewers",
        "prob": 0.5111,
-       "detail": "Local 49% · Visitante 51% · (+134/-162)",
+       "detail": "Local 49% · Visitante 51% · (+119/-143)",
        "strong": false
       },
       {
        "label": "Totales O/U",
        "pick": "OVER",
-       "prob": 0.5262,
-       "detail": "OVER 9.0 · 53% · Proyectado 9.6",
+       "prob": 0.6528,
+       "detail": "OVER 8.5 · 65% · Proyectado 9.6",
        "strong": false
       },
       {
@@ -895,253 +888,260 @@
      "momentum_ok": false
     },
     {
-     "home": "Kiwoom Heroes",
-     "away": "NC Dinos",
+     "home": "Orix Buffaloes",
+     "away": "Lotte Marines",
      "home_abbrev": "",
      "away_abbrev": "",
-     "league_code": "KBO",
-     "league_label": "KBO League",
-     "context": "Gocheok Sky Dome",
-     "extra": "Abridor L: 알칸타라 · Abridor V: 구창모",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball",
+     "context": "",
+     "extra": "",
      "markets": [
       {
        "label": "Moneyline",
-       "pick": "NC Dinos",
-       "prob": 0.5387,
-       "detail": "Local 46% · Visitante 54% · (+111/-130)",
+       "pick": "Orix Buffaloes",
+       "prob": 0.5726466180839352,
+       "detail": "Local 57% · Visitante 43%",
        "strong": false
       },
       {
-       "label": "Totales O/U",
+       "label": "Run Line",
+       "pick": "LOCAL",
+       "prob": 0.5005056879872865,
+       "detail": "Línea -0.1 · LOCAL 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5038038676413567,
+       "detail": "Línea 7.2 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Carreras esperadas",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 7.2",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "SoftBank Hawks",
+     "away": "Seibu Lions",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "SoftBank Hawks",
+       "prob": 0.5356690161600722,
+       "detail": "Local 54% · Visitante 46%",
+       "strong": false
+      },
+      {
+       "label": "Run Line",
+       "pick": "VISITANTE",
+       "prob": 0.5016558744914318,
+       "detail": "Línea 0.6 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
        "pick": "OVER",
-       "prob": 0.745,
-       "detail": "OVER 7.5 · 74% · Proyectado 9.6",
+       "prob": 0.5037415287170215,
+       "detail": "Línea 6.6 · OVER 50% / UNDER 50%",
        "strong": false
       },
       {
-       "label": "F5 O/U",
-       "pick": "UNDER",
-       "prob": 0.5545,
-       "detail": "UNDER 5.5 · 55%",
-       "strong": false
-      },
-      {
-       "label": "F5 Moneyline",
-       "pick": "NC Dinos",
-       "prob": 0.544,
-       "detail": "F5 46% · 54% · (+119/-119)",
-       "strong": false
-      },
-      {
-       "label": "NRFI",
-       "pick": "NO",
-       "prob": 0.523,
-       "detail": "No carrera 1ª entrada 48%",
+       "label": "Carreras esperadas",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 6.6",
        "strong": false
       }
      ],
-     "convergence": false,
+     "convergence": null,
      "momentum_ok": false
     },
     {
-     "home": "LG Twins",
-     "away": "Samsung Lions",
+     "home": "Rakuten Golden Eagles",
+     "away": "Nippon-Ham Fighters",
      "home_abbrev": "",
      "away_abbrev": "",
-     "league_code": "KBO",
-     "league_label": "KBO League",
-     "context": "Jamsil Baseball Stadium",
-     "extra": "Abridor L: 임찬규 · Abridor V: 후라도",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball",
+     "context": "",
+     "extra": "",
      "markets": [
       {
        "label": "Moneyline",
-       "pick": "Samsung Lions",
-       "prob": 0.538,
-       "detail": "Local 46% · Visitante 54% · (+116/-136)",
+       "pick": "Rakuten Golden Eagles",
+       "prob": 0.5436295862033294,
+       "detail": "Local 54% · Visitante 46%",
        "strong": false
       },
       {
-       "label": "Totales O/U",
+       "label": "Run Line",
+       "pick": "VISITANTE",
+       "prob": 0.5003611884358495,
+       "detail": "Línea -0.8 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
        "pick": "OVER",
-       "prob": 0.5532,
-       "detail": "OVER 9.0 · 55% · Proyectado 10.2",
+       "prob": 0.5025993016056456,
+       "detail": "Línea 7.2 · OVER 50% / UNDER 50%",
        "strong": false
       },
       {
-       "label": "F5 O/U",
-       "pick": "UNDER",
-       "prob": 0.511,
-       "detail": "UNDER 5.5 · 51%",
-       "strong": false
-      },
-      {
-       "label": "F5 Moneyline",
-       "pick": "Samsung Lions",
-       "prob": 0.5796,
-       "detail": "F5 42% · 58% · (+138/-138)",
-       "strong": false
-      },
-      {
-       "label": "NRFI",
-       "pick": "NO",
-       "prob": 0.5205,
-       "detail": "No carrera 1ª entrada 48%",
+       "label": "Carreras esperadas",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 7.2",
        "strong": false
       }
      ],
-     "convergence": true,
+     "convergence": null,
      "momentum_ok": false
     },
     {
-     "home": "Lotte Giants",
-     "away": "Hanwha Eagles",
+     "home": "Yakult Swallows",
+     "away": "Chunichi Dragons",
      "home_abbrev": "",
      "away_abbrev": "",
-     "league_code": "KBO",
-     "league_label": "KBO League",
-     "context": "Sajik Baseball Stadium",
-     "extra": "Abridor L: 로드리게스 · Abridor V: 화이트",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball",
+     "context": "",
+     "extra": "",
      "markets": [
       {
        "label": "Moneyline",
-       "pick": "Hanwha Eagles",
-       "prob": 0.6004,
-       "detail": "Local 40% · Visitante 60% · (+105/-123)",
-       "strong": true
+       "pick": "Yakult Swallows",
+       "prob": 0.549424963239695,
+       "detail": "Local 55% · Visitante 45%",
+       "strong": false
       },
       {
-       "label": "Totales O/U",
+       "label": "Run Line",
+       "pick": "LOCAL",
+       "prob": 0.5035010762547552,
+       "detail": "Línea 0 · LOCAL 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5009865297947997,
+       "detail": "Línea 6.7 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Carreras esperadas",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 6.7",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Hanshin Tigers",
+     "away": "Yokohama BayStars",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Hanshin Tigers",
+       "prob": 0.513917876996003,
+       "detail": "Local 51% · Visitante 49%",
+       "strong": false
+      },
+      {
+       "label": "Run Line",
+       "pick": "VISITANTE",
+       "prob": 0.5033961373390489,
+       "detail": "Línea 0.4 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
        "pick": "OVER",
-       "prob": 0.5656,
-       "detail": "OVER 9.0 · 57% · Proyectado 8.7",
+       "prob": 0.5004782657157232,
+       "detail": "Línea 6.7 · OVER 50% / UNDER 50%",
        "strong": false
       },
       {
-       "label": "F5 O/U",
-       "pick": "UNDER",
-       "prob": 0.5015000000000001,
-       "detail": "UNDER 5.5 · 50%",
-       "strong": false
-      },
-      {
-       "label": "F5 Moneyline",
-       "pick": "Hanwha Eagles",
-       "prob": 0.5318,
-       "detail": "F5 47% · 53% · (+114/-114)",
-       "strong": false
-      },
-      {
-       "label": "NRFI",
-       "pick": "NO",
-       "prob": 0.5183,
-       "detail": "No carrera 1ª entrada 48%",
+       "label": "Carreras esperadas",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 6.7",
        "strong": false
       }
      ],
-     "convergence": true,
+     "convergence": null,
      "momentum_ok": false
     },
     {
-     "home": "Kia Tigers",
-     "away": "KT Wiz",
+     "home": "Hiroshima Carp",
+     "away": "Yomiuri Giants",
      "home_abbrev": "",
      "away_abbrev": "",
-     "league_code": "KBO",
-     "league_label": "KBO League",
-     "context": "Gwangju-Kia Champions Field",
-     "extra": "Abridor L: 네일 · Abridor V: 대니엘",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball",
+     "context": "",
+     "extra": "",
      "markets": [
       {
        "label": "Moneyline",
-       "pick": "KT Wiz",
-       "prob": 0.5279,
-       "detail": "Local 47% · Visitante 53% · (-127/+109)",
+       "pick": "Hiroshima Carp",
+       "prob": 0.5464380998931627,
+       "detail": "Local 55% · Visitante 45%",
        "strong": false
       },
       {
-       "label": "Totales O/U",
+       "label": "Run Line",
+       "pick": "LOCAL",
+       "prob": 0.5019691852845378,
+       "detail": "Línea -0.7 · LOCAL 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
        "pick": "UNDER",
-       "prob": 0.5136000000000001,
-       "detail": "UNDER 9.0 · 51% · Proyectado 8.5",
+       "prob": 0.5012270540042542,
+       "detail": "Línea 6.9 · OVER 50% / UNDER 50%",
        "strong": false
       },
       {
-       "label": "F5 O/U",
-       "pick": "UNDER",
-       "prob": 0.5613,
-       "detail": "UNDER 5.5 · 56%",
-       "strong": false
-      },
-      {
-       "label": "F5 Moneyline",
-       "pick": "KT Wiz",
-       "prob": 0.5365,
-       "detail": "F5 46% · 54% · (+116/-116)",
-       "strong": false
-      },
-      {
-       "label": "NRFI",
-       "pick": "NO",
-       "prob": 0.521,
-       "detail": "No carrera 1ª entrada 48%",
+       "label": "Carreras esperadas",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 6.9",
        "strong": false
       }
      ],
-     "convergence": false,
-     "momentum_ok": false
-    },
-    {
-     "home": "SSG Landers",
-     "away": "Doosan Bears",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "KBO",
-     "league_label": "KBO League",
-     "context": "SSG Landers Field",
-     "extra": "Abridor L: 최민준 · Abridor V: 잭로그",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "Doosan Bears",
-       "prob": 0.6229,
-       "detail": "Local 38% · Visitante 62% · (+134/-158)",
-       "strong": true
-      },
-      {
-       "label": "Totales O/U",
-       "pick": "UNDER",
-       "prob": 0.5298,
-       "detail": "UNDER 10.5 · 53% · Proyectado 10.7",
-       "strong": false
-      },
-      {
-       "label": "F5 O/U",
-       "pick": "UNDER",
-       "prob": 0.6396,
-       "detail": "UNDER 6.0 · 64%",
-       "strong": false
-      },
-      {
-       "label": "F5 Moneyline",
-       "pick": "Doosan Bears",
-       "prob": 0.5736,
-       "detail": "F5 43% · 57% · (+134/-134)",
-       "strong": false
-      },
-      {
-       "label": "NRFI",
-       "pick": "NO",
-       "prob": 0.5217,
-       "detail": "No carrera 1ª entrada 48%",
-       "strong": false
-      }
-     ],
-     "convergence": true,
+     "convergence": null,
      "momentum_ok": false
     }
    ],
-   "message": "20 partidos proyectados",
-   "elapsed_s": 14.3
+   "message": "21 partidos proyectados",
+   "elapsed_s": 25.7
   },
   "tenis": {
    "ok": true,
@@ -1158,9 +1158,9 @@
      "prob": 0.8489,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +154.7%",
+     "note": "EV +133.4%",
      "edge": null,
-     "ev": 1.5467,
+     "ev": 1.3344749999999999,
      "odds": null,
      "line": null
     },
@@ -1171,9 +1171,9 @@
      "prob": 0.7427,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +7.2%",
+     "note": "EV +4.0%",
      "edge": null,
-     "ev": 0.07245879999999999,
+     "ev": 0.03977999999999998,
      "odds": null,
      "line": null
     },
@@ -1184,9 +1184,9 @@
      "prob": 0.7296,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +39.3%",
-     "edge": 0.24670000000000003,
-     "ev": 0.3928064000000001,
+     "note": "EV +45.9%",
+     "edge": 0.2722,
+     "ev": 0.45920000000000005,
      "odds": null,
      "line": 4.5
     },
@@ -1428,7 +1428,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 21.2,
+   "elapsed_s": 19.7,
    "sport": "tenis",
    "sport_name": "Tenis",
    "all_leagues": false
@@ -1438,8 +1438,8 @@
    "date": "2026-09-06",
    "league": "ALL",
    "league_label": "Todas las ligas",
-   "n": 23,
-   "message": "23 partidos proyectados",
+   "n": 17,
+   "message": "17 partidos proyectados",
    "picks": [
     {
      "match": "Arsenal vs Chelsea",
@@ -1451,17 +1451,6 @@
      "note": ">=70%",
      "league_code": "ENG",
      "league_label": "Premier League"
-    },
-    {
-     "match": "Telstar vs SC Cambuur",
-     "market": "1X2",
-     "pick": "1X2: HOME (1)",
-     "prob": 0.8188252091507608,
-     "tier": "TOP PICK",
-     "units": "2.0",
-     "note": ">=70%",
-     "league_code": "NED",
-     "league_label": "Eredivisie"
     },
     {
      "match": "Cruz Azul vs Santos",
@@ -1519,28 +1508,6 @@
      "league_label": "Ligue 1"
     },
     {
-     "match": "Frosinone vs Venezia",
-     "market": "O/U 2.5",
-     "pick": "O/U 2.5: OVER",
-     "prob": 0.6527057314171447,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=65%",
-     "league_code": "ITA",
-     "league_label": "Serie A"
-    },
-    {
-     "match": "Troyes vs Strasbourg",
-     "market": "O/U 2.5",
-     "pick": "O/U 2.5: OVER",
-     "prob": 0.6500054641274926,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=65%",
-     "league_code": "FRA",
-     "league_label": "Ligue 1"
-    },
-    {
      "match": "Parma vs Monza",
      "market": "Doble Oportunidad",
      "pick": "DO: 1X",
@@ -1561,39 +1528,6 @@
      "note": ">=85%",
      "league_code": "POR",
      "league_label": "Primeira Liga"
-    },
-    {
-     "match": "FC Groningen vs FC Twente",
-     "market": "O/U 1.5",
-     "pick": "O/U 1.5: OVER",
-     "prob": 0.8528909064985452,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=80%",
-     "league_code": "NED",
-     "league_label": "Eredivisie"
-    },
-    {
-     "match": "Everton vs Manchester United",
-     "market": "O/U 1.5",
-     "pick": "O/U 1.5: OVER",
-     "prob": 0.8442051132800326,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=80%",
-     "league_code": "ENG",
-     "league_label": "Premier League"
-    },
-    {
-     "match": "Heerenveen vs AZ Alkmaar",
-     "market": "O/U 1.5",
-     "pick": "O/U 1.5: OVER",
-     "prob": 0.8329761772810542,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=80%",
-     "league_code": "NED",
-     "league_label": "Eredivisie"
     },
     {
      "match": "ADO Den Haag vs Fortuna Sittard",
@@ -1696,62 +1630,6 @@
     }
    ],
    "predictions": [
-    {
-     "home": "Everton",
-     "away": "Manchester United",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "ENG",
-     "league_label": "Premier League",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Manchester United",
-       "prob": 0.5066156623276521,
-       "detail": "Local 26% · Empate 23% · Visitante 51%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "12",
-       "prob": 0.766234540136466,
-       "detail": "1X 49% · X2 74% · 12 77%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.6395244293839716,
-       "detail": "OVER 2.5 goles · 64%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8442051132800326,
-       "detail": "OVER 1.5 goles · 84%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.6353659259717928,
-       "detail": "BTTS Sí 64%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.36",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
     {
      "home": "Arsenal",
      "away": "Chelsea",
@@ -2026,62 +1904,6 @@
        "pick": "-",
        "prob": null,
        "detail": "Goles esperados 2.78",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Frosinone",
-     "away": "Venezia",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "ITA",
-     "league_label": "Serie A",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Frosinone",
-       "prob": 0.52917691750859,
-       "detail": "Local 53% · Empate 24% · Visitante 23%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "1X",
-       "prob": 0.7664483359329511,
-       "detail": "1X 77% · X2 47% · 12 76%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.6527057314171447,
-       "detail": "OVER 2.5 goles · 65%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8434427131885232,
-       "detail": "OVER 1.5 goles · 84%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.6185913161292729,
-       "detail": "BTTS Sí 62%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.37",
        "strong": false
       }
      ],
@@ -2369,62 +2191,6 @@
      "momentum_ok": false
     },
     {
-     "home": "Troyes",
-     "away": "Strasbourg",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "FRA",
-     "league_label": "Ligue 1",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Troyes",
-       "prob": 0.5709073176186785,
-       "detail": "Local 57% · Empate 19% · Visitante 24%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "12",
-       "prob": 0.8103120684673535,
-       "detail": "1X 76% · X2 43% · 12 81%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.6500054641274926,
-       "detail": "OVER 2.5 goles · 65%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8483028628874465,
-       "detail": "OVER 1.5 goles · 85%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.5550539406083661,
-       "detail": "BTTS Sí 56%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.42",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
      "home": "Angers",
      "away": "Stade Rennais",
      "home_abbrev": "",
@@ -2530,174 +2296,6 @@
        "pick": "-",
        "prob": null,
        "detail": "Goles esperados 2.91",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "FC Groningen",
-     "away": "FC Twente",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "NED",
-     "league_label": "Eredivisie",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "FC Twente",
-       "prob": 0.4152531464474145,
-       "detail": "Local 34% · Empate 24% · Visitante 42%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "12",
-       "prob": 0.7551296447561932,
-       "detail": "1X 58% · X2 66% · 12 76%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.6408426477367695,
-       "detail": "OVER 2.5 goles · 64%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8528909064985452,
-       "detail": "OVER 1.5 goles · 85%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.6369899428342127,
-       "detail": "BTTS Sí 64%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.50",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Heerenveen",
-     "away": "AZ Alkmaar",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "NED",
-     "league_label": "Eredivisie",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "AZ Alkmaar",
-       "prob": 0.4192048869088992,
-       "detail": "Local 33% · Empate 25% · Visitante 42%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "12",
-       "prob": 0.7465536548421525,
-       "detail": "1X 58% · X2 67% · 12 75%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.6369367164669398,
-       "detail": "OVER 2.5 goles · 64%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8329761772810542,
-       "detail": "OVER 1.5 goles · 83%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.5980466872305237,
-       "detail": "BTTS Sí 60%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.14",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Telstar",
-     "away": "SC Cambuur",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "NED",
-     "league_label": "Eredivisie",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Telstar",
-       "prob": 0.8188252091507608,
-       "detail": "Local 82% · Empate 9% · Visitante 9%",
-       "strong": true
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "12",
-       "prob": 0.909753457150805,
-       "detail": "1X 91% · X2 18% · 12 91%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.7646176773462607,
-       "detail": "OVER 2.5 goles · 76%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8584606316781902,
-       "detail": "OVER 1.5 goles · 86%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.5823865526493947,
-       "detail": "BTTS Sí 58%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 4.56",
        "strong": false
       }
      ],
@@ -2985,7 +2583,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 55.2,
+   "elapsed_s": 61.8,
    "sport": "futbol",
    "sport_name": "Fútbol",
    "all_leagues": true
@@ -3023,11 +2621,11 @@
     {
      "match": "Wisconsin Badgers @ Notre Dame Fighting Irish",
      "market": "Spread",
-     "pick": "SPREAD: HOME -20.5",
-     "prob": 0.9878,
+     "pick": "SPREAD: HOME -21.0",
+     "prob": 0.9884,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": ">=99% · linea -20.5",
+     "note": ">=99% · linea -21",
      "league_code": "NCAAF",
      "league_label": "NCAAF (College)"
     },
@@ -3128,8 +2726,8 @@
       {
        "label": "Spread",
        "pick": "LOCAL",
-       "prob": 0.9877757129465066,
-       "detail": "Línea -20.5 · LOCAL 99%",
+       "prob": 0.9884481441277375,
+       "detail": "Línea -21 · LOCAL 99%",
        "strong": false
       },
       {
@@ -3193,7 +2791,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 10.5,
+   "elapsed_s": 10.8,
    "sport": "amfut",
    "sport_name": "NFL/NCAAF",
    "all_leagues": true
