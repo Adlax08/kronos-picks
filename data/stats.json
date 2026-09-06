@@ -1,45 +1,99 @@
 {
+ "total": {
+  "ganados": 35,
+  "perdidos": 20,
+  "win_pct": 0.636,
+  "n": 55
+ },
+ "by_sport": {
+  "beisbol": {
+   "ganados": 2,
+   "perdidos": 2,
+   "win_pct": 0.5
+  },
+  "futbol": {
+   "ganados": 11,
+   "perdidos": 6,
+   "win_pct": 0.647
+  },
+  "tenis": {
+   "ganados": 22,
+   "perdidos": 12,
+   "win_pct": 0.647
+  }
+ },
  "by_tier": {
-  "TOP PICK": {
-   "hits": 2,
-   "n": 5
+  "BUENO": {
+   "ganados": 11,
+   "perdidos": 10,
+   "win_pct": 0.524
+  },
+  "DESTACADO": {
+   "ganados": 0,
+   "perdidos": 1,
+   "win_pct": 0.0
   },
   "MUY BUENO": {
-   "hits": 3,
-   "n": 5
+   "ganados": 6,
+   "perdidos": 6,
+   "win_pct": 0.5
   },
-  "BUENO": {
-   "hits": 1,
-   "n": 1
+  "TOP PICK": {
+   "ganados": 18,
+   "perdidos": 3,
+   "win_pct": 0.857
   }
  },
  "by_market": {
   "1X2": {
-   "hits": 8,
-   "n": 11
+   "ganados": 3,
+   "perdidos": 0,
+   "win_pct": 1.0
+  },
+  "BTTS": {
+   "ganados": 0,
+   "perdidos": 1,
+   "win_pct": 0.0
   },
   "Doble Oportunidad": {
-   "hits": 10,
-   "n": 11
+   "ganados": 1,
+   "perdidos": 1,
+   "win_pct": 0.5
   },
-  "Over/Under 2.5": {
-   "hits": 7,
-   "n": 11
+  "HANDICAP JUEGOS": {
+   "ganados": 2,
+   "perdidos": 7,
+   "win_pct": 0.222
   },
-  "Over/Under 1.5": {
-   "hits": 9,
-   "n": 11
+  "ML": {
+   "ganados": 12,
+   "perdidos": 3,
+   "win_pct": 0.8
   },
-  "BTTS (Ambos marcan)": {
-   "hits": 6,
-   "n": 11
+  "Moneyline": {
+   "ganados": 2,
+   "perdidos": 2,
+   "win_pct": 0.5
+  },
+  "O/U 1.5": {
+   "ganados": 3,
+   "perdidos": 3,
+   "win_pct": 0.5
+  },
+  "O/U 2.5": {
+   "ganados": 4,
+   "perdidos": 1,
+   "win_pct": 0.8
+  },
+  "SET1 JUEGOS": {
+   "ganados": 2,
+   "perdidos": 2,
+   "win_pct": 0.5
+  },
+  "TOTAL JUEGOS": {
+   "ganados": 6,
+   "perdidos": 0,
+   "win_pct": 1.0
   }
- },
- "days": [
-  {
-   "date": "2026-09-04",
-   "n": 55,
-   "hits": 40
-  }
- ]
+ }
 }

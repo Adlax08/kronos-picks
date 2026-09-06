@@ -58,6 +58,10 @@
       <button id="btnRefresh" title="Forzar recálculo (ignora caché)" class="icon-btn">
         <span class="material-symbols-outlined" id="iconRefresh">refresh</span>
       </button>
+      <button id="btnAudit" title="Recuento de picks (buenos/malos por deporte)" class="btn-audit">
+        <span class="material-symbols-outlined text-sm">fact_check</span>
+        <span id="btnAuditLabel">Recuento</span>
+      </button>
       <div class="flex items-center gap-2 pl-3 border-l border-border-subtle">
         <span class="status-dot" id="healthDot"></span>
         <span class="font-mono text-xs text-text-muted hidden sm:block" id="healthText">conectando…</span>
@@ -193,6 +197,20 @@
     </section>
 
   </main>
+
+  <!-- Panel de recuento de picks -->
+  <section id="auditPanel" class="hidden mb-8">
+    <div class="flex items-center justify-between mb-4">
+      <h2 class="font-headline font-semibold text-xl tracking-tight flex items-center gap-2">
+        <span class="material-symbols-outlined text-primary">fact_check</span> Recuento de Picks
+      </h2>
+      <button id="auditClose" class="icon-btn" title="Cerrar">
+        <span class="material-symbols-outlined">close</span>
+      </button>
+    </div>
+    <div id="auditBody" class="text-text-muted font-headline text-sm">Cargando…</div>
+  </section>
+
 </div>
 
 <!-- Footer -->

@@ -340,6 +340,72 @@
 
   let healthTimer = null;
   function scheduleHealth(ms) { if (healthTimer) clearInterval(healthTimer); healthTimer = setInterval(refreshHealth, ms); }
+
+  /* ── Recuento de picks ─────────────────────────────────── */
+
+  const auditSportNames = { futbol: "Fútbol", beisbol: "Béisbol", tenis: "Tenis", amfut: "NFL/NCAAF" };
+  const tierOrder = ["TOP PICK", "MUY BUENO", "BUENO", "DESTACADO"];
+
+  function auditCard(title, g, p, sub) {
+    const n = g + p;
+    const pct = n ? Math.round(100 * g / n) : 0;
+    const good = pct >= 55;
+    return `<div class="bg-surface-pure rounded-lg border border-border-subtle p-4">
+      <div class="font-mono text-xs text-text-muted uppercase tracking-wider mb-1">${esc(title)}</div>
+      <div class="font-headline text-2xl font-semibold ${good ? "text-emerald" : "text-on-surface"}">${pct}%</div>
+      <div class="font-mono text-xs text-text-muted">${g}G · ${p}P${sub ? ` · ${esc(sub)}` : ""}</div>
+    </div>`;
+  }
+
+  async function runAudit(force) {
+    const btn = $("btnAudit");
+    const lbl = $("btnAuditLabel");
+    if (btn.classList.contains("spinning")) return;
+    btn.classList.add("spinning");
+    btn.disabled = true;
+    lbl.textContent = force ? "Contando…" : "Cargando…";
+    const panel = $("auditPanel");
+    const body = $("auditBody");
+    panel.classList.remove("hidden");
+    body.textContent = "Cargando…";
+    try {
+      const resp = await fetch(force ? "/api/audit" : "/api/audit", {
+        method: force ? "POST" : "GET",
+        headers: { "Content-Type": "application/json" },
+        body: force ? "{}" : undefined,
+      });
+      const data = await resp.json().catch(() => ({}));
+      if (!resp.ok) throw new Error(data.error || `HTTP ${resp.status}`);
+      const t = data.total || {};
+      const bySport = data.by_sport || {};
+      const byTier = data.by_tier || {};
+      const sports = Object.keys(bySport);
+      const tiers = tierOrder.filter((k) => byTier[k]);
+      let html = `<div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">`;
+      html += auditCard("Total", t.ganados || 0, t.perdidos || 0, `último audit ${data.last_audit || "-"}`);
+      sports.forEach((s) => {
+        const v = bySport[s];
+        html += auditCard(auditSportNames[s] || s, v.ganados || 0, v.perdidos || 0);
+      });
+      tiers.forEach((k) => {
+        const v = byTier[k];
+        html += auditCard(k, v.ganados || 0, v.perdidos || 0);
+      });
+      html += `</div>`;
+      if (sports.length) {
+        html += `<p class="font-mono text-xs text-text-muted">Detalle completo: <code>predicciones/picks_tracker.csv</code> (Excel) · resumen en <code>predicciones/resumen.json</code></p>`;
+      } else {
+        html += `<p class="font-headline text-sm text-text-muted">Aún no hay picks auditados. Cada noche se audita ayer automáticamente; también puedes pedir el recuento con este botón.</p>`;
+      }
+      body.innerHTML = html;
+    } catch (err) {
+      body.textContent = "Error al obtener el recuento: " + (err.message || err);
+    } finally {
+      btn.classList.remove("spinning");
+      btn.disabled = false;
+      lbl.textContent = "Recuento";
+    }
+  }
   async function refreshHealth() {
     try {
       const data = await api("/api/health");
@@ -387,6 +453,8 @@
     });
     els.btnPredict.addEventListener("click", () => predict(false));
     els.btnRefresh.addEventListener("click", () => predict(true));
+    $("btnAudit").addEventListener("click", () => runAudit(true));
+    $("auditClose").addEventListener("click", () => $("auditPanel").classList.add("hidden"));
     els.leagueSelect.addEventListener("change", () => { state.currentLeague = els.leagueSelect.value; });
     document.querySelectorAll(".nav-link").forEach((n) => {
       n.addEventListener("click", () => {
@@ -493,13 +561,26 @@
     try { const r = await fetch("data/stats.json"); if (r.ok) stats = await r.json(); } catch (e) {}
     const el = $("statsSection");
     if (!el || !stats) return;
+    const total = stats.total || {};
+    const bySport = stats.by_sport || {};
     const byTier = stats.by_tier || {};
     const byMarket = stats.by_market || {};
     const tiers = Object.keys(byTier);
     const markets = Object.keys(byMarket);
-    if (!tiers.length && !markets.length) return;
-    const pct = (c) => c && c.n ? Math.round(100 * c.hits / c.n) : 0;
-    const rate = (c) => c && c.n ? `${c.hits}/${c.n} (${pct(c)}%)` : "—";
+    if (!tiers.length && !markets.length && !total.n) return;
+    const nOf = (c) => c && (c.n || ((c.ganados || 0) + (c.perdidos || 0)));
+    const pct = (c) => {
+      const n = nOf(c);
+      if (!n) return 0;
+      if (c.hits != null) return Math.round(100 * c.hits / n);
+      return Math.round(100 * (c.ganados || 0) / n);
+    };
+    const rate = (c) => {
+      const n = nOf(c);
+      if (!n) return "—";
+      if (c.hits != null) return `${c.hits}/${c.n} (${pct(c)}%)`;
+      return `${c.ganados || 0}G · ${c.perdidos || 0}P (${pct(c)}%)`;
+    };
     let html = `
       <header class="mt-10 mb-4 reveal">
         <div class="flex items-center gap-3 mb-2">
@@ -508,6 +589,29 @@
         </div>
         <p class="font-headline text-sm text-text-muted">Aciertos de los picks publicados vs resultados (se acumula cada día)</p>
       </header>`;
+    if (total && total.n) {
+      const tg = total.ganados || 0, tp = total.perdidos || 0;
+      const p = Math.round(100 * tg / total.n);
+      html += `
+        <div class="flex flex-wrap gap-3 mb-6">
+          <div class="bg-surface-pure rounded-lg border border-border-subtle p-4 min-w-[10rem]">
+            <div class="font-mono text-xs text-text-muted uppercase tracking-wider mb-1">Total</div>
+            <div class="font-headline text-3xl font-semibold text-emerald">${p}%</div>
+            <div class="font-mono text-xs text-text-muted">${tg}G · ${tp}P</div>
+          </div>`;
+      const sportNames = { futbol: "Fútbol", beisbol: "Béisbol", tenis: "Tenis", amfut: "NFL/NCAAF" };
+      Object.keys(bySport).forEach((s) => {
+        const v = bySport[s];
+        const vn = (v.ganados || 0) + (v.perdidos || 0);
+        const vp = vn ? Math.round(100 * (v.ganados || 0) / vn) : 0;
+        html += `<div class="bg-surface-pure rounded-lg border border-border-subtle p-4 min-w-[10rem]">
+          <div class="font-mono text-xs text-text-muted uppercase tracking-wider mb-1">${esc(sportNames[s] || s)}</div>
+          <div class="font-headline text-2xl font-semibold text-on-surface">${vp}%</div>
+          <div class="font-mono text-xs text-text-muted">${v.ganados || 0}G · ${v.perdidos || 0}P</div>
+        </div>`;
+      });
+      html += `</div>`;
+    }
     if (tiers.length) {
       html += `
         <div class="mb-6">
