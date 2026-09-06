@@ -464,7 +464,8 @@
       <div class="flex flex-wrap items-center gap-2 mb-3" id="staticDayTabs"></div>
       <div class="font-mono text-xs text-text-muted mb-6" id="staticDayInfo"></div>
       <div id="staticPanels"></div>
-      <div id="staticEmpty" class="hidden"></div>`;
+      <div id="staticEmpty" class="hidden"></div>
+      <div id="statsSection"></div>`;
 
     const tabs = $("staticDayTabs");
     const tomorrow = shiftDate(1);
@@ -484,6 +485,64 @@
     });
 
     loadDayAndRender(defaultDate);
+    renderStats();
+  }
+
+  async function renderStats() {
+    let stats = null;
+    try { const r = await fetch("data/stats.json"); if (r.ok) stats = await r.json(); } catch (e) {}
+    const el = $("statsSection");
+    if (!el || !stats) return;
+    const byTier = stats.by_tier || {};
+    const byMarket = stats.by_market || {};
+    const tiers = Object.keys(byTier);
+    const markets = Object.keys(byMarket);
+    if (!tiers.length && !markets.length) return;
+    const pct = (c) => c && c.n ? Math.round(100 * c.hits / c.n) : 0;
+    const rate = (c) => c && c.n ? `${c.hits}/${c.n} (${pct(c)}%)` : "—";
+    let html = `
+      <header class="mt-10 mb-4 reveal">
+        <div class="flex items-center gap-3 mb-2">
+          <span class="material-symbols-outlined text-primary text-2xl">insights</span>
+          <h2 class="font-headline font-semibold text-xl tracking-tight">Rendimiento Real</h2>
+        </div>
+        <p class="font-headline text-sm text-text-muted">Aciertos de los picks publicados vs resultados (se acumula cada día)</p>
+      </header>`;
+    if (tiers.length) {
+      html += `
+        <div class="mb-6">
+          <h3 class="font-headline font-semibold text-sm text-on-surface mb-2">Por clasificación</h3>
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+            ${tiers.map((t) => {
+              const c = byTier[t];
+              const good = pct(c) >= 60;
+              return `<div class="bg-surface-pure rounded-lg border border-border-subtle p-4">
+                <div class="font-mono text-xs text-text-muted uppercase tracking-wider">${esc(t)}</div>
+                <div class="font-headline text-2xl font-semibold ${good ? "text-emerald" : "text-on-surface"}">${pct(c)}%</div>
+                <div class="font-mono text-xs text-text-muted">${rate(c)}</div>
+              </div>`;
+            }).join("")}
+          </div>
+        </div>`;
+    }
+    if (markets.length) {
+      html += `
+        <div>
+          <h3 class="font-headline font-semibold text-sm text-on-surface mb-2">Por mercado</h3>
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+            ${markets.map((m) => {
+              const c = byMarket[m];
+              const good = pct(c) >= 55;
+              return `<div class="bg-surface-pure rounded-lg border border-border-subtle p-4">
+                <div class="font-mono text-xs text-text-muted uppercase tracking-wider">${esc(m)}</div>
+                <div class="font-headline text-2xl font-semibold ${good ? "text-emerald" : "text-on-surface"}">${pct(c)}%</div>
+                <div class="font-mono text-xs text-text-muted">${rate(c)}</div>
+              </div>`;
+            }).join("")}
+          </div>
+        </div>`;
+    }
+    el.innerHTML = html;
   }
 
   function sportInfo(sports, key) {

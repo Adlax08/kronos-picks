@@ -1,7 +1,7 @@
 {
  "date": "2026-09-06",
- "generated_at": "2026-09-06T09:03:43",
- "sports_total": "45 partidos",
+ "generated_at": "2026-09-06T09:50:40",
+ "sports_total": "43 partidos",
  "sports": [
   {
    "key": "beisbol",
@@ -264,7 +264,7 @@
        "label": "Moneyline",
        "pick": "San Diego Padres",
        "prob": 0.5836,
-       "detail": "Local 58% · Visitante 42% · (-105/-114)",
+       "detail": "Local 58% · Visitante 42% · (-107/-112)",
        "strong": false
       },
       {
@@ -460,7 +460,7 @@
        "label": "Moneyline",
        "pick": "Kansas City Royals",
        "prob": 0.5191,
-       "detail": "Local 52% · Visitante 48% · (+101/-123)",
+       "detail": "Local 52% · Visitante 48% · (+102/-123)",
        "strong": false
       },
       {
@@ -558,7 +558,7 @@
        "label": "Moneyline",
        "pick": "New York Mets",
        "prob": 0.5365,
-       "detail": "Local 54% · Visitante 46% · (-162/+134)",
+       "detail": "Local 54% · Visitante 46% · (-157/+130)",
        "strong": false
       },
       {
@@ -656,7 +656,7 @@
        "label": "Moneyline",
        "pick": "Pittsburgh Pirates",
        "prob": 0.5894,
-       "detail": "Local 59% · Visitante 41% · (-199/+163)",
+       "detail": "Local 59% · Visitante 41% · (-181/+149)",
        "strong": false
       },
       {
@@ -712,7 +712,7 @@
        "label": "Totales O/U",
        "pick": "OVER",
        "prob": 0.7444,
-       "detail": "OVER 7.0 · 74% · Proyectado 9.6",
+       "detail": "OVER 7.5 · 74% · Proyectado 9.6",
        "strong": false
       },
       {
@@ -803,7 +803,7 @@
        "label": "Moneyline",
        "pick": "Milwaukee Brewers",
        "prob": 0.5111,
-       "detail": "Local 49% · Visitante 51% · (+119/-143)",
+       "detail": "Local 49% · Visitante 51% · (+122/-147)",
        "strong": false
       },
       {
@@ -1141,7 +1141,7 @@
     }
    ],
    "message": "21 partidos proyectados",
-   "elapsed_s": 25.7
+   "elapsed_s": 24.4
   },
   "tenis": {
    "ok": true,
@@ -1428,7 +1428,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 19.7,
+   "elapsed_s": 19.1,
    "sport": "tenis",
    "sport_name": "Tenis",
    "all_leagues": false
@@ -1438,8 +1438,8 @@
    "date": "2026-09-06",
    "league": "ALL",
    "league_label": "Todas las ligas",
-   "n": 17,
-   "message": "17 partidos proyectados",
+   "n": 15,
+   "message": "15 partidos proyectados",
    "picks": [
     {
      "match": "Arsenal vs Chelsea",
@@ -1486,17 +1486,6 @@
      "league_label": "Primeira Liga"
     },
     {
-     "match": "Hamburg SV vs Mainz",
-     "market": "O/U 2.5",
-     "pick": "O/U 2.5: OVER",
-     "prob": 0.6573909027211329,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=65%",
-     "league_code": "GER",
-     "league_label": "Bundesliga"
-    },
-    {
      "match": "Angers vs Stade Rennais",
      "market": "1X2",
      "pick": "1X2: AWAY (2)",
@@ -1506,17 +1495,6 @@
      "note": ">=65%",
      "league_code": "FRA",
      "league_label": "Ligue 1"
-    },
-    {
-     "match": "Parma vs Monza",
-     "market": "Doble Oportunidad",
-     "pick": "DO: 1X",
-     "prob": 0.8665737984982393,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=85%",
-     "league_code": "ITA",
-     "league_label": "Serie A"
     },
     {
      "match": "Santa Clara vs Rio Ave",
@@ -1911,62 +1889,6 @@
      "momentum_ok": false
     },
     {
-     "home": "Parma",
-     "away": "Monza",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "ITA",
-     "league_label": "Serie A",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Parma",
-       "prob": 0.6213764852497455,
-       "detail": "Local 62% · Empate 25% · Visitante 13%",
-       "strong": true
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "1X",
-       "prob": 0.8665737984982393,
-       "detail": "1X 87% · X2 38% · 12 75%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.5200962294905492,
-       "detail": "OVER 2.5 goles · 52%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.7713304208592783,
-       "detail": "OVER 1.5 goles · 77%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "NO",
-       "prob": 0.5185106002617639,
-       "detail": "BTTS Sí 48%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 2.72",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
      "home": "Bologna",
      "away": "Sassuolo",
      "home_abbrev": "",
@@ -2072,62 +1994,6 @@
        "pick": "-",
        "prob": null,
        "detail": "Goles esperados 2.61",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Hamburg SV",
-     "away": "Mainz",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "GER",
-     "league_label": "Bundesliga",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Mainz",
-       "prob": 0.4326313371588208,
-       "detail": "Local 34% · Empate 23% · Visitante 43%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "12",
-       "prob": 0.770856707097552,
-       "detail": "1X 57% · X2 66% · 12 77%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.6573909027211329,
-       "detail": "OVER 2.5 goles · 66%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8662006516236491,
-       "detail": "OVER 1.5 goles · 87%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.6504474094238487,
-       "detail": "BTTS Sí 65%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.59",
        "strong": false
       }
      ],
@@ -2583,7 +2449,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 61.8,
+   "elapsed_s": 62.1,
    "sport": "futbol",
    "sport_name": "Fútbol",
    "all_leagues": true
@@ -2791,7 +2657,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 10.8,
+   "elapsed_s": 10.3,
    "sport": "amfut",
    "sport_name": "NFL/NCAAF",
    "all_leagues": true
