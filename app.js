@@ -261,7 +261,7 @@
     if (state.sports.length) selectSport(state.sports[0].key, true);
   }
   function selectSport(key, force = false) {
-    if (!force && key === state.currentSport) return;
+    if (!force && key === state.currentSport?.key) return;
     const sport = state.sports.find((s) => s.key === key);
     if (!sport) return;
     state.currentSport = sport;
