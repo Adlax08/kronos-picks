@@ -440,6 +440,32 @@
       scheduleHealth(5000);
     }
   }
+  async function refreshAlerts() {
+    let alerts = [];
+    try {
+      const resp = await fetch("api/status");
+      if (resp.ok) { const d = await resp.json(); alerts = d.alerts || []; }
+    } catch (e) { /* gateway fuera -> modo estatico */ }
+    if (!alerts.length) {
+      try {
+        const r2 = await fetch("data/alerts.json");
+        if (r2.ok) { const d = await r2.json(); alerts = d.alerts || []; }
+      } catch (e2) { /* sin alertas */ }
+    }
+    const banner = $("alertBanner");
+    if (!banner) return;
+    if (!alerts.length) { banner.classList.add("hidden"); banner.innerHTML = ""; return; }
+    banner.classList.remove("hidden");
+    banner.innerHTML = alerts.map((a) => {
+      const color = a.level === "error" ? "bg-accent-crimson" : "bg-accent-gold";
+      return `<div class="${color} text-white px-4 py-2 rounded-lg shadow-md flex items-start gap-2 font-headline text-sm">` +
+        `<span class="material-symbols-outlined text-base mt-0.5">warning</span>` +
+        `<div class="flex flex-col">` +
+        `<strong>${esc(a.title || "Aviso")}</strong>` +
+        `<span class="opacity-95">${esc(a.message || "")}</span>` +
+        `</div></div>`;
+    }).join("");
+  }
   function initLive() {
     els.controlBar.classList.remove("hidden");
     els.dateInput.value = shiftDate(0);
@@ -467,6 +493,7 @@
       document.querySelector(".nav-blur").classList.toggle("scrolled", window.scrollY > 8);
     }, { passive: true });
     refreshHealth();
+    refreshAlerts();
     api("/api/sports").then((data) => {
       state.sports = data.sports || [];
       renderSportPills();
@@ -509,6 +536,7 @@
     const healthWrap = document.querySelector(".flex.items-center.gap-2.pl-3.border-l.border-border-subtle");
     if (healthWrap) healthWrap.style.display = "none";
     els.staticRoot.classList.remove("hidden");
+    refreshAlerts();
 
     let daysData = null;
     try { const r = await fetch("data/days.json"); if (r.ok) daysData = await r.json(); } catch (e) {}
