@@ -1,7 +1,7 @@
 {
  "date": "2026-09-14",
- "generated_at": "2026-09-14T18:07:55",
- "sports_total": "16 partidos",
+ "generated_at": "2026-09-14T22:08:49",
+ "sports_total": "11 partidos",
  "sports": [
   {
    "key": "beisbol",
@@ -223,7 +223,7 @@
        "label": "Moneyline",
        "pick": "Los Angeles Angels",
        "prob": 0.5505,
-       "detail": "Local 55% · Visitante 45% · (-110/-110)",
+       "detail": "Local 55% · Visitante 45% · (-112/-108)",
        "strong": false
       },
       {
@@ -652,61 +652,16 @@
     }
    ],
    "message": "10 partidos proyectados",
-   "elapsed_s": 8.0
+   "elapsed_s": 7.8
   },
   "tenis": {
    "ok": true,
    "date": "2026-09-14",
    "league": "ALL",
    "league_label": "Todas las ligas",
-   "n": 4,
-   "message": "4 partidos proyectados",
+   "n": 1,
+   "message": "1 partidos proyectados",
    "picks": [
-    {
-     "match": "Magdalena Frech vs Nao Hibino",
-     "market": "ML",
-     "pick": "Magdalena Frech",
-     "prob": 0.8268,
-     "tier": "TOP PICK",
-     "units": "2.0",
-     "note": "",
-     "edge": null,
-     "ev": null,
-     "odds": null,
-     "line": null,
-     "league_code": "WTA",
-     "league_label": "WTA Tour"
-    },
-    {
-     "match": "Elsa Jacquemot vs Liudmila Samsonova",
-     "market": "ML",
-     "pick": "Liudmila Samsonova",
-     "prob": 0.7704,
-     "tier": "TOP PICK",
-     "units": "2.0",
-     "note": "",
-     "edge": null,
-     "ev": null,
-     "odds": null,
-     "line": null,
-     "league_code": "WTA",
-     "league_label": "WTA Tour"
-    },
-    {
-     "match": "Iryna Shymanovich vs Zeynep Sonmez",
-     "market": "ML",
-     "pick": "Zeynep Sonmez",
-     "prob": 0.5354,
-     "tier": "DESTACADO",
-     "units": "0.5",
-     "note": "Prob<60% pero buen momentum/variables: resaltado.",
-     "edge": null,
-     "ev": null,
-     "odds": null,
-     "line": null,
-     "league_code": "WTA",
-     "league_label": "WTA Tour"
-    },
     {
      "match": "Karue Sell vs Michael Mmoh",
      "market": "ML",
@@ -724,153 +679,6 @@
     }
    ],
    "predictions": [
-    {
-     "home": "Iryna Shymanovich",
-     "away": "Zeynep Sonmez",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "WTA",
-     "league_label": "WTA Tour",
-     "context": "Guadalajara Open presentado por Santander, Hard, Ronda: Round 1, BO3",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Ganador del partido",
-       "pick": "Zeynep Sonmez",
-       "prob": 0.5354,
-       "detail": "Iryna Shymanovich 46% · Zeynep Sonmez 54%",
-       "strong": false
-      },
-      {
-       "label": "Total Juegos O/U",
-       "pick": "OVER",
-       "prob": 0.5047,
-       "detail": "OVER 21.5 · 50% · Proyectado 21.9",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Juegos",
-       "pick": "Iryna Shymanovich",
-       "prob": 0.5332,
-       "detail": "Iryna Shymanovich +0.5 (ref.) · 53%",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Sets",
-       "pick": "Zeynep Sonmez",
-       "prob": 0.7626,
-       "detail": "Hándicap Sets -1.5 · 24% · (+321)",
-       "strong": false
-      },
-      {
-       "label": "Juegos 1er Set O/U",
-       "pick": "UNDER",
-       "prob": 0.5008,
-       "detail": "UNDER 9.5 · 50% · Proyectado 9.3",
-       "strong": false
-      }
-     ],
-     "convergence": false,
-     "momentum_ok": true
-    },
-    {
-     "home": "Magdalena Frech",
-     "away": "Nao Hibino",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "WTA",
-     "league_label": "WTA Tour",
-     "context": "Guadalajara Open presentado por Santander, Hard, Ronda: Round 1, BO3",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Ganador del partido",
-       "pick": "Magdalena Frech",
-       "prob": 0.8268,
-       "detail": "Magdalena Frech 83% · Nao Hibino 17%",
-       "strong": true
-      },
-      {
-       "label": "Total Juegos O/U",
-       "pick": "UNDER",
-       "prob": 0.5625,
-       "detail": "UNDER 21.5 · 56% · Proyectado 21.1",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Juegos",
-       "pick": "Magdalena Frech",
-       "prob": 0.5199,
-       "detail": "Magdalena Frech -3.5 (ref.) · 52%",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Sets",
-       "pick": "Magdalena Frech",
-       "prob": 0.6116,
-       "detail": "Hándicap Sets -1.5 · 61% · (-157)",
-       "strong": false
-      },
-      {
-       "label": "Juegos 1er Set O/U",
-       "pick": "UNDER",
-       "prob": 0.5126,
-       "detail": "UNDER 9.5 · 51% · Proyectado 9.3",
-       "strong": false
-      }
-     ],
-     "convergence": true,
-     "momentum_ok": true
-    },
-    {
-     "home": "Elsa Jacquemot",
-     "away": "Liudmila Samsonova",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "WTA",
-     "league_label": "WTA Tour",
-     "context": "Guadalajara Open presentado por Santander, Hard, Ronda: Round 1, BO3",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Ganador del partido",
-       "pick": "Liudmila Samsonova",
-       "prob": 0.7704,
-       "detail": "Elsa Jacquemot 23% · Liudmila Samsonova 77%",
-       "strong": true
-      },
-      {
-       "label": "Total Juegos O/U",
-       "pick": "UNDER",
-       "prob": 0.5127999999999999,
-       "detail": "UNDER 21.5 · 51% · Proyectado 22.0",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Juegos",
-       "pick": "Liudmila Samsonova",
-       "prob": 0.5474,
-       "detail": "Liudmila Samsonova -1.5 (ref.) · 55%",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Sets",
-       "pick": "Liudmila Samsonova",
-       "prob": 0.8477,
-       "detail": "Hándicap Sets -1.5 · 15% · (+557)",
-       "strong": false
-      },
-      {
-       "label": "Juegos 1er Set O/U",
-       "pick": "OVER",
-       "prob": 0.5064,
-       "detail": "OVER 9.5 · 51% · Proyectado 9.4",
-       "strong": false
-      }
-     ],
-     "convergence": true,
-     "momentum_ok": false
-    },
     {
      "home": "Karue Sell",
      "away": "Michael Mmoh",
@@ -921,7 +729,7 @@
      "momentum_ok": true
     }
    ],
-   "elapsed_s": 126.4,
+   "elapsed_s": 144.2,
    "sport": "tenis",
    "sport_name": "Tenis",
    "all_leagues": true
@@ -931,94 +739,11 @@
    "date": "2026-09-14",
    "league": "ALL",
    "league_label": "Todas las ligas",
-   "n": 1,
-   "message": "1 partidos proyectados",
-   "picks": [
-    {
-     "match": "León vs Atlético de San Luis",
-     "market": "O/U 1.5",
-     "pick": "O/U 1.5: OVER",
-     "prob": 0.8247777831845857,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=80%",
-     "league_code": "MEX",
-     "league_label": "Liga MX"
-    }
-   ],
-   "predictions": [
-    {
-     "home": "León",
-     "away": "Atlético de San Luis",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "MEX",
-     "league_label": "Liga MX",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "León",
-       "prob": 0.6074076134047186,
-       "detail": "Local 61% · Empate 24% · Visitante 16%",
-       "strong": true
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "1X",
-       "prob": 0.844798959652959,
-       "detail": "1X 84% · X2 39% · 12 76%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.600204979442511,
-       "detail": "OVER 2.5 goles · 60%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8247777831845857,
-       "detail": "OVER 1.5 goles · 82%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.5637815824549298,
-       "detail": "BTTS Sí 56%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.12",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "HOME -0.5",
-       "prob": 0.6489663639591265,
-       "detail": "Línea -0.5 · HOME 65%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "VISITANTE UNDER",
-       "prob": 0.7332057374469636,
-       "detail": "VISITANTE UNDER 1.5 goles 73%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    }
-   ],
-   "elapsed_s": 53.6,
+   "n": 0,
+   "message": "Sin partidos pendientes para esa liga y fecha.",
+   "picks": [],
+   "predictions": [],
+   "elapsed_s": 0.0,
    "sport": "futbol",
    "sport_name": "Fútbol",
    "all_leagues": true
@@ -1028,54 +753,11 @@
    "date": "2026-09-14",
    "league": "ALL",
    "league_label": "Todas las ligas",
-   "n": 1,
-   "message": "1 partidos proyectados",
+   "n": 0,
+   "message": "Sin partidos pendientes para esa liga y fecha.",
    "picks": [],
-   "predictions": [
-    {
-     "home": "Kansas City Chiefs",
-     "away": "Denver Broncos",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "NFL",
-     "league_label": "NFL",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "Denver Broncos",
-       "prob": 0.6082564074641614,
-       "detail": "Local 39% · Visitante 61%",
-       "strong": true
-      },
-      {
-       "label": "Spread",
-       "pick": "LOCAL",
-       "prob": 0.5001233915403145,
-       "detail": "Línea -3.4 · LOCAL 50%",
-       "strong": false
-      },
-      {
-       "label": "Totales",
-       "pick": "OVER",
-       "prob": 0.5006049299667368,
-       "detail": "Línea 40.6 · OVER 50% / UNDER 50%",
-       "strong": false
-      },
-      {
-       "label": "Puntos esperados",
-       "pick": "-",
-       "prob": null,
-       "detail": "Total 40.6",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    }
-   ],
-   "elapsed_s": 10.3,
+   "predictions": [],
+   "elapsed_s": 0.0,
    "sport": "amfut",
    "sport_name": "NFL/NCAAF",
    "all_leagues": true
