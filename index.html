@@ -52,6 +52,7 @@
         <button data-nav="beisbol" class="nav-link px-3 py-1.5 rounded-lg font-headline text-sm text-text-muted hover:text-primary transition-colors">Béisbol</button>
         <button data-nav="tenis" class="nav-link px-3 py-1.5 rounded-lg font-headline text-sm text-text-muted hover:text-primary transition-colors">Tenis</button>
         <button data-nav="futbol" class="nav-link px-3 py-1.5 rounded-lg font-headline text-sm text-text-muted hover:text-primary transition-colors">Fútbol</button>
+        <button data-nav="basquet" class="nav-link px-3 py-1.5 rounded-lg font-headline text-sm text-text-muted hover:text-primary transition-colors">Básquetbol</button>
       </div>
     </div>
     <div class="flex items-center gap-3">
@@ -65,13 +66,11 @@
       <div class="flex items-center gap-2 pl-3 border-l border-border-subtle">
         <span class="status-dot" id="healthDot"></span>
         <span class="font-mono text-xs text-text-muted hidden sm:block" id="healthText">conectando…</span>
+        <span class="status-dot off" id="alertDot" title="Avisos"></span>
       </div>
     </div>
   </div>
 </nav>
-
-<!-- Avisos del sistema (keys de OddsPapi sin cuota, etc.) -->
-<div id="alertBanner" class="hidden fixed top-16 inset-x-0 z-40 px-4 space-y-2"></div>
 
 <div class="flex pt-16 flex-1 max-w-[1280px] mx-auto w-full px-6">
 

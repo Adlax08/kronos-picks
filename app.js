@@ -15,7 +15,7 @@
   const els = {
     sportPills: $("sportPills"), leagueSelect: $("leagueSelect"), dateInput: $("dateInput"),
     btnPredict: $("btnPredict"), btnPredictLabel: $("btnPredictLabel"), btnRefresh: $("btnRefresh"),
-    healthDot: $("healthDot"), healthText: $("healthText"),
+    healthDot: $("healthDot"), healthText: $("healthText"), alertDot: $("alertDot"),
     loadingSection: $("loadingSection"), loadingText: $("loadingText"),
     errorSection: $("errorSection"), errorText: $("errorText"),
     resultsSection: $("resultsSection"), picksGrid: $("picksGrid"), picksCount: $("picksCount"),
@@ -343,7 +343,7 @@
 
   /* ── Recuento de picks ─────────────────────────────────── */
 
-  const auditSportNames = { futbol: "Fútbol", beisbol: "Béisbol", tenis: "Tenis", amfut: "NFL/NCAAF" };
+  const auditSportNames = { futbol: "Fútbol", beisbol: "Béisbol", tenis: "Tenis", amfut: "NFL/NCAAF", basquet: "Básquetbol" };
   const tierOrder = ["TOP PICK", "MUY BUENO", "BUENO", "DESTACADO"];
 
   function auditCard(title, g, p, sub) {
@@ -452,19 +452,17 @@
         if (r2.ok) { const d = await r2.json(); alerts = d.alerts || []; }
       } catch (e2) { /* sin alertas */ }
     }
-    const banner = $("alertBanner");
-    if (!banner) return;
-    if (!alerts.length) { banner.classList.add("hidden"); banner.innerHTML = ""; return; }
-    banner.classList.remove("hidden");
-    banner.innerHTML = alerts.map((a) => {
-      const color = a.level === "error" ? "bg-accent-crimson" : "bg-accent-gold";
-      return `<div class="${color} text-white px-4 py-2 rounded-lg shadow-md flex items-start gap-2 font-headline text-sm">` +
-        `<span class="material-symbols-outlined text-base mt-0.5">warning</span>` +
-        `<div class="flex flex-col">` +
-        `<strong>${esc(a.title || "Aviso")}</strong>` +
-        `<span class="opacity-95">${esc(a.message || "")}</span>` +
-        `</div></div>`;
-    }).join("");
+    const dot = els.alertDot;
+    if (!dot) return;
+    if (!alerts.length) {
+      dot.className = "status-dot ok";
+      dot.title = "Sin avisos";
+    } else {
+      const hasError = alerts.some((a) => a.level === "error");
+      dot.className = hasError ? "status-dot err" : "status-dot off";
+      const summary = alerts.map((a) => a.title || "Aviso").join(" · ");
+      dot.title = `${alerts.length} aviso${alerts.length === 1 ? "" : "s"}: ${summary}`;
+    }
   }
   function initLive() {
     els.controlBar.classList.remove("hidden");
@@ -627,7 +625,7 @@
             <div class="font-headline text-3xl font-semibold text-emerald">${p}%</div>
             <div class="font-mono text-xs text-text-muted">${tg}G · ${tp}P</div>
           </div>`;
-      const sportNames = { futbol: "Fútbol", beisbol: "Béisbol", tenis: "Tenis", amfut: "NFL/NCAAF" };
+      const sportNames = { futbol: "Fútbol", beisbol: "Béisbol", tenis: "Tenis", amfut: "NFL/NCAAF", basquet: "Básquetbol" };
       Object.keys(bySport).forEach((s) => {
         const v = bySport[s];
         const vn = (v.ganados || 0) + (v.perdidos || 0);

@@ -45,6 +45,7 @@
 }
 .status-dot.ok { background: #059669; box-shadow: 0 0 0 3px rgba(5,150,105,0.15); animation: pulse-dot 2s infinite; }
 .status-dot.err { background: #B91C1C; }
+.status-dot.off { background: #9CA3AF; }
 .status-dot.wait { background: #D97706; box-shadow: 0 0 0 3px rgba(217,119,6,0.15); animation: pulse-dot 2s infinite; }
 
 @keyframes pulse-dot {

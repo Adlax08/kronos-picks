@@ -4,8 +4,15 @@
    "level": "error",
    "title": "OddsPapi sin cuota",
    "message": "Todas las keys de OddsPapi están fallando (401/429). Hace falta una key nueva o esperar el reset de cuota.",
-   "at": "2026-09-17T22:10:14.892897",
+   "at": "2026-09-18T14:10:41.524942",
    "project": "2_Predictions_Tenis"
+  },
+  {
+   "level": "warning",
+   "title": "Momios sin fuente disponible",
+   "message": "Ningun proveedor de momios respondio (espn, oddspapi, sharpapi). Los picks seran sin filtro +EV.",
+   "at": "2026-09-24",
+   "project": "8_Predictions_Basket"
   }
  ]
 }
