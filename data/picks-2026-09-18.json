@@ -1,7 +1,7 @@
 {
  "date": "2026-09-18",
- "generated_at": "2026-09-17T18:13:24",
- "sports_total": "114 partidos",
+ "generated_at": "2026-09-17T22:11:52",
+ "sports_total": "113 partidos",
  "sports": [
   {
    "key": "beisbol",
@@ -160,15 +160,26 @@
    "n": 22,
    "picks": [
     {
-     "match": "Milwaukee Brewers @ Baltimore Orioles",
+     "match": "Boston Red Sox @ Tampa Bay Rays",
      "market": "Moneyline",
-     "pick": "Milwaukee Brewers",
-     "prob": 0.5152,
+     "pick": "Tampa Bay Rays",
+     "prob": 0.5578,
      "tier": "DESTACADO",
      "units": "0.5",
      "note": "Prob<60% pero buen momentum/variables: resaltado.",
      "league_code": "MLB",
      "league_label": "Major League"
+    },
+    {
+     "match": "LG Twins @ KT Wiz",
+     "market": "Moneyline",
+     "pick": "KT Wiz",
+     "prob": 0.5188,
+     "tier": "DESTACADO",
+     "units": "0.5",
+     "note": "Prob<60% pero buen momentum/variables: resaltado.",
+     "league_code": "KBO",
+     "league_label": "KBO League"
     },
     {
      "match": "Chunichi Dragons @ Yomiuri Giants",
@@ -196,10 +207,21 @@
      "match": "Yakult Swallows @ Yokohama BayStars",
      "market": "Moneyline",
      "pick": "ML: HOME (Yokohama BayStars)",
-     "prob": 0.6718,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=67%",
+     "prob": 0.7202,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": ">=72%",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball"
+    },
+    {
+     "match": "Yakult Swallows @ Yokohama BayStars",
+     "market": "Run Line",
+     "pick": "RL: HOME -1.5",
+     "prob": 0.6425,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": ">=64% · linea -1.5",
      "league_code": "NPB",
      "league_label": "Nippon Professional Baseball"
     },
@@ -207,10 +229,10 @@
      "match": "Yakult Swallows @ Yokohama BayStars",
      "market": "Totales",
      "pick": "TOTAL: OVER 7.5",
-     "prob": 0.5585,
-     "tier": "DESTACADO",
-     "units": "0.5",
-     "note": ">=56% · linea 7.5",
+     "prob": 0.6636,
+     "tier": "MUY BUENO",
+     "units": "1.5",
+     "note": ">=66% · linea 7.5",
      "league_code": "NPB",
      "league_label": "Nippon Professional Baseball"
     },
@@ -218,7 +240,7 @@
      "match": "Hiroshima Carp @ Hanshin Tigers",
      "market": "Run Line",
      "pick": "RL: AWAY 1.5",
-     "prob": 0.6433,
+     "prob": 0.6428,
      "tier": "BUENO",
      "units": "1.0",
      "note": ">=64% · linea -1.5",
@@ -229,7 +251,7 @@
      "match": "Hiroshima Carp @ Hanshin Tigers",
      "market": "Totales",
      "pick": "TOTAL: UNDER 7.5",
-     "prob": 0.5996,
+     "prob": 0.5978,
      "tier": "DESTACADO",
      "units": "0.5",
      "note": ">=60% · linea 7.5",
@@ -252,7 +274,7 @@
        "label": "Moneyline",
        "pick": "Los Angeles Dodgers",
        "prob": 0.6115,
-       "detail": "Local 61% · Visitante 39% · (-324/+255)",
+       "detail": "Local 61% · Visitante 39% · (-313/+248)",
        "strong": true
       },
       {
@@ -308,7 +330,7 @@
        "label": "Totales O/U",
        "pick": "OVER",
        "prob": 0.5514,
-       "detail": "OVER 8.5 · 55% · Proyectado 9.5",
+       "detail": "OVER 8.0 · 55% · Proyectado 9.5",
        "strong": false
       },
       {
@@ -399,7 +421,7 @@
        "label": "Moneyline",
        "pick": "Los Angeles Angels",
        "prob": 0.5086,
-       "detail": "Local 51% · Visitante 49% · (+104/-125)",
+       "detail": "Local 51% · Visitante 49% · (+103/-124)",
        "strong": false
       },
       {
@@ -595,14 +617,14 @@
        "label": "Moneyline",
        "pick": "Milwaukee Brewers",
        "prob": 0.5152,
-       "detail": "Local 48% · Visitante 52%",
+       "detail": "Local 48% · Visitante 52% · (+123/-149)",
        "strong": false
       },
       {
        "label": "Totales O/U",
-       "pick": "UNDER",
-       "prob": 0.5145,
-       "detail": "UNDER 9.5 · 51% · Proyectado 9.7",
+       "pick": "OVER",
+       "prob": 0.615,
+       "detail": "OVER 8.5 · 62% · Proyectado 9.7",
        "strong": false
       },
       {
@@ -644,7 +666,7 @@
        "label": "Moneyline",
        "pick": "Chicago White Sox",
        "prob": 0.5436,
-       "detail": "Local 54% · Visitante 46% · (-142/+118)",
+       "detail": "Local 54% · Visitante 46% · (-131/+109)",
        "strong": false
       },
       {
@@ -693,14 +715,14 @@
        "label": "Moneyline",
        "pick": "New York Mets",
        "prob": 0.5345,
-       "detail": "Local 53% · Visitante 47%",
+       "detail": "Local 53% · Visitante 47% · (-118/-102)",
        "strong": false
       },
       {
        "label": "Totales O/U",
-       "pick": "UNDER",
-       "prob": 0.5534,
-       "detail": "UNDER 9.5 · 55% · Proyectado 9.4",
+       "pick": "OVER",
+       "prob": 0.5778,
+       "detail": "OVER 8.5 · 58% · Proyectado 9.4",
        "strong": false
       },
       {
@@ -742,14 +764,14 @@
        "label": "Moneyline",
        "pick": "Tampa Bay Rays",
        "prob": 0.5578,
-       "detail": "Local 56% · Visitante 44% · (-127/+105)",
+       "detail": "Local 56% · Visitante 44% · (-126/+105)",
        "strong": false
       },
       {
        "label": "Totales O/U",
        "pick": "OVER",
        "prob": 0.6877,
-       "detail": "OVER 7.5 · 69% · Proyectado 9.7",
+       "detail": "OVER 7.0 · 69% · Proyectado 9.7",
        "strong": false
       },
       {
@@ -840,7 +862,7 @@
        "label": "Moneyline",
        "pick": "Pittsburgh Pirates",
        "prob": 0.5952,
-       "detail": "Local 60% · Visitante 40% · (-184/+151)",
+       "detail": "Local 60% · Visitante 40% · (-186/+153)",
        "strong": false
       },
       {
@@ -889,14 +911,14 @@
        "label": "Moneyline",
        "pick": "Cincinnati Reds",
        "prob": 0.5246,
-       "detail": "Local 52% · Visitante 48%",
+       "detail": "Local 52% · Visitante 48% · (+108/-130)",
        "strong": false
       },
       {
        "label": "Totales O/U",
-       "pick": "UNDER",
-       "prob": 0.6103000000000001,
-       "detail": "UNDER 9.0 · 61% · Proyectado 9.1",
+       "pick": "OVER",
+       "prob": 0.5212,
+       "detail": "OVER 8.5 · 52% · Proyectado 9.1",
        "strong": false
       },
       {
@@ -938,14 +960,14 @@
        "label": "Moneyline",
        "pick": "Texas Rangers",
        "prob": 0.5951,
-       "detail": "Local 60% · Visitante 40%",
+       "detail": "Local 60% · Visitante 40% · (+118/-142)",
        "strong": false
       },
       {
        "label": "Totales O/U",
-       "pick": "UNDER",
-       "prob": 0.5645,
-       "detail": "UNDER 9.0 · 56% · Proyectado 9.4",
+       "pick": "OVER",
+       "prob": 0.6961,
+       "detail": "OVER 7.5 · 70% · Proyectado 9.4",
        "strong": false
       },
       {
@@ -987,7 +1009,7 @@
        "label": "Moneyline",
        "pick": "Doosan Bears",
        "prob": 0.5524,
-       "detail": "Local 55% · Visitante 45% · (-148/+126)",
+       "detail": "Local 55% · Visitante 45% · (-149/+126)",
        "strong": false
       },
       {
@@ -1085,14 +1107,14 @@
        "label": "Moneyline",
        "pick": "KT Wiz",
        "prob": 0.5188,
-       "detail": "Local 52% · Visitante 48% · (-108/-108)",
+       "detail": "Local 52% · Visitante 48% · (-106/-110)",
        "strong": false
       },
       {
        "label": "Totales O/U",
-       "pick": "UNDER",
-       "prob": 0.5613,
-       "detail": "UNDER 10.0 · 56% · Proyectado 9.4",
+       "pick": "OVER",
+       "prob": 0.5636,
+       "detail": "OVER 9.0 · 56% · Proyectado 9.4",
        "strong": false
       },
       {
@@ -1134,7 +1156,7 @@
        "label": "Moneyline",
        "pick": "Samsung Lions",
        "prob": 0.652,
-       "detail": "Local 35% · Visitante 65% · (+207/-255)",
+       "detail": "Local 35% · Visitante 65% · (+205/-253)",
        "strong": true
       },
       {
@@ -1182,21 +1204,21 @@
       {
        "label": "Moneyline",
        "pick": "Yomiuri Giants",
-       "prob": 0.5265939879468362,
+       "prob": 0.526596275280483,
        "detail": "Local 53% · Visitante 47%",
        "strong": false
       },
       {
        "label": "Run Line",
        "pick": "VISITANTE",
-       "prob": 0.622871576505715,
+       "prob": 0.6228585847726953,
        "detail": "Línea -1.5 · VISITANTE 62%",
        "strong": false
       },
       {
        "label": "Totales",
        "pick": "UNDER",
-       "prob": 0.6060516001624399,
+       "prob": 0.606099091989071,
        "detail": "Línea 7.5 · OVER 39% / UNDER 61%",
        "strong": false
       },
@@ -1224,29 +1246,29 @@
       {
        "label": "Moneyline",
        "pick": "Yokohama BayStars",
-       "prob": 0.6718264619731922,
-       "detail": "Local 67% · Visitante 33%",
+       "prob": 0.720182927829033,
+       "detail": "Local 72% · Visitante 28%",
        "strong": true
       },
       {
        "label": "Run Line",
        "pick": "LOCAL",
-       "prob": 0.5317983454880737,
-       "detail": "Línea -1.5 · LOCAL 53%",
+       "prob": 0.6425264790400317,
+       "detail": "Línea -1.5 · LOCAL 64%",
        "strong": false
       },
       {
        "label": "Totales",
        "pick": "OVER",
-       "prob": 0.5585227685664451,
-       "detail": "Línea 7.5 · OVER 56% / UNDER 44%",
+       "prob": 0.6635868418972733,
+       "detail": "Línea 7.5 · OVER 66% / UNDER 34%",
        "strong": false
       },
       {
        "label": "Carreras esperadas",
        "pick": "-",
        "prob": null,
-       "detail": "Total 8.1",
+       "detail": "Total 9.1",
        "strong": false
       }
      ],
@@ -1266,21 +1288,21 @@
       {
        "label": "Moneyline",
        "pick": "Hanshin Tigers",
-       "prob": 0.5202662651172912,
+       "prob": 0.5202685524509381,
        "detail": "Local 52% · Visitante 48%",
        "strong": false
       },
       {
        "label": "Run Line",
        "pick": "VISITANTE",
-       "prob": 0.6433373487193352,
+       "prob": 0.6428271119445803,
        "detail": "Línea -1.5 · VISITANTE 64%",
        "strong": false
       },
       {
        "label": "Totales",
        "pick": "UNDER",
-       "prob": 0.5995905838109137,
+       "prob": 0.5978145213006755,
        "detail": "Línea 7.5 · OVER 40% / UNDER 60%",
        "strong": false
       },
@@ -1288,7 +1310,7 @@
        "label": "Carreras esperadas",
        "pick": "-",
        "prob": null,
-       "detail": "Total 6.5",
+       "detail": "Total 6.6",
        "strong": false
       }
      ],
@@ -1297,15 +1319,15 @@
     }
    ],
    "message": "22 partidos proyectados",
-   "elapsed_s": 28.6
+   "elapsed_s": 35.099999999999994
   },
   "tenis": {
    "ok": true,
    "date": "2026-09-18",
    "league": "ALL",
    "league_label": "Todas las ligas",
-   "n": 81,
-   "message": "81 partidos proyectados",
+   "n": 80,
+   "message": "80 partidos proyectados",
    "picks": [
     {
      "match": "Cristina Bucsa vs Iva Jovic",
@@ -1419,9 +1441,9 @@
      "prob": 0.9268,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +19.6%",
+     "note": "EV +18.6%",
      "edge": null,
-     "ev": 0.19557199999999997,
+     "ev": 0.18630399999999997,
      "odds": null,
      "line": null,
      "league_code": "CHALLENGER",
@@ -1434,9 +1456,9 @@
      "prob": 0.8691,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +6.9%",
+     "note": "EV +6.0%",
      "edge": null,
-     "ev": 0.06899299999999997,
+     "ev": 0.06030199999999997,
      "odds": null,
      "line": null,
      "league_code": "CHALLENGER",
@@ -1494,9 +1516,24 @@
      "prob": 0.8339,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +69.3%",
+     "note": "EV +106.8%",
      "edge": null,
-     "ev": 0.6928169999999998,
+     "ev": 1.068072,
+     "odds": null,
+     "line": null,
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour"
+    },
+    {
+     "match": "Marko Topo vs Nikita Bilozertsev",
+     "market": "ML",
+     "pick": "Marko Topo",
+     "prob": 0.8302,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "EV +4.6%",
+     "edge": null,
+     "ev": 0.046052000000000065,
      "odds": null,
      "line": null,
      "league_code": "CHALLENGER",
@@ -1509,9 +1546,9 @@
      "prob": 0.8177,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +31.6%",
+     "note": "EV +28.4%",
      "edge": null,
-     "ev": 0.31649700000000003,
+     "ev": 0.283789,
      "odds": null,
      "line": null,
      "league_code": "CHALLENGER",
@@ -1524,9 +1561,9 @@
      "prob": 0.8169,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +73.2%",
+     "note": "EV +72.4%",
      "edge": null,
-     "ev": 0.731828,
+     "ev": 0.7236589999999998,
      "odds": null,
      "line": null,
      "league_code": "CHALLENGER",
@@ -1554,24 +1591,9 @@
      "prob": 0.8059000000000001,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +24.1%",
+     "note": "EV +20.1%",
      "edge": null,
-     "ev": 0.24108600000000013,
-     "odds": null,
-     "line": null,
-     "league_code": "CHALLENGER",
-     "league_label": "ATP Challenger Tour"
-    },
-    {
-     "match": "Abedallah Shelbayh vs Michael Mmoh",
-     "market": "ML",
-     "pick": "Michael Mmoh",
-     "prob": 0.7991,
-     "tier": "TOP PICK",
-     "units": "2.0",
-     "note": "EV +27.9%",
-     "edge": null,
-     "ev": 0.27856000000000014,
+     "ev": 0.2007910000000001,
      "odds": null,
      "line": null,
      "league_code": "CHALLENGER",
@@ -1584,9 +1606,9 @@
      "prob": 0.787,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +22.0%",
+     "note": "EV +21.2%",
      "edge": null,
-     "ev": 0.2198500000000001,
+     "ev": 0.21198000000000006,
      "odds": null,
      "line": null,
      "league_code": "CHALLENGER",
@@ -1614,9 +1636,9 @@
      "prob": 0.7442,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +35.4%",
+     "note": "EV +33.2%",
      "edge": null,
-     "ev": 0.354444,
+     "ev": 0.332118,
      "odds": null,
      "line": null,
      "league_code": "CHALLENGER",
@@ -1644,9 +1666,9 @@
      "prob": 0.7188,
      "tier": "MUY BUENO",
      "units": "1.5",
-     "note": "EV +22.9%",
+     "note": "EV +12.1%",
      "edge": null,
-     "ev": 0.22914800000000002,
+     "ev": 0.12132800000000005,
      "odds": null,
      "line": null,
      "league_code": "CHALLENGER",
@@ -1659,9 +1681,9 @@
      "prob": 0.7171,
      "tier": "MUY BUENO",
      "units": "1.5",
-     "note": "EV +82.1%",
+     "note": "EV +79.3%",
      "edge": null,
-     "ev": 0.8214339999999999,
+     "ev": 0.79275,
      "odds": null,
      "line": null,
      "league_code": "CHALLENGER",
@@ -1674,9 +1696,9 @@
      "prob": 0.7146,
      "tier": "MUY BUENO",
      "units": "1.5",
-     "note": "EV +71.5%",
+     "note": "EV +72.2%",
      "edge": null,
-     "ev": 0.71504,
+     "ev": 0.7221860000000001,
      "odds": null,
      "line": null,
      "league_code": "CHALLENGER",
@@ -1689,9 +1711,9 @@
      "prob": 0.6502,
      "tier": "BUENO",
      "units": "1.0",
-     "note": "EV +56.0%",
+     "note": "EV +55.4%",
      "edge": null,
-     "ev": 0.56048,
+     "ev": 0.5539780000000001,
      "odds": null,
      "line": null,
      "league_code": "CHALLENGER",
@@ -1704,9 +1726,9 @@
      "prob": 0.6458,
      "tier": "BUENO",
      "units": "1.0",
-     "note": "EV +11.7%",
+     "note": "EV +10.4%",
      "edge": null,
-     "ev": 0.11723400000000006,
+     "ev": 0.10431800000000002,
      "odds": null,
      "line": null,
      "league_code": "CHALLENGER",
@@ -1719,24 +1741,9 @@
      "prob": 0.6433,
      "tier": "BUENO",
      "units": "1.0",
-     "note": "EV +174.0%",
+     "note": "EV +172.8%",
      "edge": null,
-     "ev": 1.7404579999999998,
-     "odds": null,
-     "line": null,
-     "league_code": "CHALLENGER",
-     "league_label": "ATP Challenger Tour"
-    },
-    {
-     "match": "Leo Borg vs Yunseong Chung",
-     "market": "ML",
-     "pick": "Yunseong Chung",
-     "prob": 0.6193,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": "EV +9.0%",
-     "edge": null,
-     "ev": 0.08996799999999994,
+     "ev": 1.727592,
      "odds": null,
      "line": null,
      "league_code": "CHALLENGER",
@@ -1749,9 +1756,9 @@
      "prob": 0.5712999999999999,
      "tier": "DESTACADO",
      "units": "0.5",
-     "note": "EV +25.7% · Prob<60% pero buen momentum/variables: resaltado.",
+     "note": "EV +26.3% · Prob<60% pero buen momentum/variables: resaltado.",
      "edge": null,
-     "ev": 0.25686,
+     "ev": 0.26257299999999983,
      "odds": null,
      "line": null,
      "league_code": "CHALLENGER",
@@ -2314,55 +2321,6 @@
      "momentum_ok": true
     },
     {
-     "home": "Abedallah Shelbayh",
-     "away": "Michael Mmoh",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "CHALLENGER",
-     "league_label": "ATP Challenger Tour",
-     "context": "Tiburon challenger, Hard, BO3",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Ganador del partido",
-       "pick": "Michael Mmoh",
-       "prob": 0.7991,
-       "detail": "Abedallah Shelbayh 20% · Michael Mmoh 80%",
-       "strong": true
-      },
-      {
-       "label": "Total Juegos O/U",
-       "pick": "UNDER",
-       "prob": 0.514,
-       "detail": "UNDER 22.5 · 51% · Proyectado 23.7",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Juegos",
-       "pick": "Michael Mmoh",
-       "prob": 0.5736,
-       "detail": "Michael Mmoh -1.5 (ref.) · 57%",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Sets",
-       "pick": "Michael Mmoh",
-       "prob": 0.8633,
-       "detail": "Hándicap Sets -1.5 · 14% · (+631)",
-       "strong": false
-      },
-      {
-       "label": "Juegos 1er Set O/U",
-       "pick": "OVER",
-       "prob": 0.5333,
-       "detail": "OVER 9.5 · 53% · Proyectado 9.8",
-       "strong": false
-      }
-     ],
-     "convergence": true,
-     "momentum_ok": true
-    },
-    {
      "home": "Brandon Nakashima",
      "away": "Dali Blanch",
      "home_abbrev": "",
@@ -2410,6 +2368,55 @@
      ],
      "convergence": true,
      "momentum_ok": true
+    },
+    {
+     "home": "Michael Zheng",
+     "away": "Mitchell Krueger",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "Tiburon challenger, Hard, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Michael Zheng",
+       "prob": 0.7457,
+       "detail": "Michael Zheng 75% · Mitchell Krueger 25%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5278,
+       "detail": "UNDER 23.5 · 53% · Proyectado 23.4",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Michael Zheng",
+       "prob": 0.5794,
+       "detail": "Michael Zheng -1.5 (ref.) · 58%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Michael Zheng",
+       "prob": 0.5004,
+       "detail": "Hándicap Sets -1.5 · 50% · (-100)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5754,
+       "detail": "OVER 9.5 · 58% · Proyectado 9.8",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
     },
     {
      "home": "Luka Mikrut",
@@ -3242,55 +3249,6 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": false
-    },
-    {
-     "home": "Leo Borg",
-     "away": "Yunseong Chung",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "CHALLENGER",
-     "league_label": "ATP Challenger Tour",
-     "context": "Tiburon challenger, Hard, BO3",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Ganador del partido",
-       "pick": "Yunseong Chung",
-       "prob": 0.6193,
-       "detail": "Leo Borg 38% · Yunseong Chung 62%",
-       "strong": true
-      },
-      {
-       "label": "Total Juegos O/U",
-       "pick": "OVER",
-       "prob": 0.5097,
-       "detail": "OVER 22.5 · 51% · Proyectado 23.4",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Juegos",
-       "pick": "Leo Borg",
-       "prob": 0.5566,
-       "detail": "Leo Borg +1.5 (ref.) · 56%",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Sets",
-       "pick": "Yunseong Chung",
-       "prob": 0.7653,
-       "detail": "Hándicap Sets -1.5 · 23% · (+326)",
-       "strong": false
-      },
-      {
-       "label": "Juegos 1er Set O/U",
-       "pick": "OVER",
-       "prob": 0.5526,
-       "detail": "OVER 9.5 · 55% · Proyectado 9.8",
-       "strong": false
-      }
-     ],
-     "convergence": true,
      "momentum_ok": false
     },
     {
@@ -5744,7 +5702,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 179.8,
+   "elapsed_s": 194.39999999999998,
    "sport": "tenis",
    "sport_name": "Tenis",
    "all_leagues": true
@@ -6408,7 +6366,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 56.7,
+   "elapsed_s": 74.1,
    "sport": "futbol",
    "sport_name": "Fútbol",
    "all_leagues": true
@@ -6435,11 +6393,11 @@
     {
      "match": "Miami Hurricanes @ Wake Forest Demon Deacons",
      "market": "Totales",
-     "pick": "TOTAL: UNDER 56.5",
-     "prob": 0.693,
+     "pick": "TOTAL: UNDER 55.5",
+     "prob": 0.6705,
      "tier": "MUY BUENO",
      "units": "1.5",
-     "note": ">=69% · linea 56.5",
+     "note": ">=67% · linea 55.5",
      "league_code": "NCAAF",
      "league_label": "NCAAF (College)"
     }
@@ -6472,8 +6430,8 @@
       {
        "label": "Totales",
        "pick": "UNDER",
-       "prob": 0.6930421710385044,
-       "detail": "Línea 56.5 · OVER 31% / UNDER 69%",
+       "prob": 0.6704631717839673,
+       "detail": "Línea 55.5 · OVER 33% / UNDER 67%",
        "strong": false
       },
       {
@@ -6572,7 +6530,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 11.4,
+   "elapsed_s": 12.4,
    "sport": "amfut",
    "sport_name": "NFL/NCAAF",
    "all_leagues": true
