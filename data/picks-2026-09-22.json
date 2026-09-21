@@ -1,0 +1,4897 @@
+{
+ "date": "2026-09-22",
+ "generated_at": "2026-09-21T14:12:27",
+ "sports_total": "86 partidos",
+ "sports": [
+  {
+   "key": "beisbol",
+   "name": "Béisbol",
+   "icon": "sports_baseball",
+   "leagues": [
+    {
+     "code": "MLB",
+     "name": "Major League"
+    },
+    {
+     "code": "KBO",
+     "name": "KBO League"
+    },
+    {
+     "code": "NPB",
+     "name": "Nippon Baseball"
+    }
+   ]
+  },
+  {
+   "key": "tenis",
+   "name": "Tenis",
+   "icon": "sports_tennis",
+   "leagues": [
+    {
+     "code": "ATP",
+     "name": "ATP Tour"
+    },
+    {
+     "code": "WTA",
+     "name": "WTA Tour"
+    },
+    {
+     "code": "CHA",
+     "name": "ATP Challenger Tour"
+    }
+   ]
+  },
+  {
+   "key": "futbol",
+   "name": "Fútbol",
+   "icon": "sports_soccer",
+   "leagues": [
+    {
+     "code": "ENG",
+     "name": "Premier League"
+    },
+    {
+     "code": "ESP",
+     "name": "La Liga"
+    },
+    {
+     "code": "ITA",
+     "name": "Serie A"
+    },
+    {
+     "code": "GER",
+     "name": "Bundesliga"
+    },
+    {
+     "code": "FRA",
+     "name": "Ligue 1"
+    },
+    {
+     "code": "NED",
+     "name": "Eredivisie"
+    },
+    {
+     "code": "POR",
+     "name": "Primeira Liga"
+    },
+    {
+     "code": "KSA",
+     "name": "Saudi Pro League"
+    },
+    {
+     "code": "FAC",
+     "name": "FA Cup"
+    },
+    {
+     "code": "CAR",
+     "name": "Carabao Cup"
+    },
+    {
+     "code": "CDR",
+     "name": "Copa del Rey"
+    },
+    {
+     "code": "CI",
+     "name": "Coppa Italia"
+    },
+    {
+     "code": "CDF",
+     "name": "Coupe de France"
+    },
+    {
+     "code": "DFB",
+     "name": "DFB Pokal"
+    },
+    {
+     "code": "WCH",
+     "name": "Champions Femenina"
+    },
+    {
+     "code": "UCL",
+     "name": "Champions League"
+    },
+    {
+     "code": "UEL",
+     "name": "Europa League"
+    },
+    {
+     "code": "UECL",
+     "name": "Conference League"
+    },
+    {
+     "code": "MEX",
+     "name": "Liga MX"
+    },
+    {
+     "code": "LIB",
+     "name": "Copa Libertadores"
+    },
+    {
+     "code": "SUD",
+     "name": "Copa Sudamericana"
+    },
+    {
+     "code": "AMI",
+     "name": "Amistosos Int. (Selecciones)"
+    }
+   ]
+  },
+  {
+   "key": "amfut",
+   "name": "NFL/NCAAF",
+   "icon": "sports_football",
+   "leagues": [
+    {
+     "code": "NFL",
+     "name": "NFL"
+    },
+    {
+     "code": "NCAAF",
+     "name": "NCAAF (College)"
+    }
+   ]
+  },
+  {
+   "key": "basquet",
+   "name": "Básquetbol",
+   "icon": "sports_basketball",
+   "leagues": [
+    {
+     "code": "NBA",
+     "name": "NBA"
+    },
+    {
+     "code": "WNBA",
+     "name": "WNBA"
+    },
+    {
+     "code": "EUR",
+     "name": "Euroliga"
+    },
+    {
+     "code": "KOR",
+     "name": "KBL Corea"
+    },
+    {
+     "code": "CHN",
+     "name": "CBA China"
+    },
+    {
+     "code": "FRA",
+     "name": "LNB Pro A"
+    },
+    {
+     "code": "ESP",
+     "name": "Liga ACB"
+    },
+    {
+     "code": "GER",
+     "name": "BBL Alemania"
+    }
+   ]
+  }
+ ],
+ "results": {
+  "beisbol": {
+   "ok": true,
+   "date": "2026-09-22",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "sport": "beisbol",
+   "sport_name": "Béisbol",
+   "all_leagues": true,
+   "n": 10,
+   "picks": [
+    {
+     "match": "NC Dinos @ Samsung Lions",
+     "market": "Moneyline",
+     "pick": "Samsung Lions",
+     "prob": 0.7898,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "",
+     "league_code": "KBO",
+     "league_label": "KBO League"
+    },
+    {
+     "match": "Doosan Bears @ Kiwoom Heroes",
+     "market": "Moneyline",
+     "pick": "Doosan Bears",
+     "prob": 0.7709,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "",
+     "league_code": "KBO",
+     "league_label": "KBO League"
+    },
+    {
+     "match": "Lotte Giants @ Hanwha Eagles",
+     "market": "Moneyline",
+     "pick": "Hanwha Eagles",
+     "prob": 0.6461,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": "",
+     "league_code": "KBO",
+     "league_label": "KBO League"
+    },
+    {
+     "match": "Rakuten Golden Eagles @ Nippon-Ham Fighters",
+     "market": "Moneyline",
+     "pick": "ML: HOME (Nippon-Ham Fighters)",
+     "prob": 0.5639,
+     "tier": "DESTACADO",
+     "units": "0.5",
+     "note": ">=56%",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball"
+    },
+    {
+     "match": "Rakuten Golden Eagles @ Nippon-Ham Fighters",
+     "market": "Run Line",
+     "pick": "RL: AWAY 1.5",
+     "prob": 0.5903,
+     "tier": "DESTACADO",
+     "units": "0.5",
+     "note": ">=59% · linea -1.5",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball"
+    },
+    {
+     "match": "Seibu Lions @ SoftBank Hawks",
+     "market": "Moneyline",
+     "pick": "ML: HOME (SoftBank Hawks)",
+     "prob": 0.6026,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": ">=60%",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball"
+    },
+    {
+     "match": "Orix Buffaloes @ Lotte Marines",
+     "market": "Moneyline",
+     "pick": "ML: HOME (Lotte Marines)",
+     "prob": 0.6033,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": ">=60%",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball"
+    },
+    {
+     "match": "Yomiuri Giants @ Hiroshima Carp",
+     "market": "Run Line",
+     "pick": "RL: HOME 1.5",
+     "prob": 0.5918,
+     "tier": "DESTACADO",
+     "units": "0.5",
+     "note": ">=59% · linea 1.5",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball"
+    },
+    {
+     "match": "Yomiuri Giants @ Hiroshima Carp",
+     "market": "Totales",
+     "pick": "TOTAL: UNDER 7.5",
+     "prob": 0.5816,
+     "tier": "DESTACADO",
+     "units": "0.5",
+     "note": ">=58% · linea 7.5",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball"
+    },
+    {
+     "match": "Hanshin Tigers @ Yakult Swallows",
+     "market": "Run Line",
+     "pick": "RL: HOME 1.5",
+     "prob": 0.6229,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": ">=62% · linea 1.5",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball"
+    },
+    {
+     "match": "Hanshin Tigers @ Yakult Swallows",
+     "market": "Totales",
+     "pick": "TOTAL: UNDER 7.5",
+     "prob": 0.6095,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": ">=61% · linea 7.5",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball"
+    },
+    {
+     "match": "Chunichi Dragons @ Yokohama BayStars",
+     "market": "Moneyline",
+     "pick": "ML: HOME (Yokohama BayStars)",
+     "prob": 0.6701,
+     "tier": "MUY BUENO",
+     "units": "1.5",
+     "note": ">=67%",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball"
+    },
+    {
+     "match": "Chunichi Dragons @ Yokohama BayStars",
+     "market": "Totales",
+     "pick": "TOTAL: OVER 7.5",
+     "prob": 0.5581,
+     "tier": "DESTACADO",
+     "units": "0.5",
+     "note": ">=56% · linea 7.5",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball"
+    }
+   ],
+   "predictions": [
+    {
+     "home": "Samsung Lions",
+     "away": "NC Dinos",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "KBO",
+     "league_label": "KBO League",
+     "context": "Samsung Lions Park",
+     "extra": "Abridor L: 페덱 · Abridor V: 클레빈저",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Samsung Lions",
+       "prob": 0.7898,
+       "detail": "Local 79% · Visitante 21% · (-197/+164)",
+       "strong": true
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.6188,
+       "detail": "OVER 10.5 · 62% · Proyectado 14.9",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5279,
+       "detail": "UNDER 6.5 · 53%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Samsung Lions",
+       "prob": 0.5775,
+       "detail": "F5 58% · 42% · (-137/+137)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "NO",
+       "prob": 0.5087999999999999,
+       "detail": "No carrera 1ª entrada 49%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "SSG Landers",
+     "away": "KT Wiz",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "KBO",
+     "league_label": "KBO League",
+     "context": "SSG Landers Field",
+     "extra": "Abridor L: 아빌라 · Abridor V: 배제성",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "SSG Landers",
+       "prob": 0.522,
+       "detail": "Local 52% · Visitante 48% · (-118/+101)",
+       "strong": false
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "UNDER",
+       "prob": 0.5529,
+       "detail": "UNDER 9.5 · 55% · Proyectado 8.7",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.5905,
+       "detail": "UNDER 5.0 · 59%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "KT Wiz",
+       "prob": 0.5473,
+       "detail": "F5 45% · 55% · (+121/-121)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "NO",
+       "prob": 0.5583,
+       "detail": "No carrera 1ª entrada 44%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Hanwha Eagles",
+     "away": "Lotte Giants",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "KBO",
+     "league_label": "KBO League",
+     "context": "Hanwha Life Ballpark",
+     "extra": "Abridor L: 류현진 · Abridor V: 비슬리",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Hanwha Eagles",
+       "prob": 0.6461,
+       "detail": "Local 65% · Visitante 35% · (-142/+121)",
+       "strong": true
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.571,
+       "detail": "OVER 8.5 · 57% · Proyectado 7.7",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.596,
+       "detail": "UNDER 5.0 · 60%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Hanwha Eagles",
+       "prob": 0.572,
+       "detail": "F5 57% · 43% · (-134/+134)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "NO",
+       "prob": 0.5146,
+       "detail": "No carrera 1ª entrada 49%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Kiwoom Heroes",
+     "away": "Doosan Bears",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "KBO",
+     "league_label": "KBO League",
+     "context": "Gocheok Sky Dome",
+     "extra": "Abridor L: 전준표 · Abridor V: 벤자민",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Doosan Bears",
+       "prob": 0.7709,
+       "detail": "Local 23% · Visitante 77% · (+186/-226)",
+       "strong": true
+      },
+      {
+       "label": "Totales O/U",
+       "pick": "OVER",
+       "prob": 0.7792,
+       "detail": "OVER 7.5 · 78% · Proyectado 10.0",
+       "strong": false
+      },
+      {
+       "label": "F5 O/U",
+       "pick": "UNDER",
+       "prob": 0.52,
+       "detail": "UNDER 5.5 · 52%",
+       "strong": false
+      },
+      {
+       "label": "F5 Moneyline",
+       "pick": "Doosan Bears",
+       "prob": 0.7218,
+       "detail": "F5 28% · 72% · (+260/-260)",
+       "strong": false
+      },
+      {
+       "label": "NRFI",
+       "pick": "SÍ",
+       "prob": 0.5126,
+       "detail": "No carrera 1ª entrada 51%",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Nippon-Ham Fighters",
+     "away": "Rakuten Golden Eagles",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Nippon-Ham Fighters",
+       "prob": 0.5639389359253943,
+       "detail": "Local 56% · Visitante 44%",
+       "strong": false
+      },
+      {
+       "label": "Run Line",
+       "pick": "VISITANTE",
+       "prob": 0.5902525347929244,
+       "detail": "Línea -1.5 · VISITANTE 59%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5270734749758651,
+       "detail": "Línea 7.5 · OVER 53% / UNDER 47%",
+       "strong": false
+      },
+      {
+       "label": "Carreras esperadas",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 7.8",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "SoftBank Hawks",
+     "away": "Seibu Lions",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "SoftBank Hawks",
+       "prob": 0.6026442660783142,
+       "detail": "Local 60% · Visitante 40%",
+       "strong": true
+      },
+      {
+       "label": "Run Line",
+       "pick": "VISITANTE",
+       "prob": 0.5201805069495401,
+       "detail": "Línea -1.5 · VISITANTE 52%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5281800489285231,
+       "detail": "Línea 7.5 · OVER 47% / UNDER 53%",
+       "strong": false
+      },
+      {
+       "label": "Carreras esperadas",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 7.2",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Lotte Marines",
+     "away": "Orix Buffaloes",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Lotte Marines",
+       "prob": 0.6033413423860859,
+       "detail": "Local 60% · Visitante 40%",
+       "strong": true
+      },
+      {
+       "label": "Run Line",
+       "pick": "VISITANTE",
+       "prob": 0.547653084720667,
+       "detail": "Línea -1.5 · VISITANTE 55%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5190613705025804,
+       "detail": "Línea 7.5 · OVER 52% / UNDER 48%",
+       "strong": false
+      },
+      {
+       "label": "Carreras esperadas",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 7.7",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Hiroshima Carp",
+     "away": "Yomiuri Giants",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Yomiuri Giants",
+       "prob": 0.5444414170173805,
+       "detail": "Local 46% · Visitante 54%",
+       "strong": false
+      },
+      {
+       "label": "Run Line",
+       "pick": "LOCAL",
+       "prob": 0.591788627452538,
+       "detail": "Línea 1.5 · LOCAL 59%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5815739652041997,
+       "detail": "Línea 7.5 · OVER 42% / UNDER 58%",
+       "strong": false
+      },
+      {
+       "label": "Carreras esperadas",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 6.7",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Yakult Swallows",
+     "away": "Hanshin Tigers",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Hanshin Tigers",
+       "prob": 0.5225051534538856,
+       "detail": "Local 48% · Visitante 52%",
+       "strong": false
+      },
+      {
+       "label": "Run Line",
+       "pick": "LOCAL",
+       "prob": 0.6229251832617261,
+       "detail": "Línea 1.5 · LOCAL 62%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.6094687201315016,
+       "detail": "Línea 7.5 · OVER 39% / UNDER 61%",
+       "strong": false
+      },
+      {
+       "label": "Carreras esperadas",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 6.4",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Yokohama BayStars",
+     "away": "Chunichi Dragons",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Yokohama BayStars",
+       "prob": 0.6700708723740922,
+       "detail": "Local 67% · Visitante 33%",
+       "strong": true
+      },
+      {
+       "label": "Run Line",
+       "pick": "LOCAL",
+       "prob": 0.5184283807514529,
+       "detail": "Línea -1.5 · LOCAL 52%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5580599051153636,
+       "detail": "Línea 7.5 · OVER 56% / UNDER 44%",
+       "strong": false
+      },
+      {
+       "label": "Carreras esperadas",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 8.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    }
+   ],
+   "message": "10 partidos proyectados · problemas: MLB: ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().;",
+   "elapsed_s": 23.1
+  },
+  "tenis": {
+   "ok": true,
+   "date": "2026-09-22",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 43,
+   "message": "43 partidos proyectados",
+   "picks": [
+    {
+     "match": "Alex Bolt vs Omar Jasika",
+     "market": "ML",
+     "pick": "Alex Bolt",
+     "prob": 0.8807,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "EV +40.5%",
+     "edge": null,
+     "ev": 0.40471650000000003,
+     "odds": null,
+     "line": null,
+     "league_code": "ATP",
+     "league_label": "ATP Tour"
+    },
+    {
+     "match": "Luca Castelnuovo vs Pavel Kotov",
+     "market": "ML",
+     "pick": "Pavel Kotov",
+     "prob": 0.8577,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "EV +7.0%",
+     "edge": null,
+     "ev": 0.06955190000000011,
+     "odds": null,
+     "line": null,
+     "league_code": "ATP",
+     "league_label": "ATP Tour"
+    },
+    {
+     "match": "Arthur Weber vs Hayato Matsuoka",
+     "market": "ML",
+     "pick": "Hayato Matsuoka",
+     "prob": 0.8097,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "EV +20.6%",
+     "edge": null,
+     "ev": 0.20645299999999994,
+     "odds": null,
+     "line": null,
+     "league_code": "ATP",
+     "league_label": "ATP Tour"
+    },
+    {
+     "match": "Alexis Galarneau vs Elias Ymer",
+     "market": "ML",
+     "pick": "Elias Ymer",
+     "prob": 0.7915,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "EV +118.5%",
+     "edge": null,
+     "ev": 1.1845399999999997,
+     "odds": null,
+     "line": null,
+     "league_code": "ATP",
+     "league_label": "ATP Tour"
+    },
+    {
+     "match": "Dalibor Svrcina vs Philip Sekulic",
+     "market": "ML",
+     "pick": "Philip Sekulic",
+     "prob": 0.6166,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": "EV +161.4%",
+     "edge": null,
+     "ev": 1.6143840000000003,
+     "odds": null,
+     "line": null,
+     "league_code": "ATP",
+     "league_label": "ATP Tour"
+    },
+    {
+     "match": "Lisa Zaar vs Rebeka Masarova",
+     "market": "ML",
+     "pick": "Rebeka Masarova",
+     "prob": 0.9334,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "EV +28.7%",
+     "edge": null,
+     "ev": 0.2871586,
+     "odds": null,
+     "line": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour"
+    },
+    {
+     "match": "Linda Fruhvirtova vs Maria Sakkari",
+     "market": "ML",
+     "pick": "Maria Sakkari",
+     "prob": 0.8138,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "EV +3.2%",
+     "edge": null,
+     "ev": 0.031898399999999966,
+     "odds": null,
+     "line": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour"
+    },
+    {
+     "match": "Carole Monnet vs Fiona Crawley",
+     "market": "ML",
+     "pick": "Carole Monnet",
+     "prob": 0.7972,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "EV +104.9%",
+     "edge": null,
+     "ev": 1.048804,
+     "odds": null,
+     "line": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour"
+    },
+    {
+     "match": "Berfu Cengiz vs Martyna Kubka",
+     "market": "ML",
+     "pick": "Martyna Kubka",
+     "prob": 0.7701,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "EV +17.4%",
+     "edge": null,
+     "ev": 0.17363240000000002,
+     "odds": null,
+     "line": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour"
+    },
+    {
+     "match": "Anna Bondar vs Renata Zarazua",
+     "market": "ML",
+     "pick": "Anna Bondar",
+     "prob": 0.7475,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "EV +10.7%",
+     "edge": null,
+     "ev": 0.10704750000000013,
+     "odds": null,
+     "line": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour"
+    },
+    {
+     "match": "Carol Young Suh Lee vs Harmony Tan",
+     "market": "ML",
+     "pick": "Carol Young Suh Lee",
+     "prob": 0.7421,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "EV +2.6%",
+     "edge": null,
+     "ev": 0.02558219999999989,
+     "odds": null,
+     "line": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour"
+    },
+    {
+     "match": "Ekaterine Gorgodze vs Laura Pigossi",
+     "market": "ML",
+     "pick": "Laura Pigossi",
+     "prob": 0.719,
+     "tier": "MUY BUENO",
+     "units": "1.5",
+     "note": "EV +51.0%",
+     "edge": null,
+     "ev": 0.5099,
+     "odds": null,
+     "line": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour"
+    },
+    {
+     "match": "Sofia Costoulas vs Tatiana Prozorova",
+     "market": "ML",
+     "pick": "Sofia Costoulas",
+     "prob": 0.7142,
+     "tier": "MUY BUENO",
+     "units": "1.5",
+     "note": "EV +58.6%",
+     "edge": null,
+     "ev": 0.585524,
+     "odds": null,
+     "line": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour"
+    },
+    {
+     "match": "Francisca Jorge vs Mia Pohankova",
+     "market": "ML",
+     "pick": "Francisca Jorge",
+     "prob": 0.6415,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": "EV +86.7%",
+     "edge": null,
+     "ev": 0.866765,
+     "odds": null,
+     "line": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour"
+    },
+    {
+     "match": "Naiktha Bains vs Victoria Jimenez Kasintseva",
+     "market": "ML",
+     "pick": "Naiktha Bains",
+     "prob": 0.505,
+     "tier": "DESTACADO",
+     "units": "0.5",
+     "note": "EV +39.4% · Prob<60% pero buen momentum/variables: resaltado.",
+     "edge": null,
+     "ev": 0.39379999999999993,
+     "odds": null,
+     "line": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour"
+    },
+    {
+     "match": "Dinko Dinev vs Dylan Dietrich",
+     "market": "ML",
+     "pick": "Dylan Dietrich",
+     "prob": 0.8279,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "",
+     "edge": null,
+     "ev": null,
+     "odds": null,
+     "line": null,
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour"
+    },
+    {
+     "match": "Daniil Ostapenkov vs Timo Legout",
+     "market": "ML",
+     "pick": "Daniil Ostapenkov",
+     "prob": 0.8242,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "",
+     "edge": null,
+     "ev": null,
+     "odds": null,
+     "line": null,
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour"
+    },
+    {
+     "match": "Henry Lieberman vs Nicholas Godsick",
+     "market": "ML",
+     "pick": "Nicholas Godsick",
+     "prob": 0.8220000000000001,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "",
+     "edge": null,
+     "ev": null,
+     "odds": null,
+     "line": null,
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour"
+    },
+    {
+     "match": "Alex Rybakov vs Ozan Baris",
+     "market": "ML",
+     "pick": "Alex Rybakov",
+     "prob": 0.8004,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "",
+     "edge": null,
+     "ev": null,
+     "odds": null,
+     "line": null,
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour"
+    },
+    {
+     "match": "Andrew Fenty vs Erik Arutiunian",
+     "market": "ML",
+     "pick": "Andrew Fenty",
+     "prob": 0.7062,
+     "tier": "MUY BUENO",
+     "units": "1.5",
+     "note": "",
+     "edge": null,
+     "ev": null,
+     "odds": null,
+     "line": null,
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour"
+    },
+    {
+     "match": "Gabriel Roveri Sidney vs Pietro Gava",
+     "market": "ML",
+     "pick": "Gabriel Roveri Sidney",
+     "prob": 0.6884,
+     "tier": "MUY BUENO",
+     "units": "1.5",
+     "note": "",
+     "edge": null,
+     "ev": null,
+     "odds": null,
+     "line": null,
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour"
+    },
+    {
+     "match": "Agustin Moreno vs Shuzo Matsuoka",
+     "market": "ML",
+     "pick": "Shuzo Matsuoka",
+     "prob": 0.6646000000000001,
+     "tier": "MUY BUENO",
+     "units": "1.5",
+     "note": "",
+     "edge": null,
+     "ev": null,
+     "odds": null,
+     "line": null,
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour"
+    },
+    {
+     "match": "Braden Shick vs Patrick Maloney",
+     "market": "ML",
+     "pick": "Patrick Maloney",
+     "prob": 0.5265,
+     "tier": "DESTACADO",
+     "units": "0.5",
+     "note": "Prob<60% pero buen momentum/variables: resaltado.",
+     "edge": null,
+     "ev": null,
+     "odds": null,
+     "line": null,
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour"
+    }
+   ],
+   "predictions": [
+    {
+     "home": "Andre Ilagan",
+     "away": "Petr Bar Biryukov",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "Chengdu Open, Hard, Ronda: Qualifying 1st Round, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Petr Bar Biryukov",
+       "prob": 0.5809,
+       "detail": "Andre Ilagan 42% · Petr Bar Biryukov 58%",
+       "strong": false
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5201,
+       "detail": "OVER 23.5 · 52% · Proyectado 24.3",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Andre Ilagan",
+       "prob": 0.516,
+       "detail": "Andre Ilagan +0.5 (ref.) · 52%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Petr Bar Biryukov",
+       "prob": 0.7987,
+       "detail": "Hándicap Sets -1.5 · 20% · (+397)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5947,
+       "detail": "OVER 9.5 · 59% · Proyectado 10.1",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Alexis Galarneau",
+     "away": "Elias Ymer",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "Chengdu Open, Hard, Ronda: Qualifying 1st Round, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Elias Ymer",
+       "prob": 0.7915,
+       "detail": "Alexis Galarneau 21% · Elias Ymer 79%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5213,
+       "detail": "OVER 23.5 · 52% · Proyectado 24.1",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Elias Ymer",
+       "prob": 0.6363,
+       "detail": "Elias Ymer -0.5 (ref.) · 64%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Elias Ymer",
+       "prob": 0.8387,
+       "detail": "Hándicap Sets -1.5 · 16% · (+520)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5806,
+       "detail": "OVER 9.5 · 58% · Proyectado 9.9",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Alexandre Muller",
+     "away": "Luka Pavlovic",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "Chengdu Open, Hard, Ronda: Qualifying 1st Round, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Alexandre Muller",
+       "prob": 0.7616,
+       "detail": "Alexandre Muller 76% · Luka Pavlovic 24%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5167999999999999,
+       "detail": "UNDER 23.5 · 52% · Proyectado 23.5",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Alexandre Muller",
+       "prob": 0.7247,
+       "detail": "Alexandre Muller +0.5 (ref.) · 72%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Alexandre Muller",
+       "prob": 0.5727,
+       "detail": "Hándicap Sets -1.5 · 57% · (-134)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5757,
+       "detail": "OVER 9.5 · 58% · Proyectado 10.2",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Kenta Miyoshi",
+     "away": "Lloyd Harris",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "Chengdu Open, Hard, Ronda: Qualifying 1st Round, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Lloyd Harris",
+       "prob": 0.7267,
+       "detail": "Kenta Miyoshi 27% · Lloyd Harris 73%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5343,
+       "detail": "UNDER 22.5 · 53% · Proyectado 22.3",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Lloyd Harris",
+       "prob": 0.5207,
+       "detail": "Lloyd Harris -1.5 (ref.) · 52%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Lloyd Harris",
+       "prob": 0.8449,
+       "detail": "Hándicap Sets -1.5 · 16% · (+545)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5553,
+       "detail": "OVER 9.5 · 56% · Proyectado 9.7",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Luca Castelnuovo",
+     "away": "Pavel Kotov",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "Chengdu Open, Hard, Ronda: Qualifying 1st Round, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Pavel Kotov",
+       "prob": 0.8577,
+       "detail": "Luca Castelnuovo 14% · Pavel Kotov 86%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5549,
+       "detail": "UNDER 23.5 · 55% · Proyectado 22.9",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Pavel Kotov",
+       "prob": 0.7573,
+       "detail": "Pavel Kotov -0.5 (ref.) · 76%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Pavel Kotov",
+       "prob": 0.8831,
+       "detail": "Hándicap Sets -1.5 · 12% · (+756)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.6531,
+       "detail": "UNDER 10.5 · 65% · Proyectado 9.8",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Federico Cina",
+     "away": "Kaichi Uchida",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "Chengdu Open, Hard, Ronda: Qualifying 1st Round, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Federico Cina",
+       "prob": 0.8258,
+       "detail": "Federico Cina 83% · Kaichi Uchida 17%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5207,
+       "detail": "OVER 23.5 · 52% · Proyectado 23.9",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Federico Cina",
+       "prob": 0.6972,
+       "detail": "Federico Cina -0.5 (ref.) · 70%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Federico Cina",
+       "prob": 0.5904,
+       "detail": "Hándicap Sets -1.5 · 59% · (-144)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5728,
+       "detail": "OVER 9.5 · 57% · Proyectado 9.9",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Jake Delaney",
+     "away": "Taro Daniel",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "AITO Hangzhou Open, Hard, Ronda: Qualifying 1st Round, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Taro Daniel",
+       "prob": 0.6674,
+       "detail": "Jake Delaney 33% · Taro Daniel 67%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5085,
+       "detail": "UNDER 23.5 · 51% · Proyectado 23.6",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Taro Daniel",
+       "prob": 0.625,
+       "detail": "Taro Daniel +0.5 (ref.) · 62%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Taro Daniel",
+       "prob": 0.7857000000000001,
+       "detail": "Hándicap Sets -1.5 · 21% · (+367)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5844,
+       "detail": "OVER 9.5 · 58% · Proyectado 9.9",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": true
+    },
+    {
+     "home": "Alex Bolt",
+     "away": "Omar Jasika",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "AITO Hangzhou Open, Hard, Ronda: Qualifying 1st Round, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Alex Bolt",
+       "prob": 0.8807,
+       "detail": "Alex Bolt 88% · Omar Jasika 12%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5796,
+       "detail": "UNDER 22.5 · 58% · Proyectado 21.9",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Alex Bolt",
+       "prob": 0.597,
+       "detail": "Alex Bolt -2.5 (ref.) · 60%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Alex Bolt",
+       "prob": 0.6319,
+       "detail": "Hándicap Sets -1.5 · 63% · (-172)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5348,
+       "detail": "OVER 9.5 · 53% · Proyectado 9.8",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Dalibor Svrcina",
+     "away": "Philip Sekulic",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "AITO Hangzhou Open, Hard, Ronda: Qualifying 1st Round, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Philip Sekulic",
+       "prob": 0.6166,
+       "detail": "Dalibor Svrcina 38% · Philip Sekulic 62%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5092,
+       "detail": "UNDER 22.5 · 51% · Proyectado 23.4",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Dalibor Svrcina",
+       "prob": 0.5867,
+       "detail": "Dalibor Svrcina +1.5 (ref.) · 59%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Philip Sekulic",
+       "prob": 0.7216,
+       "detail": "Hándicap Sets -1.5 · 28% · (+259)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5537,
+       "detail": "OVER 9.5 · 55% · Proyectado 10.0",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Arthur Weber",
+     "away": "Hayato Matsuoka",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "AITO Hangzhou Open, Hard, Ronda: Qualifying 1st Round, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Hayato Matsuoka",
+       "prob": 0.8097,
+       "detail": "Arthur Weber 19% · Hayato Matsuoka 81%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5184,
+       "detail": "OVER 22.5 · 52% · Proyectado 23.9",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Hayato Matsuoka",
+       "prob": 0.6498,
+       "detail": "Hayato Matsuoka -0.5 (ref.) · 65%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Hayato Matsuoka",
+       "prob": 0.8565,
+       "detail": "Hándicap Sets -1.5 · 14% · (+597)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.54,
+       "detail": "OVER 9.5 · 54% · Proyectado 9.9",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Masamichi Imamura",
+     "away": "Rio Noguchi",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "AITO Hangzhou Open, Hard, Ronda: Qualifying 1st Round, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Rio Noguchi",
+       "prob": 0.7522,
+       "detail": "Masamichi Imamura 25% · Rio Noguchi 75%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5222,
+       "detail": "OVER 22.5 · 52% · Proyectado 23.7",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Rio Noguchi",
+       "prob": 0.6861,
+       "detail": "Rio Noguchi +0.5 (ref.) · 69%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Rio Noguchi",
+       "prob": 0.8088,
+       "detail": "Hándicap Sets -1.5 · 19% · (+423)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5482,
+       "detail": "OVER 9.5 · 55% · Proyectado 9.8",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Anna Bondar",
+     "away": "Renata Zarazua",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Korea Open, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Anna Bondar",
+       "prob": 0.7475,
+       "detail": "Anna Bondar 75% · Renata Zarazua 25%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5203,
+       "detail": "OVER 21.5 · 52% · Proyectado 22.6",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Anna Bondar",
+       "prob": 0.618,
+       "detail": "Anna Bondar -1.5 (ref.) · 62%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Renata Zarazua",
+       "prob": 0.5952,
+       "detail": "Hándicap Sets -1.5 · 40% · (+147)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5307,
+       "detail": "OVER 9.5 · 53% · Proyectado 9.4",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Kimberly Birrell",
+     "away": "Tamara Zidansek",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Korea Open, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Kimberly Birrell",
+       "prob": 0.6123,
+       "detail": "Kimberly Birrell 61% · Tamara Zidansek 39%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5173,
+       "detail": "UNDER 21.5 · 52% · Proyectado 21.7",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Kimberly Birrell",
+       "prob": 0.5424,
+       "detail": "Kimberly Birrell -1.5 (ref.) · 54%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Tamara Zidansek",
+       "prob": 0.6163000000000001,
+       "detail": "Hándicap Sets -1.5 · 38% · (+161)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5063,
+       "detail": "OVER 9.5 · 51% · Proyectado 9.4",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Anastasia Zakharova",
+     "away": "Jelena Ostapenko",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Korea Open, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Jelena Ostapenko",
+       "prob": 0.7672,
+       "detail": "Anastasia Zakharova 23% · Jelena Ostapenko 77%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5,
+       "detail": "OVER 21.5 · 50% · Proyectado 22.1",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Jelena Ostapenko",
+       "prob": 0.6789,
+       "detail": "Jelena Ostapenko -0.5 (ref.) · 68%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Jelena Ostapenko",
+       "prob": 0.8262,
+       "detail": "Hándicap Sets -1.5 · 17% · (+475)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.529,
+       "detail": "OVER 9.5 · 53% · Proyectado 9.5",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": true
+    },
+    {
+     "home": "Alina Charaeva",
+     "away": "Sofia Kenin",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Korea Open, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Sofia Kenin",
+       "prob": 0.6635,
+       "detail": "Alina Charaeva 34% · Sofia Kenin 66%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5667,
+       "detail": "UNDER 21.5 · 57% · Proyectado 21.6",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Alina Charaeva",
+       "prob": 0.6967,
+       "detail": "Alina Charaeva +3.5 (ref.) · 70%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Sofia Kenin",
+       "prob": 0.8260000000000001,
+       "detail": "Hándicap Sets -1.5 · 17% · (+475)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.5568,
+       "detail": "UNDER 9.5 · 56% · Proyectado 9.3",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": true
+    },
+    {
+     "home": "Alycia Parks",
+     "away": "Mei Yamaguchi",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Singapore Tennis Open presented by BNP Paribas, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Alycia Parks",
+       "prob": 0.8187,
+       "detail": "Alycia Parks 82% · Mei Yamaguchi 18%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5158,
+       "detail": "UNDER 21.5 · 52% · Proyectado 20.9",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Alycia Parks",
+       "prob": 0.5867,
+       "detail": "Alycia Parks -2.5 (ref.) · 59%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Alycia Parks",
+       "prob": 0.5915,
+       "detail": "Hándicap Sets -1.5 · 59% · (-145)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.7334,
+       "detail": "UNDER 9.5 · 73% · Proyectado 9.3",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Sofia Costoulas",
+     "away": "Tatiana Prozorova",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Singapore Tennis Open presented by BNP Paribas, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Sofia Costoulas",
+       "prob": 0.7142,
+       "detail": "Sofia Costoulas 71% · Tatiana Prozorova 29%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5414,
+       "detail": "UNDER 21.5 · 54% · Proyectado 21.8",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Tatiana Prozorova",
+       "prob": 0.5442,
+       "detail": "Tatiana Prozorova +3.5 (ref.) · 54%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Tatiana Prozorova",
+       "prob": 0.5473,
+       "detail": "Hándicap Sets -1.5 · 45% · (+121)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.5167999999999999,
+       "detail": "UNDER 9.5 · 52% · Proyectado 9.4",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Linda Fruhvirtova",
+     "away": "Maria Sakkari",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Singapore Tennis Open presented by BNP Paribas, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Maria Sakkari",
+       "prob": 0.8138,
+       "detail": "Linda Fruhvirtova 19% · Maria Sakkari 81%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5066999999999999,
+       "detail": "UNDER 21.5 · 51% · Proyectado 21.8",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Maria Sakkari",
+       "prob": 0.691,
+       "detail": "Maria Sakkari -0.5 (ref.) · 69%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Maria Sakkari",
+       "prob": 0.8416,
+       "detail": "Hándicap Sets -1.5 · 16% · (+531)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5196,
+       "detail": "OVER 9.5 · 52% · Proyectado 9.4",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Lisa Zaar",
+     "away": "Rebeka Masarova",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Delta Motors Tolentino Open, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Rebeka Masarova",
+       "prob": 0.9334,
+       "detail": "Lisa Zaar 7% · Rebeka Masarova 93%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5727,
+       "detail": "UNDER 20.5 · 57% · Proyectado 20.6",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Rebeka Masarova",
+       "prob": 0.6391,
+       "detail": "Rebeka Masarova -4.5 (ref.) · 64%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Rebeka Masarova",
+       "prob": 0.9365,
+       "detail": "Hándicap Sets -1.5 · 6% · (+1475)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.6239,
+       "detail": "UNDER 9.5 · 62% · Proyectado 9.3",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Alice Tubello",
+     "away": "Dalila Spiteri",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Delta Motors Tolentino Open, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Alice Tubello",
+       "prob": 0.8751,
+       "detail": "Alice Tubello 88% · Dalila Spiteri 12%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.6353,
+       "detail": "UNDER 20.5 · 64% · Proyectado 20.1",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Dalila Spiteri",
+       "prob": 0.5587,
+       "detail": "Dalila Spiteri +5.5 (ref.) · 56%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Alice Tubello",
+       "prob": 0.653,
+       "detail": "Hándicap Sets -1.5 · 65% · (-188)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.6295,
+       "detail": "UNDER 9.5 · 63% · Proyectado 9.2",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Katerina Tsygourova",
+     "away": "Veronika Erjavec",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Delta Motors Tolentino Open, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Katerina Tsygourova",
+       "prob": 0.6136,
+       "detail": "Katerina Tsygourova 61% · Veronika Erjavec 39%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.503,
+       "detail": "UNDER 21.5 · 50% · Proyectado 21.5",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Katerina Tsygourova",
+       "prob": 0.587,
+       "detail": "Katerina Tsygourova +0.5 (ref.) · 59%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Veronika Erjavec",
+       "prob": 0.6406000000000001,
+       "detail": "Hándicap Sets -1.5 · 36% · (+178)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.5119,
+       "detail": "UNDER 9.5 · 51% · Proyectado 9.4",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Maria Lourdes Carle",
+     "away": "Nuria Brancaccio",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Delta Motors Tolentino Open, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Maria Lourdes Carle",
+       "prob": 0.556,
+       "detail": "Maria Lourdes Carle 56% · Nuria Brancaccio 44%",
+       "strong": false
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5102,
+       "detail": "OVER 21.5 · 51% · Proyectado 21.8",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Maria Lourdes Carle",
+       "prob": 0.5794,
+       "detail": "Maria Lourdes Carle -0.5 (ref.) · 58%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Nuria Brancaccio",
+       "prob": 0.6557,
+       "detail": "Hándicap Sets -1.5 · 34% · (+190)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.5036,
+       "detail": "UNDER 9.5 · 50% · Proyectado 9.4",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Ekaterine Gorgodze",
+     "away": "Laura Pigossi",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Delta Motors Tolentino Open, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Laura Pigossi",
+       "prob": 0.719,
+       "detail": "Ekaterine Gorgodze 28% · Laura Pigossi 72%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.51,
+       "detail": "UNDER 21.5 · 51% · Proyectado 22.4",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Ekaterine Gorgodze",
+       "prob": 0.5553,
+       "detail": "Ekaterine Gorgodze +1.5 (ref.) · 56%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Laura Pigossi",
+       "prob": 0.8069,
+       "detail": "Hándicap Sets -1.5 · 19% · (+418)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.511,
+       "detail": "UNDER 9.5 · 51% · Proyectado 9.4",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Alicia Herrero Linana",
+     "away": "Barbora Palicova",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Delta Motors Tolentino Open, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Barbora Palicova",
+       "prob": 0.637,
+       "detail": "Alicia Herrero Linana 36% · Barbora Palicova 64%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5151,
+       "detail": "UNDER 21.5 · 52% · Proyectado 20.9",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Barbora Palicova",
+       "prob": 0.6145,
+       "detail": "Barbora Palicova +0.5 (ref.) · 61%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Barbora Palicova",
+       "prob": 0.7432000000000001,
+       "detail": "Hándicap Sets -1.5 · 26% · (+289)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.5003,
+       "detail": "UNDER 9.5 · 50% · Proyectado 9.4",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": true
+    },
+    {
+     "home": "Jennifer Ruggeri",
+     "away": "Julia Grabher",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Delta Motors Tolentino Open, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Julia Grabher",
+       "prob": 0.6302,
+       "detail": "Jennifer Ruggeri 37% · Julia Grabher 63%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5006,
+       "detail": "OVER 21.5 · 50% · Proyectado 21.8",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Julia Grabher",
+       "prob": 0.5582,
+       "detail": "Julia Grabher -0.5 (ref.) · 56%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Julia Grabher",
+       "prob": 0.7597,
+       "detail": "Hándicap Sets -1.5 · 24% · (+316)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.5062,
+       "detail": "UNDER 9.5 · 51% · Proyectado 9.4",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Katie Swan",
+     "away": "Sahaja Yamalapalli",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Eupago Porto Open, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Katie Swan",
+       "prob": 0.519,
+       "detail": "Katie Swan 52% · Sahaja Yamalapalli 48%",
+       "strong": false
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5021,
+       "detail": "OVER 21.5 · 50% · Proyectado 22.6",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Sahaja Yamalapalli",
+       "prob": 0.5758,
+       "detail": "Sahaja Yamalapalli +1.5 (ref.) · 58%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Sahaja Yamalapalli",
+       "prob": 0.6942999999999999,
+       "detail": "Hándicap Sets -1.5 · 31% · (+227)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5084,
+       "detail": "OVER 9.5 · 51% · Proyectado 9.4",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Carol Young Suh Lee",
+     "away": "Harmony Tan",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Eupago Porto Open, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Carol Young Suh Lee",
+       "prob": 0.7421,
+       "detail": "Carol Young Suh Lee 74% · Harmony Tan 26%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5583,
+       "detail": "UNDER 21.5 · 56% · Proyectado 21.0",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Harmony Tan",
+       "prob": 0.5934,
+       "detail": "Harmony Tan +3.5 (ref.) · 59%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Harmony Tan",
+       "prob": 0.5488999999999999,
+       "detail": "Hándicap Sets -1.5 · 45% · (+122)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.5086999999999999,
+       "detail": "UNDER 9.5 · 51% · Proyectado 9.3",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Francisca Jorge",
+     "away": "Mia Pohankova",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Eupago Porto Open, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Francisca Jorge",
+       "prob": 0.6415,
+       "detail": "Francisca Jorge 64% · Mia Pohankova 36%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5058,
+       "detail": "UNDER 21.5 · 51% · Proyectado 21.5",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Francisca Jorge",
+       "prob": 0.5508,
+       "detail": "Francisca Jorge -0.5 (ref.) · 55%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Mia Pohankova",
+       "prob": 0.6461,
+       "detail": "Hándicap Sets -1.5 · 35% · (+183)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5146,
+       "detail": "OVER 9.5 · 51% · Proyectado 9.4",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Naiktha Bains",
+     "away": "Victoria Jimenez Kasintseva",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Eupago Porto Open, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Naiktha Bains",
+       "prob": 0.505,
+       "detail": "Naiktha Bains 50% · Victoria Jimenez Kasintseva 50%",
+       "strong": false
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5175000000000001,
+       "detail": "UNDER 21.5 · 52% · Proyectado 21.5",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Naiktha Bains",
+       "prob": 0.5761,
+       "detail": "Naiktha Bains +0.5 (ref.) · 58%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Victoria Jimenez Kasintseva",
+       "prob": 0.7110000000000001,
+       "detail": "Hándicap Sets -1.5 · 29% · (+246)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.5011,
+       "detail": "UNDER 9.5 · 50% · Proyectado 9.3",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Anastasia Gasanova",
+     "away": "Anastasia Tikhonova",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Turk Telekom Ankara Open, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Anastasia Gasanova",
+       "prob": 0.731,
+       "detail": "Anastasia Gasanova 73% · Anastasia Tikhonova 27%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.567,
+       "detail": "UNDER 21.5 · 57% · Proyectado 21.5",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Anastasia Tikhonova",
+       "prob": 0.503,
+       "detail": "Anastasia Tikhonova +3.5 (ref.) · 50%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Anastasia Tikhonova",
+       "prob": 0.5322,
+       "detail": "Hándicap Sets -1.5 · 47% · (+114)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.5408,
+       "detail": "UNDER 9.5 · 54% · Proyectado 9.3",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Elena Micic",
+     "away": "Julia Riera",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Turk Telekom Ankara Open, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Elena Micic",
+       "prob": 0.5348,
+       "detail": "Elena Micic 53% · Julia Riera 47%",
+       "strong": false
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5023,
+       "detail": "UNDER 21.5 · 50% · Proyectado 21.9",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Julia Riera",
+       "prob": 0.6343,
+       "detail": "Julia Riera +2.5 (ref.) · 63%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Julia Riera",
+       "prob": 0.6855,
+       "detail": "Hándicap Sets -1.5 · 31% · (+218)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5061,
+       "detail": "OVER 9.5 · 51% · Proyectado 9.4",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Berfu Cengiz",
+     "away": "Martyna Kubka",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Turk Telekom Ankara Open, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Martyna Kubka",
+       "prob": 0.7701,
+       "detail": "Berfu Cengiz 23% · Martyna Kubka 77%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5029,
+       "detail": "UNDER 21.5 · 50% · Proyectado 22.1",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Martyna Kubka",
+       "prob": 0.5337,
+       "detail": "Martyna Kubka -1.5 (ref.) · 53%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Martyna Kubka",
+       "prob": 0.8315,
+       "detail": "Hándicap Sets -1.5 · 17% · (+493)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5234,
+       "detail": "OVER 9.5 · 52% · Proyectado 9.4",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Carole Monnet",
+     "away": "Fiona Crawley",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Turk Telekom Ankara Open, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Carole Monnet",
+       "prob": 0.7972,
+       "detail": "Carole Monnet 80% · Fiona Crawley 20%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5820000000000001,
+       "detail": "UNDER 21.5 · 58% · Proyectado 20.4",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Carole Monnet",
+       "prob": 0.5215,
+       "detail": "Carole Monnet -3.5 (ref.) · 52%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Carole Monnet",
+       "prob": 0.5615,
+       "detail": "Hándicap Sets -1.5 · 56% · (-128)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.5498000000000001,
+       "detail": "UNDER 9.5 · 55% · Proyectado 9.2",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Dinko Dinev",
+     "away": "Dylan Dietrich",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "Tiburon challenger, Hard, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Dylan Dietrich",
+       "prob": 0.8279,
+       "detail": "Dinko Dinev 17% · Dylan Dietrich 83%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.55,
+       "detail": "OVER 21.5 · 55% · Proyectado 23.3",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Dylan Dietrich",
+       "prob": 0.5252,
+       "detail": "Dylan Dietrich -2.5 (ref.) · 53%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Dylan Dietrich",
+       "prob": 0.8734999999999999,
+       "detail": "Hándicap Sets -1.5 · 13% · (+691)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.506,
+       "detail": "UNDER 9.5 · 51% · Proyectado 9.6",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Braden Shick",
+     "away": "Patrick Maloney",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "Tiburon challenger, Hard, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Patrick Maloney",
+       "prob": 0.5265,
+       "detail": "Braden Shick 47% · Patrick Maloney 53%",
+       "strong": false
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5084,
+       "detail": "OVER 22.5 · 51% · Proyectado 24.2",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Braden Shick",
+       "prob": 0.5523,
+       "detail": "Braden Shick +1.5 (ref.) · 55%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Patrick Maloney",
+       "prob": 0.7787999999999999,
+       "detail": "Hándicap Sets -1.5 · 22% · (+352)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5526,
+       "detail": "OVER 9.5 · 55% · Proyectado 10.0",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": true
+    },
+    {
+     "home": "Gabriel Roveri Sidney",
+     "away": "Pietro Gava",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "Tiburon challenger, Hard, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Gabriel Roveri Sidney",
+       "prob": 0.6884,
+       "detail": "Gabriel Roveri Sidney 69% · Pietro Gava 31%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5345,
+       "detail": "OVER 21.5 · 53% · Proyectado 23.3",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Pietro Gava",
+       "prob": 0.5733,
+       "detail": "Pietro Gava +2.5 (ref.) · 57%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Pietro Gava",
+       "prob": 0.5892,
+       "detail": "Hándicap Sets -1.5 · 41% · (+143)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.5462,
+       "detail": "UNDER 9.5 · 55% · Proyectado 9.5",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Jonah Braswell",
+     "away": "Joshua Peck",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "Tiburon challenger, Hard, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Jonah Braswell",
+       "prob": 0.6788,
+       "detail": "Jonah Braswell 68% · Joshua Peck 32%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5125,
+       "detail": "OVER 22.5 · 51% · Proyectado 23.6",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Jonah Braswell",
+       "prob": 0.7277,
+       "detail": "Jonah Braswell +1.5 (ref.) · 73%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Joshua Peck",
+       "prob": 0.528,
+       "detail": "Hándicap Sets -1.5 · 47% · (+112)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.55,
+       "detail": "OVER 9.5 · 55% · Proyectado 9.8",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Henry Lieberman",
+     "away": "Nicholas Godsick",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "Tiburon challenger, Hard, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Nicholas Godsick",
+       "prob": 0.8220000000000001,
+       "detail": "Henry Lieberman 18% · Nicholas Godsick 82%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5860000000000001,
+       "detail": "UNDER 21.5 · 59% · Proyectado 20.6",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Nicholas Godsick",
+       "prob": 0.5706,
+       "detail": "Nicholas Godsick -2.5 (ref.) · 57%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Nicholas Godsick",
+       "prob": 0.8699,
+       "detail": "Hándicap Sets -1.5 · 13% · (+669)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.5172,
+       "detail": "UNDER 9.5 · 52% · Proyectado 9.4",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
+     "home": "Agustin Moreno",
+     "away": "Shuzo Matsuoka",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "Tiburon challenger, Hard, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Shuzo Matsuoka",
+       "prob": 0.6646000000000001,
+       "detail": "Agustin Moreno 34% · Shuzo Matsuoka 66%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5666,
+       "detail": "UNDER 21.5 · 57% · Proyectado 21.8",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Agustin Moreno",
+       "prob": 0.5803,
+       "detail": "Agustin Moreno +2.5 (ref.) · 58%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Shuzo Matsuoka",
+       "prob": 0.8054,
+       "detail": "Hándicap Sets -1.5 · 19% · (+414)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5042,
+       "detail": "OVER 9.5 · 50% · Proyectado 9.7",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Alex Rybakov",
+     "away": "Ozan Baris",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "Tiburon challenger, Hard, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Alex Rybakov",
+       "prob": 0.8004,
+       "detail": "Alex Rybakov 80% · Ozan Baris 20%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5228999999999999,
+       "detail": "UNDER 23.5 · 52% · Proyectado 23.0",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Alex Rybakov",
+       "prob": 0.6962,
+       "detail": "Alex Rybakov -0.5 (ref.) · 70%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Alex Rybakov",
+       "prob": 0.5596,
+       "detail": "Hándicap Sets -1.5 · 56% · (-127)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5587,
+       "detail": "OVER 9.5 · 56% · Proyectado 9.6",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Aidan Mayo",
+     "away": "Sebastian Gorzny",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "Tiburon challenger, Hard, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Aidan Mayo",
+       "prob": 0.7185,
+       "detail": "Aidan Mayo 72% · Sebastian Gorzny 28%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5584,
+       "detail": "UNDER 23.5 · 56% · Proyectado 22.8",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Aidan Mayo",
+       "prob": 0.6325,
+       "detail": "Aidan Mayo +0.5 (ref.) · 63%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Aidan Mayo",
+       "prob": 0.5297,
+       "detail": "Hándicap Sets -1.5 · 53% · (-113)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.6762,
+       "detail": "UNDER 9.5 · 68% · Proyectado 9.6",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Daniil Ostapenkov",
+     "away": "Timo Legout",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "Tiburon challenger, Hard, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Daniil Ostapenkov",
+       "prob": 0.8242,
+       "detail": "Daniil Ostapenkov 82% · Timo Legout 18%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.507,
+       "detail": "UNDER 22.5 · 51% · Proyectado 23.3",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Daniil Ostapenkov",
+       "prob": 0.5468,
+       "detail": "Daniil Ostapenkov -1.5 (ref.) · 55%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Daniil Ostapenkov",
+       "prob": 0.5127,
+       "detail": "Hándicap Sets -1.5 · 51% · (-105)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5236,
+       "detail": "OVER 9.5 · 52% · Proyectado 9.7",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Andrew Fenty",
+     "away": "Erik Arutiunian",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "Tiburon challenger, Hard, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Andrew Fenty",
+       "prob": 0.7062,
+       "detail": "Andrew Fenty 71% · Erik Arutiunian 29%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5286,
+       "detail": "OVER 23.5 · 53% · Proyectado 24.1",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Andrew Fenty",
+       "prob": 0.5729,
+       "detail": "Andrew Fenty -0.5 (ref.) · 57%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Erik Arutiunian",
+       "prob": 0.618,
+       "detail": "Hándicap Sets -1.5 · 38% · (+162)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5827,
+       "detail": "OVER 9.5 · 58% · Proyectado 10.0",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    }
+   ],
+   "elapsed_s": 63.9,
+   "sport": "tenis",
+   "sport_name": "Tenis",
+   "all_leagues": true
+  },
+  "futbol": {
+   "ok": true,
+   "date": "2026-09-22",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 5,
+   "message": "5 partidos proyectados",
+   "picks": [
+    {
+     "match": "Real Madrid (W) vs Paris Saint Germain (W)",
+     "market": "1X2",
+     "pick": "1X2: HOME (1)",
+     "prob": 0.8261020479090857,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": ">=70%",
+     "league_code": "WCH",
+     "league_label": "Champions Femenina"
+    },
+    {
+     "match": "Juventus (W) vs Benfica (W)",
+     "market": "1X2",
+     "pick": "1X2: HOME (1)",
+     "prob": 0.7508032356373389,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": ">=70%",
+     "league_code": "WCH",
+     "league_label": "Champions Femenina"
+    },
+    {
+     "match": "Arsenal (W) vs HB Køge (W)",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.7039839462758481,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": ">=70%",
+     "league_code": "WCH",
+     "league_label": "Champions Femenina"
+    },
+    {
+     "match": "Inter (W) vs BK Häcken (W)",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.6904711271428783,
+     "tier": "MUY BUENO",
+     "units": "1.5",
+     "note": ">=65%",
+     "league_code": "WCH",
+     "league_label": "Champions Femenina"
+    },
+    {
+     "match": "Bayern Munich (W) vs Manchester City (W)",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.659697586716357,
+     "tier": "MUY BUENO",
+     "units": "1.5",
+     "note": ">=65%",
+     "league_code": "WCH",
+     "league_label": "Champions Femenina"
+    }
+   ],
+   "predictions": [
+    {
+     "home": "Bayern Munich (W)",
+     "away": "Manchester City (W)",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WCH",
+     "league_label": "Champions Femenina",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "1X2",
+       "pick": "Bayern Munich (W)",
+       "prob": 0.46088371282149276,
+       "detail": "Local 46% · Empate 21% · Visitante 33%",
+       "strong": false
+      },
+      {
+       "label": "Doble Oportunidad",
+       "pick": "12",
+       "prob": 0.7944259222821963,
+       "detail": "1X 67% · X2 54% · 12 79%",
+       "strong": false
+      },
+      {
+       "label": "Over/Under 2.5",
+       "pick": "OVER",
+       "prob": 0.659697586716357,
+       "detail": "OVER 2.5 goles · 66%",
+       "strong": false
+      },
+      {
+       "label": "Over/Under 1.5",
+       "pick": "OVER",
+       "prob": 0.8522077866834374,
+       "detail": "OVER 1.5 goles · 85%",
+       "strong": false
+      },
+      {
+       "label": "BTTS (Ambos marcan)",
+       "pick": "SÍ",
+       "prob": 0.5958747297356202,
+       "detail": "BTTS Sí 60%",
+       "strong": false
+      },
+      {
+       "label": "Total Goles",
+       "pick": "-",
+       "prob": null,
+       "detail": "Goles esperados 3.38",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Asiático",
+       "pick": "AWAY +1.5",
+       "prob": 0.9011863100253397,
+       "detail": "Línea +1.5 · AWAY 90%",
+       "strong": true
+      },
+      {
+       "label": "Equipo O/U 1.5",
+       "pick": "VISITANTE OVER",
+       "prob": 0.637230327356489,
+       "detail": "VISITANTE OVER 1.5 goles 64%",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Inter (W)",
+     "away": "BK Häcken (W)",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WCH",
+     "league_label": "Champions Femenina",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "1X2",
+       "pick": "Inter (W)",
+       "prob": 0.49798333041531173,
+       "detail": "Local 50% · Empate 22% · Visitante 28%",
+       "strong": false
+      },
+      {
+       "label": "Doble Oportunidad",
+       "pick": "12",
+       "prob": 0.7810986524831031,
+       "detail": "1X 72% · X2 50% · 12 78%",
+       "strong": false
+      },
+      {
+       "label": "Over/Under 2.5",
+       "pick": "OVER",
+       "prob": 0.6904711271428783,
+       "detail": "OVER 2.5 goles · 69%",
+       "strong": false
+      },
+      {
+       "label": "Over/Under 1.5",
+       "pick": "OVER",
+       "prob": 0.8755871032002984,
+       "detail": "OVER 1.5 goles · 88%",
+       "strong": false
+      },
+      {
+       "label": "BTTS (Ambos marcan)",
+       "pick": "SÍ",
+       "prob": 0.6367936336816641,
+       "detail": "BTTS Sí 64%",
+       "strong": false
+      },
+      {
+       "label": "Total Goles",
+       "pick": "-",
+       "prob": null,
+       "detail": "Goles esperados 3.56",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Asiático",
+       "pick": "AWAY +1.5",
+       "prob": 0.674276495959271,
+       "detail": "Línea +1.5 · AWAY 67%",
+       "strong": true
+      },
+      {
+       "label": "Equipo O/U 1.5",
+       "pick": "LOCAL OVER",
+       "prob": 0.6980336642424622,
+       "detail": "LOCAL OVER 1.5 goles 70%",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Arsenal (W)",
+     "away": "HB Køge (W)",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WCH",
+     "league_label": "Champions Femenina",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "1X2",
+       "pick": "Arsenal (W)",
+       "prob": 0.679073672256885,
+       "detail": "Local 68% · Empate 19% · Visitante 13%",
+       "strong": true
+      },
+      {
+       "label": "Doble Oportunidad",
+       "pick": "1X",
+       "prob": 0.8722944829885076,
+       "detail": "1X 87% · X2 32% · 12 81%",
+       "strong": false
+      },
+      {
+       "label": "Over/Under 2.5",
+       "pick": "OVER",
+       "prob": 0.7039839462758481,
+       "detail": "OVER 2.5 goles · 70%",
+       "strong": false
+      },
+      {
+       "label": "Over/Under 1.5",
+       "pick": "OVER",
+       "prob": 0.8789331627406718,
+       "detail": "OVER 1.5 goles · 88%",
+       "strong": false
+      },
+      {
+       "label": "BTTS (Ambos marcan)",
+       "pick": "SÍ",
+       "prob": 0.5573722503617304,
+       "detail": "BTTS Sí 56%",
+       "strong": false
+      },
+      {
+       "label": "Total Goles",
+       "pick": "-",
+       "prob": null,
+       "detail": "Goles esperados 3.72",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Asiático",
+       "pick": "HOME -0.5",
+       "prob": 0.802070062400357,
+       "detail": "Línea -0.5 · HOME 80%",
+       "strong": true
+      },
+      {
+       "label": "Equipo O/U 1.5",
+       "pick": "VISITANTE UNDER",
+       "prob": 0.8087921354109989,
+       "detail": "VISITANTE UNDER 1.5 goles 81%",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Juventus (W)",
+     "away": "Benfica (W)",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WCH",
+     "league_label": "Champions Femenina",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "1X2",
+       "pick": "Juventus (W)",
+       "prob": 0.7508032356373389,
+       "detail": "Local 75% · Empate 16% · Visitante 9%",
+       "strong": true
+      },
+      {
+       "label": "Doble Oportunidad",
+       "pick": "1X",
+       "prob": 0.9097426530534877,
+       "detail": "1X 91% · X2 25% · 12 84%",
+       "strong": false
+      },
+      {
+       "label": "Over/Under 2.5",
+       "pick": "OVER",
+       "prob": 0.6681636170055065,
+       "detail": "OVER 2.5 goles · 67%",
+       "strong": false
+      },
+      {
+       "label": "Over/Under 1.5",
+       "pick": "OVER",
+       "prob": 0.8407404914357353,
+       "detail": "OVER 1.5 goles · 84%",
+       "strong": false
+      },
+      {
+       "label": "BTTS (Ambos marcan)",
+       "pick": "SÍ",
+       "prob": 0.5066037649204965,
+       "detail": "BTTS Sí 51%",
+       "strong": false
+      },
+      {
+       "label": "Total Goles",
+       "pick": "-",
+       "prob": null,
+       "detail": "Goles esperados 3.44",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Asiático",
+       "pick": "HOME -0.5",
+       "prob": 0.8286794308418275,
+       "detail": "Línea -0.5 · HOME 83%",
+       "strong": true
+      },
+      {
+       "label": "Equipo O/U 1.5",
+       "pick": "VISITANTE UNDER",
+       "prob": 0.9097959895689501,
+       "detail": "VISITANTE UNDER 1.5 goles 91%",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Real Madrid (W)",
+     "away": "Paris Saint Germain (W)",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WCH",
+     "league_label": "Champions Femenina",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "1X2",
+       "pick": "Real Madrid (W)",
+       "prob": 0.8261020479090857,
+       "detail": "Local 83% · Empate 15% · Visitante 2%",
+       "strong": true
+      },
+      {
+       "label": "Doble Oportunidad",
+       "pick": "1X",
+       "prob": 0.95,
+       "detail": "1X 95% · X2 17% · 12 85%",
+       "strong": false
+      },
+      {
+       "label": "Over/Under 2.5",
+       "pick": "OVER",
+       "prob": 0.7188286949689986,
+       "detail": "OVER 2.5 goles · 72%",
+       "strong": false
+      },
+      {
+       "label": "Over/Under 1.5",
+       "pick": "OVER",
+       "prob": 0.8670807873809425,
+       "detail": "OVER 1.5 goles · 87%",
+       "strong": false
+      },
+      {
+       "label": "BTTS (Ambos marcan)",
+       "pick": "SÍ",
+       "prob": 0.5403530618719896,
+       "detail": "BTTS Sí 54%",
+       "strong": false
+      },
+      {
+       "label": "Total Goles",
+       "pick": "-",
+       "prob": null,
+       "detail": "Goles esperados 3.81",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Asiático",
+       "pick": "HOME -0.5",
+       "prob": 0.872659300957383,
+       "detail": "Línea -0.5 · HOME 87%",
+       "strong": true
+      },
+      {
+       "label": "Equipo O/U 1.5",
+       "pick": "VISITANTE UNDER",
+       "prob": 0.8780986177504424,
+       "detail": "VISITANTE UNDER 1.5 goles 88%",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    }
+   ],
+   "elapsed_s": 65.3,
+   "sport": "futbol",
+   "sport_name": "Fútbol",
+   "all_leagues": true
+  },
+  "amfut": {
+   "ok": true,
+   "date": "2026-09-22",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 0,
+   "message": "Sin partidos pendientes para esa liga y fecha.",
+   "picks": [],
+   "predictions": [],
+   "elapsed_s": 0.0,
+   "sport": "amfut",
+   "sport_name": "NFL/NCAAF",
+   "all_leagues": true
+  },
+  "basquet": {
+   "ok": true,
+   "date": "2026-09-22",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 28,
+   "message": "28 partidos proyectados",
+   "picks": [],
+   "predictions": [
+    {
+     "home": "Washington Mystics",
+     "away": "Connecticut Sun",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WNBA",
+     "league_label": "WNBA",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Washington Mystics",
+       "prob": 0.751395065719594,
+       "detail": "Local 75% · Visitante 25%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5006370244903384,
+       "detail": "Línea 20.8 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5009423001433433,
+       "detail": "Línea 171.2 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 171.2",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Indiana Fever",
+     "away": "Minnesota Lynx",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WNBA",
+     "league_label": "WNBA",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Indiana Fever",
+       "prob": 0.5173444735214904,
+       "detail": "Local 52% · Visitante 48%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "LOCAL",
+       "prob": 0.5005455607691163,
+       "detail": "Línea 1.2 · LOCAL 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5005608877563794,
+       "detail": "Línea 184.3 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 184.3",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Chicago Sky",
+     "away": "Toronto Tempo",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WNBA",
+     "league_label": "WNBA",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Chicago Sky",
+       "prob": 0.62283643614732,
+       "detail": "Local 62% · Visitante 38%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "LOCAL",
+       "prob": 0.5005216245142605,
+       "detail": "Línea 4.5 · LOCAL 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5006077092272869,
+       "detail": "Línea 176 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 176.0",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Las Vegas Aces",
+     "away": "Los Angeles Sparks",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WNBA",
+     "league_label": "WNBA",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Las Vegas Aces",
+       "prob": 0.6381194156386727,
+       "detail": "Local 64% · Visitante 36%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "LOCAL",
+       "prob": 0.5013409990701391,
+       "detail": "Línea 11.8 · LOCAL 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5007483933559128,
+       "detail": "Línea 172.3 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 172.3",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Portland Fire",
+     "away": "Golden State Valkyries",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WNBA",
+     "league_label": "WNBA",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Golden State Valkyries",
+       "prob": 0.7203886018631728,
+       "detail": "Local 28% · Visitante 72%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5008111324794686,
+       "detail": "Línea -8.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5007175412009246,
+       "detail": "Línea 169.7 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 169.7",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Baskets Oldenburg",
+     "away": "Mitteldeutscher BC",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "GER",
+     "league_label": "BBL Alemania",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Baskets Oldenburg",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Ulm Basketball",
+     "away": "Riesen Ludwigsburg",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "GER",
+     "league_label": "BBL Alemania",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Ulm Basketball",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Bayern Munich",
+     "away": "Bamberg Baskets",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "GER",
+     "league_label": "BBL Alemania",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Bayern Munich",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Alba Berlin",
+     "away": "Skyliners Frankfurt",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "GER",
+     "league_label": "BBL Alemania",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Alba Berlin",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Riesen Ludwigsburg",
+     "away": "Rostock Seawolves",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "GER",
+     "league_label": "BBL Alemania",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Riesen Ludwigsburg",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Rasta Vechta",
+     "away": "Bamberg Baskets",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "GER",
+     "league_label": "BBL Alemania",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Rasta Vechta",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Gladiators Trier",
+     "away": "Baskets Bonn",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "GER",
+     "league_label": "BBL Alemania",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Gladiators Trier",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Phoenix Hagen",
+     "away": "Ulm Basketball",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "GER",
+     "league_label": "BBL Alemania",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Phoenix Hagen",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "JDA Dijon Basket",
+     "away": "SIG Strasbourg",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "FRA",
+     "league_label": "LNB Pro A",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "JDA Dijon Basket",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Mitteldeutscher BC",
+     "away": "Medipolis SC Jena",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "GER",
+     "league_label": "BBL Alemania",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Mitteldeutscher BC",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Wurzburg Baskets",
+     "away": "Baskets Oldenburg",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "GER",
+     "league_label": "BBL Alemania",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Wurzburg Baskets",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Hamburg Towers",
+     "away": "Niners Chemnitz",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "GER",
+     "league_label": "BBL Alemania",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Hamburg Towers",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Bayern Munich",
+     "away": "Alba Berlin",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "GER",
+     "league_label": "BBL Alemania",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Bayern Munich",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Boulazac Basket Dordogne",
+     "away": "Roanne Chorale",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "FRA",
+     "league_label": "LNB Pro A",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Boulazac Basket Dordogne",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Elan Chalon",
+     "away": "Limoges CSP",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "FRA",
+     "league_label": "LNB Pro A",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Elan Chalon",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Bilbao Basket",
+     "away": "Basquet Manresa",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ESP",
+     "league_label": "Liga ACB",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Bilbao Basket",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "BCM Gravelines Dunkerque",
+     "away": "Le Mans Sarthe Basket",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "FRA",
+     "league_label": "LNB Pro A",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "BCM Gravelines Dunkerque",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Saint Quentin",
+     "away": "JL Bourg Basket",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "FRA",
+     "league_label": "LNB Pro A",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Saint Quentin",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Skyliners Frankfurt",
+     "away": "Rasta Vechta",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "GER",
+     "league_label": "BBL Alemania",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Skyliners Frankfurt",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "BC Andorra",
+     "away": "Obradoiro CAB",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ESP",
+     "league_label": "Liga ACB",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "BC Andorra",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Bamberg Baskets",
+     "away": "Riesen Ludwigsburg",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "GER",
+     "league_label": "BBL Alemania",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Bamberg Baskets",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Nanterre 92",
+     "away": "Elan Bearnais Pau-Lacq-Orthez",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "FRA",
+     "league_label": "LNB Pro A",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Nanterre 92",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "FC Barcelona",
+     "away": "CB Coruna",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ESP",
+     "league_label": "Liga ACB",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "FC Barcelona",
+       "prob": 0.5873623024364385,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5011408025641781,
+       "detail": "Línea 2.1 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5000655090534009,
+       "detail": "Línea 181.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 181.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    }
+   ],
+   "elapsed_s": 22.8,
+   "sport": "basquet",
+   "sport_name": "Básquetbol",
+   "all_leagues": true
+  }
+ }
+}
