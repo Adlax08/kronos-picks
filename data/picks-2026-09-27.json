@@ -1,7 +1,7 @@
 {
  "date": "2026-09-27",
- "generated_at": "2026-09-27T14:17:16",
- "sports_total": "51 partidos",
+ "generated_at": "2026-09-27T18:16:36",
+ "sports_total": "34 partidos",
  "sports": [
   {
    "key": "beisbol",
@@ -216,7 +216,7 @@
    "sport": "beisbol",
    "sport_name": "Béisbol",
    "all_leagues": true,
-   "n": 20,
+   "n": 15,
    "picks": [
     {
      "match": "St. Louis Cardinals @ Milwaukee Brewers",
@@ -261,127 +261,6 @@
      "note": "Prob<60% pero buen momentum/variables: resaltado.",
      "league_code": "MLB",
      "league_label": "Major League"
-    },
-    {
-     "match": "Orix Buffaloes @ SoftBank Hawks",
-     "market": "Moneyline",
-     "pick": "ML: HOME (SoftBank Hawks)",
-     "prob": 0.6635,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=66%",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball"
-    },
-    {
-     "match": "Orix Buffaloes @ SoftBank Hawks",
-     "market": "Run Line",
-     "pick": "RL: HOME -1.5",
-     "prob": 0.5767,
-     "tier": "DESTACADO",
-     "units": "0.5",
-     "note": ">=58% · linea -1.5",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball"
-    },
-    {
-     "match": "Orix Buffaloes @ SoftBank Hawks",
-     "market": "Totales",
-     "pick": "TOTAL: OVER 7.5",
-     "prob": 0.6183,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": ">=62% · linea 7.5",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball"
-    },
-    {
-     "match": "Rakuten Golden Eagles @ Seibu Lions",
-     "market": "Moneyline",
-     "pick": "ML: AWAY (Rakuten Golden Eagles)",
-     "prob": 0.6041,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": ">=60%",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball"
-    },
-    {
-     "match": "Rakuten Golden Eagles @ Seibu Lions",
-     "market": "Run Line",
-     "pick": "RL: HOME 1.5",
-     "prob": 0.5791,
-     "tier": "DESTACADO",
-     "units": "0.5",
-     "note": ">=58% · linea 1.5",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball"
-    },
-    {
-     "match": "Nippon-Ham Fighters @ Lotte Marines",
-     "market": "Moneyline",
-     "pick": "ML: AWAY (Nippon-Ham Fighters)",
-     "prob": 0.6052,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": ">=61%",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball"
-    },
-    {
-     "match": "Nippon-Ham Fighters @ Lotte Marines",
-     "market": "Totales",
-     "pick": "TOTAL: OVER 7.5",
-     "prob": 0.5906,
-     "tier": "DESTACADO",
-     "units": "0.5",
-     "note": ">=59% · linea 7.5",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball"
-    },
-    {
-     "match": "Hiroshima Carp @ Yokohama BayStars",
-     "market": "Moneyline",
-     "pick": "ML: HOME (Yokohama BayStars)",
-     "prob": 0.5934,
-     "tier": "DESTACADO",
-     "units": "0.5",
-     "note": ">=59%",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball"
-    },
-    {
-     "match": "Hiroshima Carp @ Yokohama BayStars",
-     "market": "Run Line",
-     "pick": "RL: AWAY 1.5",
-     "prob": 0.5534,
-     "tier": "DESTACADO",
-     "units": "0.5",
-     "note": ">=55% · linea -1.5",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball"
-    },
-    {
-     "match": "Yakult Swallows @ Yomiuri Giants",
-     "market": "Run Line",
-     "pick": "RL: AWAY 1.5",
-     "prob": 0.5867,
-     "tier": "DESTACADO",
-     "units": "0.5",
-     "note": ">=59% · linea -1.5",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball"
-    },
-    {
-     "match": "Yakult Swallows @ Yomiuri Giants",
-     "market": "Totales",
-     "pick": "TOTAL: UNDER 7.5",
-     "prob": 0.5656,
-     "tier": "DESTACADO",
-     "units": "0.5",
-     "note": ">=57% · linea 7.5",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball"
     }
    ],
    "predictions": [
@@ -1119,220 +998,10 @@
      ],
      "convergence": false,
      "momentum_ok": false
-    },
-    {
-     "home": "SoftBank Hawks",
-     "away": "Orix Buffaloes",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "SoftBank Hawks",
-       "prob": 0.6635062748583584,
-       "detail": "Local 66% · Visitante 34%",
-       "strong": true
-      },
-      {
-       "label": "Run Line",
-       "pick": "LOCAL",
-       "prob": 0.5767267241517409,
-       "detail": "Línea -1.5 · LOCAL 58%",
-       "strong": false
-      },
-      {
-       "label": "Totales",
-       "pick": "OVER",
-       "prob": 0.618299061667799,
-       "detail": "Línea 7.5 · OVER 62% / UNDER 38%",
-       "strong": false
-      },
-      {
-       "label": "Carreras esperadas",
-       "pick": "-",
-       "prob": null,
-       "detail": "Total 8.6",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Seibu Lions",
-     "away": "Rakuten Golden Eagles",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "Rakuten Golden Eagles",
-       "prob": 0.6041221521894168,
-       "detail": "Local 40% · Visitante 60%",
-       "strong": true
-      },
-      {
-       "label": "Run Line",
-       "pick": "LOCAL",
-       "prob": 0.5790674269321899,
-       "detail": "Línea 1.5 · LOCAL 58%",
-       "strong": false
-      },
-      {
-       "label": "Totales",
-       "pick": "UNDER",
-       "prob": 0.5153256534765474,
-       "detail": "Línea 7.5 · OVER 48% / UNDER 52%",
-       "strong": false
-      },
-      {
-       "label": "Carreras esperadas",
-       "pick": "-",
-       "prob": null,
-       "detail": "Total 7.4",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Lotte Marines",
-     "away": "Nippon-Ham Fighters",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "Nippon-Ham Fighters",
-       "prob": 0.6052152247785978,
-       "detail": "Local 39% · Visitante 61%",
-       "strong": true
-      },
-      {
-       "label": "Run Line",
-       "pick": "LOCAL",
-       "prob": 0.5363755929833735,
-       "detail": "Línea 1.5 · LOCAL 54%",
-       "strong": false
-      },
-      {
-       "label": "Totales",
-       "pick": "OVER",
-       "prob": 0.5905954491533925,
-       "detail": "Línea 7.5 · OVER 59% / UNDER 41%",
-       "strong": false
-      },
-      {
-       "label": "Carreras esperadas",
-       "pick": "-",
-       "prob": null,
-       "detail": "Total 8.4",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Yokohama BayStars",
-     "away": "Hiroshima Carp",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "Yokohama BayStars",
-       "prob": 0.5934314189942633,
-       "detail": "Local 59% · Visitante 41%",
-       "strong": false
-      },
-      {
-       "label": "Run Line",
-       "pick": "VISITANTE",
-       "prob": 0.5534345057104593,
-       "detail": "Línea -1.5 · VISITANTE 55%",
-       "strong": false
-      },
-      {
-       "label": "Totales",
-       "pick": "UNDER",
-       "prob": 0.5452467500592428,
-       "detail": "Línea 7.5 · OVER 45% / UNDER 55%",
-       "strong": false
-      },
-      {
-       "label": "Carreras esperadas",
-       "pick": "-",
-       "prob": null,
-       "detail": "Total 7.1",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Yomiuri Giants",
-     "away": "Yakult Swallows",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "Yomiuri Giants",
-       "prob": 0.5473761532792873,
-       "detail": "Local 55% · Visitante 45%",
-       "strong": false
-      },
-      {
-       "label": "Run Line",
-       "pick": "VISITANTE",
-       "prob": 0.5866547406685002,
-       "detail": "Línea -1.5 · VISITANTE 59%",
-       "strong": false
-      },
-      {
-       "label": "Totales",
-       "pick": "UNDER",
-       "prob": 0.5656126514240031,
-       "detail": "Línea 7.5 · OVER 43% / UNDER 57%",
-       "strong": false
-      },
-      {
-       "label": "Carreras esperadas",
-       "pick": "-",
-       "prob": null,
-       "detail": "Total 6.9",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
     }
    ],
-   "message": "20 partidos proyectados",
-   "elapsed_s": 39.8
+   "message": "15 partidos proyectados",
+   "elapsed_s": 11.1
   },
   "tenis": {
    "ok": true,
@@ -1876,7 +1545,7 @@
      "momentum_ok": true
     }
    ],
-   "elapsed_s": 81.0,
+   "elapsed_s": 80.2,
    "sport": "tenis",
    "sport_name": "Tenis",
    "all_leagues": true
@@ -1886,8 +1555,8 @@
    "date": "2026-09-27",
    "league": "ALL",
    "league_label": "Todas las ligas",
-   "n": 12,
-   "message": "12 partidos proyectados",
+   "n": 7,
+   "message": "7 partidos proyectados",
    "picks": [
     {
      "match": "León vs FC Juarez",
@@ -1899,17 +1568,6 @@
      "note": ">=70%",
      "league_code": "MEX",
      "league_label": "Liga MX"
-    },
-    {
-     "match": "Guyana vs Cayman Islands",
-     "market": "O/U 2.5",
-     "pick": "O/U 2.5: OVER",
-     "prob": 0.7574424745744088,
-     "tier": "TOP PICK",
-     "units": "2.0",
-     "note": ">=70%",
-     "league_code": "CNL",
-     "league_label": "Concacaf Nations League"
     },
     {
      "match": "Haiti vs Costa Rica",
@@ -1967,54 +1625,10 @@
      "league_label": "Concacaf Nations League"
     },
     {
-     "match": "Germany vs Greece",
-     "market": "O/U 1.5",
-     "pick": "O/U 1.5: OVER",
-     "prob": 0.8408279105955923,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=80%",
-     "league_code": "UNL",
-     "league_label": "UEFA Nations League"
-    },
-    {
-     "match": "Norway vs Portugal",
-     "market": "O/U 1.5",
-     "pick": "O/U 1.5: OVER",
-     "prob": 0.8306058378310938,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=80%",
-     "league_code": "UNL",
-     "league_label": "UEFA Nations League"
-    },
-    {
      "match": "Kyrgyz Republic vs Maldives",
      "market": "O/U 1.5",
      "pick": "O/U 1.5: OVER",
      "prob": 0.7833492103012948,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": ">=75%",
-     "league_code": "AMI",
-     "league_label": "Amistosos Int. (Selecciones)"
-    },
-    {
-     "match": "Israel vs Republic of Ireland",
-     "market": "O/U 1.5",
-     "pick": "O/U 1.5: OVER",
-     "prob": 0.772072867176754,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": ">=75%",
-     "league_code": "UNL",
-     "league_label": "UEFA Nations League"
-    },
-    {
-     "match": "Bolivia vs Paraguay",
-     "market": "O/U 1.5",
-     "pick": "O/U 1.5: OVER",
-     "prob": 0.7563572528559981,
      "tier": "BUENO",
      "units": "1.0",
      "note": ">=75%",
@@ -2164,76 +1778,6 @@
      "momentum_ok": false
     },
     {
-     "home": "Bolivia",
-     "away": "Paraguay",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "AMI",
-     "league_label": "Amistosos Int. (Selecciones)",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Paraguay",
-       "prob": 0.4781260101925673,
-       "detail": "Local 23% · Empate 29% · Visitante 48%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "X2",
-       "prob": 0.7685732260351623,
-       "detail": "1X 52% · X2 77% · 12 71%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "UNDER",
-       "prob": 0.5109928906484822,
-       "detail": "UNDER 2.5 goles · 49%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.7563572528559981,
-       "detail": "OVER 1.5 goles · 76%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.5040335908994469,
-       "detail": "BTTS Sí 50%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 2.55",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "AWAY +1.5",
-       "prob": 0.9420739338671444,
-       "detail": "Línea +1.5 · AWAY 94%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "LOCAL UNDER",
-       "prob": 0.8175494413897406,
-       "detail": "LOCAL UNDER 1.5 goles 82%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
      "home": "Kyrgyz Republic",
      "away": "Maldives",
      "home_abbrev": "",
@@ -2297,286 +1841,6 @@
        "pick": "LOCAL UNDER",
        "prob": 0.6692133052582361,
        "detail": "LOCAL UNDER 1.5 goles 67%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Germany",
-     "away": "Greece",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "UNL",
-     "league_label": "UEFA Nations League",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Germany",
-       "prob": 0.5038306019358013,
-       "detail": "Local 50% · Empate 23% · Visitante 26%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "12",
-       "prob": 0.7682842818844406,
-       "detail": "1X 74% · X2 50% · 12 77%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.6374782358033104,
-       "detail": "OVER 2.5 goles · 64%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8408279105955923,
-       "detail": "OVER 1.5 goles · 84%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.6325367285480803,
-       "detail": "BTTS Sí 63%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.29",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "AWAY +1.5",
-       "prob": 0.7043558996298728,
-       "detail": "Línea +1.5 · AWAY 70%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "LOCAL OVER",
-       "prob": 0.6088669672698801,
-       "detail": "LOCAL OVER 1.5 goles 61%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Israel",
-     "away": "Republic of Ireland",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "UNL",
-     "league_label": "UEFA Nations League",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Republic of Ireland",
-       "prob": 0.4046488183823531,
-       "detail": "Local 33% · Empate 26% · Visitante 40%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "12",
-       "prob": 0.7386146447869919,
-       "detail": "1X 60% · X2 67% · 12 74%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.5148790759900295,
-       "detail": "OVER 2.5 goles · 51%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.772072867176754,
-       "detail": "OVER 1.5 goles · 77%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.5456132708239501,
-       "detail": "BTTS Sí 55%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 2.73",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "AWAY +1.5",
-       "prob": 0.9072992820549645,
-       "detail": "Línea +1.5 · AWAY 91%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "LOCAL UNDER",
-       "prob": 0.7419491107230012,
-       "detail": "LOCAL UNDER 1.5 goles 74%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Norway",
-     "away": "Portugal",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "UNL",
-     "league_label": "UEFA Nations League",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Portugal",
-       "prob": 0.4199562169212604,
-       "detail": "Local 35% · Empate 23% · Visitante 42%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "12",
-       "prob": 0.7712930552985962,
-       "detail": "1X 58% · X2 65% · 12 77%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.6417087925288009,
-       "detail": "OVER 2.5 goles · 64%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8306058378310938,
-       "detail": "OVER 1.5 goles · 83%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.6144448813312605,
-       "detail": "BTTS Sí 61%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.36",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "AWAY +1.5",
-       "prob": 0.8563214403054787,
-       "detail": "Línea +1.5 · AWAY 86%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "VISITANTE OVER",
-       "prob": 0.6541964324536542,
-       "detail": "VISITANTE OVER 1.5 goles 65%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Guyana",
-     "away": "Cayman Islands",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "CNL",
-     "league_label": "Concacaf Nations League",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Guyana",
-       "prob": 0.7142199170195807,
-       "detail": "Local 71% · Empate 18% · Visitante 11%",
-       "strong": true
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "1X",
-       "prob": 0.8899061327122411,
-       "detail": "1X 89% · X2 29% · 12 82%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.7574424745744088,
-       "detail": "OVER 2.5 goles · 76%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.871751259504113,
-       "detail": "OVER 1.5 goles · 87%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.6333281719193449,
-       "detail": "BTTS Sí 63%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 4.10",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "HOME -0.5",
-       "prob": 0.8176429071445591,
-       "detail": "Línea -0.5 · HOME 82%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "LOCAL OVER",
-       "prob": 0.9028490151239158,
-       "detail": "LOCAL OVER 1.5 goles 90%",
        "strong": false
       }
      ],
@@ -2864,7 +2128,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 90.0,
+   "elapsed_s": 88.6,
    "sport": "futbol",
    "sport_name": "Fútbol",
    "all_leagues": true
@@ -2874,340 +2138,10 @@
    "date": "2026-09-27",
    "league": "ALL",
    "league_label": "Todas las ligas",
-   "n": 7,
-   "message": "7 partidos proyectados",
-   "picks": [
-    {
-     "match": "Carolina Panthers @ Cleveland Browns",
-     "market": "Totales",
-     "pick": "TOTAL: OVER 41.5",
-     "prob": 0.6116,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": ">=61% · linea 41.5",
-     "league_code": "NFL",
-     "league_label": "NFL"
-    },
-    {
-     "match": "Arizona Cardinals @ San Francisco 49ers",
-     "market": "Moneyline",
-     "pick": "ML: HOME (San Francisco 49ers)",
-     "prob": 0.8166,
-     "tier": "TOP PICK",
-     "units": "2.0",
-     "note": ">=82% · momio 1.2439 · EV +1.6%",
-     "league_code": "NFL",
-     "league_label": "NFL"
-    },
-    {
-     "match": "Arizona Cardinals @ San Francisco 49ers",
-     "market": "Spread",
-     "pick": "SPREAD: HOME -7.5",
-     "prob": 0.6209,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": ">=62% · linea -7.5",
-     "league_code": "NFL",
-     "league_label": "NFL"
-    },
-    {
-     "match": "Minnesota Vikings @ Tampa Bay Buccaneers",
-     "market": "Totales",
-     "pick": "TOTAL: UNDER 42.5",
-     "prob": 0.6026,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": ">=60% · linea 42.5",
-     "league_code": "NFL",
-     "league_label": "NFL"
-    },
-    {
-     "match": "Baltimore Ravens @ Dallas Cowboys",
-     "market": "Moneyline",
-     "pick": "ML: AWAY (Baltimore Ravens)",
-     "prob": 0.7433,
-     "tier": "TOP PICK",
-     "units": "2.0",
-     "note": ">=74% · momio 1.58824 · EV +18.1%",
-     "league_code": "NFL",
-     "league_label": "NFL"
-    },
-    {
-     "match": "Baltimore Ravens @ Dallas Cowboys",
-     "market": "Spread",
-     "pick": "SPREAD: AWAY -3.0",
-     "prob": 0.6618,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=66% · linea 3",
-     "league_code": "NFL",
-     "league_label": "NFL"
-    },
-    {
-     "match": "Las Vegas Raiders @ New Orleans Saints",
-     "market": "Moneyline",
-     "pick": "ML: HOME (New Orleans Saints)",
-     "prob": 0.6613,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=66% · momio 1.52083 · EV +0.6%",
-     "league_code": "NFL",
-     "league_label": "NFL"
-    }
-   ],
+   "n": 1,
+   "message": "1 partidos proyectados",
+   "picks": [],
    "predictions": [
-    {
-     "home": "Cleveland Browns",
-     "away": "Carolina Panthers",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "NFL",
-     "league_label": "NFL",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "Carolina Panthers",
-       "prob": 0.5559262132197395,
-       "detail": "Local 44% · Visitante 56%",
-       "strong": false
-      },
-      {
-       "label": "Spread",
-       "pick": "LOCAL",
-       "prob": 0.5486823716610996,
-       "detail": "Línea 2.5 · LOCAL 55%",
-       "strong": false
-      },
-      {
-       "label": "Totales",
-       "pick": "OVER",
-       "prob": 0.6116045860929828,
-       "detail": "Línea 41.5 · OVER 61% / UNDER 39%",
-       "strong": false
-      },
-      {
-       "label": "Puntos esperados",
-       "pick": "-",
-       "prob": null,
-       "detail": "Total 45.5",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Washington Commanders",
-     "away": "Seattle Seahawks",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "NFL",
-     "league_label": "NFL",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "Seattle Seahawks",
-       "prob": 0.6963011617177137,
-       "detail": "Local 30% · Visitante 70%",
-       "strong": true
-      },
-      {
-       "label": "Spread",
-       "pick": "LOCAL",
-       "prob": 0.5163817084912024,
-       "detail": "Línea 8.5 · LOCAL 52%",
-       "strong": false
-      },
-      {
-       "label": "Totales",
-       "pick": "OVER",
-       "prob": 0.5551140841226896,
-       "detail": "Línea 40.5 · OVER 56% / UNDER 44%",
-       "strong": false
-      },
-      {
-       "label": "Puntos esperados",
-       "pick": "-",
-       "prob": null,
-       "detail": "Total 42.5",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "San Francisco 49ers",
-     "away": "Arizona Cardinals",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "NFL",
-     "league_label": "NFL",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "San Francisco 49ers",
-       "prob": 0.8166013929933481,
-       "detail": "Local 82% · Visitante 18%",
-       "strong": true
-      },
-      {
-       "label": "Spread",
-       "pick": "LOCAL",
-       "prob": 0.620926254352635,
-       "detail": "Línea -7.5 · LOCAL 62%",
-       "strong": false
-      },
-      {
-       "label": "Totales",
-       "pick": "OVER",
-       "prob": 0.5814492284464774,
-       "detail": "Línea 48.5 · OVER 58% / UNDER 42%",
-       "strong": false
-      },
-      {
-       "label": "Puntos esperados",
-       "pick": "-",
-       "prob": null,
-       "detail": "Total 51.4",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Tampa Bay Buccaneers",
-     "away": "Minnesota Vikings",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "NFL",
-     "league_label": "NFL",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "Minnesota Vikings",
-       "prob": 0.5570292962117569,
-       "detail": "Local 44% · Visitante 56%",
-       "strong": false
-      },
-      {
-       "label": "Spread",
-       "pick": "VISITANTE",
-       "prob": 0.5674396670361423,
-       "detail": "Línea -1.5 · VISITANTE 57%",
-       "strong": false
-      },
-      {
-       "label": "Totales",
-       "pick": "UNDER",
-       "prob": 0.6025826526662875,
-       "detail": "Línea 42.5 · OVER 40% / UNDER 60%",
-       "strong": false
-      },
-      {
-       "label": "Puntos esperados",
-       "pick": "-",
-       "prob": null,
-       "detail": "Total 38.8",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Dallas Cowboys",
-     "away": "Baltimore Ravens",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "NFL",
-     "league_label": "NFL",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "Baltimore Ravens",
-       "prob": 0.7432862360349262,
-       "detail": "Local 26% · Visitante 74%",
-       "strong": true
-      },
-      {
-       "label": "Spread",
-       "pick": "VISITANTE",
-       "prob": 0.6618481645971235,
-       "detail": "Línea 3 · VISITANTE 66%",
-       "strong": false
-      },
-      {
-       "label": "Totales",
-       "pick": "UNDER",
-       "prob": 0.5803286483234689,
-       "detail": "Línea 53.5 · OVER 42% / UNDER 58%",
-       "strong": false
-      },
-      {
-       "label": "Puntos esperados",
-       "pick": "-",
-       "prob": null,
-       "detail": "Total 50.6",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "New Orleans Saints",
-     "away": "Las Vegas Raiders",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "NFL",
-     "league_label": "NFL",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "New Orleans Saints",
-       "prob": 0.6612974145100148,
-       "detail": "Local 66% · Visitante 34%",
-       "strong": true
-      },
-      {
-       "label": "Spread",
-       "pick": "LOCAL",
-       "prob": 0.5965759663791619,
-       "detail": "Línea -3.5 · LOCAL 60%",
-       "strong": false
-      },
-      {
-       "label": "Totales",
-       "pick": "UNDER",
-       "prob": 0.5004387017142894,
-       "detail": "Línea 43.5 · OVER 50% / UNDER 50%",
-       "strong": false
-      },
-      {
-       "label": "Puntos esperados",
-       "pick": "-",
-       "prob": null,
-       "detail": "Total 43.5",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
     {
      "home": "Denver Broncos",
      "away": "Los Angeles Rams",
@@ -3228,15 +2162,15 @@
       {
        "label": "Spread",
        "pick": "LOCAL",
-       "prob": 0.5831516769439181,
-       "detail": "Línea 1.5 · LOCAL 58%",
+       "prob": 0.5004847422683997,
+       "detail": "Línea -1.5 · LOCAL 50%",
        "strong": false
       },
       {
        "label": "Totales",
        "pick": "OVER",
-       "prob": 0.537686641327465,
-       "detail": "Línea 44.5 · OVER 54% / UNDER 46%",
+       "prob": 0.5654994640776136,
+       "detail": "Línea 43.5 · OVER 57% / UNDER 43%",
        "strong": false
       },
       {
@@ -3251,7 +2185,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 29.0,
+   "elapsed_s": 19.3,
    "sport": "amfut",
    "sport_name": "NFL/NCAAF",
    "all_leagues": true
@@ -3261,20 +2195,9 @@
    "date": "2026-09-27",
    "league": "ALL",
    "league_label": "Todas las ligas",
-   "n": 3,
-   "message": "3 partidos proyectados",
+   "n": 2,
+   "message": "2 partidos proyectados",
    "picks": [
-    {
-     "match": "Indiana Fever @ Las Vegas Aces",
-     "market": "Moneyline",
-     "pick": "ML: HOME (Las Vegas Aces)",
-     "prob": 0.6573,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=66% · momio 1.54054 · EV +1.3%",
-     "league_code": "WNBA",
-     "league_label": "WNBA"
-    },
     {
      "match": "Washington Mystics @ Atlanta Dream",
      "market": "Totales",
@@ -3288,48 +2211,6 @@
     }
    ],
    "predictions": [
-    {
-     "home": "Las Vegas Aces",
-     "away": "Indiana Fever",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "WNBA",
-     "league_label": "WNBA",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "Las Vegas Aces",
-       "prob": 0.657291685029032,
-       "detail": "Local 66% · Visitante 34%",
-       "strong": true
-      },
-      {
-       "label": "Spread",
-       "pick": "LOCAL",
-       "prob": 0.533620368976949,
-       "detail": "Línea -4.5 · LOCAL 53%",
-       "strong": false
-      },
-      {
-       "label": "Totales",
-       "pick": "OVER",
-       "prob": 0.559848463870708,
-       "detail": "Línea 181.5 · OVER 56% / UNDER 44%",
-       "strong": false
-      },
-      {
-       "label": "Puntos esperados",
-       "pick": "-",
-       "prob": null,
-       "detail": "Total 184.5",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
     {
      "home": "Atlanta Dream",
      "away": "Washington Mystics",
@@ -3415,7 +2296,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 29.7,
+   "elapsed_s": 29.9,
    "sport": "basquet",
    "sport_name": "Básquetbol",
    "all_leagues": true

@@ -1,6 +1,6 @@
 {
  "date": "2026-09-28",
- "generated_at": "2026-09-27T14:20:53",
+ "generated_at": "2026-09-27T18:19:33",
  "sports_total": "48 partidos",
  "sports": [
   {
@@ -219,13 +219,24 @@
    "n": 3,
    "picks": [
     {
+     "match": "Hiroshima Carp @ Yokohama BayStars",
+     "market": "Run Line",
+     "pick": "RL: AWAY 1.5",
+     "prob": 0.5684,
+     "tier": "DESTACADO",
+     "units": "0.5",
+     "note": ">=57% · linea -1.5",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball"
+    },
+    {
      "match": "Rakuten Golden Eagles @ Seibu Lions",
      "market": "Moneyline",
      "pick": "ML: AWAY (Rakuten Golden Eagles)",
-     "prob": 0.6041,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": ">=60% · momio 2.5 · EV +51.0%",
+     "prob": 0.5984,
+     "tier": "DESTACADO",
+     "units": "0.5",
+     "note": ">=60% · momio 2.5 · EV +49.6%",
      "league_code": "NPB",
      "league_label": "Nippon Professional Baseball"
     },
@@ -233,10 +244,10 @@
      "match": "Rakuten Golden Eagles @ Seibu Lions",
      "market": "Run Line",
      "pick": "RL: AWAY 1.5",
-     "prob": 0.7237,
+     "prob": 0.7268,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": ">=72% · linea -1.5",
+     "note": ">=73% · linea -1.5",
      "league_code": "NPB",
      "league_label": "Nippon Professional Baseball"
     },
@@ -244,10 +255,21 @@
      "match": "Nippon-Ham Fighters @ Lotte Marines",
      "market": "Moneyline",
      "pick": "ML: AWAY (Nippon-Ham Fighters)",
-     "prob": 0.6052,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": ">=61%",
+     "prob": 0.5681,
+     "tier": "DESTACADO",
+     "units": "0.5",
+     "note": ">=57%",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball"
+    },
+    {
+     "match": "Nippon-Ham Fighters @ Lotte Marines",
+     "market": "Run Line",
+     "pick": "RL: HOME 1.5",
+     "prob": 0.5684,
+     "tier": "DESTACADO",
+     "units": "0.5",
+     "note": ">=57% · linea 1.5",
      "league_code": "NPB",
      "league_label": "Nippon Professional Baseball"
     },
@@ -255,26 +277,57 @@
      "match": "Nippon-Ham Fighters @ Lotte Marines",
      "market": "Totales",
      "pick": "TOTAL: OVER 7.5",
-     "prob": 0.5906,
+     "prob": 0.5637,
      "tier": "DESTACADO",
      "units": "0.5",
-     "note": ">=59% · linea 7.5",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball"
-    },
-    {
-     "match": "Hiroshima Carp @ Yokohama BayStars",
-     "market": "Run Line",
-     "pick": "RL: AWAY 1.5",
-     "prob": 0.5534,
-     "tier": "DESTACADO",
-     "units": "0.5",
-     "note": ">=55% · linea -1.5",
+     "note": ">=56% · linea 7.5",
      "league_code": "NPB",
      "league_label": "Nippon Professional Baseball"
     }
    ],
    "predictions": [
+    {
+     "home": "Yokohama BayStars",
+     "away": "Hiroshima Carp",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NPB",
+     "league_label": "Nippon Professional Baseball",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Yokohama BayStars",
+       "prob": 0.5890128480838325,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Run Line",
+       "pick": "VISITANTE",
+       "prob": 0.5684247499293189,
+       "detail": "Línea -1.5 · VISITANTE 57%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5284375686279438,
+       "detail": "Línea 7.5 · OVER 47% / UNDER 53%",
+       "strong": false
+      },
+      {
+       "label": "Carreras esperadas",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 7.2",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
     {
      "home": "Seibu Lions",
      "away": "Rakuten Golden Eagles",
@@ -288,29 +341,29 @@
       {
        "label": "Moneyline",
        "pick": "Rakuten Golden Eagles",
-       "prob": 0.6041221521894168,
+       "prob": 0.5984158885892695,
        "detail": "Local 40% · Visitante 60%",
-       "strong": true
+       "strong": false
       },
       {
        "label": "Run Line",
        "pick": "VISITANTE",
-       "prob": 0.7236804643065511,
-       "detail": "Línea -1.5 · VISITANTE 72%",
+       "prob": 0.7268108975437519,
+       "detail": "Línea -1.5 · VISITANTE 73%",
        "strong": false
       },
       {
        "label": "Totales",
        "pick": "UNDER",
-       "prob": 0.5153256534765474,
-       "detail": "Línea 7.5 · OVER 48% / UNDER 52%",
+       "prob": 0.5299999248430406,
+       "detail": "Línea 7.5 · OVER 47% / UNDER 53%",
        "strong": false
       },
       {
        "label": "Carreras esperadas",
        "pick": "-",
        "prob": null,
-       "detail": "Total 7.4",
+       "detail": "Total 7.2",
        "strong": false
       }
      ],
@@ -330,71 +383,29 @@
       {
        "label": "Moneyline",
        "pick": "Nippon-Ham Fighters",
-       "prob": 0.6052152247785978,
-       "detail": "Local 39% · Visitante 61%",
-       "strong": true
+       "prob": 0.5681005033333336,
+       "detail": "Local 43% · Visitante 57%",
+       "strong": false
       },
       {
        "label": "Run Line",
        "pick": "LOCAL",
-       "prob": 0.5363755929833735,
-       "detail": "Línea 1.5 · LOCAL 54%",
+       "prob": 0.5683838673108947,
+       "detail": "Línea 1.5 · LOCAL 57%",
        "strong": false
       },
       {
        "label": "Totales",
        "pick": "OVER",
-       "prob": 0.5905954491533925,
-       "detail": "Línea 7.5 · OVER 59% / UNDER 41%",
+       "prob": 0.5636700438802289,
+       "detail": "Línea 7.5 · OVER 56% / UNDER 44%",
        "strong": false
       },
       {
        "label": "Carreras esperadas",
        "pick": "-",
        "prob": null,
-       "detail": "Total 8.4",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Yokohama BayStars",
-     "away": "Hiroshima Carp",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "Yokohama BayStars",
-       "prob": 0.5934314189942633,
-       "detail": "Local 59% · Visitante 41%",
-       "strong": false
-      },
-      {
-       "label": "Run Line",
-       "pick": "VISITANTE",
-       "prob": 0.5534345057104593,
-       "detail": "Línea -1.5 · VISITANTE 55%",
-       "strong": false
-      },
-      {
-       "label": "Totales",
-       "pick": "UNDER",
-       "prob": 0.5452467500592428,
-       "detail": "Línea 7.5 · OVER 45% / UNDER 55%",
-       "strong": false
-      },
-      {
-       "label": "Carreras esperadas",
-       "pick": "-",
-       "prob": null,
-       "detail": "Total 7.1",
+       "detail": "Total 8.1",
        "strong": false
       }
      ],
@@ -403,7 +414,7 @@
     }
    ],
    "message": "3 partidos proyectados",
-   "elapsed_s": 18.5
+   "elapsed_s": 16.3
   },
   "tenis": {
    "ok": true,
@@ -420,10 +431,10 @@
      "prob": 0.894,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +18.8% · momio 1.329",
+     "note": "EV +26.3% · momio 1.413",
      "edge": null,
-     "ev": 0.18812599999999996,
-     "odds": 1.329,
+     "ev": 0.26322200000000007,
+     "odds": 1.413,
      "line": null,
      "league_code": "ATP",
      "league_label": "ATP Tour"
@@ -435,10 +446,10 @@
      "prob": 0.8107,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +25.1% · momio 1.543",
+     "note": "EV +23.6% · momio 1.524",
      "edge": null,
-     "ev": 0.2509100999999999,
-     "odds": 1.543,
+     "ev": 0.23550679999999996,
+     "odds": 1.524,
      "line": null,
      "league_code": "ATP",
      "league_label": "ATP Tour"
@@ -465,10 +476,10 @@
      "prob": 0.7636,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +46.4% · momio 1.917",
+     "note": "EV +47.8% · momio 1.935",
      "edge": null,
-     "ev": 0.46382119999999993,
-     "odds": 1.917,
+     "ev": 0.47756599999999993,
+     "odds": 1.935,
      "line": null,
      "league_code": "ATP",
      "league_label": "ATP Tour"
@@ -480,10 +491,10 @@
      "prob": 0.7016,
      "tier": "MUY BUENO",
      "units": "1.5",
-     "note": "EV +5.6% · momio 1.505",
+     "note": "EV +4.2% · momio 1.485",
      "edge": null,
-     "ev": 0.0559079999999999,
-     "odds": 1.505,
+     "ev": 0.04187600000000008,
+     "odds": 1.485,
      "line": null,
      "league_code": "ATP",
      "league_label": "ATP Tour"
@@ -510,10 +521,10 @@
      "prob": 0.5295000000000001,
      "tier": "DESTACADO",
      "units": "0.5",
-     "note": "EV +15.4% · momio 2.18 · Prob<60% pero buen momentum/variables: resaltado.",
+     "note": "EV +12.8% · momio 2.13 · Prob<60% pero buen momentum/variables: resaltado.",
      "edge": null,
-     "ev": 0.15431000000000028,
-     "odds": 2.18,
+     "ev": 0.12783500000000014,
+     "odds": 2.13,
      "line": null,
      "league_code": "ATP",
      "league_label": "ATP Tour"
@@ -549,46 +560,16 @@
      "league_label": "WTA Tour"
     },
     {
-     "match": "Ulrikke Eikeri vs Varvara Lepchenko",
-     "market": "ML",
-     "pick": "Varvara Lepchenko",
-     "prob": 0.8518,
-     "tier": "TOP PICK",
-     "units": "2.0",
-     "note": "",
-     "edge": null,
-     "ev": null,
-     "odds": null,
-     "line": null,
-     "league_code": "WTA",
-     "league_label": "WTA Tour"
-    },
-    {
      "match": "Fiona Crawley vs Noma Noha Akugue",
      "market": "ML",
      "pick": "Noma Noha Akugue",
      "prob": 0.7731,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "",
+     "note": "EV +45.1% · momio 1.877",
      "edge": null,
-     "ev": null,
-     "odds": null,
-     "line": null,
-     "league_code": "WTA",
-     "league_label": "WTA Tour"
-    },
-    {
-     "match": "Ellen Perez vs Elvina Kalieva",
-     "market": "ML",
-     "pick": "Elvina Kalieva",
-     "prob": 0.7311000000000001,
-     "tier": "TOP PICK",
-     "units": "2.0",
-     "note": "",
-     "edge": null,
-     "ev": null,
-     "odds": null,
+     "ev": 0.45110870000000003,
+     "odds": 1.877,
      "line": null,
      "league_code": "WTA",
      "league_label": "WTA Tour"
@@ -615,10 +596,10 @@
      "prob": 0.6626,
      "tier": "MUY BUENO",
      "units": "1.5",
-     "note": "",
+     "note": "EV +609.0% · momio 10.7",
      "edge": null,
-     "ev": null,
-     "odds": null,
+     "ev": 6.08982,
+     "odds": 10.7,
      "line": null,
      "league_code": "WTA",
      "league_label": "WTA Tour"
@@ -1719,7 +1700,7 @@
      "momentum_ok": true
     }
    ],
-   "elapsed_s": 68.8,
+   "elapsed_s": 33.8,
    "sport": "tenis",
    "sport_name": "Tenis",
    "all_leagues": true
@@ -1747,7 +1728,7 @@
      "match": "St. Lucia vs Bermuda",
      "market": "O/U 2.5",
      "pick": "O/U 2.5: OVER",
-     "prob": 0.761150498440342,
+     "prob": 0.760559841860202,
      "tier": "TOP PICK",
      "units": "2.0",
      "note": ">=70%",
@@ -1769,7 +1750,7 @@
      "match": "St. Kitts and Nevis vs Grenada",
      "market": "O/U 2.5",
      "pick": "O/U 2.5: OVER",
-     "prob": 0.7308591226597234,
+     "prob": 0.7300087635784787,
      "tier": "TOP PICK",
      "units": "2.0",
      "note": ">=70%",
@@ -1780,7 +1761,7 @@
      "match": "Guatemala vs El Salvador",
      "market": "O/U 2.5",
      "pick": "O/U 2.5: OVER",
-     "prob": 0.7129583806608795,
+     "prob": 0.7116816418626498,
      "tier": "TOP PICK",
      "units": "2.0",
      "note": ">=70%",
@@ -1791,7 +1772,7 @@
      "match": "Cuba vs Bonaire",
      "market": "O/U 2.5",
      "pick": "O/U 2.5: OVER",
-     "prob": 0.6612178974876838,
+     "prob": 0.659990472698647,
      "tier": "MUY BUENO",
      "units": "1.5",
      "note": ">=65%",
@@ -1802,7 +1783,7 @@
      "match": "Guadeloupe vs Barbados",
      "market": "1X2",
      "pick": "1X2: HOME (1)",
-     "prob": 0.6563940793149028,
+     "prob": 0.6559812350595495,
      "tier": "MUY BUENO",
      "units": "1.5",
      "note": ">=65%",
@@ -1912,7 +1893,7 @@
      "match": "Suriname vs Martinique",
      "market": "O/U 1.5",
      "pick": "O/U 1.5: OVER",
-     "prob": 0.7742768130325206,
+     "prob": 0.7732731916942452,
      "tier": "BUENO",
      "units": "1.0",
      "note": ">=75%",
@@ -1934,7 +1915,7 @@
      "match": "Jamaica vs Honduras",
      "market": "O/U 1.5",
      "pick": "O/U 1.5: OVER",
-     "prob": 0.7525525681441956,
+     "prob": 0.7515291762186878,
      "tier": "BUENO",
      "units": "1.0",
      "note": ">=75%",
@@ -2737,35 +2718,35 @@
       {
        "label": "1X2",
        "pick": "Guadeloupe",
-       "prob": 0.6563940793149028,
+       "prob": 0.6559812350595495,
        "detail": "Local 66% · Empate 19% · Visitante 15%",
        "strong": true
       },
       {
        "label": "Doble Oportunidad",
        "pick": "1X",
-       "prob": 0.8454206170837226,
+       "prob": 0.84535661398292,
        "detail": "1X 85% · X2 34% · 12 81%",
        "strong": false
       },
       {
        "label": "Over/Under 2.5",
        "pick": "OVER",
-       "prob": 0.6512223569848088,
+       "prob": 0.6499728389927029,
        "detail": "OVER 2.5 goles · 65%",
        "strong": false
       },
       {
        "label": "Over/Under 1.5",
        "pick": "OVER",
-       "prob": 0.8468967009124124,
+       "prob": 0.8461881483911675,
        "detail": "OVER 1.5 goles · 85%",
        "strong": false
       },
       {
        "label": "BTTS (Ambos marcan)",
        "pick": "SÍ",
-       "prob": 0.5900437827614687,
+       "prob": 0.5891772716527969,
        "detail": "BTTS Sí 59%",
        "strong": false
       },
@@ -2773,20 +2754,20 @@
        "label": "Total Goles",
        "pick": "-",
        "prob": null,
-       "detail": "Goles esperados 3.30",
+       "detail": "Goles esperados 3.29",
        "strong": false
       },
       {
        "label": "Hándicap Asiático",
        "pick": "HOME -0.5",
-       "prob": 0.6817747829291254,
+       "prob": 0.6807426722907427,
        "detail": "Línea -0.5 · HOME 68%",
        "strong": true
       },
       {
        "label": "Equipo O/U 1.5",
        "pick": "VISITANTE UNDER",
-       "prob": 0.7432660995357142,
+       "prob": 0.74497748810633,
        "detail": "VISITANTE UNDER 1.5 goles 74%",
        "strong": false
       }
@@ -2807,35 +2788,35 @@
       {
        "label": "1X2",
        "pick": "Cuba",
-       "prob": 0.6799854641946248,
+       "prob": 0.6795703208021584,
        "detail": "Local 68% · Empate 20% · Visitante 12%",
        "strong": true
       },
       {
        "label": "Doble Oportunidad",
        "pick": "1X",
-       "prob": 0.8819364196680818,
+       "prob": 0.8818662812852354,
        "detail": "1X 88% · X2 32% · 12 80%",
        "strong": false
       },
       {
        "label": "Over/Under 2.5",
        "pick": "OVER",
-       "prob": 0.6612178974876838,
+       "prob": 0.659990472698647,
        "detail": "OVER 2.5 goles · 66%",
        "strong": false
       },
       {
        "label": "Over/Under 1.5",
        "pick": "OVER",
-       "prob": 0.8466578116414735,
+       "prob": 0.8459900580939406,
        "detail": "OVER 1.5 goles · 85%",
        "strong": false
       },
       {
        "label": "BTTS (Ambos marcan)",
        "pick": "SÍ",
-       "prob": 0.5696987621382849,
+       "prob": 0.568841612801266,
        "detail": "BTTS Sí 57%",
        "strong": false
       },
@@ -2843,20 +2824,20 @@
        "label": "Total Goles",
        "pick": "-",
        "prob": null,
-       "detail": "Goles esperados 3.37",
+       "detail": "Goles esperados 3.38",
        "strong": false
       },
       {
        "label": "Hándicap Asiático",
        "pick": "HOME -0.5",
-       "prob": 0.7002537129482245,
+       "prob": 0.6992158544670584,
        "detail": "Línea -0.5 · HOME 70%",
        "strong": true
       },
       {
        "label": "Equipo O/U 1.5",
        "pick": "VISITANTE UNDER",
-       "prob": 0.7387619463315107,
+       "prob": 0.7404950854699675,
        "detail": "VISITANTE UNDER 1.5 goles 74%",
        "strong": false
       }
@@ -2877,35 +2858,35 @@
       {
        "label": "1X2",
        "pick": "Suriname",
-       "prob": 0.5259161113527487,
-       "detail": "Local 53% · Empate 24% · Visitante 24%",
+       "prob": 0.5274708926467033,
+       "detail": "Local 53% · Empate 24% · Visitante 23%",
        "strong": false
       },
       {
        "label": "Doble Oportunidad",
        "pick": "1X",
-       "prob": 0.7631154309407768,
-       "detail": "1X 76% · X2 47% · 12 76%",
+       "prob": 0.7650580012312691,
+       "detail": "1X 77% · X2 47% · 12 76%",
        "strong": false
       },
       {
        "label": "Over/Under 2.5",
        "pick": "OVER",
-       "prob": 0.5992340328163197,
+       "prob": 0.5980765584810265,
        "detail": "OVER 2.5 goles · 60%",
        "strong": false
       },
       {
        "label": "Over/Under 1.5",
        "pick": "OVER",
-       "prob": 0.7742768130325206,
+       "prob": 0.7732731916942452,
        "detail": "OVER 1.5 goles · 77%",
        "strong": false
       },
       {
        "label": "BTTS (Ambos marcan)",
        "pick": "SÍ",
-       "prob": 0.5445272894070681,
+       "prob": 0.5436984331406713,
        "detail": "BTTS Sí 54%",
        "strong": false
       },
@@ -2919,15 +2900,15 @@
       {
        "label": "Hándicap Asiático",
        "pick": "AWAY +1.5",
-       "prob": 0.6800424728889318,
+       "prob": 0.6814719017041256,
        "detail": "Línea +1.5 · AWAY 68%",
        "strong": true
       },
       {
        "label": "Equipo O/U 1.5",
        "pick": "VISITANTE UNDER",
-       "prob": 0.8442963540509207,
-       "detail": "VISITANTE UNDER 1.5 goles 84%",
+       "prob": 0.8454507524171676,
+       "detail": "VISITANTE UNDER 1.5 goles 85%",
        "strong": false
       }
      ],
@@ -2947,35 +2928,35 @@
       {
        "label": "1X2",
        "pick": "Jamaica",
-       "prob": 0.4919508362279129,
-       "detail": "Local 49% · Empate 28% · Visitante 22%",
+       "prob": 0.49174613065359857,
+       "detail": "Local 49% · Empate 27% · Visitante 24%",
        "strong": false
       },
       {
        "label": "Doble Oportunidad",
        "pick": "1X",
-       "prob": 0.7762911073492064,
-       "detail": "1X 78% · X2 51% · 12 72%",
+       "prob": 0.7631756957696827,
+       "detail": "1X 76% · X2 51% · 12 73%",
        "strong": false
       },
       {
        "label": "Over/Under 2.5",
        "pick": "UNDER",
-       "prob": 0.5035394538414587,
+       "prob": 0.5046290165280616,
        "detail": "UNDER 2.5 goles · 50%",
        "strong": false
       },
       {
        "label": "Over/Under 1.5",
        "pick": "OVER",
-       "prob": 0.7525525681441956,
+       "prob": 0.7515291762186878,
        "detail": "OVER 1.5 goles · 75%",
        "strong": false
       },
       {
        "label": "BTTS (Ambos marcan)",
        "pick": "SÍ",
-       "prob": 0.536240790493375,
+       "prob": 0.5353320840403017,
        "detail": "BTTS Sí 54%",
        "strong": false
       },
@@ -2983,20 +2964,20 @@
        "label": "Total Goles",
        "pick": "-",
        "prob": null,
-       "detail": "Goles esperados 2.72",
+       "detail": "Goles esperados 2.71",
        "strong": false
       },
       {
        "label": "Hándicap Asiático",
        "pick": "AWAY +1.5",
-       "prob": 0.8451031679038946,
+       "prob": 0.8457790962978127,
        "detail": "Línea +1.5 · AWAY 85%",
        "strong": true
       },
       {
        "label": "Equipo O/U 1.5",
        "pick": "VISITANTE UNDER",
-       "prob": 0.7320050753070859,
+       "prob": 0.7337703544805594,
        "detail": "VISITANTE UNDER 1.5 goles 73%",
        "strong": false
       }
@@ -3017,35 +2998,35 @@
       {
        "label": "1X2",
        "pick": "St. Kitts and Nevis",
-       "prob": 0.6101570017559867,
-       "detail": "Local 61% · Empate 20% · Visitante 19%",
+       "prob": 0.6346988406309144,
+       "detail": "Local 63% · Empate 20% · Visitante 17%",
        "strong": true
       },
       {
        "label": "Doble Oportunidad",
        "pick": "1X",
-       "prob": 0.808054613114356,
-       "detail": "1X 81% · X2 39% · 12 80%",
+       "prob": 0.8328662069844577,
+       "detail": "1X 83% · X2 37% · 12 80%",
        "strong": false
       },
       {
        "label": "Over/Under 2.5",
        "pick": "OVER",
-       "prob": 0.7308591226597234,
+       "prob": 0.7300087635784787,
        "detail": "OVER 2.5 goles · 73%",
        "strong": false
       },
       {
        "label": "Over/Under 1.5",
        "pick": "OVER",
-       "prob": 0.8788589750730468,
+       "prob": 0.8785392048051077,
        "detail": "OVER 1.5 goles · 88%",
        "strong": false
       },
       {
        "label": "BTTS (Ambos marcan)",
        "pick": "SÍ",
-       "prob": 0.6670020400219074,
+       "prob": 0.6662704077361304,
        "detail": "BTTS Sí 67%",
        "strong": false
       },
@@ -3053,20 +3034,20 @@
        "label": "Total Goles",
        "pick": "-",
        "prob": null,
-       "detail": "Goles esperados 3.88",
+       "detail": "Goles esperados 3.87",
        "strong": false
       },
       {
        "label": "Hándicap Asiático",
        "pick": "AWAY +1.5",
-       "prob": 0.5924646648488769,
+       "prob": 0.593587386375568,
        "detail": "Línea +1.5 · AWAY 59%",
        "strong": false
       },
       {
        "label": "Equipo O/U 1.5",
        "pick": "LOCAL OVER",
-       "prob": 0.7933684227079131,
+       "prob": 0.7911952222950636,
        "detail": "LOCAL OVER 1.5 goles 79%",
        "strong": false
       }
@@ -3087,35 +3068,35 @@
       {
        "label": "1X2",
        "pick": "Bermuda",
-       "prob": 0.5812972836606061,
+       "prob": 0.580937564461084,
        "detail": "Local 28% · Empate 14% · Visitante 58%",
        "strong": false
       },
       {
        "label": "Doble Oportunidad",
        "pick": "12",
-       "prob": 0.8600793053247477,
+       "prob": 0.8598278521002425,
        "detail": "1X 42% · X2 72% · 12 86%",
        "strong": false
       },
       {
        "label": "Over/Under 2.5",
        "pick": "OVER",
-       "prob": 0.761150498440342,
+       "prob": 0.760559841860202,
        "detail": "OVER 2.5 goles · 76%",
        "strong": false
       },
       {
        "label": "Over/Under 1.5",
        "pick": "OVER",
-       "prob": 0.8936173911518863,
+       "prob": 0.8934310541495866,
        "detail": "OVER 1.5 goles · 89%",
        "strong": false
       },
       {
        "label": "BTTS (Ambos marcan)",
        "pick": "SÍ",
-       "prob": 0.6770843429181186,
+       "prob": 0.6764200857801886,
        "detail": "BTTS Sí 68%",
        "strong": false
       },
@@ -3123,20 +3104,20 @@
        "label": "Total Goles",
        "pick": "-",
        "prob": null,
-       "detail": "Goles esperados 4.32",
+       "detail": "Goles esperados 4.30",
        "strong": false
       },
       {
        "label": "Hándicap Asiático",
        "pick": "AWAY +1.5",
-       "prob": 0.9445607670911809,
+       "prob": 0.9445111061016722,
        "detail": "Línea +1.5 · AWAY 94%",
        "strong": true
       },
       {
        "label": "Equipo O/U 1.5",
        "pick": "VISITANTE OVER",
-       "prob": 0.9036081016916442,
+       "prob": 0.9021609984386517,
        "detail": "VISITANTE OVER 1.5 goles 90%",
        "strong": false
       }
@@ -3157,35 +3138,35 @@
       {
        "label": "1X2",
        "pick": "El Salvador",
-       "prob": 0.5746092616119157,
+       "prob": 0.5741905043081097,
        "detail": "Local 21% · Empate 21% · Visitante 57%",
        "strong": false
       },
       {
        "label": "Doble Oportunidad",
        "pick": "X2",
-       "prob": 0.7888254878904208,
+       "prob": 0.7887758288269858,
        "detail": "1X 43% · X2 79% · 12 79%",
        "strong": false
       },
       {
        "label": "Over/Under 2.5",
        "pick": "OVER",
-       "prob": 0.7129583806608795,
+       "prob": 0.7116816418626498,
        "detail": "OVER 2.5 goles · 71%",
        "strong": false
       },
       {
        "label": "Over/Under 1.5",
        "pick": "OVER",
-       "prob": 0.819406602767336,
+       "prob": 0.8185396655589419,
        "detail": "OVER 1.5 goles · 82%",
        "strong": false
       },
       {
        "label": "BTTS (Ambos marcan)",
        "pick": "SÍ",
-       "prob": 0.660733373257991,
+       "prob": 0.6598720314238299,
        "detail": "BTTS Sí 66%",
        "strong": false
       },
@@ -3193,20 +3174,20 @@
        "label": "Total Goles",
        "pick": "-",
        "prob": null,
-       "detail": "Goles esperados 3.27",
+       "detail": "Goles esperados 3.26",
        "strong": false
       },
       {
        "label": "Hándicap Asiático",
        "pick": "AWAY +1.5",
-       "prob": 0.9577801693201933,
+       "prob": 0.9578493217378099,
        "detail": "Línea +1.5 · AWAY 96%",
        "strong": true
       },
       {
        "label": "Equipo O/U 1.5",
        "pick": "LOCAL UNDER",
-       "prob": 0.799225388248451,
+       "prob": 0.8006447463297804,
        "detail": "LOCAL UNDER 1.5 goles 80%",
        "strong": false
       }
@@ -3495,7 +3476,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 86.8,
+   "elapsed_s": 84.4,
    "sport": "futbol",
    "sport_name": "Fútbol",
    "all_leagues": true
@@ -3515,7 +3496,7 @@
      "prob": 0.6997,
      "tier": "MUY BUENO",
      "units": "1.5",
-     "note": ">=70% · momio 2.8 · EV +95.9%",
+     "note": ">=70% · momio 2.7 · EV +88.9%",
      "league_code": "NFL",
      "league_label": "NFL"
     },
@@ -3586,7 +3567,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 11.1,
+   "elapsed_s": 11.0,
    "sport": "amfut",
    "sport_name": "NFL/NCAAF",
    "all_leagues": true
