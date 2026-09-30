@@ -1,7 +1,7 @@
 {
  "date": "2026-09-30",
- "generated_at": "2026-09-30T10:13:02",
- "sports_total": "32 partidos",
+ "generated_at": "2026-09-30T14:12:52",
+ "sports_total": "25 partidos",
  "sports": [
   {
    "key": "beisbol",
@@ -339,15 +339,15 @@
     }
    ],
    "message": "2 partidos proyectados",
-   "elapsed_s": 26.1
+   "elapsed_s": 22.1
   },
   "tenis": {
    "ok": true,
    "date": "2026-09-30",
    "league": "ALL",
    "league_label": "Todas las ligas",
-   "n": 16,
-   "message": "16 partidos proyectados",
+   "n": 15,
+   "message": "15 partidos proyectados",
    "picks": [
     {
      "match": "Holger Rune vs Kyrian Jacquet",
@@ -476,10 +476,10 @@
      "prob": 0.6653,
      "tier": "MUY BUENO",
      "units": "1.5",
-     "note": "EV +337.8% · momio 6.58",
+     "note": "",
      "edge": null,
-     "ev": 3.377674,
-     "odds": 6.58,
+     "ev": null,
+     "odds": null,
      "line": null,
      "league_code": "WTA",
      "league_label": "WTA Tour"
@@ -1041,55 +1041,6 @@
      "momentum_ok": false
     },
     {
-     "home": "Leolia Jeanjean",
-     "away": "Melisa Ercan",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "WTA",
-     "league_label": "WTA Tour",
-     "context": "Adana Open, Hard, Ronda: Round 2, BO3",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Ganador del partido",
-       "pick": "Leolia Jeanjean",
-       "prob": 0.5632,
-       "detail": "Leolia Jeanjean 56% · Melisa Ercan 44%",
-       "strong": false
-      },
-      {
-       "label": "Total Juegos O/U",
-       "pick": "UNDER",
-       "prob": 0.5394,
-       "detail": "UNDER 21.5 · 54% · Proyectado 20.9",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Juegos",
-       "pick": "Leolia Jeanjean",
-       "prob": 0.6807,
-       "detail": "Leolia Jeanjean +1.5 (ref.) · 68%",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Sets",
-       "pick": "Melisa Ercan",
-       "prob": 0.6308,
-       "detail": "Hándicap Sets -1.5 · 37% · (+171)",
-       "strong": false
-      },
-      {
-       "label": "Juegos 1er Set O/U",
-       "pick": "UNDER",
-       "prob": 0.7486999999999999,
-       "detail": "UNDER 9.5 · 75% · Proyectado 9.2",
-       "strong": false
-      }
-     ],
-     "convergence": false,
-     "momentum_ok": true
-    },
-    {
      "home": "Cagla Buyukakcay",
      "away": "Lucrezia Stefanini",
      "home_abbrev": "",
@@ -1286,7 +1237,7 @@
      "momentum_ok": true
     }
    ],
-   "elapsed_s": 62.6,
+   "elapsed_s": 94.5,
    "sport": "tenis",
    "sport_name": "Tenis",
    "all_leagues": true
@@ -1296,31 +1247,9 @@
    "date": "2026-09-30",
    "league": "ALL",
    "league_label": "Todas las ligas",
-   "n": 10,
-   "message": "10 partidos proyectados",
+   "n": 4,
+   "message": "4 partidos proyectados",
    "picks": [
-    {
-     "match": "Roma (W) vs Barcelona (W)",
-     "market": "1X2",
-     "pick": "1X2: AWAY (2)",
-     "prob": 0.8694879301252671,
-     "tier": "TOP PICK",
-     "units": "2.0",
-     "note": ">=70%",
-     "league_code": "WCH",
-     "league_label": "Champions Femenina"
-    },
-    {
-     "match": "BK Häcken (W) vs Juventus (W)",
-     "market": "O/U 2.5",
-     "pick": "O/U 2.5: OVER",
-     "prob": 0.722532172150504,
-     "tier": "TOP PICK",
-     "units": "2.0",
-     "note": ">=70%",
-     "league_code": "WCH",
-     "league_label": "Champions Femenina"
-    },
     {
      "match": "OL Lyonnes (W) vs Chelsea (W)",
      "market": "O/U 2.5",
@@ -1344,17 +1273,6 @@
      "league_label": "Amistosos Int. (Selecciones)"
     },
     {
-     "match": "Lithuania vs Andorra",
-     "market": "O/U 2.5",
-     "pick": "O/U 2.5: UNDER",
-     "prob": 0.6554243996942112,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=65%",
-     "league_code": "AMI",
-     "league_label": "Amistosos Int. (Selecciones)"
-    },
-    {
      "match": "Benfica (W) vs Bayern Munich (W)",
      "market": "O/U 1.5",
      "pick": "O/U 1.5: OVER",
@@ -1364,28 +1282,6 @@
      "note": ">=80%",
      "league_code": "WCH",
      "league_label": "Champions Femenina"
-    },
-    {
-     "match": "Paris FC (W) vs Arsenal (W)",
-     "market": "O/U 1.5",
-     "pick": "O/U 1.5: OVER",
-     "prob": 0.8116797733817672,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=80%",
-     "league_code": "WCH",
-     "league_label": "Champions Femenina"
-    },
-    {
-     "match": "Eritrea vs South Africa",
-     "market": "O/U 1.5",
-     "pick": "O/U 1.5: OVER",
-     "prob": 0.7989627829519641,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": ">=75%",
-     "league_code": "AFQ",
-     "league_label": "Clasificatoria AFCON"
     },
     {
      "match": "Cook Islands vs Tahiti",
@@ -1400,146 +1296,6 @@
     }
    ],
    "predictions": [
-    {
-     "home": "Botswana",
-     "away": "Mozambique",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "AMI",
-     "league_label": "Amistosos Int. (Selecciones)",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Botswana",
-       "prob": 0.3854172463568865,
-       "detail": "Local 39% · Empate 27% · Visitante 34%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "12",
-       "prob": 0.7298753704558187,
-       "detail": "1X 66% · X2 61% · 12 73%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "UNDER",
-       "prob": 0.5475754271348838,
-       "detail": "UNDER 2.5 goles · 45%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.7155385763141623,
-       "detail": "OVER 1.5 goles · 72%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "NO",
-       "prob": 0.5332513816247805,
-       "detail": "BTTS Sí 47%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 2.43",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "AWAY +1.5",
-       "prob": 0.8653187408143442,
-       "detail": "Línea +1.5 · AWAY 87%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "LOCAL UNDER",
-       "prob": 0.7229278910515896,
-       "detail": "LOCAL UNDER 1.5 goles 72%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Lithuania",
-     "away": "Andorra",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "AMI",
-     "league_label": "Amistosos Int. (Selecciones)",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Lithuania",
-       "prob": 0.4258265735975725,
-       "detail": "Local 43% · Empate 34% · Visitante 23%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "1X",
-       "prob": 0.7657419874818563,
-       "detail": "1X 77% · X2 57% · 12 66%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "UNDER",
-       "prob": 0.6554243996942112,
-       "detail": "UNDER 2.5 goles · 34%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.6055824481001055,
-       "detail": "OVER 1.5 goles · 61%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "NO",
-       "prob": 0.6126045028442786,
-       "detail": "BTTS Sí 39%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 2.16",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "AWAY +1.5",
-       "prob": 0.8721541793401082,
-       "detail": "Línea +1.5 · AWAY 87%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "VISITANTE UNDER",
-       "prob": 0.8936565022650683,
-       "detail": "VISITANTE UNDER 1.5 goles 89%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
     {
      "home": "Argentina",
      "away": "Bolivia",
@@ -1674,286 +1430,6 @@
        "pick": "VISITANTE UNDER",
        "prob": 0.6252322936905722,
        "detail": "VISITANTE UNDER 1.5 goles 63%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Eritrea",
-     "away": "South Africa",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "AFQ",
-     "league_label": "Clasificatoria AFCON",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Eritrea",
-       "prob": 0.4247720551358035,
-       "detail": "Local 42% · Empate 30% · Visitante 28%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "1X",
-       "prob": 0.7227294651286189,
-       "detail": "1X 72% · X2 58% · 12 70%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.5459862822279978,
-       "detail": "OVER 2.5 goles · 55%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.7989627829519641,
-       "detail": "OVER 1.5 goles · 80%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.5173350793460727,
-       "detail": "BTTS Sí 52%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.06",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "HOME -0.5",
-       "prob": 0.6727898663462961,
-       "detail": "Línea -0.5 · HOME 67%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "VISITANTE UNDER",
-       "prob": 0.7357588823428847,
-       "detail": "VISITANTE UNDER 1.5 goles 74%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "BK Häcken (W)",
-     "away": "Juventus (W)",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "WCH",
-     "league_label": "Champions Femenina",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "BK Häcken (W)",
-       "prob": 0.4892834305719271,
-       "detail": "Local 49% · Empate 22% · Visitante 29%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "12",
-       "prob": 0.7806887028787071,
-       "detail": "1X 71% · X2 51% · 12 78%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.722532172150504,
-       "detail": "OVER 2.5 goles · 72%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8707270283311404,
-       "detail": "OVER 1.5 goles · 87%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.6631082938599784,
-       "detail": "BTTS Sí 66%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.58",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "AWAY +1.5",
-       "prob": 0.7267852091709097,
-       "detail": "Línea +1.5 · AWAY 73%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "LOCAL OVER",
-       "prob": 0.6355726175197225,
-       "detail": "LOCAL OVER 1.5 goles 64%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Paris FC (W)",
-     "away": "Arsenal (W)",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "WCH",
-     "league_label": "Champions Femenina",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Arsenal (W)",
-       "prob": 0.5881117608529165,
-       "detail": "Local 16% · Empate 25% · Visitante 59%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "X2",
-       "prob": 0.8392243317322329,
-       "detail": "1X 41% · X2 84% · 12 75%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.5961628644158824,
-       "detail": "OVER 2.5 goles · 60%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8116797733817672,
-       "detail": "OVER 1.5 goles · 81%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.5486022282097384,
-       "detail": "BTTS Sí 55%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.19",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "AWAY +1.5",
-       "prob": 0.9572337645230253,
-       "detail": "Línea +1.5 · AWAY 96%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "LOCAL UNDER",
-       "prob": 0.7958450875007015,
-       "detail": "LOCAL UNDER 1.5 goles 80%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Roma (W)",
-     "away": "Barcelona (W)",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "WCH",
-     "league_label": "Champions Femenina",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Barcelona (W)",
-       "prob": 0.8694879301252671,
-       "detail": "Local 2% · Empate 11% · Visitante 87%",
-       "strong": true
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "X2",
-       "prob": 0.95,
-       "detail": "1X 13% · X2 95% · 12 89%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.7816420296163507,
-       "detail": "OVER 2.5 goles · 78%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8935435762656156,
-       "detail": "OVER 1.5 goles · 89%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.503269313358442,
-       "detail": "BTTS Sí 50%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 4.81",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "AWAY +1.5",
-       "prob": 0.9986279393690216,
-       "detail": "Línea +1.5 · AWAY 100%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "VISITANTE OVER",
-       "prob": 0.9844016853278967,
-       "detail": "VISITANTE OVER 1.5 goles 98%",
        "strong": false
       }
      ],
@@ -2101,7 +1577,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 77.3,
+   "elapsed_s": 79.0,
    "sport": "futbol",
    "sport_name": "Fútbol",
    "all_leagues": true
@@ -2164,11 +1640,11 @@
     {
      "match": "Golden State Valkyries @ Dallas Wings",
      "market": "Totales",
-     "pick": "TOTAL: OVER 157.5",
-     "prob": 0.6775,
+     "pick": "TOTAL: OVER 156.5",
+     "prob": 0.6951,
      "tier": "MUY BUENO",
      "units": "1.5",
-     "note": ">=68% · linea 157.5",
+     "note": ">=70% · linea 156.5",
      "league_code": "WNBA",
      "league_label": "WNBA"
     },
@@ -2254,8 +1730,8 @@
       {
        "label": "Totales",
        "pick": "OVER",
-       "prob": 0.6775162793736221,
-       "detail": "Línea 157.5 · OVER 68% / UNDER 32%",
+       "prob": 0.6950628334677077,
+       "detail": "Línea 156.5 · OVER 70% / UNDER 30%",
        "strong": false
       },
       {
@@ -2354,7 +1830,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 28.5,
+   "elapsed_s": 25.8,
    "sport": "basquet",
    "sport_name": "Básquetbol",
    "all_leagues": true
