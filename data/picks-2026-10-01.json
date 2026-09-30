@@ -1,7 +1,7 @@
 {
  "date": "2026-10-01",
- "generated_at": "2026-09-30T06:19:12",
- "sports_total": "57 partidos",
+ "generated_at": "2026-09-30T10:16:13",
+ "sports_total": "58 partidos",
  "sports": [
   {
    "key": "beisbol",
@@ -219,6 +219,17 @@
    "n": 8,
    "picks": [
     {
+     "match": "NC Dinos @ Doosan Bears",
+     "market": "Moneyline",
+     "pick": "Doosan Bears",
+     "prob": 0.6473,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": "",
+     "league_code": "KBO",
+     "league_label": "KBO League"
+    },
+    {
      "match": "Hanwha Eagles @ Samsung Lions",
      "market": "Moneyline",
      "pick": "Samsung Lions",
@@ -232,8 +243,19 @@
     {
      "match": "KT Wiz @ Kia Tigers",
      "market": "Moneyline",
-     "pick": "Kia Tigers",
-     "prob": 0.5479,
+     "pick": "KT Wiz",
+     "prob": 0.6097,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": "",
+     "league_code": "KBO",
+     "league_label": "KBO League"
+    },
+    {
+     "match": "LG Twins @ SSG Landers",
+     "market": "Moneyline",
+     "pick": "LG Twins",
+     "prob": 0.5199,
      "tier": "DESTACADO",
      "units": "0.5",
      "note": "Prob<60% pero buen momentum/variables: resaltado.",
@@ -243,11 +265,11 @@
     {
      "match": "Yomiuri Giants @ Hanshin Tigers",
      "market": "Run Line",
-     "pick": "RL: HOME 1.5",
-     "prob": 0.6535,
+     "pick": "RL: AWAY 1.5",
+     "prob": 0.6546,
      "tier": "MUY BUENO",
      "units": "1.5",
-     "note": ">=65% · linea 1.5",
+     "note": ">=65% · linea -1.5",
      "league_code": "NPB",
      "league_label": "Nippon Professional Baseball"
     },
@@ -365,34 +387,34 @@
      "league_code": "KBO",
      "league_label": "KBO League",
      "context": "Jamsil Baseball Stadium",
-     "extra": "",
+     "extra": "Abridor L: 최민석 · Abridor V: 송명기",
      "markets": [
       {
        "label": "Moneyline",
        "pick": "Doosan Bears",
-       "prob": 0.5396,
-       "detail": "Local 54% · Visitante 46%",
-       "strong": false
+       "prob": 0.6473,
+       "detail": "Local 65% · Visitante 35%",
+       "strong": true
       },
       {
        "label": "Totales O/U",
        "pick": "UNDER",
-       "prob": 0.5208999999999999,
-       "detail": "UNDER 10.0 · 52% · Proyectado 9.7",
+       "prob": 0.5282,
+       "detail": "UNDER 10.5 · 53% · Proyectado 10.8",
        "strong": false
       },
       {
        "label": "F5 O/U",
        "pick": "UNDER",
-       "prob": 0.5178,
-       "detail": "UNDER 5.5 · 52%",
+       "prob": 0.5695,
+       "detail": "UNDER 6.0 · 57%",
        "strong": false
       },
       {
        "label": "F5 Moneyline",
        "pick": "Doosan Bears",
-       "prob": 0.522,
-       "detail": "F5 52% · 48% · (-109/+109)",
+       "prob": 0.6275,
+       "detail": "F5 63% · 37% · (-168/+168)",
        "strong": false
       },
       {
@@ -403,7 +425,7 @@
        "strong": false
       }
      ],
-     "convergence": false,
+     "convergence": true,
      "momentum_ok": false
     },
     {
@@ -414,46 +436,46 @@
      "league_code": "KBO",
      "league_label": "KBO League",
      "context": "SSG Landers Field",
-     "extra": "",
+     "extra": "Abridor L: 김민준 · Abridor V: 임찬규",
      "markets": [
       {
        "label": "Moneyline",
-       "pick": "SSG Landers",
-       "prob": 0.5067,
-       "detail": "Local 51% · Visitante 49%",
+       "pick": "LG Twins",
+       "prob": 0.5199,
+       "detail": "Local 48% · Visitante 52%",
        "strong": false
       },
       {
        "label": "Totales O/U",
-       "pick": "UNDER",
-       "prob": 0.5441,
-       "detail": "UNDER 10.5 · 54% · Proyectado 10.3",
+       "pick": "OVER",
+       "prob": 0.5003,
+       "detail": "OVER 10.0 · 50% · Proyectado 9.8",
        "strong": false
       },
       {
        "label": "F5 O/U",
-       "pick": "OVER",
-       "prob": 0.5098,
-       "detail": "OVER 5.5 · 51%",
+       "pick": "UNDER",
+       "prob": 0.5037,
+       "detail": "UNDER 5.5 · 50%",
        "strong": false
       },
       {
        "label": "F5 Moneyline",
        "pick": "LG Twins",
-       "prob": 0.5208999999999999,
-       "detail": "F5 48% · 52% · (+109/-109)",
+       "prob": 0.5523,
+       "detail": "F5 45% · 55% · (+123/-123)",
        "strong": false
       },
       {
        "label": "NRFI",
        "pick": "NO",
-       "prob": 0.7175,
-       "detail": "No carrera 1ª entrada 28%",
+       "prob": 0.5285,
+       "detail": "No carrera 1ª entrada 47%",
        "strong": false
       }
      ],
-     "convergence": false,
-     "momentum_ok": false
+     "convergence": true,
+     "momentum_ok": true
     },
     {
      "home": "Kia Tigers",
@@ -463,46 +485,46 @@
      "league_code": "KBO",
      "league_label": "KBO League",
      "context": "Gwangju-Kia Champions Field",
-     "extra": "",
+     "extra": "Abridor L: 양현종 · Abridor V: 소형준",
      "markets": [
       {
        "label": "Moneyline",
-       "pick": "Kia Tigers",
-       "prob": 0.5479,
-       "detail": "Local 55% · Visitante 45%",
-       "strong": false
+       "pick": "KT Wiz",
+       "prob": 0.6097,
+       "detail": "Local 39% · Visitante 61%",
+       "strong": true
       },
       {
        "label": "Totales O/U",
        "pick": "UNDER",
-       "prob": 0.5056,
-       "detail": "UNDER 10.0 · 51% · Proyectado 10.4",
+       "prob": 0.519,
+       "detail": "UNDER 10.5 · 52% · Proyectado 10.6",
        "strong": false
       },
       {
        "label": "F5 O/U",
        "pick": "UNDER",
-       "prob": 0.5076,
-       "detail": "UNDER 5.5 · 51%",
+       "prob": 0.5615,
+       "detail": "UNDER 6.0 · 56%",
        "strong": false
       },
       {
        "label": "F5 Moneyline",
        "pick": "KT Wiz",
-       "prob": 0.5946,
-       "detail": "F5 41% · 59% · (+147/-147)",
+       "prob": 0.5869,
+       "detail": "F5 41% · 59% · (+142/-142)",
        "strong": false
       },
       {
        "label": "NRFI",
-       "pick": "NO",
-       "prob": 0.6877,
-       "detail": "No carrera 1ª entrada 31%",
+       "pick": "SÍ",
+       "prob": 0.5267,
+       "detail": "No carrera 1ª entrada 53%",
        "strong": false
       }
      ],
      "convergence": true,
-     "momentum_ok": true
+     "momentum_ok": false
     },
     {
      "home": "Hanshin Tigers",
@@ -523,9 +545,9 @@
       },
       {
        "label": "Run Line",
-       "pick": "LOCAL",
-       "prob": 0.6535304150593515,
-       "detail": "Línea 1.5 · LOCAL 65%",
+       "pick": "VISITANTE",
+       "prob": 0.6546324116106323,
+       "detail": "Línea -1.5 · VISITANTE 65%",
        "strong": false
       },
       {
@@ -674,15 +696,15 @@
     }
    ],
    "message": "8 partidos proyectados",
-   "elapsed_s": 54.8
+   "elapsed_s": 31.799999999999997
   },
   "tenis": {
    "ok": true,
    "date": "2026-10-01",
    "league": "ALL",
    "league_label": "Todas las ligas",
-   "n": 19,
-   "message": "19 partidos proyectados",
+   "n": 20,
+   "message": "20 partidos proyectados",
    "picks": [
     {
      "match": "Flavio Cobolli vs Roman Safiullin",
@@ -691,10 +713,10 @@
      "prob": 0.8352,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +49.3% · momio 1.787",
+     "note": "EV +56.8% · momio 1.877",
      "edge": null,
-     "ev": 0.4925024,
-     "odds": 1.787,
+     "ev": 0.5676704000000001,
+     "odds": 1.877,
      "line": null,
      "league_code": "ATP",
      "league_label": "ATP Tour"
@@ -706,10 +728,10 @@
      "prob": 0.7801,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +21.9% · momio 1.562",
+     "note": "EV +23.3% · momio 1.581",
      "edge": null,
-     "ev": 0.21851620000000005,
-     "odds": 1.562,
+     "ev": 0.2333381,
+     "odds": 1.581,
      "line": null,
      "league_code": "ATP",
      "league_label": "ATP Tour"
@@ -728,6 +750,21 @@
      "line": null,
      "league_code": "ATP",
      "league_label": "ATP Tour"
+    },
+    {
+     "match": "Anna Blinkova vs Lois Boisson",
+     "market": "ML",
+     "pick": "Lois Boisson",
+     "prob": 0.8559,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "EV +94.3% · momio 2.27",
+     "edge": null,
+     "ev": 0.9428930000000001,
+     "odds": 2.27,
+     "line": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour"
     },
     {
      "match": "Camila Osorio vs Lanlana Tararudee",
@@ -1414,6 +1451,55 @@
      "momentum_ok": true
     },
     {
+     "home": "Anna Blinkova",
+     "away": "Lois Boisson",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Adana Open, Hard, Ronda: Quarterfinal, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Lois Boisson",
+       "prob": 0.8559,
+       "detail": "Anna Blinkova 14% · Lois Boisson 86%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5544,
+       "detail": "UNDER 21.5 · 55% · Proyectado 22.0",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Lois Boisson",
+       "prob": 0.6319,
+       "detail": "Lois Boisson -2.5 (ref.) · 63%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Lois Boisson",
+       "prob": 0.883,
+       "detail": "Hándicap Sets -1.5 · 12% · (+755)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.513,
+       "detail": "UNDER 9.5 · 51% · Proyectado 9.4",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
      "home": "Daria Kasatkina",
      "away": "Paula Badosa",
      "home_abbrev": "",
@@ -1708,7 +1794,7 @@
      "momentum_ok": true
     }
    ],
-   "elapsed_s": 41.0,
+   "elapsed_s": 34.6,
    "sport": "tenis",
    "sport_name": "Tenis",
    "all_leagues": true
@@ -1977,76 +2063,6 @@
    ],
    "predictions": [
     {
-     "home": "Uzbekistan",
-     "away": "Syria",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "AMI",
-     "league_label": "Amistosos Int. (Selecciones)",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Uzbekistan",
-       "prob": 0.6009025934017348,
-       "detail": "Local 60% · Empate 15% · Visitante 25%",
-       "strong": true
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "12",
-       "prob": 0.8500454699110347,
-       "detail": "1X 75% · X2 40% · 12 85%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.6953263760541998,
-       "detail": "OVER 2.5 goles · 70%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8872851316729341,
-       "detail": "OVER 1.5 goles · 89%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.6352364222632564,
-       "detail": "BTTS Sí 64%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.69",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "HOME -0.5",
-       "prob": 0.7476951481006107,
-       "detail": "Línea -0.5 · HOME 75%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "LOCAL OVER",
-       "prob": 0.8495982444797184,
-       "detail": "LOCAL OVER 1.5 goles 85%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
      "home": "Maldives",
      "away": "Lebanon",
      "home_abbrev": "",
@@ -2110,6 +2126,76 @@
        "pick": "LOCAL UNDER",
        "prob": 0.9524254145817126,
        "detail": "LOCAL UNDER 1.5 goles 95%",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Uzbekistan",
+     "away": "Syria",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "AMI",
+     "league_label": "Amistosos Int. (Selecciones)",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "1X2",
+       "pick": "Uzbekistan",
+       "prob": 0.6009025934017348,
+       "detail": "Local 60% · Empate 15% · Visitante 25%",
+       "strong": true
+      },
+      {
+       "label": "Doble Oportunidad",
+       "pick": "12",
+       "prob": 0.8500454699110347,
+       "detail": "1X 75% · X2 40% · 12 85%",
+       "strong": false
+      },
+      {
+       "label": "Over/Under 2.5",
+       "pick": "OVER",
+       "prob": 0.6953263760541998,
+       "detail": "OVER 2.5 goles · 70%",
+       "strong": false
+      },
+      {
+       "label": "Over/Under 1.5",
+       "pick": "OVER",
+       "prob": 0.8872851316729341,
+       "detail": "OVER 1.5 goles · 89%",
+       "strong": false
+      },
+      {
+       "label": "BTTS (Ambos marcan)",
+       "pick": "SÍ",
+       "prob": 0.6352364222632564,
+       "detail": "BTTS Sí 64%",
+       "strong": false
+      },
+      {
+       "label": "Total Goles",
+       "pick": "-",
+       "prob": null,
+       "detail": "Goles esperados 3.69",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Asiático",
+       "pick": "HOME -0.5",
+       "prob": 0.7476951481006107,
+       "detail": "Línea -0.5 · HOME 75%",
+       "strong": true
+      },
+      {
+       "label": "Equipo O/U 1.5",
+       "pick": "LOCAL OVER",
+       "prob": 0.8495982444797184,
+       "detail": "LOCAL OVER 1.5 goles 85%",
        "strong": false
       }
      ],
@@ -3657,7 +3743,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 81.7,
+   "elapsed_s": 86.1,
    "sport": "futbol",
    "sport_name": "Fútbol",
    "all_leagues": true
@@ -3714,7 +3800,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 11.5,
+   "elapsed_s": 10.9,
    "sport": "amfut",
    "sport_name": "NFL/NCAAF",
    "all_leagues": true
@@ -3984,7 +4070,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 24.7,
+   "elapsed_s": 25.5,
    "sport": "basquet",
    "sport_name": "Básquetbol",
    "all_leagues": true
