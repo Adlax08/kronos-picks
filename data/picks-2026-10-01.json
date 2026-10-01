@@ -1,7 +1,7 @@
 {
  "date": "2026-10-01",
- "generated_at": "2026-09-30T18:16:14",
- "sports_total": "89 partidos",
+ "generated_at": "2026-09-30T22:15:57",
+ "sports_total": "91 partidos",
  "sports": [
   {
    "key": "beisbol",
@@ -349,7 +349,7 @@
        "label": "Moneyline",
        "pick": "Doosan Bears",
        "prob": 0.6473,
-       "detail": "Local 65% · Visitante 35% · (-157/+133)",
+       "detail": "Local 65% · Visitante 35% · (-158/+134)",
        "strong": true
       },
       {
@@ -398,7 +398,7 @@
        "label": "Moneyline",
        "pick": "LG Twins",
        "prob": 0.5199,
-       "detail": "Local 48% · Visitante 52% · (+146/-174)",
+       "detail": "Local 48% · Visitante 52% · (+143/-169)",
        "strong": false
       },
       {
@@ -447,7 +447,7 @@
        "label": "Moneyline",
        "pick": "KT Wiz",
        "prob": 0.6097,
-       "detail": "Local 39% · Visitante 61% · (+114/-134)",
+       "detail": "Local 39% · Visitante 61% · (+113/-133)",
        "strong": true
       },
       {
@@ -652,16 +652,31 @@
     }
    ],
    "message": "8 partidos proyectados",
-   "elapsed_s": 36.5
+   "elapsed_s": 22.3
   },
   "tenis": {
    "ok": true,
    "date": "2026-10-01",
    "league": "ALL",
    "league_label": "Todas las ligas",
-   "n": 51,
-   "message": "51 partidos proyectados",
+   "n": 53,
+   "message": "53 partidos proyectados",
    "picks": [
+    {
+     "match": "Holger Rune vs Kyrian Jacquet",
+     "market": "ML",
+     "pick": "Holger Rune",
+     "prob": 0.861,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "EV +28.1% · momio 1.488",
+     "edge": null,
+     "ev": 0.281168,
+     "odds": 1.488,
+     "line": null,
+     "league_code": "ATP",
+     "league_label": "ATP Tour"
+    },
     {
      "match": "Flavio Cobolli vs Roman Safiullin",
      "market": "ML",
@@ -684,10 +699,10 @@
      "prob": 0.7801,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +23.3% · momio 1.581",
+     "note": "EV +20.4% · momio 1.543",
      "edge": null,
-     "ev": 0.2333381,
-     "odds": 1.581,
+     "ev": 0.2036943,
+     "odds": 1.543,
      "line": null,
      "league_code": "ATP",
      "league_label": "ATP Tour"
@@ -714,10 +729,10 @@
      "prob": 0.8559,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +88.3% · momio 2.2",
+     "note": "EV +96.9% · momio 2.3",
      "edge": null,
-     "ev": 0.8829800000000002,
-     "odds": 2.2,
+     "ev": 0.9685699999999998,
+     "odds": 2.3,
      "line": null,
      "league_code": "WTA",
      "league_label": "WTA Tour"
@@ -729,10 +744,10 @@
      "prob": 0.797,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +57.8% · momio 1.98",
+     "note": "EV +52.1% · momio 1.909",
      "edge": null,
-     "ev": 0.57806,
-     "odds": 1.98,
+     "ev": 0.5214730000000001,
+     "odds": 1.909,
      "line": null,
      "league_code": "WTA",
      "league_label": "WTA Tour"
@@ -804,10 +819,10 @@
      "prob": 0.8804,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +43.8% · momio 1.633",
+     "note": "EV +46.8% · momio 1.667",
      "edge": null,
-     "ev": 0.4376931999999999,
-     "odds": 1.633,
+     "ev": 0.4676268,
+     "odds": 1.667,
      "line": null,
      "league_code": "CHALLENGER",
      "league_label": "ATP Challenger Tour"
@@ -819,10 +834,10 @@
      "prob": 0.8623,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +55.7% · momio 1.806",
+     "note": "EV +52.0% · momio 1.763",
      "edge": null,
-     "ev": 0.5573138,
-     "odds": 1.806,
+     "ev": 0.5202348999999998,
+     "odds": 1.763,
      "line": null,
      "league_code": "CHALLENGER",
      "league_label": "ATP Challenger Tour"
@@ -834,10 +849,10 @@
      "prob": 0.8572,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +21.6% · momio 1.418",
+     "note": "",
      "edge": null,
-     "ev": 0.21550959999999986,
-     "odds": 1.418,
+     "ev": null,
+     "odds": null,
      "line": null,
      "league_code": "CHALLENGER",
      "league_label": "ATP Challenger Tour"
@@ -849,10 +864,10 @@
      "prob": 0.8122,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +24.9% · momio 1.538",
+     "note": "",
      "edge": null,
-     "ev": 0.2491636000000001,
-     "odds": 1.538,
+     "ev": null,
+     "odds": null,
      "line": null,
      "league_code": "CHALLENGER",
      "league_label": "ATP Challenger Tour"
@@ -924,10 +939,25 @@
      "prob": 0.7581,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +42.9% · momio 1.885",
+     "note": "",
      "edge": null,
-     "ev": 0.42901849999999997,
-     "odds": 1.885,
+     "ev": null,
+     "odds": null,
+     "line": null,
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour"
+    },
+    {
+     "match": "Lloyd Harris vs Luka Pavlovic",
+     "market": "ML",
+     "pick": "Lloyd Harris",
+     "prob": 0.6934,
+     "tier": "MUY BUENO",
+     "units": "1.5",
+     "note": "",
+     "edge": null,
+     "ev": null,
+     "odds": null,
      "line": null,
      "league_code": "CHALLENGER",
      "league_label": "ATP Challenger Tour"
@@ -949,6 +979,104 @@
     }
    ],
    "predictions": [
+    {
+     "home": "Holger Rune",
+     "away": "Kyrian Jacquet",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "Kinoshita Group Japan Open Tennis Championships, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Holger Rune",
+       "prob": 0.861,
+       "detail": "Holger Rune 86% · Kyrian Jacquet 14%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5097,
+       "detail": "OVER 23.5 · 51% · Proyectado 23.6",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Holger Rune",
+       "prob": 0.7661,
+       "detail": "Holger Rune -0.5 (ref.) · 77%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Holger Rune",
+       "prob": 0.6828,
+       "detail": "Hándicap Sets -1.5 · 68% · (-215)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.6534,
+       "detail": "UNDER 10.5 · 65% · Proyectado 9.9",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
+    {
+     "home": "Frances Tiafoe",
+     "away": "Kei Nishikori",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "context": "Kinoshita Group Japan Open Tennis Championships, Hard, Ronda: Round 1, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Frances Tiafoe",
+       "prob": 0.8505,
+       "detail": "Frances Tiafoe 85% · Kei Nishikori 15%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5282,
+       "detail": "OVER 23.5 · 53% · Proyectado 23.9",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Frances Tiafoe",
+       "prob": 0.7582,
+       "detail": "Frances Tiafoe -0.5 (ref.) · 76%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Frances Tiafoe",
+       "prob": 0.6639,
+       "detail": "Hándicap Sets -1.5 · 66% · (-198)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5868,
+       "detail": "OVER 9.5 · 59% · Proyectado 9.9",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
+    },
     {
      "home": "Jiri Lehecka",
      "away": "Zizou Bergs",
@@ -1930,55 +2058,6 @@
      "momentum_ok": true
     },
     {
-     "home": "Dane Sweeny",
-     "away": "Petr Bar Biryukov",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "CHALLENGER",
-     "league_label": "ATP Challenger Tour",
-     "context": "ATP Challenger Jingshan, China, Men Singles, Hard, BO3",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Ganador del partido",
-       "pick": "Petr Bar Biryukov",
-       "prob": 0.8083,
-       "detail": "Dane Sweeny 19% · Petr Bar Biryukov 81%",
-       "strong": true
-      },
-      {
-       "label": "Total Juegos O/U",
-       "pick": "OVER",
-       "prob": 0.5491,
-       "detail": "OVER 22.5 · 55% · Proyectado 24.3",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Juegos",
-       "pick": "Petr Bar Biryukov",
-       "prob": 0.5071,
-       "detail": "Petr Bar Biryukov -1.5 (ref.) · 51%",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Sets",
-       "pick": "Petr Bar Biryukov",
-       "prob": 0.8631,
-       "detail": "Hándicap Sets -1.5 · 14% · (+630)",
-       "strong": false
-      },
-      {
-       "label": "Juegos 1er Set O/U",
-       "pick": "OVER",
-       "prob": 0.5592,
-       "detail": "OVER 9.5 · 56% · Proyectado 10.0",
-       "strong": false
-      }
-     ],
-     "convergence": true,
-     "momentum_ok": true
-    },
-    {
      "home": "Adam Walton",
      "away": "Mattia Bellucci",
      "home_abbrev": "",
@@ -2126,6 +2205,55 @@
      "momentum_ok": true
     },
     {
+     "home": "Dane Sweeny",
+     "away": "Petr Bar Biryukov",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "ATP Challenger Jingshan, China, Men Singles, Hard, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Petr Bar Biryukov",
+       "prob": 0.8083,
+       "detail": "Dane Sweeny 19% · Petr Bar Biryukov 81%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5491,
+       "detail": "OVER 22.5 · 55% · Proyectado 24.3",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Petr Bar Biryukov",
+       "prob": 0.5071,
+       "detail": "Petr Bar Biryukov -1.5 (ref.) · 51%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Petr Bar Biryukov",
+       "prob": 0.8631,
+       "detail": "Hándicap Sets -1.5 · 14% · (+630)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5592,
+       "detail": "OVER 9.5 · 56% · Proyectado 10.0",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    },
+    {
      "home": "Michael Zheng",
      "away": "Yanki Erel",
      "home_abbrev": "",
@@ -2224,55 +2352,6 @@
      "momentum_ok": true
     },
     {
-     "home": "Bernard Tomic",
-     "away": "Yuta Shimizu",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "CHALLENGER",
-     "league_label": "ATP Challenger Tour",
-     "context": "ATP Challenger Jingshan, China, Men Singles, Hard, BO3",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Ganador del partido",
-       "pick": "Bernard Tomic",
-       "prob": 0.6079,
-       "detail": "Bernard Tomic 61% · Yuta Shimizu 39%",
-       "strong": true
-      },
-      {
-       "label": "Total Juegos O/U",
-       "pick": "UNDER",
-       "prob": 0.5153,
-       "detail": "UNDER 23.5 · 52% · Proyectado 23.5",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Juegos",
-       "pick": "Bernard Tomic",
-       "prob": 0.5874,
-       "detail": "Bernard Tomic +0.5 (ref.) · 59%",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Sets",
-       "pick": "Yuta Shimizu",
-       "prob": 0.6005,
-       "detail": "Hándicap Sets -1.5 · 40% · (+150)",
-       "strong": false
-      },
-      {
-       "label": "Juegos 1er Set O/U",
-       "pick": "OVER",
-       "prob": 0.5758,
-       "detail": "OVER 9.5 · 58% · Proyectado 9.9",
-       "strong": false
-      }
-     ],
-     "convergence": false,
-     "momentum_ok": false
-    },
-    {
      "home": "Andre Ilagan",
      "away": "Marat Sharipov",
      "home_abbrev": "",
@@ -2315,6 +2394,55 @@
        "pick": "OVER",
        "prob": 0.5968,
        "detail": "OVER 9.5 · 60% · Proyectado 10.1",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": false
+    },
+    {
+     "home": "Bernard Tomic",
+     "away": "Yuta Shimizu",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "ATP Challenger Jingshan, China, Men Singles, Hard, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Bernard Tomic",
+       "prob": 0.6079,
+       "detail": "Bernard Tomic 61% · Yuta Shimizu 39%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5153,
+       "detail": "UNDER 23.5 · 52% · Proyectado 23.5",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Bernard Tomic",
+       "prob": 0.5874,
+       "detail": "Bernard Tomic +0.5 (ref.) · 59%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Yuta Shimizu",
+       "prob": 0.6005,
+       "detail": "Hándicap Sets -1.5 · 40% · (+150)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5758,
+       "detail": "OVER 9.5 · 58% · Proyectado 9.9",
        "strong": false
       }
      ],
@@ -3449,7 +3577,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 32.1,
+   "elapsed_s": 31.9,
    "sport": "tenis",
    "sport_name": "Tenis",
    "all_leagues": true
@@ -5317,7 +5445,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 83.1,
+   "elapsed_s": 93.1,
    "sport": "futbol",
    "sport_name": "Fútbol",
    "all_leagues": true
@@ -5374,7 +5502,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 9.4,
+   "elapsed_s": 11.5,
    "sport": "amfut",
    "sport_name": "NFL/NCAAF",
    "all_leagues": true
@@ -5655,10 +5783,10 @@
      "markets": [
       {
        "label": "Moneyline",
-       "pick": "Rasta Vechta",
-       "prob": 0.5,
-       "detail": "Local 50% · Visitante 50%",
-       "strong": false
+       "pick": "Medipolis SC Jena",
+       "prob": 0.896694214876036,
+       "detail": "Local 90% · Visitante 10%",
+       "strong": true
       },
       {
        "label": "Spread",
@@ -5686,7 +5814,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 32.7,
+   "elapsed_s": 34.1,
    "sport": "basquet",
    "sport_name": "Básquetbol",
    "all_leagues": true
