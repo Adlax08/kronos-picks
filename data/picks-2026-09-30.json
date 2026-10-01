@@ -1,7 +1,7 @@
 {
  "date": "2026-09-30",
- "generated_at": "2026-09-30T14:12:52",
- "sports_total": "25 partidos",
+ "generated_at": "2026-09-30T18:12:58",
+ "sports_total": "19 partidos",
  "sports": [
   {
    "key": "beisbol",
@@ -216,130 +216,11 @@
    "sport": "beisbol",
    "sport_name": "Béisbol",
    "all_leagues": true,
-   "n": 2,
-   "picks": [
-    {
-     "match": "Yakult Swallows @ Hanshin Tigers",
-     "market": "Moneyline",
-     "pick": "ML: HOME (Hanshin Tigers)",
-     "prob": 0.6134,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": ">=61%",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball"
-    },
-    {
-     "match": "Lotte Marines @ Rakuten Golden Eagles",
-     "market": "Moneyline",
-     "pick": "ML: HOME (Rakuten Golden Eagles)",
-     "prob": 0.5828,
-     "tier": "DESTACADO",
-     "units": "0.5",
-     "note": ">=58%",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball"
-    },
-    {
-     "match": "Lotte Marines @ Rakuten Golden Eagles",
-     "market": "Run Line",
-     "pick": "RL: AWAY 1.5",
-     "prob": 0.5601,
-     "tier": "DESTACADO",
-     "units": "0.5",
-     "note": ">=56% · linea -1.5",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball"
-    }
-   ],
-   "predictions": [
-    {
-     "home": "Hanshin Tigers",
-     "away": "Yakult Swallows",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "Hanshin Tigers",
-       "prob": 0.6133533816933282,
-       "detail": "Local 61% · Visitante 39%",
-       "strong": true
-      },
-      {
-       "label": "Run Line",
-       "pick": "VISITANTE",
-       "prob": 0.5068487472006655,
-       "detail": "Línea -1.5 · VISITANTE 51%",
-       "strong": false
-      },
-      {
-       "label": "Totales",
-       "pick": "OVER",
-       "prob": 0.5107751202593256,
-       "detail": "Línea 7.5 · OVER 51% / UNDER 49%",
-       "strong": false
-      },
-      {
-       "label": "Carreras esperadas",
-       "pick": "-",
-       "prob": null,
-       "detail": "Total 7.6",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Rakuten Golden Eagles",
-     "away": "Lotte Marines",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "Rakuten Golden Eagles",
-       "prob": 0.5827511915153325,
-       "detail": "Local 58% · Visitante 42%",
-       "strong": false
-      },
-      {
-       "label": "Run Line",
-       "pick": "VISITANTE",
-       "prob": 0.5600808517008585,
-       "detail": "Línea -1.5 · VISITANTE 56%",
-       "strong": false
-      },
-      {
-       "label": "Totales",
-       "pick": "UNDER",
-       "prob": 0.511011427983937,
-       "detail": "Línea 7.5 · OVER 49% / UNDER 51%",
-       "strong": false
-      },
-      {
-       "label": "Carreras esperadas",
-       "pick": "-",
-       "prob": null,
-       "detail": "Total 7.4",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    }
-   ],
-   "message": "2 partidos proyectados",
-   "elapsed_s": 22.1
+   "n": 0,
+   "picks": [],
+   "predictions": [],
+   "message": "0 partidos proyectados",
+   "elapsed_s": 0.0
   },
   "tenis": {
    "ok": true,
@@ -461,21 +342,6 @@
      "prob": 0.9095,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "",
-     "edge": null,
-     "ev": null,
-     "odds": null,
-     "line": null,
-     "league_code": "WTA",
-     "league_label": "WTA Tour"
-    },
-    {
-     "match": "Cagla Buyukakcay vs Lucrezia Stefanini",
-     "market": "ML",
-     "pick": "Cagla Buyukakcay",
-     "prob": 0.6653,
-     "tier": "MUY BUENO",
-     "units": "1.5",
      "note": "",
      "edge": null,
      "ev": null,
@@ -1041,55 +907,6 @@
      "momentum_ok": false
     },
     {
-     "home": "Cagla Buyukakcay",
-     "away": "Lucrezia Stefanini",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "WTA",
-     "league_label": "WTA Tour",
-     "context": "Adana Open, Hard, Ronda: Round 2, BO3",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Ganador del partido",
-       "pick": "Cagla Buyukakcay",
-       "prob": 0.6653,
-       "detail": "Cagla Buyukakcay 67% · Lucrezia Stefanini 33%",
-       "strong": true
-      },
-      {
-       "label": "Total Juegos O/U",
-       "pick": "OVER",
-       "prob": 0.5116,
-       "detail": "OVER 21.5 · 51% · Proyectado 21.8",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Juegos",
-       "pick": "Cagla Buyukakcay",
-       "prob": 0.5302,
-       "detail": "Cagla Buyukakcay -0.5 (ref.) · 53%",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Sets",
-       "pick": "Lucrezia Stefanini",
-       "prob": 0.5855,
-       "detail": "Hándicap Sets -1.5 · 41% · (+141)",
-       "strong": false
-      },
-      {
-       "label": "Juegos 1er Set O/U",
-       "pick": "UNDER",
-       "prob": 0.5025,
-       "detail": "UNDER 9.5 · 50% · Proyectado 9.4",
-       "strong": false
-      }
-     ],
-     "convergence": true,
-     "momentum_ok": true
-    },
-    {
      "home": "Katie Volynets",
      "away": "Robin Montgomery",
      "home_abbrev": "",
@@ -1235,9 +1052,58 @@
      ],
      "convergence": true,
      "momentum_ok": true
+    },
+    {
+     "home": "Joao Lucas Reis Da Silva",
+     "away": "Matheus Pucinelli De Almeida",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "ATP Challenger Curitiba, Brazil Men Singles, Clay, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Joao Lucas Reis Da Silva",
+       "prob": 0.5726,
+       "detail": "Joao Lucas Reis Da Silva 57% · Matheus Pucinelli De Almeida 43%",
+       "strong": false
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5028,
+       "detail": "UNDER 22.5 · 50% · Proyectado 23.2",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Matheus Pucinelli De Almeida",
+       "prob": 0.5355,
+       "detail": "Matheus Pucinelli De Almeida +1.5 (ref.) · 54%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Matheus Pucinelli De Almeida",
+       "prob": 0.6399,
+       "detail": "Hándicap Sets -1.5 · 36% · (+178)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5307,
+       "detail": "OVER 9.5 · 53% · Proyectado 9.7",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false
     }
    ],
-   "elapsed_s": 94.5,
+   "elapsed_s": 129.8,
    "sport": "tenis",
    "sport_name": "Tenis",
    "all_leagues": true
@@ -1247,20 +1113,9 @@
    "date": "2026-09-30",
    "league": "ALL",
    "league_label": "Todas las ligas",
-   "n": 4,
-   "message": "4 partidos proyectados",
+   "n": 2,
+   "message": "2 partidos proyectados",
    "picks": [
-    {
-     "match": "OL Lyonnes (W) vs Chelsea (W)",
-     "market": "O/U 2.5",
-     "pick": "O/U 2.5: OVER",
-     "prob": 0.7001477903697346,
-     "tier": "TOP PICK",
-     "units": "2.0",
-     "note": ">=70%",
-     "league_code": "WCH",
-     "league_label": "Champions Femenina"
-    },
     {
      "match": "Argentina vs Bolivia",
      "market": "O/U 2.5",
@@ -1271,17 +1126,6 @@
      "note": ">=65%",
      "league_code": "AMI",
      "league_label": "Amistosos Int. (Selecciones)"
-    },
-    {
-     "match": "Benfica (W) vs Bayern Munich (W)",
-     "market": "O/U 1.5",
-     "pick": "O/U 1.5: OVER",
-     "prob": 0.8383080689859722,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=80%",
-     "league_code": "WCH",
-     "league_label": "Champions Femenina"
     },
     {
      "match": "Cook Islands vs Tahiti",
@@ -1435,149 +1279,9 @@
      ],
      "convergence": null,
      "momentum_ok": false
-    },
-    {
-     "home": "Benfica (W)",
-     "away": "Bayern Munich (W)",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "WCH",
-     "league_label": "Champions Femenina",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Bayern Munich (W)",
-       "prob": 0.5883156608800921,
-       "detail": "Local 21% · Empate 20% · Visitante 59%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "12",
-       "prob": 0.7953917913857642,
-       "detail": "1X 41% · X2 79% · 12 80%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.6330072929628667,
-       "detail": "OVER 2.5 goles · 63%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8383080689859722,
-       "detail": "OVER 1.5 goles · 84%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.565706776145394,
-       "detail": "BTTS Sí 57%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.33",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "AWAY +1.5",
-       "prob": 0.9413971165805657,
-       "detail": "Línea +1.5 · AWAY 94%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "LOCAL UNDER",
-       "prob": 0.7122917260461628,
-       "detail": "LOCAL UNDER 1.5 goles 71%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "OL Lyonnes (W)",
-     "away": "Chelsea (W)",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "WCH",
-     "league_label": "Champions Femenina",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "OL Lyonnes (W)",
-       "prob": 0.5866471742488895,
-       "detail": "Local 59% · Empate 23% · Visitante 18%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "1X",
-       "prob": 0.8206663173141445,
-       "detail": "1X 82% · X2 41% · 12 77%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.7001477903697346,
-       "detail": "OVER 2.5 goles · 70%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8761589321210183,
-       "detail": "OVER 1.5 goles · 88%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.6699919232108104,
-       "detail": "BTTS Sí 67%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.65",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "AWAY +1.5",
-       "prob": 0.621351583281893,
-       "detail": "Línea +1.5 · AWAY 62%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "LOCAL OVER",
-       "prob": 0.723446136689835,
-       "detail": "LOCAL OVER 1.5 goles 72%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
     }
    ],
-   "elapsed_s": 79.0,
+   "elapsed_s": 81.1,
    "sport": "futbol",
    "sport_name": "Fútbol",
    "all_leagues": true
@@ -1601,8 +1305,8 @@
    "date": "2026-09-30",
    "league": "ALL",
    "league_label": "Todas las ligas",
-   "n": 4,
-   "message": "4 partidos proyectados",
+   "n": 2,
+   "message": "2 partidos proyectados",
    "picks": [
     {
      "match": "Atlanta Dream @ Washington Mystics",
@@ -1618,11 +1322,11 @@
     {
      "match": "Atlanta Dream @ Washington Mystics",
      "market": "Totales",
-     "pick": "TOTAL: OVER 165.5",
-     "prob": 0.7875,
+     "pick": "TOTAL: OVER 166.5",
+     "prob": 0.7728,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": ">=79% · linea 165.5",
+     "note": ">=77% · linea 166.5",
      "league_code": "WNBA",
      "league_label": "WNBA"
     },
@@ -1640,24 +1344,13 @@
     {
      "match": "Golden State Valkyries @ Dallas Wings",
      "market": "Totales",
-     "pick": "TOTAL: OVER 156.5",
-     "prob": 0.6951,
+     "pick": "TOTAL: OVER 157.5",
+     "prob": 0.6775,
      "tier": "MUY BUENO",
      "units": "1.5",
-     "note": ">=70% · linea 156.5",
+     "note": ">=68% · linea 157.5",
      "league_code": "WNBA",
      "league_label": "WNBA"
-    },
-    {
-     "match": "LDLC ASVEL VILLEURBANNE @ PANATHINAIKOS AKTOR ATHENS",
-     "market": "Moneyline",
-     "pick": "ML: HOME (PANATHINAIKOS AKTOR ATHENS)",
-     "prob": 0.735,
-     "tier": "TOP PICK",
-     "units": "2.0",
-     "note": ">=74%",
-     "league_code": "EUR",
-     "league_label": "Euroliga"
     }
    ],
    "predictions": [
@@ -1688,8 +1381,8 @@
       {
        "label": "Totales",
        "pick": "OVER",
-       "prob": 0.787474108616258,
-       "detail": "Línea 165.5 · OVER 79% / UNDER 21%",
+       "prob": 0.7728300747914569,
+       "detail": "Línea 166.5 · OVER 77% / UNDER 23%",
        "strong": false
       },
       {
@@ -1730,8 +1423,8 @@
       {
        "label": "Totales",
        "pick": "OVER",
-       "prob": 0.6950628334677077,
-       "detail": "Línea 156.5 · OVER 70% / UNDER 30%",
+       "prob": 0.6775162793736221,
+       "detail": "Línea 157.5 · OVER 68% / UNDER 32%",
        "strong": false
       },
       {
@@ -1744,93 +1437,9 @@
      ],
      "convergence": null,
      "momentum_ok": false
-    },
-    {
-     "home": "PANATHINAIKOS AKTOR ATHENS",
-     "away": "LDLC ASVEL VILLEURBANNE",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "EUR",
-     "league_label": "Euroliga",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "PANATHINAIKOS AKTOR ATHENS",
-       "prob": 0.7350428624718353,
-       "detail": "Local 74% · Visitante 26%",
-       "strong": true
-      },
-      {
-       "label": "Spread",
-       "pick": "VISITANTE",
-       "prob": 0.5016086542849949,
-       "detail": "Línea -9.3 · VISITANTE 50%",
-       "strong": false
-      },
-      {
-       "label": "Totales",
-       "pick": "OVER",
-       "prob": 0.501120230150054,
-       "detail": "Línea 173.8 · OVER 50% / UNDER 50%",
-       "strong": false
-      },
-      {
-       "label": "Puntos esperados",
-       "pick": "-",
-       "prob": null,
-       "detail": "Total 173.8",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "MACCABI RAPYD TEL AVIV",
-     "away": "BESIKTAS ISTANBUL",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "EUR",
-     "league_label": "Euroliga",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "MACCABI RAPYD TEL AVIV",
-       "prob": 0.5456673444400431,
-       "detail": "Local 55% · Visitante 45%",
-       "strong": false
-      },
-      {
-       "label": "Spread",
-       "pick": "VISITANTE",
-       "prob": 0.5010626090755899,
-       "detail": "Línea -0.9 · VISITANTE 50%",
-       "strong": false
-      },
-      {
-       "label": "Totales",
-       "pick": "UNDER",
-       "prob": 0.5009418235612629,
-       "detail": "Línea 181.8 · OVER 50% / UNDER 50%",
-       "strong": false
-      },
-      {
-       "label": "Puntos esperados",
-       "pick": "-",
-       "prob": null,
-       "detail": "Total 181.8",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
     }
    ],
-   "elapsed_s": 25.8,
+   "elapsed_s": 36.3,
    "sport": "basquet",
    "sport_name": "Básquetbol",
    "all_leagues": true
