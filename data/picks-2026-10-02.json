@@ -1,7 +1,7 @@
 {
  "date": "2026-10-02",
- "generated_at": "2026-10-02T14:24:59",
- "sports_total": "31 partidos",
+ "generated_at": "2026-10-02T18:15:48",
+ "sports_total": "16 partidos",
  "sports": [
   {
    "key": "beisbol",
@@ -216,138 +216,19 @@
    "sport": "beisbol",
    "sport_name": "Béisbol",
    "all_leagues": true,
-   "n": 2,
-   "picks": [
-    {
-     "match": "SoftBank Hawks @ Lotte Marines",
-     "market": "Moneyline",
-     "pick": "ML: AWAY (SoftBank Hawks)",
-     "prob": 0.6477,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": ">=65%",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball"
-    },
-    {
-     "match": "Yomiuri Giants @ Yakult Swallows",
-     "market": "Moneyline",
-     "pick": "ML: AWAY (Yomiuri Giants)",
-     "prob": 0.6487,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": ">=65%",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball"
-    },
-    {
-     "match": "Yomiuri Giants @ Yakult Swallows",
-     "market": "Run Line",
-     "pick": "RL: AWAY -1.5",
-     "prob": 0.5555,
-     "tier": "DESTACADO",
-     "units": "0.5",
-     "note": ">=56% · linea 1.5",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball"
-    }
-   ],
-   "predictions": [
-    {
-     "home": "Lotte Marines",
-     "away": "SoftBank Hawks",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "SoftBank Hawks",
-       "prob": 0.6476752196559842,
-       "detail": "Local 35% · Visitante 65%",
-       "strong": true
-      },
-      {
-       "label": "Run Line",
-       "pick": "VISITANTE",
-       "prob": 0.5256189444369869,
-       "detail": "Línea 1.5 · VISITANTE 53%",
-       "strong": false
-      },
-      {
-       "label": "Totales",
-       "pick": "OVER",
-       "prob": 0.5458064939158357,
-       "detail": "Línea 7.5 · OVER 55% / UNDER 45%",
-       "strong": false
-      },
-      {
-       "label": "Carreras esperadas",
-       "pick": "-",
-       "prob": null,
-       "detail": "Total 7.9",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Yakult Swallows",
-     "away": "Yomiuri Giants",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "NPB",
-     "league_label": "Nippon Professional Baseball",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "Yomiuri Giants",
-       "prob": 0.6486508687526147,
-       "detail": "Local 35% · Visitante 65%",
-       "strong": true
-      },
-      {
-       "label": "Run Line",
-       "pick": "VISITANTE",
-       "prob": 0.5554694747789156,
-       "detail": "Línea 1.5 · VISITANTE 56%",
-       "strong": false
-      },
-      {
-       "label": "Totales",
-       "pick": "OVER",
-       "prob": 0.5440415897311286,
-       "detail": "Línea 7.5 · OVER 54% / UNDER 46%",
-       "strong": false
-      },
-      {
-       "label": "Carreras esperadas",
-       "pick": "-",
-       "prob": null,
-       "detail": "Total 7.9",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    }
-   ],
-   "message": "2 partidos proyectados",
-   "elapsed_s": 20.1
+   "n": 0,
+   "picks": [],
+   "predictions": [],
+   "message": "0 partidos proyectados",
+   "elapsed_s": 0.0
   },
   "tenis": {
    "ok": true,
    "date": "2026-10-02",
    "league": "ALL",
    "league_label": "Todas las ligas",
-   "n": 8,
-   "message": "8 partidos proyectados",
+   "n": 6,
+   "message": "6 partidos proyectados",
    "picks": [
     {
      "match": "Carlos Alcaraz vs Matteo Arnaldi",
@@ -395,21 +276,6 @@
      "league_label": "WTA Tour"
     },
     {
-     "match": "Antonia Ruzic vs Teodora Kostovic",
-     "market": "ML",
-     "pick": "Antonia Ruzic",
-     "prob": 0.7802,
-     "tier": "TOP PICK",
-     "units": "2.0",
-     "note": "",
-     "edge": null,
-     "ev": null,
-     "odds": null,
-     "line": null,
-     "league_code": "WTA",
-     "league_label": "WTA Tour"
-    },
-    {
      "match": "Ann Li vs Ashlyn Krueger",
      "market": "ML",
      "pick": "Ann Li",
@@ -438,21 +304,6 @@
      "line": null,
      "league_code": "WTA",
      "league_label": "WTA Tour"
-    },
-    {
-     "match": "Gustavo Heide vs Lautaro Midon",
-     "market": "ML",
-     "pick": "Gustavo Heide",
-     "prob": 0.6806,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": "",
-     "edge": null,
-     "ev": null,
-     "odds": null,
-     "line": null,
-     "league_code": "CHALLENGER",
-     "league_label": "ATP Challenger Tour"
     }
    ],
    "predictions": [
@@ -604,55 +455,6 @@
      "momentum_ok": false
     },
     {
-     "home": "Antonia Ruzic",
-     "away": "Teodora Kostovic",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "WTA",
-     "league_label": "WTA Tour",
-     "context": "Adana Open, Hard, Ronda: Quarterfinal, BO3",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Ganador del partido",
-       "pick": "Antonia Ruzic",
-       "prob": 0.7802,
-       "detail": "Antonia Ruzic 78% · Teodora Kostovic 22%",
-       "strong": true
-      },
-      {
-       "label": "Total Juegos O/U",
-       "pick": "UNDER",
-       "prob": 0.5207999999999999,
-       "detail": "UNDER 21.5 · 52% · Proyectado 21.8",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Juegos",
-       "pick": "Antonia Ruzic",
-       "prob": 0.5454,
-       "detail": "Antonia Ruzic -2.5 (ref.) · 55%",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Sets",
-       "pick": "Teodora Kostovic",
-       "prob": 0.5303,
-       "detail": "Hándicap Sets -1.5 · 47% · (+113)",
-       "strong": false
-      },
-      {
-       "label": "Juegos 1er Set O/U",
-       "pick": "UNDER",
-       "prob": 0.5171,
-       "detail": "UNDER 9.5 · 52% · Proyectado 9.4",
-       "strong": false
-      }
-     ],
-     "convergence": true,
-     "momentum_ok": true
-    },
-    {
      "home": "Camila Osorio",
      "away": "Coco Gauff",
      "home_abbrev": "",
@@ -798,58 +600,9 @@
      ],
      "convergence": true,
      "momentum_ok": false
-    },
-    {
-     "home": "Gustavo Heide",
-     "away": "Lautaro Midon",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "CHALLENGER",
-     "league_label": "ATP Challenger Tour",
-     "context": "ATP Challenger Curitiba, Brazil Men Singles, Clay, BO3",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Ganador del partido",
-       "pick": "Gustavo Heide",
-       "prob": 0.6806,
-       "detail": "Gustavo Heide 68% · Lautaro Midon 32%",
-       "strong": true
-      },
-      {
-       "label": "Total Juegos O/U",
-       "pick": "UNDER",
-       "prob": 0.5025,
-       "detail": "UNDER 22.5 · 50% · Proyectado 23.4",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Juegos",
-       "pick": "Lautaro Midon",
-       "prob": 0.5219,
-       "detail": "Lautaro Midon +1.5 (ref.) · 52%",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Sets",
-       "pick": "Lautaro Midon",
-       "prob": 0.5993999999999999,
-       "detail": "Hándicap Sets -1.5 · 40% · (+150)",
-       "strong": false
-      },
-      {
-       "label": "Juegos 1er Set O/U",
-       "pick": "OVER",
-       "prob": 0.5503,
-       "detail": "OVER 9.5 · 55% · Proyectado 9.7",
-       "strong": false
-      }
-     ],
-     "convergence": true,
-     "momentum_ok": false
     }
    ],
-   "elapsed_s": 149.7,
+   "elapsed_s": 129.8,
    "sport": "tenis",
    "sport_name": "Tenis",
    "all_leagues": true
@@ -859,8 +612,8 @@
    "date": "2026-10-02",
    "league": "ALL",
    "league_label": "Todas las ligas",
-   "n": 15,
-   "message": "15 partidos proyectados",
+   "n": 5,
+   "message": "5 partidos proyectados",
    "picks": [
     {
      "match": "Barbados vs Bermuda",
@@ -874,83 +627,6 @@
      "league_label": "Concacaf Nations League"
     },
     {
-     "match": "St. Kitts and Nevis vs Cuba",
-     "market": "O/U 2.5",
-     "pick": "O/U 2.5: OVER",
-     "prob": 0.7105667275302842,
-     "tier": "TOP PICK",
-     "units": "2.0",
-     "note": ">=70%",
-     "league_code": "CNL",
-     "league_label": "Concacaf Nations League"
-    },
-    {
-     "match": "France vs Italy",
-     "market": "O/U 2.5",
-     "pick": "O/U 2.5: OVER",
-     "prob": 0.7070452607376537,
-     "tier": "TOP PICK",
-     "units": "2.0",
-     "note": ">=70%",
-     "league_code": "UNL",
-     "league_label": "UEFA Nations League"
-    },
-    {
-     "match": "Suriname vs Guatemala",
-     "market": "O/U 2.5",
-     "pick": "O/U 2.5: OVER",
-     "prob": 0.6825745254084936,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=65%",
-     "league_code": "CNL",
-     "league_label": "Concacaf Nations League"
-    },
-    {
-     "match": "Poland vs Romania",
-     "market": "O/U 2.5",
-     "pick": "O/U 2.5: OVER",
-     "prob": 0.6791281620078298,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=65%",
-     "league_code": "UNL",
-     "league_label": "UEFA Nations League"
-    },
-    {
-     "match": "Bosnia-Herzegovina vs Sweden",
-     "market": "O/U 2.5",
-     "pick": "O/U 2.5: OVER",
-     "prob": 0.6787876071843031,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=65%",
-     "league_code": "UNL",
-     "league_label": "UEFA Nations League"
-    },
-    {
-     "match": "Belgium vs Türkiye",
-     "market": "O/U 1.5",
-     "pick": "O/U 1.5: OVER",
-     "prob": 0.8443273597457743,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=80%",
-     "league_code": "UNL",
-     "league_label": "UEFA Nations League"
-    },
-    {
-     "match": "Ukraine vs Northern Ireland",
-     "market": "O/U 1.5",
-     "pick": "O/U 1.5: OVER",
-     "prob": 0.8368920576809935,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=80%",
-     "league_code": "UNL",
-     "league_label": "UEFA Nations League"
-    },
-    {
      "match": "Bonaire vs Grenada",
      "market": "O/U 1.5",
      "pick": "O/U 1.5: OVER",
@@ -960,39 +636,6 @@
      "note": ">=80%",
      "league_code": "CNL",
      "league_label": "Concacaf Nations League"
-    },
-    {
-     "match": "Hungary vs Georgia",
-     "market": "O/U 1.5",
-     "pick": "O/U 1.5: OVER",
-     "prob": 0.818371897489558,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=80%",
-     "league_code": "UNL",
-     "league_label": "UEFA Nations League"
-    },
-    {
-     "match": "St. Lucia vs Guadeloupe",
-     "market": "O/U 1.5",
-     "pick": "O/U 1.5: OVER",
-     "prob": 0.816997562806404,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": ">=80%",
-     "league_code": "CNL",
-     "league_label": "Concacaf Nations League"
-    },
-    {
-     "match": "Faroe Islands vs Slovakia",
-     "market": "O/U 2.5",
-     "pick": "O/U 2.5: UNDER",
-     "prob": 0.606791541827468,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": ">=60%",
-     "league_code": "UNL",
-     "league_label": "UEFA Nations League"
     },
     {
      "match": "Colombia vs Paraguay",
@@ -1093,706 +736,6 @@
        "pick": "VISITANTE UNDER",
        "prob": 0.882483829098086,
        "detail": "VISITANTE UNDER 1.5 goles 88%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Belgium",
-     "away": "Türkiye",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "UNL",
-     "league_label": "UEFA Nations League",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Belgium",
-       "prob": 0.5928278353992168,
-       "detail": "Local 59% · Empate 23% · Visitante 18%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "1X",
-       "prob": 0.8238987016110826,
-       "detail": "1X 82% · X2 41% · 12 77%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.5969280250733447,
-       "detail": "OVER 2.5 goles · 60%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8443273597457743,
-       "detail": "OVER 1.5 goles · 84%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.5635259268131338,
-       "detail": "BTTS Sí 56%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.32",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "HOME -0.5",
-       "prob": 0.7160761704214412,
-       "detail": "Línea -0.5 · HOME 72%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "LOCAL OVER",
-       "prob": 0.7773151650650538,
-       "detail": "LOCAL OVER 1.5 goles 78%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Bosnia-Herzegovina",
-     "away": "Sweden",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "UNL",
-     "league_label": "UEFA Nations League",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Sweden",
-       "prob": 0.4072949116613884,
-       "detail": "Local 32% · Empate 28% · Visitante 41%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "12",
-       "prob": 0.724658998354738,
-       "detail": "1X 59% · X2 68% · 12 72%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.6787876071843031,
-       "detail": "OVER 2.5 goles · 68%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8741373816571054,
-       "detail": "OVER 1.5 goles · 87%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.6560371415541161,
-       "detail": "BTTS Sí 66%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.63",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "AWAY +1.5",
-       "prob": 0.7352929829187971,
-       "detail": "Línea +1.5 · AWAY 74%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "LOCAL OVER",
-       "prob": 0.7007912365582314,
-       "detail": "LOCAL OVER 1.5 goles 70%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Faroe Islands",
-     "away": "Slovakia",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "UNL",
-     "league_label": "UEFA Nations League",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Faroe Islands",
-       "prob": 0.3983396234385008,
-       "detail": "Local 40% · Empate 29% · Visitante 32%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "12",
-       "prob": 0.7143803604796144,
-       "detail": "1X 68% · X2 60% · 12 71%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "UNDER",
-       "prob": 0.606791541827468,
-       "detail": "UNDER 2.5 goles · 39%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.6728041096378902,
-       "detail": "OVER 1.5 goles · 67%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "NO",
-       "prob": 0.5681053648776915,
-       "detail": "BTTS Sí 43%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 2.34",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "AWAY +1.5",
-       "prob": 0.8366414160529682,
-       "detail": "Línea +1.5 · AWAY 84%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "VISITANTE UNDER",
-       "prob": 0.8669979420367049,
-       "detail": "VISITANTE UNDER 1.5 goles 87%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "France",
-     "away": "Italy",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "UNL",
-     "league_label": "UEFA Nations League",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "France",
-       "prob": 0.6373071183088448,
-       "detail": "Local 64% · Empate 21% · Visitante 15%",
-       "strong": true
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "1X",
-       "prob": 0.8464477734978111,
-       "detail": "1X 85% · X2 36% · 12 79%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.7070452607376537,
-       "detail": "OVER 2.5 goles · 71%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.874395788865997,
-       "detail": "OVER 1.5 goles · 87%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.6270602722962875,
-       "detail": "BTTS Sí 63%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.74",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "HOME -0.5",
-       "prob": 0.7638147708652628,
-       "detail": "Línea -0.5 · HOME 76%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "LOCAL OVER",
-       "prob": 0.8554239046337526,
-       "detail": "LOCAL OVER 1.5 goles 86%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Hungary",
-     "away": "Georgia",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "UNL",
-     "league_label": "UEFA Nations League",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Georgia",
-       "prob": 0.5668687077577652,
-       "detail": "Local 20% · Empate 23% · Visitante 57%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "X2",
-       "prob": 0.7997556029197329,
-       "detail": "1X 43% · X2 80% · 12 77%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.5937460005257585,
-       "detail": "OVER 2.5 goles · 59%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.818371897489558,
-       "detail": "OVER 1.5 goles · 82%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.5278416399801867,
-       "detail": "BTTS Sí 53%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.03",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "AWAY +1.5",
-       "prob": 0.9722318668612233,
-       "detail": "Línea +1.5 · AWAY 97%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "LOCAL UNDER",
-       "prob": 0.8326882201409782,
-       "detail": "LOCAL UNDER 1.5 goles 83%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Poland",
-     "away": "Romania",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "UNL",
-     "league_label": "UEFA Nations League",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Romania",
-       "prob": 0.5826745601685785,
-       "detail": "Local 20% · Empate 22% · Visitante 58%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "X2",
-       "prob": 0.8022610993142115,
-       "detail": "1X 42% · X2 80% · 12 78%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.6791281620078298,
-       "detail": "OVER 2.5 goles · 68%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8570347622461317,
-       "detail": "OVER 1.5 goles · 86%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.6192710679434275,
-       "detail": "BTTS Sí 62%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.44",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "AWAY +1.5",
-       "prob": 0.9479953752422086,
-       "detail": "Línea +1.5 · AWAY 95%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "VISITANTE OVER",
-       "prob": 0.7773151650650538,
-       "detail": "VISITANTE OVER 1.5 goles 78%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Ukraine",
-     "away": "Northern Ireland",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "UNL",
-     "league_label": "UEFA Nations League",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Ukraine",
-       "prob": 0.43501625468565913,
-       "detail": "Local 44% · Empate 26% · Visitante 30%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "12",
-       "prob": 0.736199297741696,
-       "detail": "1X 70% · X2 56% · 12 74%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.6294116775034195,
-       "detail": "OVER 2.5 goles · 63%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8368920576809935,
-       "detail": "OVER 1.5 goles · 84%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.6044476396912979,
-       "detail": "BTTS Sí 60%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.23",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "AWAY +1.5",
-       "prob": 0.7458162811712865,
-       "detail": "Línea +1.5 · AWAY 75%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "LOCAL OVER",
-       "prob": 0.5898883723466141,
-       "detail": "LOCAL OVER 1.5 goles 59%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "St. Lucia",
-     "away": "Guadeloupe",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "CNL",
-     "league_label": "Concacaf Nations League",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Guadeloupe",
-       "prob": 0.646785194553102,
-       "detail": "Local 19% · Empate 16% · Visitante 65%",
-       "strong": true
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "12",
-       "prob": 0.8409852558583524,
-       "detail": "1X 35% · X2 81% · 12 84%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.6170665348789592,
-       "detail": "OVER 2.5 goles · 62%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.816997562806404,
-       "detail": "OVER 1.5 goles · 82%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "NO",
-       "prob": 0.503924685953178,
-       "detail": "BTTS Sí 50%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.24",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "AWAY +1.5",
-       "prob": 0.9881076818685212,
-       "detail": "Línea +1.5 · AWAY 99%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "LOCAL UNDER",
-       "prob": 0.899382354573328,
-       "detail": "LOCAL UNDER 1.5 goles 90%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "St. Kitts and Nevis",
-     "away": "Cuba",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "CNL",
-     "league_label": "Concacaf Nations League",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "St. Kitts and Nevis",
-       "prob": 0.4050904769142535,
-       "detail": "Local 41% · Empate 20% · Visitante 40%",
-       "strong": false
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "12",
-       "prob": 0.80477576961323,
-       "detail": "1X 60% · X2 59% · 12 80%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.7105667275302842,
-       "detail": "OVER 2.5 goles · 71%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8749034513081531,
-       "detail": "OVER 1.5 goles · 87%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.6867926011210359,
-       "detail": "BTTS Sí 69%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.72",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "AWAY +1.5",
-       "prob": 0.8224103181075094,
-       "detail": "Línea +1.5 · AWAY 82%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "VISITANTE OVER",
-       "prob": 0.6831580666247634,
-       "detail": "VISITANTE OVER 1.5 goles 68%",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "Suriname",
-     "away": "Guatemala",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "CNL",
-     "league_label": "Concacaf Nations League",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "1X2",
-       "pick": "Suriname",
-       "prob": 0.6529869428546219,
-       "detail": "Local 65% · Empate 18% · Visitante 17%",
-       "strong": true
-      },
-      {
-       "label": "Doble Oportunidad",
-       "pick": "1X",
-       "prob": 0.8313207703584216,
-       "detail": "1X 83% · X2 35% · 12 82%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 2.5",
-       "pick": "OVER",
-       "prob": 0.6825745254084936,
-       "detail": "OVER 2.5 goles · 68%",
-       "strong": false
-      },
-      {
-       "label": "Over/Under 1.5",
-       "pick": "OVER",
-       "prob": 0.8679726105796319,
-       "detail": "OVER 1.5 goles · 87%",
-       "strong": false
-      },
-      {
-       "label": "BTTS (Ambos marcan)",
-       "pick": "SÍ",
-       "prob": 0.5544183122122056,
-       "detail": "BTTS Sí 55%",
-       "strong": false
-      },
-      {
-       "label": "Total Goles",
-       "pick": "-",
-       "prob": null,
-       "detail": "Goles esperados 3.51",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Asiático",
-       "pick": "HOME -0.5",
-       "prob": 0.8384414097599787,
-       "detail": "Línea -0.5 · HOME 84%",
-       "strong": true
-      },
-      {
-       "label": "Equipo O/U 1.5",
-       "pick": "LOCAL OVER",
-       "prob": 0.8381955076533059,
-       "detail": "LOCAL OVER 1.5 goles 84%",
        "strong": false
       }
      ],
@@ -2080,7 +1023,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 251.5,
+   "elapsed_s": 101.7,
    "sport": "futbol",
    "sport_name": "Fútbol",
    "all_leagues": true
@@ -2096,11 +1039,11 @@
     {
      "match": "Pittsburgh Panthers @ Virginia Tech Hokies",
      "market": "Spread",
-     "pick": "SPREAD: AWAY 2.5",
-     "prob": 0.6166,
+     "pick": "SPREAD: AWAY 1.5",
+     "prob": 0.6004,
      "tier": "BUENO",
      "units": "1.0",
-     "note": ">=62% · linea -2.5",
+     "note": ">=60% · linea -1.5",
      "league_code": "NCAAF",
      "league_label": "NCAAF (College)"
     },
@@ -2111,18 +1054,7 @@
      "prob": 0.64,
      "tier": "BUENO",
      "units": "1.0",
-     "note": ">=64% · momio 1.70423 · EV +9.1%",
-     "league_code": "NCAAF",
-     "league_label": "NCAAF (College)"
-    },
-    {
-     "match": "Penn State Nittany Lions @ Northwestern Wildcats",
-     "market": "Spread",
-     "pick": "SPREAD: AWAY -2.5",
-     "prob": 0.6005,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": ">=60% · linea 2.5",
+     "note": ">=64% · momio 1.67568 · EV +7.2%",
      "league_code": "NCAAF",
      "league_label": "NCAAF (College)"
     }
@@ -2148,15 +1080,15 @@
       {
        "label": "Spread",
        "pick": "VISITANTE",
-       "prob": 0.616645371677953,
-       "detail": "Línea -2.5 · VISITANTE 62%",
+       "prob": 0.6003614200665112,
+       "detail": "Línea -1.5 · VISITANTE 60%",
        "strong": false
       },
       {
        "label": "Totales",
        "pick": "UNDER",
-       "prob": 0.5340453564264025,
-       "detail": "Línea 54.5 · OVER 47% / UNDER 53%",
+       "prob": 0.5087311966506496,
+       "detail": "Línea 53.5 · OVER 49% / UNDER 51%",
        "strong": false
       },
       {
@@ -2190,15 +1122,15 @@
       {
        "label": "Spread",
        "pick": "VISITANTE",
-       "prob": 0.6005230059691411,
-       "detail": "Línea 2.5 · VISITANTE 60%",
+       "prob": 0.5923139572244827,
+       "detail": "Línea 3 · VISITANTE 59%",
        "strong": false
       },
       {
        "label": "Totales",
        "pick": "OVER",
-       "prob": 0.5672228519646663,
-       "detail": "Línea 46.5 · OVER 57% / UNDER 43%",
+       "prob": 0.5421107651228892,
+       "detail": "Línea 47.5 · OVER 54% / UNDER 46%",
        "strong": false
       },
       {
@@ -2213,7 +1145,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 25.1,
+   "elapsed_s": 14.0,
    "sport": "amfut",
    "sport_name": "NFL/NCAAF",
    "all_leagues": true
@@ -2223,8 +1155,8 @@
    "date": "2026-10-02",
    "league": "ALL",
    "league_label": "Todas las ligas",
-   "n": 4,
-   "message": "4 partidos proyectados",
+   "n": 3,
+   "message": "3 partidos proyectados",
    "picks": [
     {
      "match": "Dallas Wings @ Golden State Valkyries",
@@ -2236,17 +1168,6 @@
      "note": ">=63% · linea -8.5",
      "league_code": "WNBA",
      "league_label": "WNBA"
-    },
-    {
-     "match": "ARMANI OLIMPIA MILAN @ KOSNER BASKONIA VITORIA-GASTEIZ",
-     "market": "Moneyline",
-     "pick": "ML: HOME (KOSNER BASKONIA VITORIA-GASTEIZ)",
-     "prob": 0.7185,
-     "tier": "TOP PICK",
-     "units": "2.0",
-     "note": ">=72%",
-     "league_code": "EUR",
-     "league_label": "Euroliga"
     }
    ],
    "predictions": [
@@ -2286,48 +1207,6 @@
        "pick": "-",
        "prob": null,
        "detail": "Total 159.6",
-       "strong": false
-      }
-     ],
-     "convergence": null,
-     "momentum_ok": false
-    },
-    {
-     "home": "KOSNER BASKONIA VITORIA-GASTEIZ",
-     "away": "ARMANI OLIMPIA MILAN",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "EUR",
-     "league_label": "Euroliga",
-     "context": "",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Moneyline",
-       "pick": "KOSNER BASKONIA VITORIA-GASTEIZ",
-       "prob": 0.7185141347836688,
-       "detail": "Local 72% · Visitante 28%",
-       "strong": true
-      },
-      {
-       "label": "Spread",
-       "pick": "VISITANTE",
-       "prob": 0.5006776268412948,
-       "detail": "Línea -8.5 · VISITANTE 50%",
-       "strong": false
-      },
-      {
-       "label": "Totales",
-       "pick": "OVER",
-       "prob": 0.5007963220598662,
-       "detail": "Línea 182.3 · OVER 50% / UNDER 50%",
-       "strong": false
-      },
-      {
-       "label": "Puntos esperados",
-       "pick": "-",
-       "prob": null,
-       "detail": "Total 182.3",
        "strong": false
       }
      ],
@@ -2419,7 +1298,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 38.3,
+   "elapsed_s": 40.2,
    "sport": "basquet",
    "sport_name": "Básquetbol",
    "all_leagues": true
