@@ -1,0 +1,258 @@
+{
+ "date": "2026-10-22",
+ "generated_at": "2026-10-21T22:59:05",
+ "sports_total": "0 partidos",
+ "sports": [
+  {
+   "key": "beisbol",
+   "name": "Béisbol",
+   "icon": "sports_baseball",
+   "leagues": [
+    {
+     "code": "MLB",
+     "name": "Major League"
+    },
+    {
+     "code": "KBO",
+     "name": "KBO League"
+    },
+    {
+     "code": "NPB",
+     "name": "Nippon Baseball"
+    }
+   ]
+  },
+  {
+   "key": "tenis",
+   "name": "Tenis",
+   "icon": "sports_tennis",
+   "leagues": [
+    {
+     "code": "ATP",
+     "name": "ATP Tour"
+    },
+    {
+     "code": "WTA",
+     "name": "WTA Tour"
+    },
+    {
+     "code": "CHA",
+     "name": "ATP Challenger Tour"
+    }
+   ]
+  },
+  {
+   "key": "futbol",
+   "name": "Fútbol",
+   "icon": "sports_soccer",
+   "leagues": [
+    {
+     "code": "ENG",
+     "name": "Premier League"
+    },
+    {
+     "code": "ESP",
+     "name": "La Liga"
+    },
+    {
+     "code": "ITA",
+     "name": "Serie A"
+    },
+    {
+     "code": "GER",
+     "name": "Bundesliga"
+    },
+    {
+     "code": "FRA",
+     "name": "Ligue 1"
+    },
+    {
+     "code": "NED",
+     "name": "Eredivisie"
+    },
+    {
+     "code": "POR",
+     "name": "Primeira Liga"
+    },
+    {
+     "code": "KSA",
+     "name": "Saudi Pro League"
+    },
+    {
+     "code": "FAC",
+     "name": "FA Cup"
+    },
+    {
+     "code": "CAR",
+     "name": "Carabao Cup"
+    },
+    {
+     "code": "CDR",
+     "name": "Copa del Rey"
+    },
+    {
+     "code": "CI",
+     "name": "Coppa Italia"
+    },
+    {
+     "code": "CDF",
+     "name": "Coupe de France"
+    },
+    {
+     "code": "DFB",
+     "name": "DFB Pokal"
+    },
+    {
+     "code": "WCH",
+     "name": "Champions Femenina"
+    },
+    {
+     "code": "UCL",
+     "name": "Champions League"
+    },
+    {
+     "code": "UEL",
+     "name": "Europa League"
+    },
+    {
+     "code": "UECL",
+     "name": "Conference League"
+    },
+    {
+     "code": "MEX",
+     "name": "Liga MX"
+    },
+    {
+     "code": "LIB",
+     "name": "Copa Libertadores"
+    },
+    {
+     "code": "SUD",
+     "name": "Copa Sudamericana"
+    },
+    {
+     "code": "AMI",
+     "name": "Amistosos Int. (Selecciones)"
+    },
+    {
+     "code": "UNL",
+     "name": "UEFA Nations League"
+    },
+    {
+     "code": "CNL",
+     "name": "Concacaf Nations League"
+    },
+    {
+     "code": "AFQ",
+     "name": "Clasificatoria AFCON"
+    },
+    {
+     "code": "AFN",
+     "name": "Copa Africana de Naciones"
+    }
+   ]
+  },
+  {
+   "key": "amfut",
+   "name": "NFL/NCAAF",
+   "icon": "sports_football",
+   "leagues": [
+    {
+     "code": "NFL",
+     "name": "NFL"
+    },
+    {
+     "code": "NCAAF",
+     "name": "NCAAF (College)"
+    }
+   ]
+  },
+  {
+   "key": "basquet",
+   "name": "Básquetbol",
+   "icon": "sports_basketball",
+   "leagues": [
+    {
+     "code": "NBA",
+     "name": "NBA"
+    },
+    {
+     "code": "WNBA",
+     "name": "WNBA"
+    },
+    {
+     "code": "EUR",
+     "name": "Euroliga"
+    },
+    {
+     "code": "KOR",
+     "name": "KBL Corea"
+    },
+    {
+     "code": "CHN",
+     "name": "CBA China"
+    },
+    {
+     "code": "FRA",
+     "name": "LNB Pro A"
+    },
+    {
+     "code": "ESP",
+     "name": "Liga ACB"
+    },
+    {
+     "code": "GER",
+     "name": "BBL Alemania"
+    }
+   ]
+  }
+ ],
+ "results": {
+  "beisbol": {
+   "ok": true,
+   "date": "2026-10-22",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "sport": "beisbol",
+   "sport_name": "Béisbol",
+   "all_leagues": true,
+   "n": 0,
+   "picks": [],
+   "predictions": [],
+   "message": "0 partidos proyectados · problemas: MLB: DLL load failed while importing _utils: Una directiva de Control de aplicaciones bloqueó este archivo.\nTraceback (most recent call last):\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\Predicction_Kronos\\kronos_worker.py\", line 53, in __init__\n    self._load()\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\Predicction_Kronos\\kronos_worker.py\", line 111, in _load\n    from src.models.ensemble import load_models\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\1_Predictions\\src\\models\\ensemble.py\", line 26, in <module>\n    from src.models.stacking_meta import _cuda_device, build_stacking_model\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\1_Predictions\\src\\models\\stacking_meta.py\", line 13, in <module>\n    from sklearn.ensemble import StackingClassifier\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\1_Predictions\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\__init__.py\", line 6, in <module>\n    from sklearn.ensemble._bagging import BaggingClassifier, BaggingRegressor\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\1_Predictions\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\_bagging.py\", line 19, in <module>\n    from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\1_Predictions\\.venv\\Lib\\site-packages\\sklearn\\tree\\__init__.py\", line 6, in <module>\n    from sklearn.tree._classes import (\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\1_Predictions\\.venv\\Lib\\site-packages\\sklearn\\tree\\_classes.py\", line 28, in <module>\n    from sklearn.tree import _criterion, _splitter\n  File \"sklearn/tree/_criterion.pyx\", line 1, in init sklearn.tree._criterion\n  File \"sklearn/tree/_splitter.pyx\", line 1, in init sklearn.tree._splitter\n  File \"sklearn/tree/_tree.pyx\", line 1, in init sklearn.tree._tree\n  File \"sklearn/neighbors/_quad_tree.pyx\", line 1, in init sklearn.neighbors._quad_tree\nImportError: DLL load failed while importing _utils: Una directiva de Control de aplicaciones bloqueó este archivo.\n; KBO: DLL load failed while importing _utils: Una directiva de Control de aplicaciones bloqueó este archivo.\nTraceback (most recent call last):\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\Predicction_Kronos\\kronos_worker.py\", line 53, in __init__\n    self._load()\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\Predicction_Kronos\\kronos_worker.py\", line 217, in _load\n    from src.models.ensemble import load_models\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\3_Predictions_KBO\\src\\models\\ensemble.py\", line 26, in <module>\n    from src.models.stacking_meta import _cuda_device, build_stacking_model\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\3_Predictions_KBO\\src\\models\\stacking_meta.py\", line 13, in <module>\n    from sklearn.ensemble import StackingClassifier\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\3_Predictions_KBO\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\__init__.py\", line 6, in <module>\n    from sklearn.ensemble._bagging import BaggingClassifier, BaggingRegressor\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\3_Predictions_KBO\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\_bagging.py\", line 19, in <module>\n    from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\3_Predictions_KBO\\.venv\\Lib\\site-packages\\sklearn\\tree\\__init__.py\", line 6, in <module>\n    from sklearn.tree._classes import (\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\3_Predictions_KBO\\.venv\\Lib\\site-packages\\sklearn\\tree\\_classes.py\", line 28, in <module>\n    from sklearn.tree import _criterion, _splitter\n  File \"sklearn/tree/_criterion.pyx\", line 1, in init sklearn.tree._criterion\n  File \"sklearn/tree/_splitter.pyx\", line 1, in init sklearn.tree._splitter\n  File \"sklearn/tree/_tree.pyx\", line 1, in init sklearn.tree._tree\n  File \"sklearn/neighbors/_quad_tree.pyx\", line 1, in init sklearn.neighbors._quad_tree\nImportError: DLL load failed while importing _utils: Una directiva de Control de aplicaciones bloqueó este archivo.\n; NPB: DLL load failed while importing _compute: Una directiva de Control de aplicaciones bloqueó este archivo.\nTraceback (most recent call last):\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\Predicction_Kronos\\kronos_worker.py\", line 53, in __init__\n    self._load()\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\Predicction_Kronos\\kronos_worker.py\", line 584, in _load\n    from src.pipeline import load_schedule\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\6_Predictions_NPB\\src\\pipeline.py\", line 7, in <module>\n    import pandas as pd\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\6_Predictions_NPB\\.venv\\Lib\\site-packages\\pandas\\__init__.py\", line 58, in <module>\n    from pandas.core.api import (\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\6_Predictions_NPB\\.venv\\Lib\\site-packages\\pandas\\core\\api.py\", line 27, in <module>\n    from pandas.core.arrays import Categorical\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\6_Predictions_NPB\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\__init__.py\", line 1, in <module>\n    from pandas.core.arrays.arrow import ArrowExtensionArray\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\6_Predictions_NPB\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\__init__.py\", line 1, in <module>\n    from pandas.core.arrays.arrow.accessors import (\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\6_Predictions_NPB\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\accessors.py\", line 20, in <module>\n    import pyarrow.compute as pc\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\6_Predictions_NPB\\.venv\\Lib\\site-packages\\pyarrow\\compute.py\", line 18, in <module>\n    from pyarrow._compute import (  # noqa\nImportError: DLL load failed while importing _compute: Una directiva de Control de aplicaciones bloqueó este archivo.\n;",
+   "elapsed_s": 0.0
+  },
+  "tenis": {
+   "ok": true,
+   "date": "2026-10-22",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 0,
+   "message": "ATP: DLL load failed while importing _utils: Una directiva de Control de aplicaciones bloqueó este archivo. · WTA: DLL load failed while importing _utils: Una directiva de Control de aplicaciones bloqueó este archivo. · CHALLENGER: DLL load failed while importing _utils: Una directiva de Control de aplicaciones bloqueó este archivo.",
+   "picks": [],
+   "predictions": [],
+   "elapsed_s": 0.3,
+   "sport": "tenis",
+   "sport_name": "Tenis",
+   "all_leagues": true
+  },
+  "futbol": {
+   "ok": false,
+   "error": "HTTP Error 500: Internal Server Error",
+   "picks": [],
+   "predictions": []
+  },
+  "amfut": {
+   "ok": false,
+   "error": "HTTP Error 500: Internal Server Error",
+   "picks": [],
+   "predictions": []
+  },
+  "basquet": {
+   "ok": false,
+   "error": "HTTP Error 500: Internal Server Error",
+   "picks": [],
+   "predictions": []
+  }
+ }
+}
