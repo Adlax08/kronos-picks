@@ -1,7 +1,7 @@
 {
  "date": "2026-10-21",
- "generated_at": "2026-10-21T22:59:04",
- "sports_total": "0 partidos",
+ "generated_at": "2026-10-21T23:19:28",
+ "sports_total": "6 partidos",
  "sports": [
   {
    "key": "beisbol",
@@ -219,7 +219,7 @@
    "n": 0,
    "picks": [],
    "predictions": [],
-   "message": "0 partidos proyectados · problemas: MLB: DLL load failed while importing _utils: Una directiva de Control de aplicaciones bloqueó este archivo.\nTraceback (most recent call last):\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\Predicction_Kronos\\kronos_worker.py\", line 53, in __init__\n    self._load()\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\Predicction_Kronos\\kronos_worker.py\", line 111, in _load\n    from src.models.ensemble import load_models\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\1_Predictions\\src\\models\\ensemble.py\", line 26, in <module>\n    from src.models.stacking_meta import _cuda_device, build_stacking_model\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\1_Predictions\\src\\models\\stacking_meta.py\", line 13, in <module>\n    from sklearn.ensemble import StackingClassifier\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\1_Predictions\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\__init__.py\", line 6, in <module>\n    from sklearn.ensemble._bagging import BaggingClassifier, BaggingRegressor\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\1_Predictions\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\_bagging.py\", line 19, in <module>\n    from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\1_Predictions\\.venv\\Lib\\site-packages\\sklearn\\tree\\__init__.py\", line 6, in <module>\n    from sklearn.tree._classes import (\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\1_Predictions\\.venv\\Lib\\site-packages\\sklearn\\tree\\_classes.py\", line 28, in <module>\n    from sklearn.tree import _criterion, _splitter\n  File \"sklearn/tree/_criterion.pyx\", line 1, in init sklearn.tree._criterion\n  File \"sklearn/tree/_splitter.pyx\", line 1, in init sklearn.tree._splitter\n  File \"sklearn/tree/_tree.pyx\", line 1, in init sklearn.tree._tree\n  File \"sklearn/neighbors/_quad_tree.pyx\", line 1, in init sklearn.neighbors._quad_tree\nImportError: DLL load failed while importing _utils: Una directiva de Control de aplicaciones bloqueó este archivo.\n; KBO: DLL load failed while importing _utils: Una directiva de Control de aplicaciones bloqueó este archivo.\nTraceback (most recent call last):\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\Predicction_Kronos\\kronos_worker.py\", line 53, in __init__\n    self._load()\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\Predicction_Kronos\\kronos_worker.py\", line 217, in _load\n    from src.models.ensemble import load_models\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\3_Predictions_KBO\\src\\models\\ensemble.py\", line 26, in <module>\n    from src.models.stacking_meta import _cuda_device, build_stacking_model\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\3_Predictions_KBO\\src\\models\\stacking_meta.py\", line 13, in <module>\n    from sklearn.ensemble import StackingClassifier\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\3_Predictions_KBO\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\__init__.py\", line 6, in <module>\n    from sklearn.ensemble._bagging import BaggingClassifier, BaggingRegressor\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\3_Predictions_KBO\\.venv\\Lib\\site-packages\\sklearn\\ensemble\\_bagging.py\", line 19, in <module>\n    from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\3_Predictions_KBO\\.venv\\Lib\\site-packages\\sklearn\\tree\\__init__.py\", line 6, in <module>\n    from sklearn.tree._classes import (\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\3_Predictions_KBO\\.venv\\Lib\\site-packages\\sklearn\\tree\\_classes.py\", line 28, in <module>\n    from sklearn.tree import _criterion, _splitter\n  File \"sklearn/tree/_criterion.pyx\", line 1, in init sklearn.tree._criterion\n  File \"sklearn/tree/_splitter.pyx\", line 1, in init sklearn.tree._splitter\n  File \"sklearn/tree/_tree.pyx\", line 1, in init sklearn.tree._tree\n  File \"sklearn/neighbors/_quad_tree.pyx\", line 1, in init sklearn.neighbors._quad_tree\nImportError: DLL load failed while importing _utils: Una directiva de Control de aplicaciones bloqueó este archivo.\n; NPB: DLL load failed while importing _compute: Una directiva de Control de aplicaciones bloqueó este archivo.\nTraceback (most recent call last):\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\Predicction_Kronos\\kronos_worker.py\", line 53, in __init__\n    self._load()\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\Predicction_Kronos\\kronos_worker.py\", line 584, in _load\n    from src.pipeline import load_schedule\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\6_Predictions_NPB\\src\\pipeline.py\", line 7, in <module>\n    import pandas as pd\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\6_Predictions_NPB\\.venv\\Lib\\site-packages\\pandas\\__init__.py\", line 58, in <module>\n    from pandas.core.api import (\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\6_Predictions_NPB\\.venv\\Lib\\site-packages\\pandas\\core\\api.py\", line 27, in <module>\n    from pandas.core.arrays import Categorical\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\6_Predictions_NPB\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\__init__.py\", line 1, in <module>\n    from pandas.core.arrays.arrow import ArrowExtensionArray\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\6_Predictions_NPB\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\__init__.py\", line 1, in <module>\n    from pandas.core.arrays.arrow.accessors import (\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\6_Predictions_NPB\\.venv\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\accessors.py\", line 20, in <module>\n    import pyarrow.compute as pc\n  File \"C:\\Users\\Luis\\Documents\\OpenCodeProjects\\6_Predictions_NPB\\.venv\\Lib\\site-packages\\pyarrow\\compute.py\", line 18, in <module>\n    from pyarrow._compute import (  # noqa\nImportError: DLL load failed while importing _compute: Una directiva de Control de aplicaciones bloqueó este archivo.\n;",
+   "message": "0 partidos proyectados",
    "elapsed_s": 0.0
   },
   "tenis": {
@@ -227,32 +227,353 @@
    "date": "2026-10-21",
    "league": "ALL",
    "league_label": "Todas las ligas",
-   "n": 0,
-   "message": "ATP: DLL load failed while importing _utils: Una directiva de Control de aplicaciones bloqueó este archivo. · WTA: DLL load failed while importing _utils: Una directiva de Control de aplicaciones bloqueó este archivo. · CHALLENGER: DLL load failed while importing _utils: Una directiva de Control de aplicaciones bloqueó este archivo.",
-   "picks": [],
-   "predictions": [],
-   "elapsed_s": 14.1,
+   "n": 2,
+   "message": "2 partidos proyectados",
+   "picks": [
+    {
+     "match": "Ekaterina Alexandrova vs Marta Kostyuk",
+     "market": "ML",
+     "pick": "Marta Kostyuk",
+     "prob": 0.8376,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "",
+     "edge": null,
+     "ev": null,
+     "odds": null,
+     "line": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour"
+    }
+   ],
+   "predictions": [
+    {
+     "home": "Antonia Ruzic",
+     "away": "Kayla Day",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Kinoshita Group Japan Open, Hard, Ronda: Round 2, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Antonia Ruzic",
+       "prob": 0.7231,
+       "detail": "Antonia Ruzic 72% · Kayla Day 28%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5071,
+       "detail": "OVER 21.5 · 51% · Proyectado 22.0",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Antonia Ruzic",
+       "prob": 0.7429,
+       "detail": "Antonia Ruzic +0.5 (ref.) · 74%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Kayla Day",
+       "prob": 0.5131,
+       "detail": "Hándicap Sets -1.5 · 49% · (+105)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5067,
+       "detail": "OVER 9.5 · 51% · Proyectado 9.3",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": true
+    },
+    {
+     "home": "Ekaterina Alexandrova",
+     "away": "Marta Kostyuk",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "BNB Ningbo Open, Hard, Ronda: Round 2, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Marta Kostyuk",
+       "prob": 0.8376,
+       "detail": "Ekaterina Alexandrova 16% · Marta Kostyuk 84%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.507,
+       "detail": "UNDER 21.5 · 51% · Proyectado 21.6",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Marta Kostyuk",
+       "prob": 0.7471,
+       "detail": "Marta Kostyuk -0.5 (ref.) · 75%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Marta Kostyuk",
+       "prob": 0.856,
+       "detail": "Hándicap Sets -1.5 · 14% · (+594)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.7237,
+       "detail": "UNDER 9.5 · 72% · Proyectado 9.3",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true
+    }
+   ],
+   "elapsed_s": 294.5,
    "sport": "tenis",
    "sport_name": "Tenis",
    "all_leagues": true
   },
   "futbol": {
-   "ok": false,
-   "error": "HTTP Error 500: Internal Server Error",
+   "ok": true,
+   "date": "2026-10-21",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 0,
+   "message": "Sin partidos pendientes para esa liga y fecha.",
    "picks": [],
-   "predictions": []
+   "predictions": [],
+   "elapsed_s": 0.0,
+   "sport": "futbol",
+   "sport_name": "Fútbol",
+   "all_leagues": true
   },
   "amfut": {
-   "ok": false,
-   "error": "HTTP Error 500: Internal Server Error",
-   "picks": [],
-   "predictions": []
+   "ok": true,
+   "date": "2026-10-21",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 1,
+   "message": "1 partidos proyectados",
+   "picks": [
+    {
+     "match": "New Mexico State Aggies @ Sam Houston Bearkats",
+     "market": "Moneyline",
+     "pick": "ML: AWAY (New Mexico State Aggies)",
+     "prob": 0.624,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": ">=62%",
+     "league_code": "NCAAF",
+     "league_label": "NCAAF (College)"
+    }
+   ],
+   "predictions": [
+    {
+     "home": "Sam Houston Bearkats",
+     "away": "New Mexico State Aggies",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NCAAF",
+     "league_label": "NCAAF (College)",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "New Mexico State Aggies",
+       "prob": 0.6239734590328689,
+       "detail": "Local 38% · Visitante 62%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5000216071356398,
+       "detail": "Línea 11.5 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5010283855625457,
+       "detail": "Línea 43.5 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 43.5",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    }
+   ],
+   "elapsed_s": 10.0,
+   "sport": "amfut",
+   "sport_name": "NFL/NCAAF",
+   "all_leagues": true
   },
   "basquet": {
-   "ok": false,
-   "error": "HTTP Error 500: Internal Server Error",
+   "ok": true,
+   "date": "2026-10-21",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 3,
+   "message": "3 partidos proyectados",
    "picks": [],
-   "predictions": []
+   "predictions": [
+    {
+     "home": "Samsung Thunders",
+     "away": "KCC Egis",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "KOR",
+     "league_label": "KBL Corea",
+     "context": "Sin histórico de liga · probabilidad base",
+     "extra": "Sin histórico de liga · probabilidad base",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Samsung Thunders",
+       "prob": 0.582455384059198,
+       "detail": "Local 58% · Visitante 42%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5005009747727062,
+       "detail": "Línea -2.6 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5011867852991427,
+       "detail": "Línea 209.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 209.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Qingdao Eagles",
+     "away": "Liaoning Flying Leopards",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHN",
+     "league_label": "CBA China",
+     "context": "Sin histórico de liga · probabilidad base",
+     "extra": "Sin histórico de liga · probabilidad base",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Qingdao Eagles",
+       "prob": 0.582455384059198,
+       "detail": "Local 58% · Visitante 42%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5005009747727062,
+       "detail": "Línea -2.6 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5011867852991427,
+       "detail": "Línea 209.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 209.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Zhejiang Golden Bulls",
+     "away": "Shandong Kirin",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHN",
+     "league_label": "CBA China",
+     "context": "Sin histórico de liga · probabilidad base",
+     "extra": "Sin histórico de liga · probabilidad base",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Zhejiang Golden Bulls",
+       "prob": 0.582455384059198,
+       "detail": "Local 58% · Visitante 42%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "VISITANTE",
+       "prob": 0.5005009747727062,
+       "detail": "Línea -2.6 · VISITANTE 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5011867852991427,
+       "detail": "Línea 209.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 209.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    }
+   ],
+   "elapsed_s": 115.1,
+   "sport": "basquet",
+   "sport_name": "Básquetbol",
+   "all_leagues": true
   }
  }
 }
