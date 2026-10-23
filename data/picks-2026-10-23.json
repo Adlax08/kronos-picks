@@ -1,6 +1,6 @@
 {
  "date": "2026-10-23",
- "generated_at": "2026-10-22T15:16:40",
+ "generated_at": "2026-10-22T19:51:35",
  "sports_total": "58 partidos",
  "sports": [
   {
@@ -323,6 +323,21 @@
      "league_label": "ATP Tour"
     },
     {
+     "match": "Daniel Altmaier vs Taylor Fritz",
+     "market": "ML",
+     "pick": "Taylor Fritz",
+     "prob": 0.8165,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "EV +5.0% · momio 1.286",
+     "edge": null,
+     "ev": 0.050019000000000036,
+     "odds": 1.286,
+     "line": null,
+     "league_code": "ATP",
+     "league_label": "ATP Tour"
+    },
+    {
      "match": "Adrian Mannarino vs Nikoloz Basilashvili",
      "market": "ML",
      "pick": "Nikoloz Basilashvili",
@@ -344,10 +359,10 @@
      "prob": 0.7924,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +14.6% · momio 1.446",
+     "note": "EV +20.3% · momio 1.518",
      "edge": null,
-     "ev": 0.14581039999999995,
-     "odds": 1.446,
+     "ev": 0.20286320000000002,
+     "odds": 1.518,
      "line": null,
      "league_code": "ATP",
      "league_label": "ATP Tour"
@@ -359,10 +374,10 @@
      "prob": 0.52,
      "tier": "DESTACADO",
      "units": "0.5",
-     "note": "EV +76.8% · momio 3.4 · Prob<60% pero buen momentum/variables: resaltado.",
+     "note": "EV +67.4% · momio 3.22 · Prob<60% pero buen momentum/variables: resaltado.",
      "edge": null,
-     "ev": 0.768,
-     "odds": 3.4,
+     "ev": 0.6744000000000001,
+     "odds": 3.22,
      "line": null,
      "league_code": "ATP",
      "league_label": "ATP Tour"
@@ -374,10 +389,10 @@
      "prob": 0.8113,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +12.4% · momio 1.386",
+     "note": "EV +12.0% · momio 1.38",
      "edge": null,
-     "ev": 0.12446179999999996,
-     "odds": 1.386,
+     "ev": 0.11959399999999992,
+     "odds": 1.38,
      "line": null,
      "league_code": "WTA",
      "league_label": "WTA Tour"
@@ -389,10 +404,10 @@
      "prob": 0.7114,
      "tier": "MUY BUENO",
      "units": "1.5",
-     "note": "EV +10.4% · momio 1.552",
+     "note": "EV +8.2% · momio 1.521",
      "edge": null,
-     "ev": 0.1040928000000001,
-     "odds": 1.552,
+     "ev": 0.08203939999999998,
+     "odds": 1.521,
      "line": null,
      "league_code": "WTA",
      "league_label": "WTA Tour"
@@ -1312,7 +1327,7 @@
      "momentum_ok": true
     }
    ],
-   "elapsed_s": 34.7,
+   "elapsed_s": 37.6,
    "sport": "tenis",
    "sport_name": "Tenis",
    "all_leagues": true
@@ -2381,7 +2396,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 75.2,
+   "elapsed_s": 71.6,
    "sport": "futbol",
    "sport_name": "Fútbol",
    "all_leagues": true
@@ -2423,7 +2438,7 @@
      "prob": 0.9524,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": ">=95% · momio 1.14286 · EV +8.8%",
+     "note": ">=95% · momio 1.14815 · EV +9.4%",
      "league_code": "NCAAF",
      "league_label": "NCAAF (College)"
     },
@@ -2600,7 +2615,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 15.4,
+   "elapsed_s": 13.1,
    "sport": "amfut",
    "sport_name": "NFL/NCAAF",
    "all_leagues": true
@@ -2671,11 +2686,11 @@
     {
      "match": "Minnesota Timberwolves @ Orlando Magic",
      "market": "Totales",
-     "pick": "TOTAL: UNDER 237.5",
-     "prob": 0.7642,
+     "pick": "TOTAL: UNDER 236.5",
+     "prob": 0.7514,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": ">=76% · linea 237.5",
+     "note": ">=75% · linea 236.5",
      "league_code": "NBA",
      "league_label": "NBA"
     },
@@ -2686,7 +2701,7 @@
      "prob": 0.844,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": ">=84% · momio 1.4878 · EV +25.6%",
+     "note": ">=84% · momio 1.45872 · EV +23.1%",
      "league_code": "NBA",
      "league_label": "NBA"
     },
@@ -2731,6 +2746,17 @@
      "tier": "BUENO",
      "units": "1.0",
      "note": ">=63% · linea -2.5",
+     "league_code": "NBA",
+     "league_label": "NBA"
+    },
+    {
+     "match": "New Orleans Pelicans @ Utah Jazz",
+     "market": "Totales",
+     "pick": "TOTAL: OVER 238.5",
+     "prob": 0.6125,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": ">=61% · linea 238.5",
      "league_code": "NBA",
      "league_label": "NBA"
     },
@@ -2859,9 +2885,9 @@
       },
       {
        "label": "Totales",
-       "pick": "OVER",
-       "prob": 0.5050638605511701,
-       "detail": "Línea 223.5 · OVER 51% / UNDER 49%",
+       "pick": "UNDER",
+       "prob": 0.5112432976373602,
+       "detail": "Línea 224.5 · OVER 49% / UNDER 51%",
        "strong": false
       },
       {
@@ -2902,8 +2928,8 @@
       {
        "label": "Totales",
        "pick": "OVER",
-       "prob": 0.5576295073304434,
-       "detail": "Línea 226.5 · OVER 56% / UNDER 44%",
+       "prob": 0.5737156335735307,
+       "detail": "Línea 225.5 · OVER 57% / UNDER 43%",
        "strong": false
       },
       {
@@ -2936,9 +2962,9 @@
       },
       {
        "label": "Spread",
-       "pick": "VISITANTE",
-       "prob": 0.5208194129762095,
-       "detail": "Línea -6.5 · VISITANTE 52%",
+       "pick": "LOCAL",
+       "prob": 0.5039917931455873,
+       "detail": "Línea -5.5 · LOCAL 50%",
        "strong": false
       },
       {
@@ -2986,8 +3012,8 @@
       {
        "label": "Totales",
        "pick": "UNDER",
-       "prob": 0.7641775477421413,
-       "detail": "Línea 237.5 · OVER 24% / UNDER 76%",
+       "prob": 0.7514073729904487,
+       "detail": "Línea 236.5 · OVER 25% / UNDER 75%",
        "strong": false
       },
       {
@@ -3063,8 +3089,8 @@
       {
        "label": "Spread",
        "pick": "VISITANTE",
-       "prob": 0.5921693062964498,
-       "detail": "Línea -1.5 · VISITANTE 59%",
+       "prob": 0.5185360675879592,
+       "detail": "Línea 1.5 · VISITANTE 52%",
        "strong": false
       },
       {
@@ -3154,8 +3180,8 @@
       {
        "label": "Totales",
        "pick": "OVER",
-       "prob": 0.5647999956397207,
-       "detail": "Línea 241.5 · OVER 56% / UNDER 44%",
+       "prob": 0.6124807387110585,
+       "detail": "Línea 238.5 · OVER 61% / UNDER 39%",
        "strong": false
       },
       {
@@ -3434,9 +3460,9 @@
       {
        "label": "Moneyline",
        "pick": "Wonju DB New Generation",
-       "prob": 0.977474592887938,
-       "detail": "Local 2% · Visitante 98%",
-       "strong": true
+       "prob": 0.5995422005954931,
+       "detail": "Local 40% · Visitante 60%",
+       "strong": false
       },
       {
        "label": "Spread",
@@ -3476,8 +3502,8 @@
       {
        "label": "Moneyline",
        "pick": "Sichuan Blue Whales",
-       "prob": 0.5102937838181358,
-       "detail": "Local 49% · Visitante 51%",
+       "prob": 0.5,
+       "detail": "Local 50% · Visitante 50%",
        "strong": false
       },
       {
@@ -3517,9 +3543,9 @@
      "markets": [
       {
        "label": "Moneyline",
-       "pick": "Jiangsu Dragons",
-       "prob": 0.5,
-       "detail": "Local 50% · Visitante 50%",
+       "pick": "Beijing Royal Fighters",
+       "prob": 0.5102937838181358,
+       "detail": "Local 51% · Visitante 49%",
        "strong": false
       },
       {
@@ -3559,9 +3585,9 @@
      "markets": [
       {
        "label": "Moneyline",
-       "pick": "Nanjing Monkey Kings",
-       "prob": 0.5611177229334094,
-       "detail": "Local 56% · Visitante 44%",
+       "pick": "Shandong Kirin",
+       "prob": 0.5102937838181358,
+       "detail": "Local 49% · Visitante 51%",
        "strong": false
       },
       {
@@ -3643,9 +3669,9 @@
      "markets": [
       {
        "label": "Moneyline",
-       "pick": "Qingdao Eagles",
-       "prob": 0.5102937838181358,
-       "detail": "Local 49% · Visitante 51%",
+       "pick": "Zhejiang Golden Bulls",
+       "prob": 0.5995422005955651,
+       "detail": "Local 60% · Visitante 40%",
        "strong": false
       },
       {
@@ -3680,15 +3706,15 @@
      "away_abbrev": "",
      "league_code": "FRA",
      "league_label": "LNB Pro A",
-     "context": "Sin histórico de liga · probabilidad base",
-     "extra": "Sin histórico de liga · probabilidad base",
+     "context": "Probabilidad implícita del mercado",
+     "extra": "Probabilidad implícita del mercado",
      "markets": [
       {
        "label": "Moneyline",
-       "pick": "Saint Quentin",
-       "prob": 0.582455384059198,
-       "detail": "Local 58% · Visitante 42%",
-       "strong": false
+       "pick": "JDA Dijon Basket",
+       "prob": 0.7376093202462581,
+       "detail": "Local 26% · Visitante 74%",
+       "strong": true
       },
       {
        "label": "Spread",
@@ -3728,8 +3754,8 @@
       {
        "label": "Moneyline",
        "pick": "Baskets Oldenburg",
-       "prob": 0.9594091610188306,
-       "detail": "Local 96% · Visitante 4%",
+       "prob": 0.8202092996381753,
+       "detail": "Local 82% · Visitante 18%",
        "strong": true
       },
       {
@@ -3758,7 +3784,7 @@
      "momentum_ok": false
     }
    ],
-   "elapsed_s": 46.3,
+   "elapsed_s": 42.6,
    "sport": "basquet",
    "sport_name": "Básquetbol",
    "all_leagues": true

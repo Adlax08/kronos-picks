@@ -1,124 +1,515 @@
 {
  "total": {
-  "ganados": 703,
-  "perdidos": 424,
-  "win_pct": 0.624,
-  "n": 1127
+  "ganados": 698,
+  "perdidos": 426,
+  "n": 1124,
+  "win_pct": 0.621,
+  "prob_media": 0.712,
+  "brier": 0.2414,
+  "calibracion": -0.091
  },
  "by_sport": {
   "amfut": {
-   "ganados": 71,
-   "perdidos": 56,
-   "win_pct": 0.559
+   "ganados": 68,
+   "perdidos": 63,
+   "n": 131,
+   "win_pct": 0.519,
+   "prob_media": 0.697,
+   "brier": 0.2695,
+   "calibracion": -0.178
   },
   "basquet": {
-   "ganados": 23,
-   "perdidos": 7,
-   "win_pct": 0.767
+   "ganados": 24,
+   "perdidos": 9,
+   "n": 33,
+   "win_pct": 0.727,
+   "prob_media": 0.688,
+   "brier": 0.2154,
+   "calibracion": 0.039
   },
   "beisbol": {
    "ganados": 153,
-   "perdidos": 93,
-   "win_pct": 0.622
+   "perdidos": 92,
+   "n": 245,
+   "win_pct": 0.624,
+   "prob_media": 0.614,
+   "brier": 0.2332,
+   "calibracion": 0.01
   },
   "futbol": {
    "ganados": 288,
-   "perdidos": 157,
-   "win_pct": 0.647
+   "perdidos": 155,
+   "n": 443,
+   "win_pct": 0.65,
+   "prob_media": 0.759,
+   "brier": 0.2351,
+   "calibracion": -0.109
   },
   "tenis": {
-   "ganados": 168,
-   "perdidos": 111,
-   "win_pct": 0.602
+   "ganados": 165,
+   "perdidos": 107,
+   "n": 272,
+   "win_pct": 0.607,
+   "prob_media": 0.734,
+   "brier": 0.2487,
+   "calibracion": -0.127
   }
  },
  "by_tier": {
   "BUENO": {
-   "ganados": 188,
+   "ganados": 187,
    "perdidos": 125,
-   "win_pct": 0.601
+   "n": 312,
+   "win_pct": 0.599,
+   "prob_media": 0.668,
+   "brier": 0.2435,
+   "calibracion": -0.069
   },
   "DESTACADO": {
    "ganados": 71,
-   "perdidos": 63,
-   "win_pct": 0.53
+   "perdidos": 62,
+   "n": 133,
+   "win_pct": 0.534,
+   "prob_media": 0.563,
+   "brier": 0.2499,
+   "calibracion": -0.029
   },
   "MUY BUENO": {
-   "ganados": 207,
-   "perdidos": 122,
-   "win_pct": 0.629
+   "ganados": 206,
+   "perdidos": 127,
+   "n": 333,
+   "win_pct": 0.619,
+   "prob_media": 0.736,
+   "brier": 0.2481,
+   "calibracion": -0.117
   },
   "TOP PICK": {
-   "ganados": 237,
-   "perdidos": 114,
-   "win_pct": 0.675
+   "ganados": 234,
+   "perdidos": 112,
+   "n": 346,
+   "win_pct": 0.676,
+   "prob_media": 0.786,
+   "brier": 0.23,
+   "calibracion": -0.11
   }
  },
  "by_market": {
   "1X2": {
-   "ganados": 54,
+   "ganados": 55,
    "perdidos": 25,
-   "win_pct": 0.684
+   "n": 80,
+   "win_pct": 0.688,
+   "prob_media": 0.742,
+   "brier": 0.2152,
+   "calibracion": -0.054
   },
   "BTTS": {
    "ganados": 9,
    "perdidos": 7,
-   "win_pct": 0.562
+   "n": 16,
+   "win_pct": 0.562,
+   "prob_media": 0.639,
+   "brier": 0.2557,
+   "calibracion": -0.077
   },
   "Doble Oportunidad": {
    "ganados": 24,
    "perdidos": 18,
-   "win_pct": 0.571
+   "n": 42,
+   "win_pct": 0.571,
+   "prob_media": 0.845,
+   "brier": 0.307,
+   "calibracion": -0.274
   },
   "HANDICAP JUEGOS": {
    "ganados": 4,
    "perdidos": 7,
-   "win_pct": 0.364
+   "n": 11,
+   "win_pct": 0.364,
+   "prob_media": 0.694,
+   "brier": 0.3392,
+   "calibracion": -0.33
   },
   "ML": {
-   "ganados": 156,
-   "perdidos": 99,
-   "win_pct": 0.612
+   "ganados": 153,
+   "perdidos": 95,
+   "n": 248,
+   "win_pct": 0.617,
+   "prob_media": 0.739,
+   "brier": 0.2467,
+   "calibracion": -0.122
   },
   "Moneyline": {
    "ganados": 120,
-   "perdidos": 71,
-   "win_pct": 0.628
+   "perdidos": 73,
+   "n": 193,
+   "win_pct": 0.622,
+   "prob_media": 0.647,
+   "brier": 0.2296,
+   "calibracion": -0.025
   },
   "O/U 1.5": {
-   "ganados": 121,
-   "perdidos": 49,
-   "win_pct": 0.712
+   "ganados": 120,
+   "perdidos": 48,
+   "n": 168,
+   "win_pct": 0.714,
+   "prob_media": 0.809,
+   "brier": 0.2161,
+   "calibracion": -0.095
   },
   "O/U 2.5": {
    "ganados": 80,
-   "perdidos": 58,
-   "win_pct": 0.58
+   "perdidos": 57,
+   "n": 137,
+   "win_pct": 0.584,
+   "prob_media": 0.696,
+   "brier": 0.2456,
+   "calibracion": -0.112
   },
   "Run Line": {
    "ganados": 41,
    "perdidos": 23,
-   "win_pct": 0.641
+   "n": 64,
+   "win_pct": 0.641,
+   "prob_media": 0.598,
+   "brier": 0.2385,
+   "calibracion": 0.043
   },
   "SET1 JUEGOS": {
    "ganados": 2,
    "perdidos": 3,
-   "win_pct": 0.4
+   "n": 5,
+   "win_pct": 0.4,
+   "prob_media": 0.622,
+   "brier": 0.2776,
+   "calibracion": -0.222
   },
   "Spread": {
-   "ganados": 38,
-   "perdidos": 22,
-   "win_pct": 0.633
+   "ganados": 36,
+   "perdidos": 26,
+   "n": 62,
+   "win_pct": 0.581,
+   "prob_media": 0.7,
+   "brier": 0.2693,
+   "calibracion": -0.119
   },
   "TOTAL JUEGOS": {
    "ganados": 6,
    "perdidos": 2,
-   "win_pct": 0.75
+   "n": 8,
+   "win_pct": 0.75,
+   "prob_media": 0.7,
+   "brier": 0.1671,
+   "calibracion": 0.05
   },
   "Totales": {
    "ganados": 48,
-   "perdidos": 40,
-   "win_pct": 0.545
+   "perdidos": 42,
+   "n": 90,
+   "win_pct": 0.533,
+   "prob_media": 0.643,
+   "brier": 0.2586,
+   "calibracion": -0.11
   }
- }
+ },
+ "by_day": {
+  "2026-09-01": {
+   "ganados": 1,
+   "perdidos": 1,
+   "n": 2,
+   "win_pct": 0.5,
+   "prob_media": 0.734,
+   "brier": 0.1944,
+   "calibracion": -0.234
+  },
+  "2026-09-02": {
+   "ganados": 16,
+   "perdidos": 7,
+   "n": 23,
+   "win_pct": 0.696,
+   "prob_media": 0.72,
+   "brier": 0.1941,
+   "calibracion": -0.024
+  },
+  "2026-09-03": {
+   "ganados": 7,
+   "perdidos": 7,
+   "n": 14,
+   "win_pct": 0.5,
+   "prob_media": 0.74,
+   "brier": 0.2765,
+   "calibracion": -0.24
+  },
+  "2026-09-04": {
+   "ganados": 12,
+   "perdidos": 4,
+   "n": 16,
+   "win_pct": 0.75,
+   "prob_media": 0.739,
+   "brier": 0.1972,
+   "calibracion": 0.011
+  },
+  "2026-09-07": {
+   "ganados": 16,
+   "perdidos": 6,
+   "n": 22,
+   "win_pct": 0.727,
+   "prob_media": 0.732,
+   "brier": 0.2082,
+   "calibracion": -0.005
+  },
+  "2026-09-08": {
+   "ganados": 18,
+   "perdidos": 8,
+   "n": 26,
+   "win_pct": 0.692,
+   "prob_media": 0.712,
+   "brier": 0.2207,
+   "calibracion": -0.02
+  },
+  "2026-09-09": {
+   "ganados": 15,
+   "perdidos": 13,
+   "n": 28,
+   "win_pct": 0.536,
+   "prob_media": 0.726,
+   "brier": 0.2557,
+   "calibracion": -0.19
+  },
+  "2026-09-10": {
+   "ganados": 12,
+   "perdidos": 6,
+   "n": 18,
+   "win_pct": 0.667,
+   "prob_media": 0.748,
+   "brier": 0.2142,
+   "calibracion": -0.081
+  },
+  "2026-09-11": {
+   "ganados": 8,
+   "perdidos": 7,
+   "n": 15,
+   "win_pct": 0.533,
+   "prob_media": 0.73,
+   "brier": 0.3334,
+   "calibracion": -0.197
+  },
+  "2026-09-12": {
+   "ganados": 30,
+   "perdidos": 12,
+   "n": 42,
+   "win_pct": 0.714,
+   "prob_media": 0.735,
+   "brier": 0.199,
+   "calibracion": -0.021
+  },
+  "2026-09-13": {
+   "ganados": 35,
+   "perdidos": 5,
+   "n": 40,
+   "win_pct": 0.875,
+   "prob_media": 0.726,
+   "brier": 0.1353,
+   "calibracion": 0.149
+  },
+  "2026-09-14": {
+   "ganados": 24,
+   "perdidos": 6,
+   "n": 30,
+   "win_pct": 0.8,
+   "prob_media": 0.693,
+   "brier": 0.1546,
+   "calibracion": 0.107
+  },
+  "2026-09-15": {
+   "ganados": 28,
+   "perdidos": 11,
+   "n": 39,
+   "win_pct": 0.718,
+   "prob_media": 0.674,
+   "brier": 0.2208,
+   "calibracion": 0.044
+  },
+  "2026-09-16": {
+   "ganados": 23,
+   "perdidos": 20,
+   "n": 43,
+   "win_pct": 0.535,
+   "prob_media": 0.708,
+   "brier": 0.2697,
+   "calibracion": -0.173
+  },
+  "2026-09-17": {
+   "ganados": 11,
+   "perdidos": 11,
+   "n": 22,
+   "win_pct": 0.5,
+   "prob_media": 0.671,
+   "brier": 0.2896,
+   "calibracion": -0.171
+  },
+  "2026-09-18": {
+   "ganados": 19,
+   "perdidos": 8,
+   "n": 27,
+   "win_pct": 0.704,
+   "prob_media": 0.698,
+   "brier": 0.198,
+   "calibracion": 0.006
+  },
+  "2026-09-19": {
+   "ganados": 58,
+   "perdidos": 31,
+   "n": 89,
+   "win_pct": 0.652,
+   "prob_media": 0.719,
+   "brier": 0.2112,
+   "calibracion": -0.067
+  },
+  "2026-09-20": {
+   "ganados": 39,
+   "perdidos": 25,
+   "n": 64,
+   "win_pct": 0.609,
+   "prob_media": 0.694,
+   "brier": 0.2436,
+   "calibracion": -0.085
+  },
+  "2026-09-21": {
+   "ganados": 4,
+   "perdidos": 7,
+   "n": 11,
+   "win_pct": 0.364,
+   "prob_media": 0.739,
+   "brier": 0.3985,
+   "calibracion": -0.375
+  },
+  "2026-09-22": {
+   "ganados": 26,
+   "perdidos": 19,
+   "n": 45,
+   "win_pct": 0.578,
+   "prob_media": 0.696,
+   "brier": 0.2494,
+   "calibracion": -0.118
+  },
+  "2026-09-23": {
+   "ganados": 16,
+   "perdidos": 18,
+   "n": 34,
+   "win_pct": 0.471,
+   "prob_media": 0.683,
+   "brier": 0.3107,
+   "calibracion": -0.212
+  },
+  "2026-09-24": {
+   "ganados": 13,
+   "perdidos": 8,
+   "n": 21,
+   "win_pct": 0.619,
+   "prob_media": 0.679,
+   "brier": 0.2035,
+   "calibracion": -0.06
+  },
+  "2026-09-25": {
+   "ganados": 39,
+   "perdidos": 21,
+   "n": 60,
+   "win_pct": 0.65,
+   "prob_media": 0.708,
+   "brier": 0.2392,
+   "calibracion": -0.058
+  },
+  "2026-09-26": {
+   "ganados": 41,
+   "perdidos": 49,
+   "n": 90,
+   "win_pct": 0.456,
+   "prob_media": 0.703,
+   "brier": 0.3183,
+   "calibracion": -0.247
+  },
+  "2026-09-27": {
+   "ganados": 50,
+   "perdidos": 26,
+   "n": 76,
+   "win_pct": 0.658,
+   "prob_media": 0.715,
+   "brier": 0.2249,
+   "calibracion": -0.057
+  },
+  "2026-09-28": {
+   "ganados": 27,
+   "perdidos": 22,
+   "n": 49,
+   "win_pct": 0.551,
+   "prob_media": 0.728,
+   "brier": 0.2774,
+   "calibracion": -0.177
+  },
+  "2026-09-29": {
+   "ganados": 32,
+   "perdidos": 20,
+   "n": 52,
+   "win_pct": 0.615,
+   "prob_media": 0.735,
+   "brier": 0.2477,
+   "calibracion": -0.12
+  },
+  "2026-09-30": {
+   "ganados": 20,
+   "perdidos": 13,
+   "n": 33,
+   "win_pct": 0.606,
+   "prob_media": 0.721,
+   "brier": 0.2609,
+   "calibracion": -0.115
+  },
+  "2026-10-01": {
+   "ganados": 27,
+   "perdidos": 13,
+   "n": 40,
+   "win_pct": 0.675,
+   "prob_media": 0.715,
+   "brier": 0.236,
+   "calibracion": -0.04
+  },
+  "2026-10-02": {
+   "ganados": 14,
+   "perdidos": 9,
+   "n": 23,
+   "win_pct": 0.609,
+   "prob_media": 0.721,
+   "brier": 0.2464,
+   "calibracion": -0.112
+  },
+  "2026-10-18": {
+   "ganados": 8,
+   "perdidos": 10,
+   "n": 18,
+   "win_pct": 0.444,
+   "prob_media": 0.705,
+   "brier": 0.2762,
+   "calibracion": -0.261
+  },
+  "2026-10-20": {
+   "ganados": 7,
+   "perdidos": 3,
+   "n": 10,
+   "win_pct": 0.7,
+   "prob_media": 0.75,
+   "brier": 0.2557,
+   "calibracion": -0.05
+  },
+  "2026-10-21": {
+   "ganados": 2,
+   "perdidos": 0,
+   "n": 2,
+   "win_pct": 1.0,
+   "prob_media": 0.731,
+   "brier": 0.0839,
+   "calibracion": 0.269
+  }
+ },
+ "anulados": 0
 }
