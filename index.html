@@ -38,16 +38,16 @@
             "on-surface-variant": "#9AA6BA",
             "text-muted": "#7E8BA3",
             /* ── Acento principal (lima) ── */
-            "primary": "#A3E635",
+            "primary": "#9CC41B",
             "on-primary": "#0D1017",
-            "primary-container": "#84CC16",
+            "primary-container": "#7FA414",
             "on-primary-container": "#132200",
-            "primary-fixed": "#D9F99D",
-            "primary-fixed-dim": "#BEF264",
+            "primary-fixed": "#DDEBA5",
+            "primary-fixed-dim": "#C7DD63",
             "on-primary-fixed": "#132200",
             "on-primary-fixed-variant": "#365314",
             "inverse-primary": "#3F6212",
-            "surface-tint": "#A3E635",
+            "surface-tint": "#9CC41B",
             /* ── Secundario (ámbar / picks destacados) ── */
             "secondary": "#F5B301",
             "on-secondary": "#1A1300",
@@ -59,7 +59,7 @@
             "on-secondary-fixed-variant": "#5C4600",
             "accent-gold": "#F5B301",
             /* ── Estados ── */
-            "accent-emerald": "#34D399",
+            "accent-emerald": "#00AE42",
             "accent-crimson": "#EF4444",
             "error": "#EF4444",
             "on-error": "#1A0505",
@@ -120,7 +120,7 @@
       }
     }
 </script>
-<link rel="stylesheet" href="styles.css?v=22">
+<link rel="stylesheet" href="styles.css?v=23">
 </head>
 <body class="bg-surface text-on-surface antialiased min-h-screen flex flex-col font-body-md text-body-md selection:bg-primary selection:text-on-primary">
 
@@ -133,11 +133,11 @@
       <span class="k-brand-mark" aria-hidden="true">
         <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="2" y="2" width="44" height="44" rx="13" fill="#161D29"/>
-          <rect x="2.75" y="2.75" width="42.5" height="42.5" rx="12.25" stroke="#A3E635" stroke-opacity=".35" stroke-width="1.5"/>
-          <path d="M24 8.5a15.5 15.5 0 1 1-10.96 4.54" stroke="#A3E635" stroke-width="2.6" stroke-linecap="round"/>
-          <path d="M24 13.5a10.5 10.5 0 1 1-7.42 3.08" stroke="#A3E635" stroke-opacity=".35" stroke-width="1.6" stroke-linecap="round"/>
+          <rect x="2.75" y="2.75" width="42.5" height="42.5" rx="12.25" stroke="#9CC41B" stroke-opacity=".35" stroke-width="1.5"/>
+          <path d="M24 8.5a15.5 15.5 0 1 1-10.96 4.54" stroke="#9CC41B" stroke-width="2.6" stroke-linecap="round"/>
+          <path d="M24 13.5a10.5 10.5 0 1 1-7.42 3.08" stroke="#9CC41B" stroke-opacity=".35" stroke-width="1.6" stroke-linecap="round"/>
           <path d="M24 8.5v3.2" stroke="#E8EDF6" stroke-width="2.2" stroke-linecap="round"/>
-          <path d="M18.5 17h3.2v14h-3.2z" fill="#A3E635"/>
+          <path d="M18.5 17h3.2v14h-3.2z" fill="#9CC41B"/>
           <path d="M22.2 23.4 29.4 17h4.1l-7.4 6.6 7.8 7.4h-4.4l-7.3-7z" fill="#E8EDF6"/>
         </svg>
       </span>
@@ -204,10 +204,16 @@
   <section class="k-hero reveal" id="heroHeader">
     <div class="k-hero-glow" aria-hidden="true"></div>
     <div class="k-hero-body">
-      <span class="k-eyebrow">
-        <span class="k-eyebrow-dot" aria-hidden="true"></span>
-        Motor Velocity Pristine v4.2
-      </span>
+      <div class="k-hero-top">
+        <span class="k-eyebrow">
+          <span class="k-eyebrow-dot" aria-hidden="true"></span>
+          Motor Velocity Pristine v4.2
+        </span>
+        <span class="k-sponsor" title="Team México">
+          <span class="k-sponsor-label">Presentado por</span>
+          <img class="k-sponsor-logo" src="assets/teammexico.svg" alt="Team México" width="150" height="21">
+        </span>
+      </div>
       <h1 class="k-hero-title">Predicciones del Día</h1>
       <p class="k-hero-sub">
         Modelos por deporte y liga con probabilidad, cuota y unidades. Resultados verificables
@@ -223,14 +229,14 @@
     </div>
     <div class="k-hero-side">
       <svg class="k-hero-dial" viewBox="0 0 200 200" fill="none" aria-hidden="true">
-        <circle cx="100" cy="100" r="88" stroke="#A3E635" stroke-opacity=".18" stroke-width="1.5"/>
-        <circle cx="100" cy="100" r="66" stroke="#A3E635" stroke-opacity=".1" stroke-width="1.5"/>
-        <path d="M100 12a88 88 0 0 1 76.2 44" stroke="#A3E635" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="100" cy="100" r="88" stroke="#9CC41B" stroke-opacity=".18" stroke-width="1.5"/>
+        <circle cx="100" cy="100" r="66" stroke="#9CC41B" stroke-opacity=".1" stroke-width="1.5"/>
+        <path d="M100 12a88 88 0 0 1 76.2 44" stroke="#9CC41B" stroke-width="3" stroke-linecap="round"/>
         <path d="M100 34a66 66 0 0 1 57.2 33" stroke="#F5B301" stroke-width="2" stroke-linecap="round" stroke-opacity=".7"/>
         <path d="M100 12v14M100 174v14M12 100h14M174 100h14" stroke="#4A5A76" stroke-width="2" stroke-linecap="round"/>
-        <path d="M100 100 152 76" stroke="#A3E635" stroke-width="3" stroke-linecap="round"/>
-        <circle cx="100" cy="100" r="7" fill="#A3E635"/>
-        <circle cx="100" cy="100" r="22" stroke="#A3E635" stroke-opacity=".35" stroke-width="1.5"/>
+        <path d="M100 100 152 76" stroke="#9CC41B" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="100" cy="100" r="7" fill="#9CC41B"/>
+        <circle cx="100" cy="100" r="22" stroke="#9CC41B" stroke-opacity=".35" stroke-width="1.5"/>
       </svg>
       <button class="k-hero-cta" id="heroCta" type="button">
         Ver picks de hoy
@@ -411,11 +417,15 @@
     <div class="k-footer-brand">
       <svg viewBox="0 0 48 48" fill="none" width="26" height="26" aria-hidden="true">
         <rect x="2" y="2" width="44" height="44" rx="13" fill="#161D29"/>
-        <path d="M24 8.5a15.5 15.5 0 1 1-10.96 4.54" stroke="#A3E635" stroke-width="2.8" stroke-linecap="round"/>
-        <path d="M18.5 17h3.2v14h-3.2z" fill="#A3E635"/>
+        <path d="M24 8.5a15.5 15.5 0 1 1-10.96 4.54" stroke="#9CC41B" stroke-width="2.8" stroke-linecap="round"/>
+        <path d="M18.5 17h3.2v14h-3.2z" fill="#9CC41B"/>
         <path d="M22.2 23.4 29.4 17h4.1l-7.4 6.6 7.8 7.4h-4.4l-7.3-7z" fill="#E8EDF6"/>
       </svg>
       <span class="k-footer-copy">© 2026 Proyecto Kronos · Velocity Pristine Analytics Engine</span>
+    </div>
+    <div class="k-footer-sponsor">
+      <span class="k-sponsor-label">Patrocinador</span>
+      <img src="assets/teammexico.svg" alt="Team México" height="15">
     </div>
     <div class="k-footer-links">
       <a href="#">Metodología</a>
