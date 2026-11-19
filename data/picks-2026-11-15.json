@@ -1,0 +1,1015 @@
+{
+ "date": "2026-11-15",
+ "generated_at": "2026-11-15T23:50:55",
+ "sports_total": "0 partidos",
+ "sports": [
+  {
+   "key": "beisbol",
+   "name": "Béisbol",
+   "icon": "sports_baseball",
+   "leagues": [
+    {
+     "code": "MLB",
+     "name": "Major League"
+    },
+    {
+     "code": "KBO",
+     "name": "KBO League"
+    },
+    {
+     "code": "NPB",
+     "name": "Nippon Baseball"
+    }
+   ]
+  },
+  {
+   "key": "tenis",
+   "name": "Tenis",
+   "icon": "sports_tennis",
+   "leagues": [
+    {
+     "code": "ATP",
+     "name": "ATP Tour"
+    },
+    {
+     "code": "WTA",
+     "name": "WTA Tour"
+    },
+    {
+     "code": "CHA",
+     "name": "ATP Challenger Tour"
+    }
+   ]
+  },
+  {
+   "key": "futbol",
+   "name": "Fútbol",
+   "icon": "sports_soccer",
+   "leagues": [
+    {
+     "code": "ENG",
+     "name": "Premier League"
+    },
+    {
+     "code": "ESP",
+     "name": "La Liga"
+    },
+    {
+     "code": "ITA",
+     "name": "Serie A"
+    },
+    {
+     "code": "GER",
+     "name": "Bundesliga"
+    },
+    {
+     "code": "FRA",
+     "name": "Ligue 1"
+    },
+    {
+     "code": "NED",
+     "name": "Eredivisie"
+    },
+    {
+     "code": "POR",
+     "name": "Primeira Liga"
+    },
+    {
+     "code": "KSA",
+     "name": "Saudi Pro League"
+    },
+    {
+     "code": "FAC",
+     "name": "FA Cup"
+    },
+    {
+     "code": "CAR",
+     "name": "Carabao Cup"
+    },
+    {
+     "code": "CDR",
+     "name": "Copa del Rey"
+    },
+    {
+     "code": "CI",
+     "name": "Coppa Italia"
+    },
+    {
+     "code": "CDF",
+     "name": "Coupe de France"
+    },
+    {
+     "code": "DFB",
+     "name": "DFB Pokal"
+    },
+    {
+     "code": "WCH",
+     "name": "Champions Femenina"
+    },
+    {
+     "code": "UCL",
+     "name": "Champions League"
+    },
+    {
+     "code": "UEL",
+     "name": "Europa League"
+    },
+    {
+     "code": "UECL",
+     "name": "Conference League"
+    },
+    {
+     "code": "MEX",
+     "name": "Liga MX"
+    },
+    {
+     "code": "LIB",
+     "name": "Copa Libertadores"
+    },
+    {
+     "code": "SUD",
+     "name": "Copa Sudamericana"
+    },
+    {
+     "code": "AMI",
+     "name": "Amistosos Int. (Selecciones)"
+    },
+    {
+     "code": "UNL",
+     "name": "UEFA Nations League"
+    },
+    {
+     "code": "CNL",
+     "name": "Concacaf Nations League"
+    },
+    {
+     "code": "AFQ",
+     "name": "Clasificatoria AFCON"
+    },
+    {
+     "code": "AFN",
+     "name": "Copa Africana de Naciones"
+    }
+   ]
+  },
+  {
+   "key": "amfut",
+   "name": "NFL/NCAAF",
+   "icon": "sports_football",
+   "leagues": [
+    {
+     "code": "NFL",
+     "name": "NFL"
+    },
+    {
+     "code": "NCAAF",
+     "name": "NCAAF (College)"
+    }
+   ]
+  },
+  {
+   "key": "basquet",
+   "name": "Básquetbol",
+   "icon": "sports_basketball",
+   "leagues": [
+    {
+     "code": "NBA",
+     "name": "NBA"
+    },
+    {
+     "code": "WNBA",
+     "name": "WNBA"
+    },
+    {
+     "code": "NCAA",
+     "name": "NCAA (College)"
+    },
+    {
+     "code": "EUR",
+     "name": "Euroliga"
+    },
+    {
+     "code": "KOR",
+     "name": "KBL Corea"
+    },
+    {
+     "code": "CHN",
+     "name": "CBA China"
+    },
+    {
+     "code": "FRA",
+     "name": "LNB Pro A"
+    },
+    {
+     "code": "ESP",
+     "name": "Liga ACB"
+    },
+    {
+     "code": "GER",
+     "name": "BBL Alemania"
+    },
+    {
+     "code": "TUR",
+     "name": "BSL Turquia"
+    },
+    {
+     "code": "ITA",
+     "name": "Lega A Italia"
+    },
+    {
+     "code": "GRE",
+     "name": "Basket League Grecia"
+    },
+    {
+     "code": "ISR",
+     "name": "Liga de Israel"
+    },
+    {
+     "code": "ABA",
+     "name": "ABA Liga (Adriatico)"
+    },
+    {
+     "code": "LTU",
+     "name": "LKL Lituania"
+    }
+   ]
+  }
+ ],
+ "results": {
+  "beisbol": {
+   "ok": false,
+   "error": "[WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto",
+   "picks": [],
+   "predictions": []
+  },
+  "tenis": {
+   "ok": false,
+   "error": "<urlopen error [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión>",
+   "picks": [
+    {
+     "match": "Alexander Zverev vs Rafael Jodar",
+     "market": "ML",
+     "pick": "Alexander Zverev",
+     "prob": 0.7534,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    }
+   ],
+   "predictions": [],
+   "n": 0
+  },
+  "futbol": {
+   "ok": false,
+   "error": "<urlopen error [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión>",
+   "picks": [
+    {
+     "match": "Atlas Paillade vs AS Cannes",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.7243829375116475,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Belarus vs Albania",
+     "market": "Doble Oportunidad",
+     "pick": "DO: 1X",
+     "prob": 0.8293424871085504,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "UNL",
+     "league_label": "UEFA Nations League",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Belgium vs Italy",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.7854319677762058,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "UNL",
+     "league_label": "UEFA Nations League",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Chatou vs Les Ulis",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Cyprus vs Montenegro",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8390530679811372,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "UNL",
+     "league_label": "UEFA Nations League",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "ESAP Metz vs Reipertswiller",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Finland vs San Marino",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.7244990661036518,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "UNL",
+     "league_label": "UEFA Nations League",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Massay vs Montlouis",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Montigny-Les-Metz vs Pontarlier",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Neslois vs Furiani-Agliani",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Olympique Charleville Prix AM vs Olympique Marcquois",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8498941876100488,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Panama vs Curaçao",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.7924475498018606,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "CNL",
+     "league_label": "Concacaf Nations League",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PENDIENTE"
+    },
+    {
+     "match": "Paris 13 Atletico vs Red Star FC 93",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Perros-Louannec vs Vannes OC",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "RIOM vs FC Limonest",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Racing Chambery vs Chamois Niortais FC",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Rives 82 vs Trelissac FC",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Rochefort FC vs Juventus Papus",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Saint-Die Kellermann vs Metz",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.851244275458606,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Saint-Pauloise FC vs La Tamponnaise",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Sedan vs Bourges Foot",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Senlis vs Saint-Pryvé Saint Hilaire",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Seyssinet vs Nimes",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Spain vs England",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8507017557531877,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "UNL",
+     "league_label": "UEFA Nations League",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "St Martin Tatinghem vs Racing Club de France",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Stade Castelbourgeois vs Nantes",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.7724268772704144,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Stade Pontivy vs Plabennec",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Stade Sotteville vs USF Fecamp",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Suriname vs Eswatini",
+     "market": "1X2",
+     "pick": "1X2: HOME (1)",
+     "prob": 0.8000083501868216,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "AMI",
+     "league_label": "Amistosos Int. (Selecciones)",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Talange vs Baume-Les-Dames",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Tremblay vs Maisons-Alfort",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "US Marseille Endoume vs SC Toulon",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Val Yerres Crosne vs Union Cosnoise",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Vandruvre vs Epinal",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Veauche vs St Paul en Jarez",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Verson vs Calais",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8498941876100488,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Violaines vs Vermelles",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8408569923931621,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    }
+   ],
+   "predictions": [],
+   "n": 0
+  },
+  "amfut": {
+   "ok": false,
+   "error": "<urlopen error [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión>",
+   "picks": [
+    {
+     "match": "Los Angeles Rams @ Arizona Cardinals",
+     "market": "Moneyline",
+     "pick": "ML: AWAY (Los Angeles Rams)",
+     "prob": 0.8535,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NFL",
+     "league_label": "NFL",
+     "odds": 1.187,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    }
+   ],
+   "predictions": [],
+   "n": 0
+  },
+  "basquet": {
+   "ok": false,
+   "error": "<urlopen error [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión>",
+   "picks": [
+    {
+     "match": "AO Mykonou @ Peristeri",
+     "market": "Moneyline",
+     "pick": "ML: HOME (Peristeri)",
+     "prob": 0.8138,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "GRE",
+     "league_label": "Todas las ligas",
+     "odds": 1.21,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PENDIENTE"
+    },
+    {
+     "match": "Baylor Bears @ Texas Longhorns",
+     "market": "Moneyline",
+     "pick": "ML: HOME (Texas Longhorns)",
+     "prob": 0.8891,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NCAA",
+     "league_label": "Todas las ligas",
+     "odds": 1.444,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Boise State Broncos @ Nebraska Cornhuskers",
+     "market": "Moneyline",
+     "pick": "ML: HOME (Nebraska Cornhuskers)",
+     "prob": 0.815,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NCAA",
+     "league_label": "Todas las ligas",
+     "odds": 1.244,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Houston Rockets @ Washington Wizards",
+     "market": "Moneyline",
+     "pick": "ML: AWAY (Houston Rockets)",
+     "prob": 0.8037,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "odds": 1.279,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PENDIENTE"
+    },
+    {
+     "match": "Indiana Pacers @ Philadelphia 76ers",
+     "market": "Moneyline",
+     "pick": "ML: HOME (Philadelphia 76ers)",
+     "prob": 0.7701,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "odds": 1.37,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Oklahoma City Thunder @ Sacramento Kings",
+     "market": "Moneyline",
+     "pick": "ML: AWAY (Oklahoma City Thunder)",
+     "prob": 0.8563,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "odds": 1.214,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PENDIENTE"
+    },
+    {
+     "match": "Syracuse Orange @ St. John's Red Storm",
+     "market": "Moneyline",
+     "pick": "ML: HOME (St. John's Red Storm)",
+     "prob": 0.9774,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NCAA",
+     "league_label": "Todas las ligas",
+     "odds": 1.111,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PENDIENTE"
+    }
+   ],
+   "predictions": [],
+   "n": 0
+  }
+ },
+ "historico": true
+}

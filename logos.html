@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proyecto Kronos — Propuestas de logo</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<style>
+  :root{
+    --bg:#0D1017; --card:#141A24; --line:#2A3448; --text:#E8EDF6;
+    --muted:#9AA6BA; --dim:#7E8BA3; --lime:#A3E635; --gold:#F5B301;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:
+      radial-gradient(900px 420px at 80% -10%, rgba(163,230,53,.06), transparent 60%),
+      var(--bg);
+    color:var(--text); font-family:'Inter',sans-serif;
+  }
+  .wrap{max-width:1180px;margin:0 auto;padding:40px 20px 72px}
+  .eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--lime)}
+  h1{font-family:'Plus Jakarta Sans',sans-serif;font-size:clamp(26px,4vw,40px);font-weight:800;letter-spacing:-.03em;margin:10px 0 8px}
+  .lead{color:var(--muted);max-width:70ch;font-size:14px;line-height:1.7;margin:0 0 32px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;display:flex;flex-direction:column;gap:16px}
+  .stage{
+    display:flex;align-items:center;justify-content:center;min-height:230px;
+    border-radius:14px;border:1px solid #202A3B;
+    background:radial-gradient(circle at 50% 20%, #1A2231, #0F141C 70%);
+    padding:22px;
+  }
+  .stage img{max-width:100%;height:auto}
+  .stage.icon img{width:148px}
+  .stage.word img{width:min(100%,380px)}
+  .tag{display:inline-flex;align-items:center;gap:7px;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--lime)}
+  .dot{width:5px;height:5px;border-radius:999px;background:var(--lime)}
+  h2{font-family:'Plus Jakarta Sans',sans-serif;font-size:17px;font-weight:700;margin:0;letter-spacing:-.01em}
+  p{color:var(--muted);font-size:12.5px;line-height:1.65;margin:0}
+  .uses{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto}
+  .uses span{font-family:'JetBrains Mono',monospace;font-size:9.5px;color:var(--dim);border:1px solid var(--line);border-radius:999px;padding:3px 9px}
+  .row{display:flex;align-items:center;gap:14px;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:#11161F;margin-top:26px}
+  .row img{width:40px;height:40px}
+  .row .name{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;letter-spacing:.14em;font-size:15px}
+  .row .sub{font-family:'JetBrains Mono',monospace;font-size:8.5px;letter-spacing:.32em;color:var(--lime);text-transform:uppercase}
+  .row .meta{margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--dim)}
+  .palette{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+  .sw{width:56px;height:40px;border-radius:9px;border:1px solid rgba(255,255,255,.08)}
+  .notes{margin-top:34px;border-top:1px solid var(--line);padding-top:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+  .notes h3{font-family:'Plus Jakarta Sans',sans-serif;font-size:13px;margin:0 0 6px}
+  .notes p{font-size:12px}
+  a{color:var(--lime)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="eyebrow">Proyecto Kronos · identidad</span>
+  <h1>Tres propuestas de logo</h1>
+  <p class="lead">Sistema geométrico sobre fondo oscuro con acento lima. Los tres comparten trazo, ángulos y la idea de cronometría: precisión medible, no promesas. Pensados para verse bien a 16&nbsp;px (favicon) y a 400&nbsp;px (banner de patrocinio).</p>
+
+  <div class="grid">
+    <article class="card">
+      <div class="stage icon"><img src="assets/logo-a.svg" alt="Opción A: monograma K con cronómetro"></div>
+      <div>
+        <span class="tag"><span class="dot"></span>Opción A</span>
+        <h2>Monograma K + crono</h2>
+      </div>
+      <p>Una «K» angular en dos tonos dentro de un cronómetro. El arco abierto sugiere medición en curso y el punto central es la aguja. Máxima legibilidad en tamaños pequeños.</p>
+      <div class="uses"><span>Favicon</span><span>App</span><span>Avatar</span><span>Watermark</span></div>
+    </article>
+
+    <article class="card">
+      <div class="stage icon"><img src="assets/logo-b.svg" alt="Opción B: emblema KR"></div>
+      <div>
+        <span class="tag"><span class="dot"></span>Opción B</span>
+        <h2>Escudo «KR»</h2>
+      </div>
+      <p>Emblema simétrico con barra superior de acento y monograma KR. Tono competitivo, apto para camisetas, convenios y piezas de patrocinio donde se espera una insignia.</p>
+      <div class="uses"><span>Patrocinio</span><span>Merch</span><span>Badge</span><span>Social</span></div>
+    </article>
+
+    <article class="card">
+      <div class="stage word"><img src="assets/logo-c.svg" alt="Opción C: logotipo KRONOS con símbolo"></div>
+      <div>
+        <span class="tag"><span class="dot"></span>Opción C</span>
+        <h2>Logotipo KRONOS</h2>
+      </div>
+      <p>Wordmark en bold con símbolo independiente. El símbolo funciona solo como favicon y el logotipo completo para cabeceras, prensa y presentaciones.</p>
+      <div class="uses"><span>Cabecera</span><span>Prensa</span><span>Presentación</span><span>Firma</span></div>
+    </article>
+  </div>
+
+  <div class="row">
+    <img src="assets/symbol-c.svg" alt="Símbolo Kronos">
+    <div>
+      <div class="name">KRONOS</div>
+      <div class="sub">proyecto</div>
+    </div>
+    <div class="meta">Aplicación en cabecera · 38 px</div>
+  </div>
+
+  <div class="palette">
+    <div class="sw" style="background:#0D1017" title="Canvas #0D1017"></div>
+    <div class="sw" style="background:#141A24" title="Superficie #141A24"></div>
+    <div class="sw" style="background:#1E2636" title="Superficie 2 #1E2636"></div>
+    <div class="sw" style="background:#2A3448" title="Borde #2A3448"></div>
+    <div class="sw" style="background:#A3E635" title="Acento #A3E635"></div>
+    <div class="sw" style="background:#84CC16" title="Acento oscuro #84CC16"></div>
+    <div class="sw" style="background:#F5B301" title="Destacado #F5B301"></div>
+    <div class="sw" style="background:#EF4444" title="Alerta #EF4444"></div>
+  </div>
+
+  <div class="notes">
+    <div>
+      <h3>Reglas de uso</h3>
+      <p>Área de resguardo mínima: el ancho de la «K». No rotar, no aplicar degradados fuera de la paleta, no añadir sombras duras. Sobre foto, usar la versión con placa oscura.</p>
+    </div>
+    <div>
+      <h3>Tamaños mínimos</h3>
+      <p>Isotipo A/B: 24 px en pantalla, 12 mm impreso. Logotipo C: 96 px de ancho en pantalla, 40 mm impreso. Por debajo, usar solo el símbolo.</p>
+    </div>
+    <div>
+      <h3>Versiones</h3>
+      <p>Positivo (lima + blanco) para fondo oscuro; negativo monocromo #E8EDF6 para fondos claros o impresión a una tinta. El favicon siempre con placa oscura.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

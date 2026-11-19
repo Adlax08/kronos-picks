@@ -1,0 +1,1657 @@
+{
+ "date": "2026-11-08",
+ "generated_at": "2026-11-08T23:12:15",
+ "sports_total": "15 partidos",
+ "sports": [
+  {
+   "key": "beisbol",
+   "name": "Béisbol",
+   "icon": "sports_baseball",
+   "leagues": [
+    {
+     "code": "MLB",
+     "name": "Major League"
+    },
+    {
+     "code": "KBO",
+     "name": "KBO League"
+    },
+    {
+     "code": "NPB",
+     "name": "Nippon Baseball"
+    }
+   ]
+  },
+  {
+   "key": "tenis",
+   "name": "Tenis",
+   "icon": "sports_tennis",
+   "leagues": [
+    {
+     "code": "ATP",
+     "name": "ATP Tour"
+    },
+    {
+     "code": "WTA",
+     "name": "WTA Tour"
+    },
+    {
+     "code": "CHA",
+     "name": "ATP Challenger Tour"
+    }
+   ]
+  },
+  {
+   "key": "futbol",
+   "name": "Fútbol",
+   "icon": "sports_soccer",
+   "leagues": [
+    {
+     "code": "ENG",
+     "name": "Premier League"
+    },
+    {
+     "code": "ESP",
+     "name": "La Liga"
+    },
+    {
+     "code": "ITA",
+     "name": "Serie A"
+    },
+    {
+     "code": "GER",
+     "name": "Bundesliga"
+    },
+    {
+     "code": "FRA",
+     "name": "Ligue 1"
+    },
+    {
+     "code": "NED",
+     "name": "Eredivisie"
+    },
+    {
+     "code": "POR",
+     "name": "Primeira Liga"
+    },
+    {
+     "code": "KSA",
+     "name": "Saudi Pro League"
+    },
+    {
+     "code": "FAC",
+     "name": "FA Cup"
+    },
+    {
+     "code": "CAR",
+     "name": "Carabao Cup"
+    },
+    {
+     "code": "CDR",
+     "name": "Copa del Rey"
+    },
+    {
+     "code": "CI",
+     "name": "Coppa Italia"
+    },
+    {
+     "code": "CDF",
+     "name": "Coupe de France"
+    },
+    {
+     "code": "DFB",
+     "name": "DFB Pokal"
+    },
+    {
+     "code": "WCH",
+     "name": "Champions Femenina"
+    },
+    {
+     "code": "UCL",
+     "name": "Champions League"
+    },
+    {
+     "code": "UEL",
+     "name": "Europa League"
+    },
+    {
+     "code": "UECL",
+     "name": "Conference League"
+    },
+    {
+     "code": "MEX",
+     "name": "Liga MX"
+    },
+    {
+     "code": "LIB",
+     "name": "Copa Libertadores"
+    },
+    {
+     "code": "SUD",
+     "name": "Copa Sudamericana"
+    },
+    {
+     "code": "AMI",
+     "name": "Amistosos Int. (Selecciones)"
+    },
+    {
+     "code": "UNL",
+     "name": "UEFA Nations League"
+    },
+    {
+     "code": "CNL",
+     "name": "Concacaf Nations League"
+    },
+    {
+     "code": "AFQ",
+     "name": "Clasificatoria AFCON"
+    },
+    {
+     "code": "AFN",
+     "name": "Copa Africana de Naciones"
+    }
+   ]
+  },
+  {
+   "key": "amfut",
+   "name": "NFL/NCAAF",
+   "icon": "sports_football",
+   "leagues": [
+    {
+     "code": "NFL",
+     "name": "NFL"
+    },
+    {
+     "code": "NCAAF",
+     "name": "NCAAF (College)"
+    }
+   ]
+  },
+  {
+   "key": "basquet",
+   "name": "Básquetbol",
+   "icon": "sports_basketball",
+   "leagues": [
+    {
+     "code": "NBA",
+     "name": "NBA"
+    },
+    {
+     "code": "WNBA",
+     "name": "WNBA"
+    },
+    {
+     "code": "NCAA",
+     "name": "NCAA (College)"
+    },
+    {
+     "code": "EUR",
+     "name": "Euroliga"
+    },
+    {
+     "code": "KOR",
+     "name": "KBL Corea"
+    },
+    {
+     "code": "CHN",
+     "name": "CBA China"
+    },
+    {
+     "code": "FRA",
+     "name": "LNB Pro A"
+    },
+    {
+     "code": "ESP",
+     "name": "Liga ACB"
+    },
+    {
+     "code": "GER",
+     "name": "BBL Alemania"
+    }
+   ]
+  }
+ ],
+ "results": {
+  "beisbol": {
+   "ok": true,
+   "date": "2026-11-08",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "sport": "beisbol",
+   "sport_name": "Béisbol",
+   "all_leagues": true,
+   "n": 0,
+   "picks": [],
+   "predictions": [],
+   "message": "0 partidos proyectados",
+   "elapsed_s": 0.0
+  },
+  "tenis": {
+   "ok": false,
+   "error": "timed out",
+   "picks": [],
+   "predictions": []
+  },
+  "futbol": {
+   "ok": true,
+   "date": "2026-11-08",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 0,
+   "message": "Sin partidos pendientes para esa liga y fecha.",
+   "picks": [
+    {
+     "match": "AZ Alkmaar vs FC Groningen",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.7292035723890036,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NED",
+     "league_label": "Eredivisie",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Angers vs Nice",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.7674959964742253,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "FRA",
+     "league_label": "Ligue 1",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Atletico Madrid vs Barcelona",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.6665866897853872,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "ESP",
+     "league_label": "La Liga",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Brest vs Lyon",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8346674694631022,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "FRA",
+     "league_label": "Ligue 1",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Brighton & Hove Albion vs Brentford",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.6536222891780423,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "ENG",
+     "league_label": "Premier League",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "C.D. Nacional vs Académico de Viseu",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8062840634461206,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "POR",
+     "league_label": "Primeira Liga",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Celta Vigo vs Levante",
+     "market": "Doble Oportunidad",
+     "pick": "DO: 1X",
+     "prob": 0.9000341360820245,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "ESP",
+     "league_label": "La Liga",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Cray Wanderers vs Stockport County",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.7945836132866263,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "FAC",
+     "league_label": "FA Cup",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Crystal Palace vs Liverpool",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.6929257591836815,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "ENG",
+     "league_label": "Premier League",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Elche vs Real Betis",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.668084686495368,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "ESP",
+     "league_label": "La Liga",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Estoril vs Maritimo",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.7954887123593104,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "POR",
+     "league_label": "Primeira Liga",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "FC Cologne vs Bayer Leverkusen",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.6915229213635864,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "GER",
+     "league_label": "Bundesliga",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "FC Twente vs Ajax Amsterdam",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8437816564130611,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "NED",
+     "league_label": "Eredivisie",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "FC Utrecht vs NEC Nijmegen",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.7396397109390476,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NED",
+     "league_label": "Eredivisie",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Fiorentina vs Juventus",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.846573777943784,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "ITA",
+     "league_label": "Serie A",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Genoa vs AC Milan",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8119056643773632,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "ITA",
+     "league_label": "Serie A",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Heerenveen vs Feyenoord Rotterdam",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.6960566562578917,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "NED",
+     "league_label": "Eredivisie",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Inter vs Como",
+     "market": "BTTS",
+     "pick": "BTTS: YES",
+     "prob": 0.6766454442356633,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "ITA",
+     "league_label": "Serie A",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Ipswich Town vs AFC Bournemouth",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.7006393943745459,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "ENG",
+     "league_label": "Premier League",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Le Havre AC vs Lorient",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.7722324239562102,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "FRA",
+     "league_label": "Ligue 1",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Le Mans vs Monaco",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8057143492800014,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "FRA",
+     "league_label": "Ligue 1",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Lens vs Marseille",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.6807519931565998,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "FRA",
+     "league_label": "Ligue 1",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "León vs Guadalajara",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.818736019506314,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "MEX",
+     "league_label": "Liga MX",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Manchester United vs Aston Villa",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.7007998883294644,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "ENG",
+     "league_label": "Premier League",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Monza vs Atalanta",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.7218515571590156,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "ITA",
+     "league_label": "Serie A",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Napoli vs Lazio",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.814444633639148,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "ITA",
+     "league_label": "Serie A",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Oldham Athletic vs Sheffield Wednesday",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.7630525496482194,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "FAC",
+     "league_label": "FA Cup",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Querétaro vs Puebla",
+     "market": "Doble Oportunidad",
+     "pick": "DO: 1X",
+     "prob": 0.8644587476034925,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "MEX",
+     "league_label": "Liga MX",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Real Sociedad vs Rayo Vallecano",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.7450753126674574,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "ESP",
+     "league_label": "La Liga",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "SC Cambuur vs PSV Eindhoven",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.7383016697476599,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NED",
+     "league_label": "Eredivisie",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "SC Freiburg vs 1. FC Union Berlin",
+     "market": "1X2",
+     "pick": "1X2: HOME (1)",
+     "prob": 0.7585516982814564,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "GER",
+     "league_label": "Bundesliga",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Santa Clara vs Gil Vicente",
+     "market": "Doble Oportunidad",
+     "pick": "DO: 1X",
+     "prob": 0.8230011039160383,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "POR",
+     "league_label": "Primeira Liga",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Stade Rennais vs Lille",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.6728665378168794,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "FRA",
+     "league_label": "Ligue 1",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Stafford Rangers vs Grimsby Town",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8155245607649291,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "FAC",
+     "league_label": "FA Cup",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Sunderland vs Chelsea",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8467954066045054,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "ENG",
+     "league_label": "Premier League",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "TSG Hoffenheim vs Schalke 04",
+     "market": "Doble Oportunidad",
+     "pick": "DO: 1X",
+     "prob": 0.8688874768719078,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "GER",
+     "league_label": "Bundesliga",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Villarreal vs Getafe",
+     "market": "1X2",
+     "pick": "1X2: HOME (1)",
+     "prob": 0.7406467155429876,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "ESP",
+     "league_label": "La Liga",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Vitória de Guimaraes vs FC Porto",
+     "market": "1X2",
+     "pick": "1X2: AWAY (2)",
+     "prob": 0.7142562878446723,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "POR",
+     "league_label": "Primeira Liga",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Wimborne Town vs Crawley Town",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.6647598693289687,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "FAC",
+     "league_label": "FA Cup",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    }
+   ],
+   "predictions": [],
+   "elapsed_s": 0.0,
+   "sport": "futbol",
+   "sport_name": "Fútbol",
+   "all_leagues": true
+  },
+  "amfut": {
+   "ok": true,
+   "date": "2026-11-08",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 0,
+   "message": "Sin partidos pendientes para esa liga y fecha.",
+   "picks": [
+    {
+     "match": "Denver Broncos @ Carolina Panthers",
+     "market": "Moneyline",
+     "pick": "ML: AWAY (Denver Broncos)",
+     "prob": 0.6591,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "NFL",
+     "league_label": "NFL",
+     "odds": 1.704,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Detroit Lions @ Miami Dolphins",
+     "market": "Moneyline",
+     "pick": "ML: AWAY (Detroit Lions)",
+     "prob": 0.7825,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NFL",
+     "league_label": "NFL",
+     "odds": 1.345,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Los Angeles Rams @ Washington Commanders",
+     "market": "Moneyline",
+     "pick": "ML: AWAY (Los Angeles Rams)",
+     "prob": 0.7604,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NFL",
+     "league_label": "NFL",
+     "odds": 1.42,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "New York Jets @ Kansas City Chiefs",
+     "market": "Totales",
+     "pick": "TOTAL: UNDER 48.5",
+     "prob": 0.6122,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "NFL",
+     "league_label": "NFL",
+     "odds": 1.847,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    }
+   ],
+   "predictions": [],
+   "elapsed_s": 0.0,
+   "sport": "amfut",
+   "sport_name": "NFL/NCAAF",
+   "all_leagues": true
+  },
+  "basquet": {
+   "ok": true,
+   "date": "2026-11-08",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 15,
+   "message": "15 partidos proyectados",
+   "picks": [
+    {
+     "match": "Boston Celtics @ Milwaukee Bucks",
+     "market": "Moneyline",
+     "pick": "ML: AWAY (Boston Celtics)",
+     "prob": 0.8813,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "odds": 1.135,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    }
+   ],
+   "predictions": [
+    {
+     "home": "USC Trojans",
+     "away": "Wichita State Shockers",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NCAA",
+     "league_label": "Todas las ligas",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "USC Trojans",
+       "prob": 0.6177949180427534,
+       "detail": "Local 62% · Visitante 38%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "Wichita State Shockers",
+       "prob": 0.5344720961764227,
+       "detail": "Wichita State Shockers +7.5 · 53%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5693993844093381,
+       "detail": "Línea 155.5 · OVER 43% / UNDER 57%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 148.5",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "Seoul SK Knights",
+     "away": "Wonju DB New Generation",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "KOR",
+     "league_label": "KBL Corea",
+     "context": "Sin histórico de liga · probabilidad base",
+     "extra": "Sin histórico de liga · probabilidad base",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Seoul SK Knights",
+       "prob": 0.6062963362447668,
+       "detail": "Local 61% · Visitante 39%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "Wonju DB New Generation",
+       "prob": 0.5010261853358494,
+       "detail": "Wonju DB New Generation +4.5 · 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5001130021944945,
+       "detail": "Línea 197.8 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 197.8",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "Mobis Phoebus",
+     "away": "Anyang Jungkwanjang Red Boosters",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "KOR",
+     "league_label": "KBL Corea",
+     "context": "Sin histórico de liga · probabilidad base",
+     "extra": "Sin histórico de liga · probabilidad base",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Mobis Phoebus",
+       "prob": 0.6062963362447668,
+       "detail": "Local 61% · Visitante 39%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "Anyang Jungkwanjang Red Boosters",
+       "prob": 0.5010261853358494,
+       "detail": "Anyang Jungkwanjang Red Boosters +4.5 · 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5001130021944945,
+       "detail": "Línea 197.8 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 197.8",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "LG Sakers",
+     "away": "KCC Egis",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "KOR",
+     "league_label": "KBL Corea",
+     "context": "Sin histórico de liga · probabilidad base",
+     "extra": "Sin histórico de liga · probabilidad base",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "LG Sakers",
+       "prob": 0.6062963362447668,
+       "detail": "Local 61% · Visitante 39%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "KCC Egis",
+       "prob": 0.5010261853358494,
+       "detail": "KCC Egis +4.5 · 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5001130021944945,
+       "detail": "Línea 197.8 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 197.8",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "FC Barcelona",
+     "away": "CB Breogan",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ESP",
+     "league_label": "Liga ACB",
+     "context": "Sin histórico de liga · probabilidad base",
+     "extra": "Sin histórico de liga · probabilidad base",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "FC Barcelona",
+       "prob": 0.6062963362447668,
+       "detail": "Local 61% · Visitante 39%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "CB Breogan",
+       "prob": 0.5010261853358494,
+       "detail": "CB Breogan +4.5 · 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5001130021944945,
+       "detail": "Línea 197.8 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 197.8",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "CB San Pablo Burgos",
+     "away": "Valencia Basket",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ESP",
+     "league_label": "Liga ACB",
+     "context": "Sin histórico de liga · probabilidad base",
+     "extra": "Sin histórico de liga · probabilidad base",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "CB San Pablo Burgos",
+       "prob": 0.6062963362447668,
+       "detail": "Local 61% · Visitante 39%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "Valencia Basket",
+       "prob": 0.5010261853358494,
+       "detail": "Valencia Basket +4.5 · 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5001130021944945,
+       "detail": "Línea 197.8 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 197.8",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "CB 1939 Canarias",
+     "away": "Club Joventut Badalona",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ESP",
+     "league_label": "Liga ACB",
+     "context": "Sin histórico de liga · probabilidad base",
+     "extra": "Sin histórico de liga · probabilidad base",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "CB 1939 Canarias",
+       "prob": 0.6062963362447668,
+       "detail": "Local 61% · Visitante 39%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "Club Joventut Badalona",
+       "prob": 0.5010261853358494,
+       "detail": "Club Joventut Badalona +4.5 · 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5001130021944945,
+       "detail": "Línea 197.8 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 197.8",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "Mitteldeutscher BC",
+     "away": "Skyliners Frankfurt",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "GER",
+     "league_label": "BBL Alemania",
+     "context": "Sin histórico de liga · probabilidad base",
+     "extra": "Sin histórico de liga · probabilidad base",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Mitteldeutscher BC",
+       "prob": 0.6062963362447668,
+       "detail": "Local 61% · Visitante 39%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "Skyliners Frankfurt",
+       "prob": 0.5010261853358494,
+       "detail": "Skyliners Frankfurt +4.5 · 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5001130021944945,
+       "detail": "Línea 197.8 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 197.8",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "Paris Basketball",
+     "away": "JL Bourg Basket",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "FRA",
+     "league_label": "LNB Pro A",
+     "context": "Sin histórico de liga · probabilidad base",
+     "extra": "Sin histórico de liga · probabilidad base",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Paris Basketball",
+       "prob": 0.6062963362447668,
+       "detail": "Local 61% · Visitante 39%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "JL Bourg Basket",
+       "prob": 0.5010261853358494,
+       "detail": "JL Bourg Basket +4.5 · 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5001130021944945,
+       "detail": "Línea 197.8 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 197.8",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "Riesen Ludwigsburg",
+     "away": "Baskets Oldenburg",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "GER",
+     "league_label": "BBL Alemania",
+     "context": "Sin histórico de liga · probabilidad base",
+     "extra": "Sin histórico de liga · probabilidad base",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Riesen Ludwigsburg",
+       "prob": 0.6062963362447668,
+       "detail": "Local 61% · Visitante 39%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "Baskets Oldenburg",
+       "prob": 0.5010261853358494,
+       "detail": "Baskets Oldenburg +4.5 · 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5001130021944945,
+       "detail": "Línea 197.8 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 197.8",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "Basket Zaragoza 2002",
+     "away": "CB Malaga",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ESP",
+     "league_label": "Liga ACB",
+     "context": "Sin histórico de liga · probabilidad base",
+     "extra": "Sin histórico de liga · probabilidad base",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Basket Zaragoza 2002",
+       "prob": 0.6062963362447668,
+       "detail": "Local 61% · Visitante 39%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "CB Malaga",
+       "prob": 0.5010261853358494,
+       "detail": "CB Malaga +4.5 · 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5001130021944945,
+       "detail": "Línea 197.8 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 197.8",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "Wurzburg Baskets",
+     "away": "Bayern Munich",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "GER",
+     "league_label": "BBL Alemania",
+     "context": "Sin histórico de liga · probabilidad base",
+     "extra": "Sin histórico de liga · probabilidad base",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Wurzburg Baskets",
+       "prob": 0.6062963362447668,
+       "detail": "Local 61% · Visitante 39%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "Bayern Munich",
+       "prob": 0.5010261853358494,
+       "detail": "Bayern Munich +4.5 · 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5001130021944945,
+       "detail": "Línea 197.8 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 197.8",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "CB Coruna",
+     "away": "BC Andorra",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ESP",
+     "league_label": "Liga ACB",
+     "context": "Sin histórico de liga · probabilidad base",
+     "extra": "Sin histórico de liga · probabilidad base",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "CB Coruna",
+       "prob": 0.6062963362447668,
+       "detail": "Local 61% · Visitante 39%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "BC Andorra",
+       "prob": 0.5010261853358494,
+       "detail": "BC Andorra +4.5 · 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5001130021944945,
+       "detail": "Línea 197.8 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 197.8",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "SIG Strasbourg",
+     "away": "Le Mans Sarthe Basket",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "FRA",
+     "league_label": "LNB Pro A",
+     "context": "Sin histórico de liga · probabilidad base",
+     "extra": "Sin histórico de liga · probabilidad base",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "SIG Strasbourg",
+       "prob": 0.6062963362447668,
+       "detail": "Local 61% · Visitante 39%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "Le Mans Sarthe Basket",
+       "prob": 0.5010261853358494,
+       "detail": "Le Mans Sarthe Basket +4.5 · 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5001130021944945,
+       "detail": "Línea 197.8 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 197.8",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "Real Madrid",
+     "away": "UCAM Murcia",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "ESP",
+     "league_label": "Liga ACB",
+     "context": "Sin histórico de liga · probabilidad base",
+     "extra": "Sin histórico de liga · probabilidad base",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Real Madrid",
+       "prob": 0.6625207887155056,
+       "detail": "Local 66% · Visitante 34%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "Real Madrid",
+       "prob": 0.5012127218897151,
+       "detail": "Real Madrid -6 · 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5009953126484383,
+       "detail": "Línea 197.5 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 197.5",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    }
+   ],
+   "elapsed_s": 49.0,
+   "sport": "basquet",
+   "sport_name": "Básquetbol",
+   "all_leagues": true,
+   "picks_total_brutos": 14,
+   "picks_policy": {
+    "mercados_excluidos": [
+     "Spread",
+     "Totales"
+    ],
+    "min_prob": 0.75,
+    "conservados": 0,
+    "descartados": 14
+   }
+  }
+ },
+ "historico": true
+}

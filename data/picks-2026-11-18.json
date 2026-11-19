@@ -1,0 +1,781 @@
+{
+ "date": "2026-11-18",
+ "generated_at": "2026-11-18T22:11:11",
+ "sports_total": "9 partidos",
+ "sports": [
+  {
+   "key": "beisbol",
+   "name": "Béisbol",
+   "icon": "sports_baseball",
+   "leagues": [
+    {
+     "code": "MLB",
+     "name": "Major League"
+    },
+    {
+     "code": "KBO",
+     "name": "KBO League"
+    },
+    {
+     "code": "NPB",
+     "name": "Nippon Baseball"
+    }
+   ]
+  },
+  {
+   "key": "tenis",
+   "name": "Tenis",
+   "icon": "sports_tennis",
+   "leagues": [
+    {
+     "code": "ATP",
+     "name": "ATP Tour"
+    },
+    {
+     "code": "WTA",
+     "name": "WTA Tour"
+    },
+    {
+     "code": "CHA",
+     "name": "ATP Challenger Tour"
+    }
+   ]
+  },
+  {
+   "key": "futbol",
+   "name": "Fútbol",
+   "icon": "sports_soccer",
+   "leagues": [
+    {
+     "code": "ENG",
+     "name": "Premier League"
+    },
+    {
+     "code": "ESP",
+     "name": "La Liga"
+    },
+    {
+     "code": "ITA",
+     "name": "Serie A"
+    },
+    {
+     "code": "GER",
+     "name": "Bundesliga"
+    },
+    {
+     "code": "FRA",
+     "name": "Ligue 1"
+    },
+    {
+     "code": "NED",
+     "name": "Eredivisie"
+    },
+    {
+     "code": "POR",
+     "name": "Primeira Liga"
+    },
+    {
+     "code": "KSA",
+     "name": "Saudi Pro League"
+    },
+    {
+     "code": "FAC",
+     "name": "FA Cup"
+    },
+    {
+     "code": "CAR",
+     "name": "Carabao Cup"
+    },
+    {
+     "code": "CDR",
+     "name": "Copa del Rey"
+    },
+    {
+     "code": "CI",
+     "name": "Coppa Italia"
+    },
+    {
+     "code": "CDF",
+     "name": "Coupe de France"
+    },
+    {
+     "code": "DFB",
+     "name": "DFB Pokal"
+    },
+    {
+     "code": "WCH",
+     "name": "Champions Femenina"
+    },
+    {
+     "code": "UCL",
+     "name": "Champions League"
+    },
+    {
+     "code": "UEL",
+     "name": "Europa League"
+    },
+    {
+     "code": "UECL",
+     "name": "Conference League"
+    },
+    {
+     "code": "MEX",
+     "name": "Liga MX"
+    },
+    {
+     "code": "LIB",
+     "name": "Copa Libertadores"
+    },
+    {
+     "code": "SUD",
+     "name": "Copa Sudamericana"
+    },
+    {
+     "code": "AMI",
+     "name": "Amistosos Int. (Selecciones)"
+    },
+    {
+     "code": "UNL",
+     "name": "UEFA Nations League"
+    },
+    {
+     "code": "CNL",
+     "name": "Concacaf Nations League"
+    },
+    {
+     "code": "AFQ",
+     "name": "Clasificatoria AFCON"
+    },
+    {
+     "code": "AFN",
+     "name": "Copa Africana de Naciones"
+    }
+   ]
+  },
+  {
+   "key": "amfut",
+   "name": "NFL/NCAAF",
+   "icon": "sports_football",
+   "leagues": [
+    {
+     "code": "NFL",
+     "name": "NFL"
+    },
+    {
+     "code": "NCAAF",
+     "name": "NCAAF (College)"
+    }
+   ]
+  },
+  {
+   "key": "basquet",
+   "name": "Básquetbol",
+   "icon": "sports_basketball",
+   "leagues": [
+    {
+     "code": "NBA",
+     "name": "NBA"
+    },
+    {
+     "code": "WNBA",
+     "name": "WNBA"
+    },
+    {
+     "code": "NCAA",
+     "name": "NCAA (College)"
+    },
+    {
+     "code": "EUR",
+     "name": "Euroliga"
+    },
+    {
+     "code": "KOR",
+     "name": "KBL Corea"
+    },
+    {
+     "code": "CHN",
+     "name": "CBA China"
+    },
+    {
+     "code": "FRA",
+     "name": "LNB Pro A"
+    },
+    {
+     "code": "ESP",
+     "name": "Liga ACB"
+    },
+    {
+     "code": "GER",
+     "name": "BBL Alemania"
+    },
+    {
+     "code": "TUR",
+     "name": "BSL Turquia"
+    },
+    {
+     "code": "ITA",
+     "name": "Lega A Italia"
+    },
+    {
+     "code": "GRE",
+     "name": "Basket League Grecia"
+    },
+    {
+     "code": "ISR",
+     "name": "Liga de Israel"
+    },
+    {
+     "code": "ABA",
+     "name": "ABA Liga (Adriatico)"
+    },
+    {
+     "code": "LTU",
+     "name": "LKL Lituania"
+    }
+   ]
+  }
+ ],
+ "results": {
+  "beisbol": {
+   "ok": true,
+   "date": "2026-11-18",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "sport": "beisbol",
+   "sport_name": "Béisbol",
+   "all_leagues": true,
+   "n": 0,
+   "picks": [],
+   "predictions": [],
+   "message": "0 partidos proyectados",
+   "elapsed_s": 0.0
+  },
+  "tenis": {
+   "ok": true,
+   "date": "2026-11-18",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 0,
+   "message": "ATP: sin partidos pendientes · WTA: sin partidos pendientes · CHALLENGER: sin partidos pendientes",
+   "picks": [],
+   "predictions": [],
+   "elapsed_s": 12.7,
+   "sport": "tenis",
+   "sport_name": "Tenis",
+   "all_leagues": true
+  },
+  "futbol": {
+   "ok": true,
+   "date": "2026-11-18",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 0,
+   "message": "Sin partidos pendientes para esa liga y fecha.",
+   "picks": [],
+   "predictions": [],
+   "elapsed_s": 0.0,
+   "sport": "futbol",
+   "sport_name": "Fútbol",
+   "all_leagues": true
+  },
+  "amfut": {
+   "ok": true,
+   "date": "2026-11-18",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 2,
+   "message": "2 partidos proyectados",
+   "picks": [
+    {
+     "match": "Akron Zips @ Massachusetts Minutemen",
+     "market": "Moneyline",
+     "pick": "ML: HOME (Massachusetts Minutemen)",
+     "prob": 0.9224,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": ">=92%",
+     "league_code": "NCAAF",
+     "league_label": "NCAAF (College)",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null
+    },
+    {
+     "match": "Central Michigan Chippewas @ Buffalo Bulls",
+     "market": "Moneyline",
+     "pick": "ML: HOME (Buffalo Bulls)",
+     "prob": 0.7376,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": ">=74%",
+     "league_code": "NCAAF",
+     "league_label": "NCAAF (College)",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null
+    }
+   ],
+   "predictions": [
+    {
+     "home": "Massachusetts Minutemen",
+     "away": "Akron Zips",
+     "home_logo": "",
+     "away_logo": "",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NCAAF",
+     "league_label": "NCAAF (College)",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Massachusetts Minutemen",
+       "prob": 0.9224165904305119,
+       "detail": "Local 92% · Visitante 8%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "Massachusetts Minutemen",
+       "prob": 0.5001633853982086,
+       "detail": "Massachusetts Minutemen -23.9 · 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5002763582600585,
+       "detail": "Línea 54.1 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 54.1",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Buffalo Bulls",
+     "away": "Central Michigan Chippewas",
+     "home_logo": "",
+     "away_logo": "",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NCAAF",
+     "league_label": "NCAAF (College)",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Buffalo Bulls",
+       "prob": 0.7376473813227237,
+       "detail": "Local 74% · Visitante 26%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "Buffalo Bulls",
+       "prob": 0.5006817963872799,
+       "detail": "Buffalo Bulls -13.5 · 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5001889663522279,
+       "detail": "Línea 43.8 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 43.8",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    }
+   ],
+   "elapsed_s": 15.7,
+   "sport": "amfut",
+   "sport_name": "NFL/NCAAF",
+   "all_leagues": true,
+   "picks_total_brutos": 2,
+   "picks_policy": {
+    "mercados_excluidos": [
+     "Spread",
+     "Totales"
+    ],
+    "min_prob": {
+     "NCAAF": 0.7
+    },
+    "conservados": 2,
+    "descartados": 0
+   }
+  },
+  "basquet": {
+   "ok": true,
+   "date": "2026-11-18",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 7,
+   "message": "7 partidos proyectados",
+   "picks": [
+    {
+     "match": "Utah Jazz @ Los Angeles Lakers",
+     "market": "Moneyline",
+     "pick": "ML: HOME (Los Angeles Lakers)",
+     "prob": 0.9012,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": ">=90% · momio 1.18349 · EV +6.7%",
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "odds": 1.183,
+     "line": null,
+     "edge": null,
+     "ev": null
+    }
+   ],
+   "predictions": [
+    {
+     "home": "Denver Nuggets",
+     "away": "Boston Celtics",
+     "home_logo": "data/logos/e3639bc90146d1fc.png",
+     "away_logo": "data/logos/fa391ce671bc1351.png",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Boston Celtics",
+       "prob": 0.6779239206266503,
+       "detail": "Local 32% · Visitante 68%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "Boston Celtics",
+       "prob": 0.54922772829532,
+       "detail": "Boston Celtics -2.5 · 55%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5610175693432922,
+       "detail": "Línea 218.5 · OVER 56% / UNDER 44%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 225.9",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Los Angeles Lakers",
+     "away": "Utah Jazz",
+     "home_logo": "data/logos/7b1221f5b1849373.png",
+     "away_logo": "data/logos/77fc6906a5edd7c4.png",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Los Angeles Lakers",
+       "prob": 0.9011718975347056,
+       "detail": "Local 90% · Visitante 10%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "Los Angeles Lakers",
+       "prob": 0.5661408814097797,
+       "detail": "Los Angeles Lakers -11.5 · 57%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5323567552805315,
+       "detail": "Línea 229.5 · OVER 53% / UNDER 47%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 233.4",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Sacramento Kings",
+     "away": "Phoenix Suns",
+     "home_logo": "data/logos/11548867a1486368.png",
+     "away_logo": "data/logos/9d9eacf3b681ebcc.png",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Phoenix Suns",
+       "prob": 0.6627373469152534,
+       "detail": "Local 34% · Visitante 66%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "Sacramento Kings",
+       "prob": 0.5098653520739334,
+       "detail": "Sacramento Kings +7.5 · 51%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5485762229841066,
+       "detail": "Línea 226.5 · OVER 55% / UNDER 45%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 232.4",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Arizona Wildcats",
+     "away": "UConn Huskies",
+     "home_logo": "data/logos/f19b594fbef59ae3.png",
+     "away_logo": "data/logos/172f5445d7ee4222.png",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NCAA",
+     "league_label": "Todas las ligas",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Arizona Wildcats",
+       "prob": 0.6171873945939927,
+       "detail": "Local 62% · Visitante 38%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "UConn Huskies",
+       "prob": 0.5020421167128668,
+       "detail": "UConn Huskies +3.5 · 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5638668829865939,
+       "detail": "Línea 146.5 · OVER 56% / UNDER 44%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 153.0",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "UCLA Bruins",
+     "away": "Cal State Fullerton Titans",
+     "home_logo": "data/logos/6d6b4326ee99d7db.png",
+     "away_logo": "data/logos/58f5e64ce375d65d.png",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NCAA",
+     "league_label": "Todas las ligas",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "UCLA Bruins",
+       "prob": 0.5997270135054131,
+       "detail": "Local 60% · Visitante 40%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "Cal State Fullerton Titans",
+       "prob": 0.7801102881248161,
+       "detail": "Cal State Fullerton Titans +31.5 · 78%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5670610701094496,
+       "detail": "Línea 167.5 · OVER 43% / UNDER 57%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 160.7",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Seoul Thunders",
+     "away": "LG Sakers",
+     "home_logo": "data/logos/dd31d4502d46860a.png",
+     "away_logo": "data/logos/5707e2e61f6109c7.png",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "KOR",
+     "league_label": "KBL Corea",
+     "context": "Sin histórico de liga · probabilidad base",
+     "extra": "Sin histórico de liga · probabilidad base",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Seoul Thunders",
+       "prob": 0.6062963362447668,
+       "detail": "Local 61% · Visitante 39%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "LG Sakers",
+       "prob": 0.5010261853358494,
+       "detail": "LG Sakers +4.5 · 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5001130021944945,
+       "detail": "Línea 197.8 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 197.8",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "Nevezis",
+     "away": "Rytas",
+     "home_logo": "data/logos/9b353d3ec2c792a2.png",
+     "away_logo": "data/logos/a6da1c3e35bfe567.png",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "LTU",
+     "league_label": "Todas las ligas",
+     "context": "Sin histórico de liga · probabilidad base",
+     "extra": "Sin histórico de liga · probabilidad base",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Nevezis",
+       "prob": 0.6062963362447668,
+       "detail": "Local 61% · Visitante 39%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "Rytas",
+       "prob": 0.5010261853358494,
+       "detail": "Rytas +4.5 · 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5001130021944945,
+       "detail": "Línea 197.8 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 197.8",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    }
+   ],
+   "elapsed_s": 70.6,
+   "sport": "basquet",
+   "sport_name": "Básquetbol",
+   "all_leagues": true,
+   "picks_total_brutos": 4,
+   "picks_policy": {
+    "mercados_excluidos": [
+     "Spread",
+     "Totales"
+    ],
+    "min_prob": {
+     "KOR": 0.65,
+     "LTU": 0.75,
+     "NBA": 0.75
+    },
+    "conservados": 1,
+    "descartados": 3
+   }
+  }
+ }
+}

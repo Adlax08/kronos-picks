@@ -1,7 +1,7 @@
 {
  "date": "2026-10-27",
- "generated_at": "2026-10-26T08:43:43",
- "sports_total": "121 partidos",
+ "generated_at": "2026-10-26T12:18:18",
+ "sports_total": "123 partidos",
  "sports": [
   {
    "key": "beisbol",
@@ -289,7 +289,9 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "SoftBank Hawks",
@@ -331,19 +333,21 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     }
    ],
    "message": "2 partidos proyectados",
-   "elapsed_s": 17.1
+   "elapsed_s": 15.9
   },
   "tenis": {
    "ok": true,
    "date": "2026-10-27",
    "league": "ALL",
    "league_label": "Todas las ligas",
-   "n": 75,
-   "message": "75 partidos proyectados",
+   "n": 77,
+   "message": "77 partidos proyectados",
    "picks": [
     {
      "match": "Adrian Mannarino vs Ignacio Buse",
@@ -421,21 +425,6 @@
      "league_label": "ATP Tour"
     },
     {
-     "match": "Frances Tiafoe vs Lorenzo Musetti",
-     "market": "SET1 JUEGOS",
-     "pick": "UNDER 9.5",
-     "prob": 0.6803,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": "EV +49.7% · momio 2.2",
-     "edge": 0.2773,
-     "ev": 0.4966600000000001,
-     "odds": 2.2,
-     "line": 9.5,
-     "league_code": "ATP",
-     "league_label": "ATP Tour"
-    },
-    {
      "match": "Alex Michelsen vs Botic Van De Zandschulp",
      "market": "SET1 JUEGOS",
      "pick": "UNDER 9.5",
@@ -466,21 +455,6 @@
      "league_label": "ATP Tour"
     },
     {
-     "match": "Jurij Rodionov vs Nikoloz Basilashvili",
-     "market": "SET1 JUEGOS",
-     "pick": "UNDER 9.5",
-     "prob": 0.6686000000000001,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": "EV +40.4% · momio 2.1",
-     "edge": 0.24340000000000006,
-     "ev": 0.4040600000000002,
-     "odds": 2.1,
-     "line": 9.5,
-     "league_code": "ATP",
-     "league_label": "ATP Tour"
-    },
-    {
      "match": "Hubert Hurkacz vs Zizou Bergs",
      "market": "SET1 JUEGOS",
      "pick": "UNDER 9.5",
@@ -492,6 +466,21 @@
      "ev": 0.750422,
      "odds": 2.62,
      "line": 9.5,
+     "league_code": "ATP",
+     "league_label": "ATP Tour"
+    },
+    {
+     "match": "Arthur Rinderknech vs Jerome Kym",
+     "market": "HANDICAP JUEGOS",
+     "pick": "Arthur Rinderknech +0.5",
+     "prob": 0.6674,
+     "tier": "MUY BUENO",
+     "units": "1.5",
+     "note": "EV +24.8% · momio 1.87",
+     "edge": 0.184,
+     "ev": 0.2480380000000001,
+     "odds": 1.87,
+     "line": 0.5,
      "league_code": "ATP",
      "league_label": "ATP Tour"
     },
@@ -601,21 +590,6 @@
      "league_label": "ATP Tour"
     },
     {
-     "match": "Brandon Nakashima vs Tallon Griekspoor",
-     "market": "SET1 JUEGOS",
-     "pick": "UNDER 9.5",
-     "prob": 0.6353,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": "EV +58.8% · momio 2.5",
-     "edge": 0.28669999999999995,
-     "ev": 0.5882499999999999,
-     "odds": 2.5,
-     "line": 9.5,
-     "league_code": "ATP",
-     "league_label": "ATP Tour"
-    },
-    {
      "match": "Arthur Fils vs Giovanni Mpetshi Perricard",
      "market": "SET1 JUEGOS",
      "pick": "UNDER 9.5",
@@ -646,21 +620,6 @@
      "league_label": "ATP Tour"
     },
     {
-     "match": "Brandon Nakashima vs Tallon Griekspoor",
-     "market": "HANDICAP JUEGOS",
-     "pick": "Tallon Griekspoor +2.5",
-     "prob": 0.6097,
-     "tier": "BUENO",
-     "units": "1.0",
-     "note": "EV +14.0% · momio 1.87",
-     "edge": 0.12629999999999997,
-     "ev": 0.14013900000000012,
-     "odds": 1.87,
-     "line": 2.5,
-     "league_code": "ATP",
-     "league_label": "ATP Tour"
-    },
-    {
      "match": "Arthur Fils vs Giovanni Mpetshi Perricard",
      "market": "HANDICAP JUEGOS",
      "pick": "Giovanni Mpetshi Perricard +3.5",
@@ -672,21 +631,6 @@
      "ev": 0.19677500000000003,
      "odds": 1.97,
      "line": 3.5,
-     "league_code": "ATP",
-     "league_label": "ATP Tour"
-    },
-    {
-     "match": "Brandon Nakashima vs Tallon Griekspoor",
-     "market": "ML",
-     "pick": "Tallon Griekspoor",
-     "prob": 0.5437000000000001,
-     "tier": "DESTACADO",
-     "units": "0.5",
-     "note": "EV +49.5% · momio 2.75 · Prob<60% pero buen momentum/variables: resaltado.",
-     "edge": null,
-     "ev": 0.49517500000000014,
-     "odds": 2.75,
-     "line": null,
      "league_code": "ATP",
      "league_label": "ATP Tour"
     },
@@ -931,6 +875,21 @@
      "league_label": "ATP Challenger Tour"
     },
     {
+     "match": "Borna Gojo vs Tom Paris",
+     "market": "ML",
+     "pick": "Borna Gojo",
+     "prob": 0.8578,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "",
+     "edge": null,
+     "ev": null,
+     "odds": null,
+     "line": null,
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour"
+    },
+    {
      "match": "Jan Kumstat vs Sho Shimabukuro",
      "market": "ML",
      "pick": "Sho Shimabukuro",
@@ -1042,10 +1001,10 @@
      "prob": 0.7939,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +66.7% · momio 2.1",
+     "note": "EV +48.5% · momio 1.87",
      "edge": null,
-     "ev": 0.6671900000000002,
-     "odds": 2.1,
+     "ev": 0.48459300000000016,
+     "odds": 1.87,
      "line": null,
      "league_code": "CHALLENGER",
      "league_label": "ATP Challenger Tour"
@@ -1087,10 +1046,40 @@
      "prob": 0.77,
      "tier": "TOP PICK",
      "units": "2.0",
-     "note": "EV +21.7% · momio 1.58",
+     "note": "EV +15.5% · momio 1.5",
      "edge": null,
-     "ev": 0.21660000000000007,
-     "odds": 1.58,
+     "ev": 0.15500000000000003,
+     "odds": 1.5,
+     "line": null,
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour"
+    },
+    {
+     "match": "Dino Prizmic vs Robin Catry",
+     "market": "ML",
+     "pick": "Dino Prizmic",
+     "prob": 0.7654,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "",
+     "edge": null,
+     "ev": null,
+     "odds": null,
+     "line": null,
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour"
+    },
+    {
+     "match": "Matisse Bobichon vs Michael Geerts",
+     "market": "ML",
+     "pick": "Michael Geerts",
+     "prob": 0.7648,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": "",
+     "edge": null,
+     "ev": null,
+     "odds": null,
      "line": null,
      "league_code": "CHALLENGER",
      "league_label": "ATP Challenger Tour"
@@ -1137,21 +1126,6 @@
      "ev": 0.24891200000000002,
      "odds": 1.77,
      "line": 9.5,
-     "league_code": "CHALLENGER",
-     "league_label": "ATP Challenger Tour"
-    },
-    {
-     "match": "Murphy Cassone vs Stefan Kozlov",
-     "market": "ML",
-     "pick": "Murphy Cassone",
-     "prob": 0.7038,
-     "tier": "MUY BUENO",
-     "units": "1.5",
-     "note": "EV +3.5% · momio 1.47",
-     "edge": null,
-     "ev": 0.03458599999999995,
-     "odds": 1.47,
-     "line": null,
      "league_code": "CHALLENGER",
      "league_label": "ATP Challenger Tour"
     },
@@ -1278,15 +1252,15 @@
     {
      "match": "Beibit Zhukayev vs Coleman Wong",
      "market": "HANDICAP JUEGOS",
-     "pick": "Beibit Zhukayev +5.5",
+     "pick": "Beibit Zhukayev +4.5",
      "prob": 0.676,
      "tier": "MUY BUENO",
      "units": "1.5",
-     "note": "EV +21.7% · momio 1.8",
-     "edge": 0.17600000000000005,
-     "ev": 0.2168000000000001,
-     "odds": 1.8,
-     "line": 5.5,
+     "note": "EV +26.4% · momio 1.87",
+     "edge": 0.19260000000000005,
+     "ev": 0.26412000000000013,
+     "odds": 1.87,
+     "line": 4.5,
      "league_code": "CHALLENGER",
      "league_label": "ATP Challenger Tour"
     },
@@ -1362,6 +1336,21 @@
      "ev": 0.21867899999999996,
      "odds": 1.87,
      "line": 3.5,
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour"
+    },
+    {
+     "match": "Francesco Maestrelli vs Moez Echargui",
+     "market": "ML",
+     "pick": "Francesco Maestrelli",
+     "prob": 0.6498,
+     "tier": "BUENO",
+     "units": "1.0",
+     "note": "",
+     "edge": null,
+     "ev": null,
+     "odds": null,
+     "line": null,
      "league_code": "CHALLENGER",
      "league_label": "ATP Challenger Tour"
     },
@@ -1462,10 +1451,10 @@
      "prob": 0.6243,
      "tier": "BUENO",
      "units": "1.0",
-     "note": "EV +5.5% · momio 1.69",
-     "edge": 0.07809999999999995,
-     "ev": 0.05506699999999992,
-     "odds": 1.69,
+     "note": "EV +10.5% · momio 1.77",
+     "edge": 0.10770000000000002,
+     "ev": 0.10501099999999997,
+     "odds": 1.77,
      "line": 3.5,
      "league_code": "CHALLENGER",
      "league_label": "ATP Challenger Tour"
@@ -1552,10 +1541,10 @@
      "prob": 0.5452,
      "tier": "DESTACADO",
      "units": "0.5",
-     "note": "EV +22.7% · momio 2.25 · Prob<60% pero buen momentum/variables: resaltado.",
+     "note": "EV +7.4% · momio 1.97 · Prob<60% pero buen momentum/variables: resaltado.",
      "edge": null,
-     "ev": 0.2267,
-     "odds": 2.25,
+     "ev": 0.074044,
+     "odds": 1.97,
      "line": null,
      "league_code": "CHALLENGER",
      "league_label": "ATP Challenger Tour"
@@ -1578,8 +1567,8 @@
    ],
    "predictions": [
     {
-     "home": "Frances Tiafoe",
-     "away": "Lorenzo Musetti",
+     "home": "Andrey Rublev",
+     "away": "Tommy Paul",
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "ATP",
@@ -1589,140 +1578,44 @@
      "markets": [
       {
        "label": "Ganador del partido",
-       "pick": "Lorenzo Musetti",
-       "prob": 0.5847,
-       "detail": "Frances Tiafoe 42% · Lorenzo Musetti 58%",
-       "strong": false
-      },
-      {
-       "label": "Total Juegos O/U",
-       "pick": "UNDER",
-       "prob": 0.5032,
-       "detail": "UNDER 23.5 · 50% · Proyectado 23.2",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Juegos",
-       "pick": "Lorenzo Musetti",
-       "prob": 0.532,
-       "detail": "Lorenzo Musetti +0.5 (mercado) · 53%",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Sets",
-       "pick": "Lorenzo Musetti",
-       "prob": 0.7315,
-       "detail": "Hándicap Sets -1.5 · 27% · (+272)",
-       "strong": false
-      },
-      {
-       "label": "Juegos 1er Set O/U",
-       "pick": "UNDER",
-       "prob": 0.6803,
-       "detail": "UNDER 9.5 · 68% · Proyectado 9.8",
-       "strong": false
-      }
-     ],
-     "convergence": false,
-     "momentum_ok": false
-    },
-    {
-     "home": "Jurij Rodionov",
-     "away": "Nikoloz Basilashvili",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "ATP",
-     "league_label": "ATP Tour",
-     "context": "Erste Bank Open, Hard, Ronda: Round 1, BO3",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Ganador del partido",
-       "pick": "Nikoloz Basilashvili",
-       "prob": 0.7975,
-       "detail": "Jurij Rodionov 20% · Nikoloz Basilashvili 80%",
+       "pick": "Tommy Paul",
+       "prob": 0.7093,
+       "detail": "Andrey Rublev 29% · Tommy Paul 71%",
        "strong": true
       },
       {
        "label": "Total Juegos O/U",
-       "pick": "OVER",
-       "prob": 0.5404,
-       "detail": "OVER 22.5 · 54% · Proyectado 24.4",
+       "pick": "UNDER",
+       "prob": 0.5045,
+       "detail": "UNDER 23.5 · 50% · Proyectado 23.4",
        "strong": false
       },
       {
        "label": "Hándicap Juegos",
-       "pick": "Nikoloz Basilashvili",
-       "prob": 0.5422,
-       "detail": "Nikoloz Basilashvili -0.5 (mercado) · 54%",
+       "pick": "Andrey Rublev",
+       "prob": 0.5537,
+       "detail": "Andrey Rublev +1.5 (mercado) · 55%",
        "strong": false
       },
       {
        "label": "Hándicap Sets",
-       "pick": "Nikoloz Basilashvili",
-       "prob": 0.8128,
-       "detail": "Hándicap Sets -1.5 · 19% · (+434)",
+       "pick": "Tommy Paul",
+       "prob": 0.8032,
+       "detail": "Hándicap Sets -1.5 · 20% · (+408)",
        "strong": false
       },
       {
        "label": "Juegos 1er Set O/U",
        "pick": "UNDER",
-       "prob": 0.6686000000000001,
-       "detail": "UNDER 9.5 · 67% · Proyectado 9.9",
+       "prob": 0.6702,
+       "detail": "UNDER 9.5 · 67% · Proyectado 10.0",
        "strong": false
       }
      ],
-     "convergence": false,
-     "momentum_ok": false
-    },
-    {
-     "home": "Flavio Cobolli",
-     "away": "Grigor Dimitrov",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "ATP",
-     "league_label": "ATP Tour",
-     "context": "Erste Bank Open, Hard, Ronda: Round 1, BO3",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Ganador del partido",
-       "pick": "Flavio Cobolli",
-       "prob": 0.7348,
-       "detail": "Flavio Cobolli 73% · Grigor Dimitrov 27%",
-       "strong": true
-      },
-      {
-       "label": "Total Juegos O/U",
-       "pick": "OVER",
-       "prob": 0.5062,
-       "detail": "OVER 22.5 · 51% · Proyectado 24.0",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Juegos",
-       "pick": "Flavio Cobolli",
-       "prob": 0.5063,
-       "detail": "Flavio Cobolli -1.5 (mercado) · 51%",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Sets",
-       "pick": "Grigor Dimitrov",
-       "prob": 0.5339,
-       "detail": "Hándicap Sets -1.5 · 47% · (+115)",
-       "strong": false
-      },
-      {
-       "label": "Juegos 1er Set O/U",
-       "pick": "UNDER",
-       "prob": 0.6615,
-       "detail": "UNDER 9.5 · 66% · Proyectado 10.0",
-       "strong": false
-      }
-     ],
-     "convergence": false,
-     "momentum_ok": true
+     "convergence": true,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Carlos Alcaraz",
@@ -1771,7 +1664,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Adrian Mannarino",
@@ -1820,7 +1715,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Cameron Norrie",
@@ -1869,7 +1766,9 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Alexander Zverev",
@@ -1918,11 +1817,13 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
-     "home": "Brandon Nakashima",
-     "away": "Tallon Griekspoor",
+     "home": "Flavio Cobolli",
+     "away": "Grigor Dimitrov",
      "home_abbrev": "",
      "away_abbrev": "",
      "league_code": "ATP",
@@ -1932,91 +1833,44 @@
      "markets": [
       {
        "label": "Ganador del partido",
-       "pick": "Tallon Griekspoor",
-       "prob": 0.5437000000000001,
-       "detail": "Brandon Nakashima 46% · Tallon Griekspoor 54%",
-       "strong": false
-      },
-      {
-       "label": "Total Juegos O/U",
-       "pick": "OVER",
-       "prob": 0.5202,
-       "detail": "OVER 23.5 · 52% · Proyectado 24.6",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Juegos",
-       "pick": "Tallon Griekspoor",
-       "prob": 0.6097,
-       "detail": "Tallon Griekspoor +2.5 (mercado) · 61%",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Sets",
-       "pick": "Tallon Griekspoor",
-       "prob": 0.741,
-       "detail": "Hándicap Sets -1.5 · 26% · (+286)",
-       "strong": false
-      },
-      {
-       "label": "Juegos 1er Set O/U",
-       "pick": "UNDER",
-       "prob": 0.6353,
-       "detail": "UNDER 9.5 · 64% · Proyectado 10.0",
-       "strong": false
-      }
-     ],
-     "convergence": false,
-     "momentum_ok": true
-    },
-    {
-     "home": "Andrey Rublev",
-     "away": "Tommy Paul",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "ATP",
-     "league_label": "ATP Tour",
-     "context": "Erste Bank Open, Hard, Ronda: Round 1, BO3",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Ganador del partido",
-       "pick": "Tommy Paul",
-       "prob": 0.7093,
-       "detail": "Andrey Rublev 29% · Tommy Paul 71%",
+       "pick": "Flavio Cobolli",
+       "prob": 0.7348,
+       "detail": "Flavio Cobolli 73% · Grigor Dimitrov 27%",
        "strong": true
       },
       {
        "label": "Total Juegos O/U",
-       "pick": "UNDER",
-       "prob": 0.5045,
-       "detail": "UNDER 23.5 · 50% · Proyectado 23.4",
+       "pick": "OVER",
+       "prob": 0.5062,
+       "detail": "OVER 22.5 · 51% · Proyectado 24.0",
        "strong": false
       },
       {
        "label": "Hándicap Juegos",
-       "pick": "Andrey Rublev",
-       "prob": 0.5537,
-       "detail": "Andrey Rublev +1.5 (mercado) · 55%",
+       "pick": "Flavio Cobolli",
+       "prob": 0.5063,
+       "detail": "Flavio Cobolli -1.5 (mercado) · 51%",
        "strong": false
       },
       {
        "label": "Hándicap Sets",
-       "pick": "Tommy Paul",
-       "prob": 0.8032,
-       "detail": "Hándicap Sets -1.5 · 20% · (+408)",
+       "pick": "Grigor Dimitrov",
+       "prob": 0.5339,
+       "detail": "Hándicap Sets -1.5 · 47% · (+115)",
        "strong": false
       },
       {
        "label": "Juegos 1er Set O/U",
        "pick": "UNDER",
-       "prob": 0.6702,
-       "detail": "UNDER 9.5 · 67% · Proyectado 10.0",
+       "prob": 0.6615,
+       "detail": "UNDER 9.5 · 66% · Proyectado 10.0",
        "strong": false
       }
      ],
-     "convergence": true,
-     "momentum_ok": false
+     "convergence": false,
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Hubert Hurkacz",
@@ -2065,7 +1919,9 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Arthur Rinderknech",
@@ -2094,8 +1950,8 @@
       {
        "label": "Hándicap Juegos",
        "pick": "Arthur Rinderknech",
-       "prob": 0.5755,
-       "detail": "Arthur Rinderknech -0.5 (mercado) · 58%",
+       "prob": 0.6674,
+       "detail": "Arthur Rinderknech +0.5 (mercado) · 67%",
        "strong": false
       },
       {
@@ -2114,7 +1970,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Alejandro Tabilo",
@@ -2163,7 +2021,9 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Alex Michelsen",
@@ -2212,7 +2072,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Arthur Fils",
@@ -2261,7 +2123,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Aleksandar Kovacevic",
@@ -2310,7 +2174,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Jiri Lehecka",
@@ -2359,7 +2225,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Dayana Yastremska",
@@ -2401,7 +2269,9 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Sara Sorribes Tormo",
@@ -2443,7 +2313,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Janice Tjen",
@@ -2485,7 +2357,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Antonia Ruzic",
@@ -2527,7 +2401,9 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Lilli Tagger",
@@ -2569,7 +2445,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Aliaksandra Sasnovich",
@@ -2611,7 +2489,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Himeno Sakatsume",
@@ -2653,7 +2533,9 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Mia Pohankova",
@@ -2695,7 +2577,9 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Jasmine Paolini",
@@ -2737,7 +2621,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Julia Riera",
@@ -2779,7 +2665,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Laura Pigossi",
@@ -2821,7 +2709,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Carolina Alves",
@@ -2863,7 +2753,9 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Martyna Kubka",
@@ -2905,7 +2797,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Marina Bassols Ribera",
@@ -2947,7 +2841,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Anna Blinkova",
@@ -2989,7 +2885,9 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Lisa Pigato",
@@ -3031,7 +2929,9 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Katrina Scott",
@@ -3073,7 +2973,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Elizabeth Mandlik",
@@ -3115,7 +3017,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Carole Monnet",
@@ -3157,7 +3061,9 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Bianca Andreescu",
@@ -3199,7 +3105,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Martina Capurro Taborda",
@@ -3241,7 +3149,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Jan Kumstat",
@@ -3290,7 +3200,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Andre Ilagan",
@@ -3339,7 +3251,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Keegan Smith",
@@ -3381,7 +3295,9 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Akira Santillan",
@@ -3423,7 +3339,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Petr Bar Biryukov",
@@ -3465,7 +3383,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Shintaro Imai",
@@ -3514,7 +3434,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Alexandre Muller",
@@ -3563,7 +3485,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Aleksandar Vukic",
@@ -3612,7 +3536,9 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Harold Mayot",
@@ -3654,49 +3580,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
-    },
-    {
-     "home": "Hiroki Moriya",
-     "away": "James Mccabe",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "CHALLENGER",
-     "league_label": "ATP Challenger Tour",
-     "context": "Hard, BO3",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Ganador del partido",
-       "pick": "James Mccabe",
-       "prob": 0.7843,
-       "detail": "Hiroki Moriya 22% · James Mccabe 78%",
-       "strong": true
-      },
-      {
-       "label": "Total Juegos O/U",
-       "pick": "UNDER",
-       "prob": 0.5064,
-       "detail": "UNDER 22.5 · 51% · Proyectado 23.8",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Sets",
-       "pick": "James Mccabe",
-       "prob": 0.8487,
-       "detail": "Hándicap Sets -1.5 · 15% · (+561)",
-       "strong": false
-      },
-      {
-       "label": "Juegos 1er Set O/U",
-       "pick": "OVER",
-       "prob": 0.5691,
-       "detail": "OVER 9.5 · 57% · Proyectado 10.0",
-       "strong": false
-      }
-     ],
-     "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Carl Emil Overbeck",
@@ -3738,7 +3624,53 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "Hiroki Moriya",
+     "away": "James Mccabe",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "Hard, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "James Mccabe",
+       "prob": 0.7843,
+       "detail": "Hiroki Moriya 22% · James Mccabe 78%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5064,
+       "detail": "UNDER 22.5 · 51% · Proyectado 23.8",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "James Mccabe",
+       "prob": 0.8487,
+       "detail": "Hándicap Sets -1.5 · 15% · (+561)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5691,
+       "detail": "OVER 9.5 · 57% · Proyectado 10.0",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Koki Matsuda",
@@ -3787,7 +3719,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Fajing Sun",
@@ -3829,7 +3763,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Liam Broady",
@@ -3871,7 +3807,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Masamichi Imamura",
@@ -3913,7 +3851,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Stefanos Sakellaridis",
@@ -3955,7 +3895,9 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Beibit Zhukayev",
@@ -3985,7 +3927,7 @@
        "label": "Hándicap Juegos",
        "pick": "Beibit Zhukayev",
        "prob": 0.676,
-       "detail": "Beibit Zhukayev +5.5 (mercado) · 68%",
+       "detail": "Beibit Zhukayev +4.5 (mercado) · 68%",
        "strong": false
       },
       {
@@ -4004,7 +3946,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Alibek Kachmazov",
@@ -4053,7 +3997,9 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Jie Cui",
@@ -4095,7 +4041,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Filip Peliwo",
@@ -4137,7 +4085,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Elias Ymer",
@@ -4179,7 +4129,9 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Michele Ribecai",
@@ -4228,7 +4180,9 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Clement Tabur",
@@ -4251,7 +4205,7 @@
        "label": "Total Juegos O/U",
        "pick": "OVER",
        "prob": 0.5341,
-       "detail": "OVER 21.5 · 53% · Proyectado 23.9",
+       "detail": "OVER 22.5 · 53% · Proyectado 23.9",
        "strong": false
       },
       {
@@ -4277,7 +4231,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Laslo Djere",
@@ -4326,7 +4282,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Hugo Grenier",
@@ -4375,7 +4333,9 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Daniil Glinka",
@@ -4424,7 +4384,229 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "Dino Prizmic",
+     "away": "Robin Catry",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "ATP Challenger Brest, France Men Singles, Hard, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Dino Prizmic",
+       "prob": 0.7654,
+       "detail": "Dino Prizmic 77% · Robin Catry 23%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5784,
+       "detail": "UNDER 23.5 · 58% · Proyectado 22.9",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Dino Prizmic",
+       "prob": 0.5739,
+       "detail": "Hándicap Sets -1.5 · 57% · (-135)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.6543,
+       "detail": "UNDER 10.5 · 65% · Proyectado 9.8",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "Francesco Maestrelli",
+     "away": "Moez Echargui",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "ATP Challenger Brest, France Men Singles, Hard, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Francesco Maestrelli",
+       "prob": 0.6498,
+       "detail": "Francesco Maestrelli 65% · Moez Echargui 35%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5133,
+       "detail": "OVER 23.5 · 51% · Proyectado 23.7",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Moez Echargui",
+       "prob": 0.5818,
+       "detail": "Hándicap Sets -1.5 · 42% · (+139)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5597,
+       "detail": "OVER 9.5 · 56% · Proyectado 9.9",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "Borna Gojo",
+     "away": "Tom Paris",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "ATP Challenger Brest, France Men Singles, Hard, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Borna Gojo",
+       "prob": 0.8578,
+       "detail": "Borna Gojo 86% · Tom Paris 14%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5224,
+       "detail": "UNDER 22.5 · 52% · Proyectado 22.8",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Borna Gojo",
+       "prob": 0.6315,
+       "detail": "Hándicap Sets -1.5 · 63% · (-171)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5912,
+       "detail": "OVER 9.5 · 59% · Proyectado 9.9",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "Matisse Bobichon",
+     "away": "Michael Geerts",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "ATP Challenger Brest, France Men Singles, Hard, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Michael Geerts",
+       "prob": 0.7648,
+       "detail": "Matisse Bobichon 24% · Michael Geerts 76%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5601,
+       "detail": "UNDER 23.5 · 56% · Proyectado 22.6",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Michael Geerts",
+       "prob": 0.8273,
+       "detail": "Hándicap Sets -1.5 · 17% · (+479)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5908,
+       "detail": "OVER 9.5 · 59% · Proyectado 9.7",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "Felix Balshaw",
+     "away": "Ugo Blanchet",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "ATP Challenger Brest, France Men Singles, Hard, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Ugo Blanchet",
+       "prob": 0.6061000000000001,
+       "detail": "Felix Balshaw 39% · Ugo Blanchet 61%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5036,
+       "detail": "UNDER 23.5 · 50% · Proyectado 23.1",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Ugo Blanchet",
+       "prob": 0.7683,
+       "detail": "Hándicap Sets -1.5 · 23% · (+332)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5949,
+       "detail": "OVER 9.5 · 59% · Proyectado 9.9",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Hugo Dellien",
@@ -4473,56 +4655,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": true
-    },
-    {
-     "home": "Juan Pablo Varillas",
-     "away": "Rodrigo Pacheco Mendez",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "CHALLENGER",
-     "league_label": "ATP Challenger Tour",
-     "context": "ATP Challenger Guayaquil, Ecuador Men Singles, Clay, BO3",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Ganador del partido",
-       "pick": "Rodrigo Pacheco Mendez",
-       "prob": 0.8866,
-       "detail": "Juan Pablo Varillas 11% · Rodrigo Pacheco Mendez 89%",
-       "strong": true
-      },
-      {
-       "label": "Total Juegos O/U",
-       "pick": "UNDER",
-       "prob": 0.5185,
-       "detail": "UNDER 22.5 · 52% · Proyectado 23.5",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Juegos",
-       "pick": "Rodrigo Pacheco Mendez",
-       "prob": 0.763,
-       "detail": "Rodrigo Pacheco Mendez +1.5 (mercado) · 76%",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Sets",
-       "pick": "Rodrigo Pacheco Mendez",
-       "prob": 0.8935,
-       "detail": "Hándicap Sets -1.5 · 11% · (+839)",
-       "strong": false
-      },
-      {
-       "label": "Juegos 1er Set O/U",
-       "pick": "UNDER",
-       "prob": 0.6908000000000001,
-       "detail": "UNDER 9.5 · 69% · Proyectado 9.8",
-       "strong": false
-      }
-     ],
-     "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Alex Barrena",
@@ -4571,7 +4706,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Juan Manuel La Serna",
@@ -4620,7 +4757,53 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "Franco Roncadelli",
+     "away": "Valerio Aboian",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "ATP Challenger Guayaquil, Ecuador Men Singles, Clay, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Franco Roncadelli",
+       "prob": 0.7731,
+       "detail": "Franco Roncadelli 77% · Valerio Aboian 23%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "OVER",
+       "prob": 0.5244,
+       "detail": "OVER 22.5 · 52% · Proyectado 23.3",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Valerio Aboian",
+       "prob": 0.5557000000000001,
+       "detail": "Hándicap Sets -1.5 · 44% · (+125)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 0.5346,
+       "detail": "OVER 9.5 · 53% · Proyectado 9.8",
+       "strong": false
+      }
+     ],
+     "convergence": false,
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Camilo Ugo Carabelli",
@@ -4669,49 +4852,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
-    },
-    {
-     "home": "Franco Roncadelli",
-     "away": "Valerio Aboian",
-     "home_abbrev": "",
-     "away_abbrev": "",
-     "league_code": "CHALLENGER",
-     "league_label": "ATP Challenger Tour",
-     "context": "ATP Challenger Guayaquil, Ecuador Men Singles, Clay, BO3",
-     "extra": "",
-     "markets": [
-      {
-       "label": "Ganador del partido",
-       "pick": "Franco Roncadelli",
-       "prob": 0.7731,
-       "detail": "Franco Roncadelli 77% · Valerio Aboian 23%",
-       "strong": true
-      },
-      {
-       "label": "Total Juegos O/U",
-       "pick": "OVER",
-       "prob": 0.5244,
-       "detail": "OVER 22.5 · 52% · Proyectado 23.3",
-       "strong": false
-      },
-      {
-       "label": "Hándicap Sets",
-       "pick": "Valerio Aboian",
-       "prob": 0.5557000000000001,
-       "detail": "Hándicap Sets -1.5 · 44% · (+125)",
-       "strong": false
-      },
-      {
-       "label": "Juegos 1er Set O/U",
-       "pick": "OVER",
-       "prob": 0.5346,
-       "detail": "OVER 9.5 · 53% · Proyectado 9.8",
-       "strong": false
-      }
-     ],
-     "convergence": false,
-     "momentum_ok": true
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Murphy Cassone",
@@ -4760,7 +4903,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Braden Shick",
@@ -4809,7 +4954,9 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Darwin Blanch",
@@ -4858,7 +5005,9 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Andres Andrade",
@@ -4907,7 +5056,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": true
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Aidan Mayo",
@@ -4956,7 +5107,9 @@
       }
      ],
      "convergence": true,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Bryce Nakashima",
@@ -5005,10 +5158,63 @@
       }
      ],
      "convergence": false,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "Juan Pablo Varillas",
+     "away": "Rodrigo Pacheco Mendez",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "ATP Challenger Guayaquil, Ecuador Men Singles, Clay, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Rodrigo Pacheco Mendez",
+       "prob": 0.8866,
+       "detail": "Juan Pablo Varillas 11% · Rodrigo Pacheco Mendez 89%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5185,
+       "detail": "UNDER 22.5 · 52% · Proyectado 23.5",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Juegos",
+       "pick": "Rodrigo Pacheco Mendez",
+       "prob": 0.763,
+       "detail": "Rodrigo Pacheco Mendez +1.5 (mercado) · 76%",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Rodrigo Pacheco Mendez",
+       "prob": 0.8935,
+       "detail": "Hándicap Sets -1.5 · 11% · (+839)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.6908000000000001,
+       "detail": "UNDER 9.5 · 69% · Proyectado 9.8",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     }
    ],
-   "elapsed_s": 88.5,
+   "elapsed_s": 78.5,
    "sport": "tenis",
    "sport_name": "Tenis",
    "all_leagues": true
@@ -5432,7 +5638,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Roma",
@@ -5502,7 +5710,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Torino",
@@ -5572,7 +5782,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Abha",
@@ -5642,7 +5854,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Bradford City",
@@ -5712,7 +5926,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Fleetwood Town",
@@ -5782,7 +5998,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "CD Cuarte",
@@ -5852,7 +6070,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Atlético Pinatarense",
@@ -5922,7 +6142,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "CF Calamocha",
@@ -5992,7 +6214,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Sestao",
@@ -6062,7 +6286,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "UD Castellonense",
@@ -6132,7 +6358,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Alcalá",
@@ -6202,7 +6430,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Atlético Tordesillas",
@@ -6272,7 +6502,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Ciudad De Lucena",
@@ -6342,7 +6574,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Gimnastica Segoviana",
@@ -6412,7 +6646,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Llanera",
@@ -6482,7 +6718,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Don Benito",
@@ -6552,7 +6790,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Manresa",
@@ -6622,7 +6862,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Arosa",
@@ -6692,7 +6934,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Atlético Paso",
@@ -6762,7 +7006,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "CD Tudelano",
@@ -6832,7 +7078,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Manacor",
@@ -6902,7 +7150,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Recreativo Huelva",
@@ -6972,7 +7222,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Sporting de Alcázar",
@@ -7042,7 +7294,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Hamburg SV",
@@ -7112,7 +7366,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Rot-Weiss Essen",
@@ -7182,7 +7438,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "SG Sonnenhof Großaspach",
@@ -7252,7 +7510,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "VfL Bochum",
@@ -7322,7 +7582,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Borussia Dortmund",
@@ -7392,7 +7654,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Borussia Mönchengladbach",
@@ -7462,7 +7726,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "FC Cologne",
@@ -7532,7 +7798,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "SV Elversberg",
@@ -7602,10 +7870,12 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     }
    ],
-   "elapsed_s": 92.1,
+   "elapsed_s": 89.4,
    "sport": "futbol",
    "sport_name": "Fútbol",
    "all_leagues": true
@@ -7659,7 +7929,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Missouri State Bears",
@@ -7701,10 +7973,12 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     }
    ],
-   "elapsed_s": 11.9,
+   "elapsed_s": 9.4,
    "sport": "amfut",
    "sport_name": "NFL/NCAAF",
    "all_leagues": true
@@ -7864,7 +8138,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "New York Knicks",
@@ -7906,7 +8182,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "San Antonio Spurs",
@@ -7948,7 +8226,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "Los Angeles Lakers",
@@ -7990,7 +8270,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "FC BAYERN MUNICH",
@@ -8032,7 +8314,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "CRVENA ZVEZDA MERIDIANBET BELGRADE",
@@ -8074,7 +8358,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "VALENCIA BASKET",
@@ -8116,7 +8402,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "DUBAI BASKETBALL",
@@ -8158,7 +8446,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "PANATHINAIKOS AKTOR ATHENS",
@@ -8200,7 +8490,9 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     },
     {
      "home": "KOSNER BASKONIA VITORIA-GASTEIZ",
@@ -8242,13 +8534,16 @@
       }
      ],
      "convergence": null,
-     "momentum_ok": false
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
     }
    ],
-   "elapsed_s": 26.0,
+   "elapsed_s": 23.9,
    "sport": "basquet",
    "sport_name": "Básquetbol",
    "all_leagues": true
   }
- }
+ },
+ "historico": true
 }

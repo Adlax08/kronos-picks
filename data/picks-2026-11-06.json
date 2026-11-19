@@ -1,0 +1,1223 @@
+{
+ "date": "2026-11-06",
+ "generated_at": "2026-11-06T21:50:09",
+ "sports_total": "6 partidos",
+ "sports": [
+  {
+   "key": "beisbol",
+   "name": "Béisbol",
+   "icon": "sports_baseball",
+   "leagues": [
+    {
+     "code": "MLB",
+     "name": "Major League"
+    },
+    {
+     "code": "KBO",
+     "name": "KBO League"
+    },
+    {
+     "code": "NPB",
+     "name": "Nippon Baseball"
+    }
+   ]
+  },
+  {
+   "key": "tenis",
+   "name": "Tenis",
+   "icon": "sports_tennis",
+   "leagues": [
+    {
+     "code": "ATP",
+     "name": "ATP Tour"
+    },
+    {
+     "code": "WTA",
+     "name": "WTA Tour"
+    },
+    {
+     "code": "CHA",
+     "name": "ATP Challenger Tour"
+    }
+   ]
+  },
+  {
+   "key": "futbol",
+   "name": "Fútbol",
+   "icon": "sports_soccer",
+   "leagues": [
+    {
+     "code": "ENG",
+     "name": "Premier League"
+    },
+    {
+     "code": "ESP",
+     "name": "La Liga"
+    },
+    {
+     "code": "ITA",
+     "name": "Serie A"
+    },
+    {
+     "code": "GER",
+     "name": "Bundesliga"
+    },
+    {
+     "code": "FRA",
+     "name": "Ligue 1"
+    },
+    {
+     "code": "NED",
+     "name": "Eredivisie"
+    },
+    {
+     "code": "POR",
+     "name": "Primeira Liga"
+    },
+    {
+     "code": "KSA",
+     "name": "Saudi Pro League"
+    },
+    {
+     "code": "FAC",
+     "name": "FA Cup"
+    },
+    {
+     "code": "CAR",
+     "name": "Carabao Cup"
+    },
+    {
+     "code": "CDR",
+     "name": "Copa del Rey"
+    },
+    {
+     "code": "CI",
+     "name": "Coppa Italia"
+    },
+    {
+     "code": "CDF",
+     "name": "Coupe de France"
+    },
+    {
+     "code": "DFB",
+     "name": "DFB Pokal"
+    },
+    {
+     "code": "WCH",
+     "name": "Champions Femenina"
+    },
+    {
+     "code": "UCL",
+     "name": "Champions League"
+    },
+    {
+     "code": "UEL",
+     "name": "Europa League"
+    },
+    {
+     "code": "UECL",
+     "name": "Conference League"
+    },
+    {
+     "code": "MEX",
+     "name": "Liga MX"
+    },
+    {
+     "code": "LIB",
+     "name": "Copa Libertadores"
+    },
+    {
+     "code": "SUD",
+     "name": "Copa Sudamericana"
+    },
+    {
+     "code": "AMI",
+     "name": "Amistosos Int. (Selecciones)"
+    },
+    {
+     "code": "UNL",
+     "name": "UEFA Nations League"
+    },
+    {
+     "code": "CNL",
+     "name": "Concacaf Nations League"
+    },
+    {
+     "code": "AFQ",
+     "name": "Clasificatoria AFCON"
+    },
+    {
+     "code": "AFN",
+     "name": "Copa Africana de Naciones"
+    }
+   ]
+  },
+  {
+   "key": "amfut",
+   "name": "NFL/NCAAF",
+   "icon": "sports_football",
+   "leagues": [
+    {
+     "code": "NFL",
+     "name": "NFL"
+    },
+    {
+     "code": "NCAAF",
+     "name": "NCAAF (College)"
+    }
+   ]
+  },
+  {
+   "key": "basquet",
+   "name": "Básquetbol",
+   "icon": "sports_basketball",
+   "leagues": [
+    {
+     "code": "NBA",
+     "name": "NBA"
+    },
+    {
+     "code": "WNBA",
+     "name": "WNBA"
+    },
+    {
+     "code": "EUR",
+     "name": "Euroliga"
+    },
+    {
+     "code": "KOR",
+     "name": "KBL Corea"
+    },
+    {
+     "code": "CHN",
+     "name": "CBA China"
+    },
+    {
+     "code": "FRA",
+     "name": "LNB Pro A"
+    },
+    {
+     "code": "ESP",
+     "name": "Liga ACB"
+    },
+    {
+     "code": "GER",
+     "name": "BBL Alemania"
+    }
+   ]
+  }
+ ],
+ "results": {
+  "beisbol": {
+   "ok": true,
+   "date": "2026-11-06",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "sport": "beisbol",
+   "sport_name": "Béisbol",
+   "all_leagues": true,
+   "n": 0,
+   "picks": [],
+   "predictions": [],
+   "message": "0 partidos proyectados",
+   "elapsed_s": 0.0
+  },
+  "tenis": {
+   "ok": true,
+   "date": "2026-11-06",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 1,
+   "message": "1 partidos proyectados",
+   "picks": [
+    {
+     "match": "Alexandra Eala vs Antonia Ruzic",
+     "market": "HANDICAP JUEGOS",
+     "pick": "Antonia Ruzic +4.5",
+     "prob": 0.6765,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "odds": 1.97,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Aliaksandra Sasnovich vs Maria Sakkari",
+     "market": "ML",
+     "pick": "Maria Sakkari",
+     "prob": 0.76,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "odds": 1.63,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Anastasia Zakharova vs Lucrezia Stefanini",
+     "market": "ML",
+     "pick": "Anastasia Zakharova",
+     "prob": 0.7117,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Ben Shelton vs Tommy Paul",
+     "market": "SET1 JUEGOS",
+     "pick": "UNDER 9.5",
+     "prob": 0.6209,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "odds": 2.75,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Casper Ruud vs Nuno Borges",
+     "market": "ML",
+     "pick": "Casper Ruud",
+     "prob": 0.8644,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "ATP",
+     "league_label": "ATP Tour",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Janice Tjen vs Polina Kudermetova",
+     "market": "ML",
+     "pick": "Janice Tjen",
+     "prob": 0.7328,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "odds": 1.5,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Justina Mikulskyte vs Noma Noha Akugue",
+     "market": "HANDICAP JUEGOS",
+     "pick": "Justina Mikulskyte +5.5",
+     "prob": 0.7418,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "odds": 1.97,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Maaya Rajeshwaran Revathi vs Robin Montgomery",
+     "market": "HANDICAP JUEGOS",
+     "pick": "Maaya Rajeshwaran Revathi +5.5",
+     "prob": 0.6275,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "odds": 1.87,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Magda Linette vs Mai Hontama",
+     "market": "ML",
+     "pick": "Magda Linette",
+     "prob": 0.8573,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "odds": 1.37,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Martyna Kubka vs Sofya Lansere",
+     "market": "HANDICAP JUEGOS",
+     "pick": "Sofya Lansere +3.5",
+     "prob": 0.6313,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "odds": 1.8,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    }
+   ],
+   "predictions": [
+    {
+     "home": "Anastasia Zakharova",
+     "away": "Lucrezia Stefanini",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "context": "Chennai Open, Hard, Ronda: Quarterfinal, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Anastasia Zakharova",
+       "prob": 0.7117,
+       "detail": "Anastasia Zakharova 71% · Lucrezia Stefanini 29%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5329999999999999,
+       "detail": "UNDER 21.5 · 53% · Proyectado 21.7",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Lucrezia Stefanini",
+       "prob": 0.5479,
+       "detail": "Hándicap Sets -1.5 · 45% · (+121)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.5138,
+       "detail": "UNDER 9.5 · 51% · Proyectado 9.3",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    }
+   ],
+   "elapsed_s": 210.3,
+   "sport": "tenis",
+   "sport_name": "Tenis",
+   "all_leagues": true
+  },
+  "futbol": {
+   "ok": true,
+   "date": "2026-11-06",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 1,
+   "message": "1 partidos proyectados",
+   "picks": [
+    {
+     "match": "Atlante vs Santos",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.75656364398119,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "MEX",
+     "league_label": "Liga MX",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Atlético de San Luis vs FC Juárez",
+     "market": "1X2",
+     "pick": "1X2: HOME (1)",
+     "prob": 0.6831015223852797,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "MEX",
+     "league_label": "Liga MX",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Bristol Rovers vs Cambridge United",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.7520742735527508,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "FAC",
+     "league_label": "FA Cup",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Everton vs Coventry City",
+     "market": "1X2",
+     "pick": "1X2: HOME (1)",
+     "prob": 0.710854143819081,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "ENG",
+     "league_label": "Premier League",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "FC Famalicao vs Arouca",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.7637044688368397,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "POR",
+     "league_label": "Primeira Liga",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Hamburg SV vs Borussia Mönchengladbach",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.6986718091166684,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "GER",
+     "league_label": "Bundesliga",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Necaxa vs Tijuana",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8243767949174191,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "MEX",
+     "league_label": "Liga MX",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Olympique De Cayenne vs AS Etoile Matoury",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8407226323870995,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Oxford City vs Leicester City",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8072566686569377,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "FAC",
+     "league_label": "FA Cup",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Sevilla vs Alavés",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8270194720944433,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "ESP",
+     "league_label": "La Liga",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Toulouse vs Strasbourg",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8418751127908294,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "FRA",
+     "league_label": "Ligue 1",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Venezia vs Udinese",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.7905972017262326,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "ITA",
+     "league_label": "Serie A",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Willem II vs PEC Zwolle",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.6684240285160661,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "NED",
+     "league_label": "Eredivisie",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    }
+   ],
+   "predictions": [
+    {
+     "home": "Atlante",
+     "away": "Santos",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "MEX",
+     "league_label": "Liga MX",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "1X2",
+       "pick": "Santos",
+       "prob": 0.5094249805558928,
+       "detail": "Local 28% · Empate 21% · Visitante 51%",
+       "strong": false
+      },
+      {
+       "label": "Doble Oportunidad",
+       "pick": "12",
+       "prob": 0.7874763102447069,
+       "detail": "1X 49% · X2 72% · 12 79%",
+       "strong": false
+      },
+      {
+       "label": "Over/Under 2.5",
+       "pick": "OVER",
+       "prob": 0.5531886837683613,
+       "detail": "OVER 2.5 goles · 55%",
+       "strong": false
+      },
+      {
+       "label": "Over/Under 1.5",
+       "pick": "OVER",
+       "prob": 0.75656364398119,
+       "detail": "OVER 1.5 goles · 76%",
+       "strong": false
+      },
+      {
+       "label": "BTTS (Ambos marcan)",
+       "pick": "SÍ",
+       "prob": 0.5098275836699948,
+       "detail": "BTTS Sí 51%",
+       "strong": false
+      },
+      {
+       "label": "Total Goles",
+       "pick": "-",
+       "prob": null,
+       "detail": "Goles esperados 2.86",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Asiático",
+       "pick": "AWAY +1.5",
+       "prob": 0.9618113579965157,
+       "detail": "Línea +1.5 · AWAY 96%",
+       "strong": true
+      },
+      {
+       "label": "Equipo O/U 1.5",
+       "pick": "LOCAL UNDER",
+       "prob": 0.8217719867412321,
+       "detail": "LOCAL UNDER 1.5 goles 82%",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    }
+   ],
+   "elapsed_s": 101.5,
+   "sport": "futbol",
+   "sport_name": "Fútbol",
+   "all_leagues": true
+  },
+  "amfut": {
+   "ok": true,
+   "date": "2026-11-06",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 2,
+   "message": "2 partidos proyectados",
+   "picks": [
+    {
+     "match": "Virginia Tech Hokies @ SMU Mustangs",
+     "market": "Moneyline",
+     "pick": "ML: HOME (SMU Mustangs)",
+     "prob": 0.7473,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NCAAF",
+     "league_label": "NCAAF (College)",
+     "odds": 1.459,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    }
+   ],
+   "predictions": [
+    {
+     "home": "Illinois Fighting Illini",
+     "away": "Nebraska Cornhuskers",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NCAAF",
+     "league_label": "NCAAF (College)",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Illinois Fighting Illini",
+       "prob": 0.5863668892405999,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "Illinois Fighting Illini",
+       "prob": 0.5425289369932255,
+       "detail": "Illinois Fighting Illini +4.5 · 54%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5246648397289061,
+       "detail": "Línea 52.5 · OVER 48% / UNDER 52%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 50.6",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "Arizona Wildcats",
+     "away": "TCU Horned Frogs",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NCAAF",
+     "league_label": "NCAAF (College)",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Arizona Wildcats",
+       "prob": 0.5980260395511212,
+       "detail": "Local 60% · Visitante 40%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "TCU Horned Frogs",
+       "prob": 0.5296254791554172,
+       "detail": "TCU Horned Frogs +6 · 53%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5031662267060477,
+       "detail": "Línea 46.5 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 46.7",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    }
+   ],
+   "elapsed_s": 12.2,
+   "sport": "amfut",
+   "sport_name": "NFL/NCAAF",
+   "all_leagues": true
+  },
+  "basquet": {
+   "ok": true,
+   "date": "2026-11-06",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 2,
+   "message": "2 partidos proyectados",
+   "picks": [
+    {
+     "match": "Boston Celtics @ Charlotte Hornets",
+     "market": "Spread",
+     "pick": "SPREAD: Charlotte Hornets +10.5",
+     "prob": 0.7212,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "odds": 1.926,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Boston Celtics @ Charlotte Hornets",
+     "market": "Totales",
+     "pick": "TOTAL: OVER 209.5",
+     "prob": 0.7507,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "odds": 1.935,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "CRVENA ZVEZDA MERIDIANBET BELGRADE @ OLYMPIACOS PIRAEUS",
+     "market": "Moneyline",
+     "pick": "ML: HOME (OLYMPIACOS PIRAEUS)",
+     "prob": 0.7541,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "EUR",
+     "league_label": "Euroliga",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "MACCABI RAPYD TEL AVIV @ PARTIZAN MOZZART BET BELGRADE",
+     "market": "Moneyline",
+     "pick": "ML: HOME (PARTIZAN MOZZART BET BELGRADE)",
+     "prob": 0.744,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "EUR",
+     "league_label": "Euroliga",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Oklahoma City Thunder @ Memphis Grizzlies",
+     "market": "Moneyline",
+     "pick": "ML: AWAY (Oklahoma City Thunder)",
+     "prob": 0.8608,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "odds": 1.556,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Oklahoma City Thunder @ Memphis Grizzlies",
+     "market": "Spread",
+     "pick": "SPREAD: Oklahoma City Thunder -4.5",
+     "prob": 0.7835,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "odds": 1.962,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Oklahoma City Thunder @ Memphis Grizzlies",
+     "market": "Totales",
+     "pick": "TOTAL: OVER 223.5",
+     "prob": 0.7245,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "odds": 1.87,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Philadelphia 76ers @ Cleveland Cavaliers",
+     "market": "Moneyline",
+     "pick": "ML: HOME (Cleveland Cavaliers)",
+     "prob": 0.6471,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "odds": 2.28,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Philadelphia 76ers @ Cleveland Cavaliers",
+     "market": "Spread",
+     "pick": "SPREAD: Cleveland Cavaliers +2.5",
+     "prob": 0.7016,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "odds": 1.952,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Philadelphia 76ers @ Cleveland Cavaliers",
+     "market": "Totales",
+     "pick": "TOTAL: UNDER 232.5",
+     "prob": 0.7017,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "odds": 1.909,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Portland Trail Blazers @ Los Angeles Lakers",
+     "market": "Totales",
+     "pick": "TOTAL: UNDER 231.5",
+     "prob": 0.6682,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "odds": 1.926,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "San Antonio Spurs @ Sacramento Kings",
+     "market": "Spread",
+     "pick": "SPREAD: Sacramento Kings +17.5",
+     "prob": 0.727,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "odds": 1.909,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Utah Jazz @ Dallas Mavericks",
+     "market": "Totales",
+     "pick": "TOTAL: OVER 225.5",
+     "prob": 0.7946,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "odds": 1.909,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Washington Wizards @ Atlanta Hawks",
+     "market": "Moneyline",
+     "pick": "ML: HOME (Atlanta Hawks)",
+     "prob": 0.8046,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "odds": 1.324,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Washington Wizards @ Atlanta Hawks",
+     "market": "Spread",
+     "pick": "SPREAD: Atlanta Hawks -8.5",
+     "prob": 0.6044,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "odds": 1.935,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Washington Wizards @ Atlanta Hawks",
+     "market": "Totales",
+     "pick": "TOTAL: OVER 227.5",
+     "prob": 0.6612,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "odds": 1.893,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    }
+   ],
+   "predictions": [
+    {
+     "home": "Los Angeles Lakers",
+     "away": "Portland Trail Blazers",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Los Angeles Lakers",
+       "prob": 0.5869709529993623,
+       "detail": "Local 59% · Visitante 41%",
+       "strong": false
+      },
+      {
+       "label": "Spread",
+       "pick": "Portland Trail Blazers",
+       "prob": 0.532409139986193,
+       "detail": "Portland Trail Blazers +3.5 · 53%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.6681601036382389,
+       "detail": "Línea 231.5 · OVER 33% / UNDER 67%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 220.9",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "Sacramento Kings",
+     "away": "San Antonio Spurs",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "San Antonio Spurs",
+       "prob": 0.7404555445385668,
+       "detail": "Local 26% · Visitante 74%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "Sacramento Kings",
+       "prob": 0.7270483642521632,
+       "detail": "Sacramento Kings +17.5 · 73%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "UNDER",
+       "prob": 0.5151809180862942,
+       "detail": "Línea 231.5 · OVER 48% / UNDER 52%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 230.6",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    }
+   ],
+   "elapsed_s": 27.2,
+   "sport": "basquet",
+   "sport_name": "Básquetbol",
+   "all_leagues": true
+  }
+ },
+ "historico": true
+}

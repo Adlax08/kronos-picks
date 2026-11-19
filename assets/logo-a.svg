@@ -1,0 +1,37 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Proyecto Kronos — monograma K con cronómetro">
+  <defs>
+    <linearGradient id="a-bg" x1="16" y1="8" x2="240" y2="248" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1C2635"/>
+      <stop offset="1" stop-color="#0E131B"/>
+    </linearGradient>
+    <linearGradient id="a-lime" x1="52" y1="38" x2="212" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#D9F99D"/>
+      <stop offset="0.55" stop-color="#A3E635"/>
+      <stop offset="1" stop-color="#84CC16"/>
+    </linearGradient>
+    <radialGradient id="a-glow" cx="0" cy="0" r="1" gradientTransform="translate(168 72) rotate(132) scale(120)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A3E635" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#A3E635" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="8" y="8" width="240" height="240" rx="62" fill="url(#a-bg)"/>
+  <rect x="8" y="8" width="240" height="240" rx="62" fill="url(#a-glow)"/>
+  <rect x="10" y="10" width="236" height="236" rx="60" stroke="#A3E635" stroke-opacity=".26" stroke-width="4"/>
+
+  <!-- Cronómetro: arco exterior + arco interior -->
+  <path d="M128 40a88 88 0 1 1-62.23 25.77" stroke="url(#a-lime)" stroke-width="11" stroke-linecap="round"/>
+  <path d="M128 66a62 62 0 1 1-43.84 18.16" stroke="#A3E635" stroke-opacity=".2" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Marcas -->
+  <path d="M128 40v15" stroke="#E8EDF6" stroke-width="9" stroke-linecap="round"/>
+  <path d="M216 128h-14M54 128H40M128 216v-14" stroke="#4A5A76" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Monograma K -->
+  <path d="M100 88v80" stroke="#A3E635" stroke-width="19" stroke-linecap="square"/>
+  <path d="M153 88 111 128" stroke="#E8EDF6" stroke-width="17" stroke-linecap="square"/>
+  <path d="M111 128 159 168" stroke="#E8EDF6" stroke-width="17" stroke-linecap="square"/>
+
+  <!-- Aguja del cronómetro -->
+  <circle cx="128" cy="128" r="6" fill="#A3E635"/>
+</svg>

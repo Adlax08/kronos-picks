@@ -1,0 +1,950 @@
+{
+ "date": "2026-11-12",
+ "generated_at": "2026-11-12T22:12:54",
+ "sports_total": "5 partidos",
+ "sports": [
+  {
+   "key": "beisbol",
+   "name": "Béisbol",
+   "icon": "sports_baseball",
+   "leagues": [
+    {
+     "code": "MLB",
+     "name": "Major League"
+    },
+    {
+     "code": "KBO",
+     "name": "KBO League"
+    },
+    {
+     "code": "NPB",
+     "name": "Nippon Baseball"
+    }
+   ]
+  },
+  {
+   "key": "tenis",
+   "name": "Tenis",
+   "icon": "sports_tennis",
+   "leagues": [
+    {
+     "code": "ATP",
+     "name": "ATP Tour"
+    },
+    {
+     "code": "WTA",
+     "name": "WTA Tour"
+    },
+    {
+     "code": "CHA",
+     "name": "ATP Challenger Tour"
+    }
+   ]
+  },
+  {
+   "key": "futbol",
+   "name": "Fútbol",
+   "icon": "sports_soccer",
+   "leagues": [
+    {
+     "code": "ENG",
+     "name": "Premier League"
+    },
+    {
+     "code": "ESP",
+     "name": "La Liga"
+    },
+    {
+     "code": "ITA",
+     "name": "Serie A"
+    },
+    {
+     "code": "GER",
+     "name": "Bundesliga"
+    },
+    {
+     "code": "FRA",
+     "name": "Ligue 1"
+    },
+    {
+     "code": "NED",
+     "name": "Eredivisie"
+    },
+    {
+     "code": "POR",
+     "name": "Primeira Liga"
+    },
+    {
+     "code": "KSA",
+     "name": "Saudi Pro League"
+    },
+    {
+     "code": "FAC",
+     "name": "FA Cup"
+    },
+    {
+     "code": "CAR",
+     "name": "Carabao Cup"
+    },
+    {
+     "code": "CDR",
+     "name": "Copa del Rey"
+    },
+    {
+     "code": "CI",
+     "name": "Coppa Italia"
+    },
+    {
+     "code": "CDF",
+     "name": "Coupe de France"
+    },
+    {
+     "code": "DFB",
+     "name": "DFB Pokal"
+    },
+    {
+     "code": "WCH",
+     "name": "Champions Femenina"
+    },
+    {
+     "code": "UCL",
+     "name": "Champions League"
+    },
+    {
+     "code": "UEL",
+     "name": "Europa League"
+    },
+    {
+     "code": "UECL",
+     "name": "Conference League"
+    },
+    {
+     "code": "MEX",
+     "name": "Liga MX"
+    },
+    {
+     "code": "LIB",
+     "name": "Copa Libertadores"
+    },
+    {
+     "code": "SUD",
+     "name": "Copa Sudamericana"
+    },
+    {
+     "code": "AMI",
+     "name": "Amistosos Int. (Selecciones)"
+    },
+    {
+     "code": "UNL",
+     "name": "UEFA Nations League"
+    },
+    {
+     "code": "CNL",
+     "name": "Concacaf Nations League"
+    },
+    {
+     "code": "AFQ",
+     "name": "Clasificatoria AFCON"
+    },
+    {
+     "code": "AFN",
+     "name": "Copa Africana de Naciones"
+    }
+   ]
+  },
+  {
+   "key": "amfut",
+   "name": "NFL/NCAAF",
+   "icon": "sports_football",
+   "leagues": [
+    {
+     "code": "NFL",
+     "name": "NFL"
+    },
+    {
+     "code": "NCAAF",
+     "name": "NCAAF (College)"
+    }
+   ]
+  },
+  {
+   "key": "basquet",
+   "name": "Básquetbol",
+   "icon": "sports_basketball",
+   "leagues": [
+    {
+     "code": "NBA",
+     "name": "NBA"
+    },
+    {
+     "code": "WNBA",
+     "name": "WNBA"
+    },
+    {
+     "code": "NCAA",
+     "name": "NCAA (College)"
+    },
+    {
+     "code": "EUR",
+     "name": "Euroliga"
+    },
+    {
+     "code": "KOR",
+     "name": "KBL Corea"
+    },
+    {
+     "code": "CHN",
+     "name": "CBA China"
+    },
+    {
+     "code": "FRA",
+     "name": "LNB Pro A"
+    },
+    {
+     "code": "ESP",
+     "name": "Liga ACB"
+    },
+    {
+     "code": "GER",
+     "name": "BBL Alemania"
+    },
+    {
+     "code": "TUR",
+     "name": "BSL Turquia"
+    },
+    {
+     "code": "ITA",
+     "name": "Lega A Italia"
+    },
+    {
+     "code": "GRE",
+     "name": "Basket League Grecia"
+    },
+    {
+     "code": "ISR",
+     "name": "Liga de Israel"
+    },
+    {
+     "code": "ABA",
+     "name": "ABA Liga (Adriatico)"
+    },
+    {
+     "code": "LTU",
+     "name": "LKL Lituania"
+    }
+   ]
+  }
+ ],
+ "results": {
+  "beisbol": {
+   "ok": true,
+   "date": "2026-11-12",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "sport": "beisbol",
+   "sport_name": "Béisbol",
+   "all_leagues": true,
+   "n": 0,
+   "picks": [],
+   "predictions": [],
+   "message": "0 partidos proyectados",
+   "elapsed_s": 0.0
+  },
+  "tenis": {
+   "ok": true,
+   "date": "2026-11-12",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 2,
+   "message": "2 partidos proyectados",
+   "picks": [
+    {
+     "match": "Abedallah Shelbayh vs Marcos Giron",
+     "market": "ML",
+     "pick": "Marcos Giron",
+     "prob": 0.8316,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PENDIENTE"
+    },
+    {
+     "match": "Andrea Lazaro Garcia vs Elizabeth Mandlik",
+     "market": "ML",
+     "pick": "Andrea Lazaro Garcia",
+     "prob": 0.7329,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Bianca Andreescu vs Marina Bassols Ribera",
+     "market": "ML",
+     "pick": "Bianca Andreescu",
+     "prob": 0.8107,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "WTA",
+     "league_label": "WTA Tour",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Karol Filar vs Tadeas Paroulek",
+     "market": "ML",
+     "pick": "Tadeas Paroulek",
+     "prob": 0.8355,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PENDIENTE"
+    }
+   ],
+   "predictions": [
+    {
+     "home": "Tomas Pinho",
+     "away": "Zach Stephens",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "Knoxville challenger, Hard, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Zach Stephens",
+       "prob": 0.9289000000000001,
+       "detail": "Tomas Pinho 7% · Zach Stephens 93%",
+       "strong": true
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Zach Stephens",
+       "prob": 0.938,
+       "detail": "Hándicap Sets -1.5 · 6% · (+1514)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "OVER",
+       "prob": 1.0,
+       "detail": "OVER 7.5 · 100% · Proyectado 8.9",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": true,
+     "home_logo": "",
+     "away_logo": ""
+    },
+    {
+     "home": "Amogh Prabhakar",
+     "away": "Hugh Winter",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "CHALLENGER",
+     "league_label": "ATP Challenger Tour",
+     "context": "Knoxville challenger, Hard, BO3",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Ganador del partido",
+       "pick": "Hugh Winter",
+       "prob": 0.6333,
+       "detail": "Amogh Prabhakar 37% · Hugh Winter 63%",
+       "strong": true
+      },
+      {
+       "label": "Total Juegos O/U",
+       "pick": "UNDER",
+       "prob": 0.5473,
+       "detail": "UNDER 21.5 · 55% · Proyectado 21.1",
+       "strong": false
+      },
+      {
+       "label": "Hándicap Sets",
+       "pick": "Hugh Winter",
+       "prob": 0.7051000000000001,
+       "detail": "Hándicap Sets -1.5 · 29% · (+239)",
+       "strong": false
+      },
+      {
+       "label": "Juegos 1er Set O/U",
+       "pick": "UNDER",
+       "prob": 0.5177,
+       "detail": "UNDER 9.5 · 52% · Proyectado 9.7",
+       "strong": false
+      }
+     ],
+     "convergence": true,
+     "momentum_ok": false,
+     "home_logo": "",
+     "away_logo": ""
+    }
+   ],
+   "elapsed_s": 207.0,
+   "sport": "tenis",
+   "sport_name": "Tenis",
+   "all_leagues": true,
+   "picks_total_brutos": 1,
+   "picks_policy": {
+    "mercados_excluidos": [
+     "HANDICAP JUEGOS",
+     "SET1 JUEGOS"
+    ],
+    "min_prob": {
+     "CHALLENGER": 0.7
+    },
+    "conservados": 1,
+    "descartados": 0
+   }
+  },
+  "futbol": {
+   "ok": true,
+   "date": "2026-11-12",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 0,
+   "message": "Sin partidos pendientes para esa liga y fecha.",
+   "picks": [
+    {
+     "match": "Albania vs Finland",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.7571153729167455,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "UNL",
+     "league_label": "UEFA Nations League",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Armenia vs Cyprus",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8257666503938165,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "UNL",
+     "league_label": "UEFA Nations League",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Barcelona (W) vs Arsenal (W)",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.7696036406791003,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "WCH",
+     "league_label": "Champions Femenina",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "CD Tarancon vs Levante",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8511427083350123,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "CDR",
+     "league_label": "Copa del Rey",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Cameroon vs Namibia",
+     "market": "Doble Oportunidad",
+     "pick": "DO: 1X",
+     "prob": 0.902882250920763,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "AFQ",
+     "league_label": "Clasificatoria AFCON",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Chambéry Savoie vs Grenoble",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.737531836949421,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "CDF",
+     "league_label": "Coupe de France",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Congo DR vs Sierra Leone",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.830108429869798,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "AFQ",
+     "league_label": "Clasificatoria AFCON",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Curaçao vs Panama",
+     "market": "O/U 2.5",
+     "pick": "O/U 2.5: OVER",
+     "prob": 0.7234996157014979,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "CNL",
+     "league_label": "Concacaf Nations League",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Czechia vs Spain",
+     "market": "Doble Oportunidad",
+     "pick": "DO: X2",
+     "prob": 0.8830902598282137,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "UNL",
+     "league_label": "UEFA Nations League",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "England vs Croatia",
+     "market": "1X2",
+     "pick": "1X2: HOME (1)",
+     "prob": 0.8375898891316856,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "UNL",
+     "league_label": "UEFA Nations League",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Italy vs France",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.8081881294106152,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "UNL",
+     "league_label": "UEFA Nations League",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Ivory Coast vs Gambia",
+     "market": "Doble Oportunidad",
+     "pick": "DO: 1X",
+     "prob": 0.8380398032437055,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "AFQ",
+     "league_label": "Clasificatoria AFCON",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "Lithuania vs Suriname",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.7559199587041483,
+     "tier": "BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "AMI",
+     "league_label": "Amistosos Int. (Selecciones)",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Malta vs Eswatini",
+     "market": "1X2",
+     "pick": "1X2: HOME (1)",
+     "prob": 0.9019436885734591,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "AMI",
+     "league_label": "Amistosos Int. (Selecciones)",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "PERDIDO"
+    },
+    {
+     "match": "Montenegro vs Latvia",
+     "market": "Doble Oportunidad",
+     "pick": "DO: 1X",
+     "prob": 0.95,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "UNL",
+     "league_label": "UEFA Nations League",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "New Zealand vs India",
+     "market": "O/U 1.5",
+     "pick": "O/U 1.5: OVER",
+     "prob": 0.832326742738885,
+     "tier": "MUY BUENO",
+     "units": null,
+     "note": null,
+     "league_code": "AMI",
+     "league_label": "Amistosos Int. (Selecciones)",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "San Marino vs Belarus",
+     "market": "1X2",
+     "pick": "1X2: AWAY (2)",
+     "prob": 0.8666216771221017,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "UNL",
+     "league_label": "UEFA Nations League",
+     "odds": null,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    }
+   ],
+   "predictions": [],
+   "elapsed_s": 0.0,
+   "sport": "futbol",
+   "sport_name": "Fútbol",
+   "all_leagues": true
+  },
+  "amfut": {
+   "ok": true,
+   "date": "2026-11-12",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 1,
+   "message": "1 partidos proyectados",
+   "picks": [
+    {
+     "match": "Washington Commanders @ New York Giants",
+     "market": "Moneyline",
+     "pick": "ML: HOME (New York Giants)",
+     "prob": 0.721,
+     "tier": "TOP PICK",
+     "units": "2.0",
+     "note": ">=72% · momio 1.8 · EV +29.8%",
+     "league_code": "NFL",
+     "league_label": "NFL",
+     "odds": 1.8,
+     "line": null,
+     "edge": null,
+     "ev": null
+    }
+   ],
+   "predictions": [
+    {
+     "home": "New York Giants",
+     "away": "Washington Commanders",
+     "home_logo": "data/logos/c3bffe76505419cd.png",
+     "away_logo": "data/logos/3c88255aa6732c55.png",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NFL",
+     "league_label": "NFL",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "New York Giants",
+       "prob": 0.7209711777308954,
+       "detail": "Local 72% · Visitante 28%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "New York Giants",
+       "prob": 0.5815801138894432,
+       "detail": "New York Giants -1.5 · 58%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.565568926251804,
+       "detail": "Línea 40.5 · OVER 57% / UNDER 43%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 45.2",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    }
+   ],
+   "elapsed_s": 14.6,
+   "sport": "amfut",
+   "sport_name": "NFL/NCAAF",
+   "all_leagues": true,
+   "picks_total_brutos": 1,
+   "picks_policy": {
+    "mercados_excluidos": [
+     "Spread",
+     "Totales"
+    ],
+    "min_prob": {
+     "NFL": 0.7
+    },
+    "conservados": 1,
+    "descartados": 0
+   }
+  },
+  "basquet": {
+   "ok": true,
+   "date": "2026-11-12",
+   "league": "ALL",
+   "league_label": "Todas las ligas",
+   "n": 2,
+   "message": "2 partidos proyectados",
+   "picks": [
+    {
+     "match": "Dallas Mavericks @ Minnesota Timberwolves",
+     "market": "Moneyline",
+     "pick": "ML: HOME (Minnesota Timberwolves)",
+     "prob": 0.7705,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "odds": 1.448,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    },
+    {
+     "match": "FC BAYERN MUNICH @ VALENCIA BASKET",
+     "market": "Moneyline",
+     "pick": "ML: HOME (VALENCIA BASKET)",
+     "prob": 0.8759,
+     "tier": "TOP PICK",
+     "units": null,
+     "note": null,
+     "league_code": "EUR",
+     "league_label": "Euroliga",
+     "odds": 1.267,
+     "line": null,
+     "edge": null,
+     "ev": null,
+     "estado": "GANADO"
+    }
+   ],
+   "predictions": [
+    {
+     "home": "Phoenix Suns",
+     "away": "Charlotte Hornets",
+     "home_logo": "data/logos/9d9eacf3b681ebcc.png",
+     "away_logo": "data/logos/eaaa95dd61f91740.png",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "NBA",
+     "league_label": "NBA",
+     "context": "",
+     "extra": "",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "Phoenix Suns",
+       "prob": 0.6611818396370559,
+       "detail": "Local 66% · Visitante 34%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "Charlotte Hornets",
+       "prob": 0.507127706488917,
+       "detail": "Charlotte Hornets +6.5 · 51%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.5770408091028343,
+       "detail": "Línea 214.5 · OVER 58% / UNDER 42%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 223.9",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    },
+    {
+     "home": "KoGas",
+     "away": "Goyang Sono",
+     "home_logo": "data/logos/ffa7d0af327b9f44.png",
+     "away_logo": "data/logos/0e9b23701060c063.png",
+     "home_abbrev": "",
+     "away_abbrev": "",
+     "league_code": "KOR",
+     "league_label": "KBL Corea",
+     "context": "Sin histórico de liga · probabilidad base",
+     "extra": "Sin histórico de liga · probabilidad base",
+     "markets": [
+      {
+       "label": "Moneyline",
+       "pick": "KoGas",
+       "prob": 0.6173860034896909,
+       "detail": "Local 62% · Visitante 38%",
+       "strong": true
+      },
+      {
+       "label": "Spread",
+       "pick": "KoGas",
+       "prob": 0.5004726333534388,
+       "detail": "KoGas -5.4 · 50%",
+       "strong": false
+      },
+      {
+       "label": "Totales",
+       "pick": "OVER",
+       "prob": 0.500537218636101,
+       "detail": "Línea 156 · OVER 50% / UNDER 50%",
+       "strong": false
+      },
+      {
+       "label": "Puntos esperados",
+       "pick": "-",
+       "prob": null,
+       "detail": "Total 156.0",
+       "strong": false
+      }
+     ],
+     "convergence": null,
+     "momentum_ok": false
+    }
+   ],
+   "elapsed_s": 59.5,
+   "sport": "basquet",
+   "sport_name": "Básquetbol",
+   "all_leagues": true,
+   "picks_total_brutos": 1,
+   "picks_policy": {
+    "mercados_excluidos": [
+     "Spread",
+     "Totales"
+    ],
+    "min_prob": {
+     "KOR": 0.65
+    },
+    "conservados": 0,
+    "descartados": 1
+   }
+  }
+ },
+ "historico": true
+}
