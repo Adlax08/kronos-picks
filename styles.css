@@ -29,7 +29,7 @@
 
 * { box-sizing: border-box; }
 
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; color-scheme: dark; }
 
 body {
   background:
@@ -163,10 +163,11 @@ body {
 .k-search-input {
   flex: 1;
   min-width: 0;
-  background: transparent;
-  border: 0;
+  background: transparent !important;
+  border: 0 !important;
   outline: 0;
-  color: var(--k-text);
+  box-shadow: none !important;
+  color: var(--k-text) !important;
   font-family: 'Inter', sans-serif;
   font-size: 13px;
 }
@@ -458,10 +459,10 @@ body {
   width: 100%;
   height: 42px;
   padding: 0 36px 0 12px;
-  background: #0F141C;
-  border: 1px solid var(--k-line);
+  background: #0F141C !important;
+  border: 1px solid var(--k-line) !important;
   border-radius: var(--k-radius-sm);
-  color: var(--k-text);
+  color: var(--k-text) !important;
   font-family: 'Inter', sans-serif;
   font-size: 13px;
   font-weight: 500;
@@ -470,11 +471,11 @@ body {
   transition: border-color 0.18s ease, box-shadow 0.18s ease;
 }
 .k-input { padding-right: 12px; }
-.k-select:hover, .k-input:hover { border-color: #3A4761; }
+.k-select:hover, .k-input:hover { border-color: #3A4761 !important; }
 .k-select:focus, .k-input:focus {
   outline: 0;
-  border-color: rgba(163, 230, 53, 0.6);
-  box-shadow: 0 0 0 3px rgba(163, 230, 53, 0.12);
+  border-color: rgba(163, 230, 53, 0.6) !important;
+  box-shadow: 0 0 0 3px rgba(163, 230, 53, 0.12) !important;
 }
 .k-select option { background: #131A24; color: var(--k-text); }
 .k-select-sm { height: 34px; width: auto; font-size: 12px; }
@@ -767,15 +768,20 @@ input[type="date"]::-webkit-calendar-picker-indicator { filter: invert(0.75); cu
 
 /* ═══════════════ CARTELERA ═══════════════ */
 .match-card {
+  position: relative;
   background: #121822;
   border: 1px solid var(--k-line-soft);
   border-radius: 12px;
-  padding: 10px 12px;
+  padding: 10px 34px 10px 12px;
   transition: border-color 0.18s ease, background 0.18s ease, box-shadow 0.18s ease;
   cursor: pointer;
 }
 .match-card + .match-card { margin-top: 6px; }
 .match-card:hover { border-color: #35435C; background: #151C27; box-shadow: 0 10px 24px -20px #000; }
+/* El chevron queda como hijo directo (markup de app.js): se ancla a la derecha */
+.match-card > .chevron.material-symbols-outlined {
+  position: absolute; right: 10px; top: 14px;
+}
 .game-row.open { border-color: rgba(163, 230, 53, 0.35); background: #151C27; }
 
 .game-row span.text-primary { color: var(--k-text) !important; }
@@ -929,6 +935,15 @@ input[type="date"]::-webkit-calendar-picker-indicator { filter: invert(0.75); cu
 .estado-perdido { background: rgba(239, 68, 68, 0.12); color: #FCA5A5; border-color: rgba(239, 68, 68, 0.25); }
 .estado-pendiente { background: rgba(245, 179, 1, 0.12); color: #FCD34D; border-color: rgba(245, 179, 1, 0.25); }
 .estado-anulado { background: rgba(148, 163, 184, 0.12); color: #CBD5E1; border-color: rgba(148, 163, 184, 0.22); }
+
+/* ═══════════════ RESULTADOS DEL DÍA ═══════════════ */
+#liveDayResults h2 { color: var(--k-text) !important; font-size: 21px; }
+#liveDayResults header > p { color: var(--k-dim) !important; }
+#liveDayResults tbody td:nth-child(2) { color: var(--k-text) !important; }
+#liveDayResults .bg-surface-container-lowest {
+  background: var(--k-card) !important;
+  border-color: var(--k-line) !important;
+}
 
 /* ═══════════════ SELECTOR DE LIGA / DÍA ═══════════════ */
 .dd { position: relative; width: 100%; }
