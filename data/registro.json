@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-11-18T22:11:12",
+ "generated_at": "2026-11-19T18:29:27",
  "days": 30,
  "solo_verificables": true,
  "total": {
-  "ganados": 344,
-  "perdidos": 100,
+  "ganados": 349,
+  "perdidos": 102,
   "anulados": 2,
-  "pendientes": 16,
-  "n": 462,
-  "win_pct": 0.775
+  "pendientes": 19,
+  "n": 472,
+  "win_pct": 0.774
  },
  "by_sport": {
   "amfut": {
@@ -21,27 +21,27 @@
   },
   "basquet": {
    "ganados": 40,
-   "perdidos": 12,
+   "perdidos": 13,
    "anulados": 0,
-   "pendientes": 2,
-   "n": 54,
-   "win_pct": 0.769
+   "pendientes": 4,
+   "n": 57,
+   "win_pct": 0.755
   },
   "futbol": {
-   "ganados": 224,
+   "ganados": 229,
    "perdidos": 60,
    "anulados": 0,
    "pendientes": 6,
-   "n": 290,
-   "win_pct": 0.789
+   "n": 295,
+   "win_pct": 0.792
   },
   "tenis": {
    "ganados": 70,
-   "perdidos": 25,
+   "perdidos": 26,
    "anulados": 2,
-   "pendientes": 1,
-   "n": 98,
-   "win_pct": 0.737
+   "pendientes": 2,
+   "n": 100,
+   "win_pct": 0.729
   }
  },
  "picks": [
@@ -6643,7 +6643,7 @@
    "cuota": 1.183,
    "prob": 0.9012,
    "tier": "TOP PICK",
-   "estado": "PENDIENTE"
+   "estado": "PERDIDO"
   },
   {
    "fecha": "2026-11-18",
@@ -6883,7 +6883,7 @@
    "cuota": null,
    "prob": 0.9944577719220744,
    "tier": "TOP PICK",
-   "estado": "PENDIENTE"
+   "estado": "GANADO"
   },
   {
    "fecha": "2026-11-19",
@@ -6898,7 +6898,7 @@
    "cuota": null,
    "prob": 0.8792592670167677,
    "tier": "MUY BUENO",
-   "estado": "PENDIENTE"
+   "estado": "GANADO"
   },
   {
    "fecha": "2026-11-19",
@@ -6910,7 +6910,7 @@
    "partido": "Portland Trail Blazers @ Milwaukee Bucks",
    "mercado": "ML",
    "pick": "ML: AWAY (Portland Trail Blazers)",
-   "cuota": null,
+   "cuota": 1.241,
    "prob": 0.8756,
    "tier": "TOP PICK",
    "estado": "PENDIENTE"
@@ -6928,7 +6928,7 @@
    "cuota": null,
    "prob": 0.8297493056767442,
    "tier": "MUY BUENO",
-   "estado": "PENDIENTE"
+   "estado": "GANADO"
   },
   {
    "fecha": "2026-11-19",
@@ -6943,7 +6943,7 @@
    "cuota": null,
    "prob": 0.8289130381180547,
    "tier": "MUY BUENO",
-   "estado": "PENDIENTE"
+   "estado": "GANADO"
   },
   {
    "fecha": "2026-11-19",
@@ -6958,7 +6958,7 @@
    "cuota": null,
    "prob": 0.7972,
    "tier": "TOP PICK",
-   "estado": "PENDIENTE"
+   "estado": "PERDIDO"
   },
   {
    "fecha": "2026-11-19",
@@ -6972,6 +6972,156 @@
    "pick": "O/U 2.5: OVER",
    "cuota": null,
    "prob": 0.7200163629502904,
+   "tier": "TOP PICK",
+   "estado": "GANADO"
+  },
+  {
+   "fecha": "2026-11-20",
+   "deporte": "futbol",
+   "liga": "GER",
+   "liga_nombre": "Bundesliga",
+   "local": "Bayern Munich",
+   "visitante": "FC Cologne",
+   "partido": "Bayern Munich vs FC Cologne",
+   "mercado": "O/U 2.5",
+   "pick": "O/U 2.5: OVER",
+   "cuota": null,
+   "prob": 0.9154385154711568,
+   "tier": "TOP PICK",
+   "estado": "PENDIENTE"
+  },
+  {
+   "fecha": "2026-11-20",
+   "deporte": "futbol",
+   "liga": "MEX",
+   "liga_nombre": "Liga MX",
+   "local": "Tijuana",
+   "visitante": "Atlante",
+   "partido": "Tijuana vs Atlante",
+   "mercado": "Doble Oportunidad",
+   "pick": "DO: 1X",
+   "cuota": null,
+   "prob": 0.8982492284026883,
+   "tier": "MUY BUENO",
+   "estado": "PENDIENTE"
+  },
+  {
+   "fecha": "2026-11-20",
+   "deporte": "futbol",
+   "liga": "KSA",
+   "liga_nombre": "Saudi Pro League",
+   "local": "Al Ahli",
+   "visitante": "Al Nassr",
+   "partido": "Al Ahli vs Al Nassr",
+   "mercado": "O/U 1.5",
+   "pick": "O/U 1.5: OVER",
+   "cuota": null,
+   "prob": 0.8459588768489141,
+   "tier": "MUY BUENO",
+   "estado": "PENDIENTE"
+  },
+  {
+   "fecha": "2026-11-20",
+   "deporte": "basquet",
+   "liga": "NBA",
+   "liga_nombre": "NBA",
+   "local": "Los Angeles Lakers",
+   "visitante": "Sacramento Kings",
+   "partido": "Sacramento Kings @ Los Angeles Lakers",
+   "mercado": "ML",
+   "pick": "ML: HOME (Los Angeles Lakers)",
+   "cuota": null,
+   "prob": 0.8419,
+   "tier": "TOP PICK",
+   "estado": "PENDIENTE"
+  },
+  {
+   "fecha": "2026-11-20",
+   "deporte": "tenis",
+   "liga": "ATP",
+   "liga_nombre": "ATP Tour",
+   "local": "Carlos Alcaraz",
+   "visitante": "Flavio Cobolli",
+   "partido": "Carlos Alcaraz vs Flavio Cobolli",
+   "mercado": "ML",
+   "pick": "Carlos Alcaraz",
+   "cuota": null,
+   "prob": 0.8258,
+   "tier": "TOP PICK",
+   "estado": "PENDIENTE"
+  },
+  {
+   "fecha": "2026-11-20",
+   "deporte": "futbol",
+   "liga": "FRA",
+   "liga_nombre": "Ligue 1",
+   "local": "Troyes",
+   "visitante": "Le Havre AC",
+   "partido": "Troyes vs Le Havre AC",
+   "mercado": "O/U 1.5",
+   "pick": "O/U 1.5: OVER",
+   "cuota": null,
+   "prob": 0.7940514799428948,
+   "tier": "BUENO",
+   "estado": "PENDIENTE"
+  },
+  {
+   "fecha": "2026-11-20",
+   "deporte": "tenis",
+   "liga": "WTA",
+   "liga_nombre": "WTA Tour",
+   "local": "Lucia Bronzetti",
+   "visitante": "Valeriya Strakhova",
+   "partido": "Lucia Bronzetti vs Valeriya Strakhova",
+   "mercado": "ML",
+   "pick": "Lucia Bronzetti",
+   "cuota": null,
+   "prob": 0.7919,
+   "tier": "TOP PICK",
+   "estado": "PENDIENTE"
+  },
+  {
+   "fecha": "2026-11-20",
+   "deporte": "futbol",
+   "liga": "MEX",
+   "liga_nombre": "Liga MX",
+   "local": "Puebla",
+   "visitante": "Atlético de San Luis",
+   "partido": "Puebla vs Atlético de San Luis",
+   "mercado": "O/U 1.5",
+   "pick": "O/U 1.5: OVER",
+   "cuota": null,
+   "prob": 0.7679004707147745,
+   "tier": "BUENO",
+   "estado": "PENDIENTE"
+  },
+  {
+   "fecha": "2026-11-20",
+   "deporte": "basquet",
+   "liga": "NBA",
+   "liga_nombre": "NBA",
+   "local": "Detroit Pistons",
+   "visitante": "Toronto Raptors",
+   "partido": "Toronto Raptors @ Detroit Pistons",
+   "mercado": "ML",
+   "pick": "ML: HOME (Detroit Pistons)",
+   "cuota": 1.344,
+   "prob": 0.7567,
+   "tier": "TOP PICK",
+   "estado": "PENDIENTE"
+  },
+  {
+   "fecha": "2026-11-20",
+   "deporte": "basquet",
+   "liga": "NBA",
+   "liga_nombre": "NBA",
+   "local": "Cleveland Cavaliers",
+   "visitante": "Indiana Pacers",
+   "partido": "Indiana Pacers @ Cleveland Cavaliers",
+   "mercado": "ML",
+   "pick": "ML: HOME (Cleveland Cavaliers)",
+   "cuota": 1.407,
+   "prob": 0.7522,
    "tier": "TOP PICK",
    "estado": "PENDIENTE"
   }
