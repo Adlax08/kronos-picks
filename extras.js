@@ -145,11 +145,34 @@
   }
 
   /* ── Arranque ─────────────────────────────────────────── */
+  function applySportFromUrl() {
+    const want = new URLSearchParams(window.location.search).get("sport");
+    if (!want) return;
+    const key = norm(want);
+
+    const tryClick = () => {
+      const pills = Array.from(document.querySelectorAll("#sportPills button"));
+      if (!pills.length) return false;
+      const target = pills.find((b) => norm(b.textContent).includes(key));
+      if (!target) return false;
+      target.click();
+      return true;
+    };
+
+    if (tryClick()) return;
+    let tries = 0;
+    const timer = setInterval(() => {
+      tries += 1;
+      if (tryClick() || tries > 40) clearInterval(timer);
+    }, 250);
+  }
+
   function init() {
     wireSearch();
     wireHero();
     observeRenders();
     watchBottomNav();
+    applySportFromUrl();
     applyFilter();
   }
 
