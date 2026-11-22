@@ -20,6 +20,7 @@
   --k-lime-soft: rgba(0, 174, 66, 0.12);
   --k-gold: #F5B301;
   --k-red: #EF4444;
+  --k-red-tm: #FE1515;
   --k-blue: #60A5FA;
   --k-emerald: #00AE42;
   --k-radius: 14px;
@@ -65,6 +66,7 @@ body {
   backdrop-filter: blur(16px) saturate(1.2);
   -webkit-backdrop-filter: blur(16px) saturate(1.2);
   border-bottom: 1px solid var(--k-line);
+  border-top: 2px solid var(--k-red-tm);
   transition: background 0.2s ease, box-shadow 0.2s ease;
 }
 .k-topbar.scrolled {
@@ -695,10 +697,10 @@ input[type="date"]::-webkit-calendar-picker-indicator { filter: invert(0.75); cu
   border-color: rgba(0, 174, 66, 0.33) !important;
   box-shadow: 0 22px 44px -26px rgba(0, 0, 0, 1), 0 0 0 1px rgba(0, 174, 66, 0.07);
 }
-.pick-card.tier-top { border-color: rgba(245, 179, 1, 0.42) !important; }
+.pick-card.tier-top { border-color: rgba(254, 21, 21, 0.45) !important; }
 .pick-card.tier-top::before {
   content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px;
-  background: linear-gradient(90deg, transparent, var(--k-gold), transparent);
+  background: linear-gradient(90deg, transparent, var(--k-red-tm), transparent);
 }
 .pick-card.tier-muy { border-color: rgba(0, 174, 66, 0.3) !important; }
 .pick-card.tier-muy::before {
@@ -746,9 +748,9 @@ input[type="date"]::-webkit-calendar-picker-indicator { filter: invert(0.75); cu
 
 /* Badges de clasificación (app.js usa colores inline claros) */
 .pick-card [class*="fef3c7"] {
-  background: rgba(245, 179, 1, 0.13) !important;
-  border-color: rgba(245, 179, 1, 0.34) !important;
-  color: #FCD34D !important;
+  background: rgba(254, 21, 21, 0.14) !important;
+  border-color: rgba(254, 21, 21, 0.38) !important;
+  color: #FF9B9B !important;
 }
 .pick-card [class*="dcfce7"] {
   background: rgba(0, 174, 66, 0.13) !important;
