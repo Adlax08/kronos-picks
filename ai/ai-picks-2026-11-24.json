@@ -1,14 +1,110 @@
 {
   "date": "2026-11-24",
-  "generated_at": "2026-11-23T06:46:21.803063+00:00",
+  "generated_at": "2026-11-23T06:56:25.757486+00:00",
   "model": "qwen2.5:3b",
   "status": "ok",
-  "candidates": 2,
-  "picks": [],
+  "candidates": 6,
+  "picks": [
+    {
+      "sport": "futbol",
+      "date": "2026-11-24",
+      "match": "Manchester City vs Napoli",
+      "market": "O/U 2.5",
+      "pick": "O/U 2.5: OVER",
+      "prob": 0.7817468097292185,
+      "odds": 1.9090909090909092,
+      "odds_provider": "draftkings",
+      "odds_checked_at": "2026-11-23T06:55:29.497437+00:00",
+      "line": null,
+      "league_code": "UCL",
+      "league_label": "Champions League",
+      "candidate_id": "futbol:Manchester City vs Napoli|O/U 2.5|O/U 2.5: OVER",
+      "ev": 0.492426,
+      "score_ia": 0.0,
+      "etiqueta": "VALOR IA",
+      "unidades": 1.0,
+      "factores_positivos": [],
+      "riesgos": [],
+      "explicacion": "Probabilidad: 0.7817, >=70%, EV: 0.492, >=5%",
+      "fuentes": [
+        {
+          "name": "ESPN",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+          "type": "fixture"
+        }
+      ],
+      "modelo_ia": "qwen2.5:3b",
+      "generado_at": "2026-11-23T06:56:25.757486+00:00",
+      "estado": "PENDIENTE"
+    },
+    {
+      "sport": "futbol",
+      "date": "2026-11-24",
+      "match": "RB Leipzig vs Lens",
+      "market": "O/U 2.5",
+      "pick": "O/U 2.5: OVER",
+      "prob": 0.7068292651324546,
+      "odds": 1.7692307692307692,
+      "odds_provider": "draftkings",
+      "odds_checked_at": "2026-11-23T06:55:29.497437+00:00",
+      "line": null,
+      "league_code": "UCL",
+      "league_label": "Champions League",
+      "candidate_id": "futbol:RB Leipzig vs Lens|O/U 2.5|O/U 2.5: OVER",
+      "ev": 0.250544,
+      "score_ia": 0.0,
+      "etiqueta": "SEGURO IA",
+      "unidades": 0.63,
+      "factores_positivos": [],
+      "riesgos": [],
+      "explicacion": "Probabilidad: 0.7068, >=70%, pero EV: 0.251, menor a 5%",
+      "fuentes": [
+        {
+          "name": "ESPN",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+          "type": "fixture"
+        }
+      ],
+      "modelo_ia": "qwen2.5:3b",
+      "generado_at": "2026-11-23T06:56:25.757486+00:00",
+      "estado": "PENDIENTE"
+    },
+    {
+      "sport": "futbol",
+      "date": "2026-11-24",
+      "match": "Bodo/Glimt vs LASK Linz",
+      "market": "1X2",
+      "pick": "1X2: HOME (1)",
+      "prob": 0.7964336883963029,
+      "odds": 1.5405405405405406,
+      "odds_provider": "draftkings",
+      "odds_checked_at": "2026-11-23T06:55:29.497437+00:00",
+      "line": null,
+      "league_code": "UCL",
+      "league_label": "Champions League",
+      "candidate_id": "futbol:Bodo/Glimt vs LASK Linz|1X2|1X2: HOME (1)",
+      "ev": 0.226938,
+      "score_ia": 0.0,
+      "etiqueta": "SEGURO IA",
+      "unidades": 0.57,
+      "factores_positivos": [],
+      "riesgos": [],
+      "explicacion": "Probabilidad: 0.7964, >=70%, pero EV: 0.227, menor a 5%",
+      "fuentes": [
+        {
+          "name": "ESPN",
+          "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261124",
+          "type": "fixture"
+        }
+      ],
+      "modelo_ia": "qwen2.5:3b",
+      "generado_at": "2026-11-23T06:56:25.757486+00:00",
+      "estado": "PENDIENTE"
+    }
+  ],
   "rules": {
     "min_prob": 0.55,
     "min_ev": 0.05,
-    "max_ev": 0.25,
     "max_picks": 25,
     "unit_max": 1.0
   }
