@@ -1,12 +1,12 @@
 {
  "day": "2026-11-23",
- "generated_at": "2026-11-22T15:48:44",
+ "generated_at": "2026-11-22T23:10:53",
  "total": {
   "ganados": 0,
   "perdidos": 0,
   "anulados": 0,
-  "pendientes": 10,
-  "n": 10,
+  "pendientes": 9,
+  "n": 9,
   "win_pct": null
  },
  "picks": [
@@ -20,7 +20,7 @@
    "partido": "San Antonio Spurs @ Sacramento Kings",
    "mercado": "ML",
    "pick": "ML: AWAY (San Antonio Spurs)",
-   "cuota": null,
+   "cuota": 1.207,
    "prob": 0.8988,
    "tier": "TOP PICK",
    "estado": "PENDIENTE"
@@ -35,7 +35,7 @@
    "partido": "Utah Jazz @ Los Angeles Lakers",
    "mercado": "ML",
    "pick": "ML: HOME (Los Angeles Lakers)",
-   "cuota": null,
+   "cuota": 1.125,
    "prob": 0.8924,
    "tier": "TOP PICK",
    "estado": "PENDIENTE"
@@ -51,23 +51,8 @@
    "mercado": "O/U 1.5",
    "pick": "O/U 1.5: OVER",
    "cuota": null,
-   "prob": 0.8373837963175428,
+   "prob": 0.8373631900258168,
    "tier": "MUY BUENO",
-   "estado": "PENDIENTE"
-  },
-  {
-   "fecha": "2026-11-23",
-   "deporte": "basquet",
-   "liga": "NBA",
-   "liga_nombre": "NBA",
-   "local": "Minnesota Timberwolves",
-   "visitante": "Brooklyn Nets",
-   "partido": "Brooklyn Nets @ Minnesota Timberwolves",
-   "mercado": "ML",
-   "pick": "ML: HOME (Minnesota Timberwolves)",
-   "cuota": null,
-   "prob": 0.8249,
-   "tier": "TOP PICK",
    "estado": "PENDIENTE"
   },
   {
@@ -96,38 +81,8 @@
    "mercado": "O/U 1.5",
    "pick": "O/U 1.5: OVER",
    "cuota": null,
-   "prob": 0.811132330286795,
+   "prob": 0.8110345447856608,
    "tier": "MUY BUENO",
-   "estado": "PENDIENTE"
-  },
-  {
-   "fecha": "2026-11-23",
-   "deporte": "basquet",
-   "liga": "NBA",
-   "liga_nombre": "NBA",
-   "local": "Houston Rockets",
-   "visitante": "LA Clippers",
-   "partido": "LA Clippers @ Houston Rockets",
-   "mercado": "ML",
-   "pick": "ML: HOME (Houston Rockets)",
-   "cuota": null,
-   "prob": 0.8079,
-   "tier": "TOP PICK",
-   "estado": "PENDIENTE"
-  },
-  {
-   "fecha": "2026-11-23",
-   "deporte": "basquet",
-   "liga": "NBA",
-   "liga_nombre": "NBA",
-   "local": "Toronto Raptors",
-   "visitante": "Milwaukee Bucks",
-   "partido": "Milwaukee Bucks @ Toronto Raptors",
-   "mercado": "ML",
-   "pick": "ML: HOME (Toronto Raptors)",
-   "cuota": null,
-   "prob": 0.7962,
-   "tier": "TOP PICK",
    "estado": "PENDIENTE"
   },
   {
@@ -158,6 +113,36 @@
    "cuota": null,
    "prob": 0.7349,
    "tier": "TOP PICK",
+   "estado": "PENDIENTE"
+  },
+  {
+   "fecha": "2026-11-23",
+   "deporte": "marcadores",
+   "liga": "ENG",
+   "liga_nombre": "Premier League",
+   "local": "Brentford",
+   "visitante": "Everton",
+   "partido": "Brentford vs Everton",
+   "mercado": "Marcador exacto",
+   "pick": "Marcador: 1-0",
+   "cuota": null,
+   "prob": 0.1009,
+   "tier": "BUENO",
+   "estado": "PENDIENTE"
+  },
+  {
+   "fecha": "2026-11-23",
+   "deporte": "marcadores",
+   "liga": "LGF",
+   "liga_nombre": "Todas las ligas",
+   "local": "Espanyol (W)",
+   "visitante": "Valencia (W)",
+   "partido": "Espanyol (W) vs Valencia (W)",
+   "mercado": "Marcador exacto",
+   "pick": "Marcador: 2-1",
+   "cuota": null,
+   "prob": 0.10035,
+   "tier": "BUENO",
    "estado": "PENDIENTE"
   }
  ]
