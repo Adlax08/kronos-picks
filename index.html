@@ -154,7 +154,6 @@
       <button data-nav="dashboard" class="nav-link border-b-2 border-primary text-primary" type="button">Predicciones</button>
       <button data-nav="cartelera" class="nav-link" type="button">Cartelera</button>
       <button data-nav="registro" class="nav-link" type="button">Registro</button>
-      <button data-nav="ia" class="nav-link" type="button">Picks IA</button>
       <button data-nav="modelos" class="nav-link" type="button">Modelos</button>
     </nav>
 
@@ -330,19 +329,6 @@
       <div class="k-picks-grid" id="picksGrid"></div>
     </section>
 
-    <section class="hidden k-block ai-value-section" id="aiValueSection">
-      <div class="k-block-head">
-        <div class="k-block-title-wrap">
-          <h2 class="k-block-title">Picks IA</h2>
-          <span class="ai-value-badge">EXPERIMENTAL</span>
-          <span class="k-block-count" id="aiValueCount"></span>
-        </div>
-        <span class="k-block-meta" id="aiValueMeta"></span>
-      </div>
-      <p class="ai-value-disclaimer">El motor Kronos genera los candidatos. Ollama analiza valor, contexto y riesgo en un registro separado.</p>
-      <div class="k-picks-grid" id="aiValueGrid"></div>
-    </section>
-
     <section class="k-block" id="carteleraSection">
       <div class="k-block-head">
         <div class="k-block-title-wrap">
@@ -457,6 +443,5 @@
 
 <script src="app.js?v=6"></script>
 <script src="extras.js?v=2"></script>
-<script src="ai_value.js?v=1"></script>
 </body>
 </html>
