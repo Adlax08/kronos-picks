@@ -1,15 +1,30 @@
 {
  "day": "2026-11-27",
- "generated_at": "2026-11-26T18:25:57",
+ "generated_at": "2026-11-27T18:32:59",
  "total": {
-  "ganados": 0,
-  "perdidos": 0,
+  "ganados": 10,
+  "perdidos": 5,
   "anulados": 0,
-  "pendientes": 20,
+  "pendientes": 5,
   "n": 20,
-  "win_pct": null
+  "win_pct": 0.667
  },
  "picks": [
+  {
+   "fecha": "2026-11-27",
+   "deporte": "basquet",
+   "liga": "NCAA",
+   "liga_nombre": "Todas las ligas",
+   "local": "Vanderbilt Commodores",
+   "visitante": "Southern Jaguars",
+   "partido": "Southern Jaguars @ Vanderbilt Commodores",
+   "mercado": "ML",
+   "pick": "ML: HOME (Vanderbilt Commodores)",
+   "cuota": null,
+   "prob": 0.9248,
+   "tier": "TOP PICK",
+   "estado": "GANADO"
+  },
   {
    "fecha": "2026-11-27",
    "deporte": "futbol",
@@ -23,7 +38,7 @@
    "cuota": 1.2222222222222223,
    "prob": 0.9189588265848863,
    "tier": "TOP PICK",
-   "estado": "PENDIENTE"
+   "estado": "GANADO"
   },
   {
    "fecha": "2026-11-27",
@@ -38,7 +53,7 @@
    "cuota": null,
    "prob": 0.8497598276039862,
    "tier": "MUY BUENO",
-   "estado": "PENDIENTE"
+   "estado": "PERDIDO"
   },
   {
    "fecha": "2026-11-27",
@@ -68,7 +83,7 @@
    "cuota": null,
    "prob": 0.8441684410549415,
    "tier": "MUY BUENO",
-   "estado": "PENDIENTE"
+   "estado": "GANADO"
   },
   {
    "fecha": "2026-11-27",
@@ -83,7 +98,7 @@
    "cuota": null,
    "prob": 0.8338696907861255,
    "tier": "MUY BUENO",
-   "estado": "PENDIENTE"
+   "estado": "PERDIDO"
   },
   {
    "fecha": "2026-11-27",
@@ -98,7 +113,7 @@
    "cuota": null,
    "prob": 0.8253382038622401,
    "tier": "MUY BUENO",
-   "estado": "PENDIENTE"
+   "estado": "GANADO"
   },
   {
    "fecha": "2026-11-27",
@@ -112,6 +127,21 @@
    "pick": "1X2: HOME (1)",
    "cuota": 1.425531914893617,
    "prob": 0.8171761538627692,
+   "tier": "TOP PICK",
+   "estado": "PERDIDO"
+  },
+  {
+   "fecha": "2026-11-27",
+   "deporte": "basquet",
+   "liga": "NBA",
+   "liga_nombre": "NBA",
+   "local": "Utah Jazz",
+   "visitante": "Denver Nuggets",
+   "partido": "Denver Nuggets @ Utah Jazz",
+   "mercado": "ML",
+   "pick": "ML: AWAY (Denver Nuggets)",
+   "cuota": 1.244,
+   "prob": 0.8109,
    "tier": "TOP PICK",
    "estado": "PENDIENTE"
   },
@@ -128,7 +158,7 @@
    "cuota": null,
    "prob": 0.8013935800219806,
    "tier": "MUY BUENO",
-   "estado": "PENDIENTE"
+   "estado": "GANADO"
   },
   {
    "fecha": "2026-11-27",
@@ -143,7 +173,7 @@
    "cuota": null,
    "prob": 0.7822685145376441,
    "tier": "BUENO",
-   "estado": "PENDIENTE"
+   "estado": "PERDIDO"
   },
   {
    "fecha": "2026-11-27",
@@ -158,7 +188,7 @@
    "cuota": null,
    "prob": 0.7743615288952157,
    "tier": "BUENO",
-   "estado": "PENDIENTE"
+   "estado": "PERDIDO"
   },
   {
    "fecha": "2026-11-27",
@@ -173,7 +203,7 @@
    "cuota": null,
    "prob": 0.7741807592734948,
    "tier": "BUENO",
-   "estado": "PENDIENTE"
+   "estado": "GANADO"
   },
   {
    "fecha": "2026-11-27",
@@ -188,7 +218,7 @@
    "cuota": null,
    "prob": 0.7310977439104601,
    "tier": "TOP PICK",
-   "estado": "PENDIENTE"
+   "estado": "GANADO"
   },
   {
    "fecha": "2026-11-27",
@@ -203,7 +233,7 @@
    "cuota": null,
    "prob": 0.7290757020097048,
    "tier": "TOP PICK",
-   "estado": "PENDIENTE"
+   "estado": "GANADO"
   },
   {
    "fecha": "2026-11-27",
@@ -218,7 +248,7 @@
    "cuota": null,
    "prob": 0.7142999999999999,
    "tier": "MUY BUENO",
-   "estado": "PENDIENTE"
+   "estado": "GANADO"
   },
   {
    "fecha": "2026-11-27",
@@ -233,7 +263,7 @@
    "cuota": null,
    "prob": 0.700588649035778,
    "tier": "TOP PICK",
-   "estado": "PENDIENTE"
+   "estado": "GANADO"
   },
   {
    "fecha": "2026-11-27",
@@ -277,36 +307,6 @@
    "pick": "Marcador: 1-1",
    "cuota": null,
    "prob": 0.1099,
-   "tier": "BUENO",
-   "estado": "PENDIENTE"
-  },
-  {
-   "fecha": "2026-11-27",
-   "deporte": "marcadores",
-   "liga": "POR",
-   "liga_nombre": "Primeira Liga",
-   "local": "Maritimo",
-   "visitante": "C.D. Nacional",
-   "partido": "Maritimo vs C.D. Nacional",
-   "mercado": "Marcador exacto",
-   "pick": "Marcador: 1-1",
-   "cuota": null,
-   "prob": 0.10825,
-   "tier": "BUENO",
-   "estado": "PENDIENTE"
-  },
-  {
-   "fecha": "2026-11-27",
-   "deporte": "marcadores",
-   "liga": "ENG",
-   "liga_nombre": "Premier League",
-   "local": "Nottingham Forest",
-   "visitante": "Chelsea",
-   "partido": "Nottingham Forest vs Chelsea",
-   "mercado": "Marcador exacto",
-   "pick": "Marcador: 1-1",
-   "cuota": null,
-   "prob": 0.1074,
    "tier": "BUENO",
    "estado": "PENDIENTE"
   }
